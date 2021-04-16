@@ -48,6 +48,7 @@ li {
     height: 30px;
     width: 160px;
     /* border: 1px solid black; */
+    color: white;
 }
 
 p {
@@ -59,7 +60,8 @@ li:hover, label:hover {
 }
 
 li:hover {
-    background-color: rgba(0, 0, 0, 0.149);
+    background-color: rgba(255, 255, 255, 0.514);
+    color: black;
 }
 
 #nav-bar-planet {
@@ -90,6 +92,10 @@ input[type="text"] {
     background: transparent;
     margin: auto;
     width: 100px;
+}
+
+::placeholder {
+    color: white;
 }
 
 label {
