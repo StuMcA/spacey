@@ -3,14 +3,15 @@
     <header>
       <nav-bar />
     </header>
-    <body>
+    <main>
       <solar-system-container />
-    </body>
+    </main>
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
+import SolarSystemContainer from './components/SolarSystemContainer.vue'
 
 export default {
   name: 'App',
