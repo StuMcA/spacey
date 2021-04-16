@@ -4,8 +4,8 @@
         <li>Planets</li>
         <li>Moons</li>
         <li id="search">
-            <label>&#x1F50D;</label>
-            <input type="text" placeholder="Search here">
+            <label for="search-text">&#x1F50D;</label>
+            <input type="text" id="search-text" placeholder="Search here">
         </li>
     </ul>
 </template>
@@ -26,27 +26,36 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
+    vertical-align: middle;
 }
 
 li {
+    display: flex;
+    justify-content: center;
     list-style: none;
+    height: 30px;
+    width: 160px;
+    align-items: center;
+}
+
+li:hover, label:hover {
+    cursor: pointer;
 }
 
 #search {
     border: 1px solid black;
     border-radius: 30px;
-    /* padding: 5px; */
-    display: flex;
 }
 
 input[type="text"] {
     border: none;
     background: transparent;
     margin: auto;
+    width: 100px;
 }
 
 label {
-    padding: 0 10px;
     margin: auto;
     color: gray;
 }
