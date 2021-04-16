@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <header>
-      <nav-bar />
+      <nav-bar :planets="planets"/>
     </header>
     <main>
-      <solar-system-container />
+      <solar-system-container :planets="planets"/>
     </main>
   </div>
 </template>
@@ -18,6 +18,21 @@ export default {
   components: {
     'nav-bar': NavBar,
     'solar-system-container': SolarSystemContainer
+  },
+  data() {
+    return {
+      // This array should be replaced with data from the api
+      planets: [
+        "Mercury",
+        "Venus",
+        "Earth",
+        "Mars",
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptune"
+      ]
+    }
   }
 }
 </script>

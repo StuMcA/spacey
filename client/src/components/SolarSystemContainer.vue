@@ -2,30 +2,36 @@
     <section>
         <button>Change view</button>
         <section id="solar-system">
-            <div id="sun">Sun</div>
-            <div id="mercury" class="planet">M</div>
-            <div id="venus" class="planet">V</div>
-            <div id="earth" class="planet">E</div>
-            <div id="mars" class="planet">M</div>
-            <div id="jupiter" class="planet">J</div>
-            <div id="saturn" class="planet">S</div>
-            <div id="uranus" class="planet">U</div>
-            <div id="neptune" class="planet">N</div>
+            <div id="sun" class="planet">Sun</div>
+            <planet-item v-for="(planet, index) in planets" :key="index" :planet="planet" />
         </section>
     </section>
 </template>
 
 <script>
+import PlanetItem from './PlanetItem.vue'
+
 export default {
-    name: "solar-system-container"
+    name: "solar-system-container",
+    props: [
+        "planets"
+    ],
+    components: {
+        "planet-item": PlanetItem,
+    }
 
 }
 </script>
 
-<style scoped>
+<style>
 
 button {
     margin: 20px auto 20px 20px;
+}
+
+#solar-system {
+    width: 100%;
+    height: 800px;
 }
 
 .planet {
@@ -35,8 +41,52 @@ button {
     border-radius: 50%;
     position: absolute;
     text-align: center;
+    top: 50%;
 }
 
+#sun {
+    right: 2%;
+}
+
+#mercury {
+    right: 3.1%;
+
+}
+
+#venus {
+    right: 4.1%;
+
+}
+
+#earth {
+    right: 5%;
+
+}
+
+#mars {
+    right: 6.5%;
+
+}
+
+#jupiter {
+    right: 17.5%;
+
+}
+
+#saturn {
+    right: 30.5%;
+
+}
+
+#uranus {
+    right: 59%;
+
+}
+
+#neptune {
+    right: 92%;
+
+}
 
 
 </style>

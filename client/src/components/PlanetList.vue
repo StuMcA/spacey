@@ -11,18 +11,12 @@ export default {
 
 data() {
     return {
-        planets: [
-            "Mercury",
-            "Venus",
-            "Earth",
-            "to",
-            "be",
-            "replaced",
-            "with",
-            "api data"
-        ]
+
     }
-}
+},
+props: [
+    "planets"
+]
 
 }
 </script>
