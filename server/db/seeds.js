@@ -51,8 +51,6 @@ db.planets.insertMany([
         moon_names: {
             first: null,
         },
-        orbit_distance_km: 108209475,
-        orbit_distance_au: 0.73,
         orbit_period_days: 225,
         surface_temperature_max_celcius: 462,
         surface_temperature_min_celcius: "see max",
@@ -74,6 +72,42 @@ db.planets.insertMany([
         },
     },
 
-    
+    {
+        name: "Earth",
+        position_from_sun: 3,
+        latin_name: "Terra",
+        sumerian_name: "Ki",
+        orbit_distance_km: 149598262,
+        orbit_distance_au: 1,
+        equatorial_diameter_km: 12756,
+        mass: "5.97 × 10^ 24 kg",
+        number_of_moons: 1,
+        moon_names: {
+            first: "Luna",
+        },
+        orbit_period_days: 365.24,
+        surface_temperature_max_celcius: 58,
+        surface_temperature_min_celcius: -88,
+        facts: {
+            first: "The Earth was once believed to be the centre of the universe. For 2000 years ancient astronomers believed that the Earth was static and had other celestial bodies travelling in circular orbits around it. They believed this because of the apparent movement on the Sun and planets in relation to their viewpoint. In 1543, Copernicus published his Sun-centered model of the Solar System which put the Sun at the centre of our solar system.",
+            second: "Earth is the only planet not named for a mythological god or goddess. The other seven planets in the solar system were named after Roman gods or goddesses. For the five visible to the naked eye, Mercury, Venus, Mars, Jupiter and Saturn they we named during ancient times. This Roman method was also used after the discovery of Uranus and Neptune. The word “Earth” comes from the Old English word “ertha” meaning ground or land.",
+            third: "Earth is the most dense planet in the solar system. The density of Earth differs in each part of the planet – the core, for example, is denser than the Earth’s crust – but the average density of the planet is around 5.52 grams per cubic centimetre.",
+            fourth: "The gravity between the Earth and the Moon causes the tides on Earth. This effect on the Moon means it is tidally locked to Earth – its rotation period is the same as its orbit time so it always presents the same face to Earth.",
+            fifth: "The rotation of the Earth is gradually slowing down. The deceleration of the Earth’s rotation is very slow, approximately 17 milliseconds per hundred years. Eventually this will lengthen our days but it will take around 140 million years before our day will have increased from 24 to 25 hours.",
+            sixth: "Earth’s atmosphere is composed of 78% nitrogen, 21% oxygen, and trace amounts of other gases including argon and carbon dixoide.",
+            seventh: "The large amount of oxygen on Earth comes from our plant life’s consumption of carbon dioxide during photosynthesis",
+            eighth: "Earth has a very powerful magnetic field. This field protects the planet from the effects of solar winds and is believed to be a result of the nickel-iron core of the planet combined with its rapid rotation.",
+            ninth: "The Earth has an Ozone Layer which protects it from harmful solar radiation. This shell is a special type of oxygen that absorbs most of the Sun’s powerful UV rays.",
+            tenth: "70% of the Earth’s surface is covered by water – the remainder consists of continents and islands which together have many lakes and other sources of water.",
+            eleventh: "The first life on Earth developed in the oceans through a process called abiogenesis or biopoiesis. This is a natural process in which life grows from non-living matter like simple organic compounds.",
+            twelfth: "Earth’s water was initially trapped within the planet. Over time the Earth’s water was brought to the surface by the planet’s volcanic activity.",
+            thirteenth: "Earth has relatively few visible impact craters compared with other solid bodies in our solar system. This is because Earth is geologically active and has processes like tectonics and erosion that reshape its surface.",
+            fourteenth: "The highest point found on Earth is Mount Everest which reaches a height of 8.8 km.",
+            fifteenth: "The lowest point on Earth is called Challenger Deep and at 10.9 km below sea level, it is further than the peak of Mount Everest.",
+
+        },
+    },
+
+
 
 ]);
