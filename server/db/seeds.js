@@ -1,4 +1,4 @@
-use Sol;
+use sol;
 db.dropDatabase();
 
 db.planets.insertMany([
