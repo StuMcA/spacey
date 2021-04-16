@@ -15,6 +15,7 @@ db.planets.insertMany([
         moon_names: {
             first: null,
         },
+        rings: 0,
         orbit_period_days: 88,
         surface_temperature_max_celcius: 427,
         surface_temperature_min_celcius: -173,
@@ -26,19 +27,19 @@ db.planets.insertMany([
             fifth: "After the Earth, Mercury is the second densest planet.Despite its small size, Mercury is very dense because it is composed mainly of heavy metals and rock – the main characteristic of terrestrial planets.",
             sixth: "Mercury is named after the messenger of the Roman gods, who is also known as Hermes in Greek mythology.This is because of the speed in which Mercury orbits the Sun and the speed with which Mercury the Roman deity was able to deliver messages.",
             seventh: "Astronomers didn’t realize that Mercury was a planet until 1543 when Copernicus published his Sun- centered model of the Solar System – putting the Sun as the centre of the solar system rather than the previously believed centre, the Earth.",
-            eighth: "The planet has just 38% of the gravity on Earth.This means that Mercury isn’t able to hold the atmosphere it has and it instead gets blown away by solar winds.However those same solar winds are also bringing in new gases, radioactive decay and dust from micrometeorites – replenishing the atmosphere.", ninth: "Mercury has no moons or rings because of its low gravity and lack of atmosphere.",
+            eighth: "The planet has just 38% of the gravity on Earth.This means that Mercury isn’t able to hold the atmosphere it has and it instead gets blown away by solar winds.However those same solar winds are also bringing in new gases, radioactive decay and dust from micrometeorites – replenishing the atmosphere.",
+            ninth: "Mercury has no moons or rings because of its low gravity and lack of atmosphere.",
             tenth: "It was once believed that a planet called Vulcan existed between the orbit of Mercury and the Sun – however the existence of such a planet was never found.",
             eleventh: "The orbit of Mercury is an ellipse rather than circular.It has the most eccentric orbit in the solar system and the least circular of all of the planets, according to scientists and astronomers.",
             twelfth: "Mercury is only the second hottest planet.Venus, though farther from the Sun than Mercury, actually experiences higher temperatures.This is because Mercury has no atmosphere to regulate temperature and results in the most extreme temperature change of all the planets – ranging from - 170°C(-280°F) during the night to 430°C(800°F) during the day.",
             thirteenth: "Mercury does not experience any seasons.The axis of Mercury has the smallest tilt of all other planets, and this results in a lack of seasons on its surface.",
             fourteenth: "Mercury is the only planet which doesn’t rotate exactly once every year – instead rotating three times for every two orbits of the Sun.This is because it is nearly tidally locked to the Sun.",
             fifteenth: "The orbit of Mercury was important in proving Albert Einstein’s theory of General Relativity.",
-        },
 
+        },
     },
 
     {
-
         name: "Venus",
         position_from_sun: 2,
         latin_name: "Venus",
@@ -51,9 +52,12 @@ db.planets.insertMany([
         moon_names: {
             first: null,
         },
+        rings: 0,
+        orbit_distance_km: 108209475,
+        orbit_distance_au: 0.73,
         orbit_period_days: 225,
         surface_temperature_max_celcius: 462,
-        surface_temperature_min_celcius: "see max",
+        surface_temperature_min_celcius: 462,
         facts: {
             first: "Venus is the second brightest natural object in the sky. The planet has an apparent magnitude of -3.8 to -4.6, which makes it visible on a bright, clear day. The Moon is the only other natural object that is brighter.",
             second: "Venus is sometimes referred to as the “morning star” and “evening star”.This dates back to ancient civilizations who believed that Venus was in fact two distinct stars appearing in the sky.When the orbit of Venus overtakes Earth’s orbit, it changes from being visible at sunrise to being visible at sunset.They were known as Phosphorus and Hesperus by the Greeks, and Lucifer and Vesper by the Romans.",
@@ -69,6 +73,7 @@ db.planets.insertMany([
             thirteenth: "The atmospheric pressure of Venus is 92 times stronger than Earth’s. This means that any small asteroids entering the atmosphere of Venus are crushed by the immense pressure, which is why there are no small surface craters on the planet. This pressure is equivalent to being around 1,000 km under Earth’s oceans.",
             fourteenth: "Venus has a very weak magnetic field. This surprised scientists, who expected Venus to have a magnetic field similar in strength to Earth’s. One possible reason for this is that Venus has no solid inner core, or that its core is not cooling.",
             fifteenth: "Venus is the only planet in the Solar System to be named after a female figure.",
+
         },
     },
 
@@ -85,6 +90,7 @@ db.planets.insertMany([
         moon_names: {
             first: "Luna",
         },
+        rings: 0,
         orbit_period_days: 365.24,
         surface_temperature_max_celcius: 58,
         surface_temperature_min_celcius: -88,
@@ -108,6 +114,42 @@ db.planets.insertMany([
         },
     },
 
+    {
+        name: "Mars",
+        position_from_sun: 4,
+        latin_name: "Mars",
+        sumerian_name: "Gugulanna",
+        orbit_distance_km: 227943824,
+        orbit_distance_au: 1.38,
+        equatorial_diameter_km: 6792,
+        mass: "6.39 × 10^23 kg (0.11 Earths)",
+        number_of_moons: 2,
+        moon_names: {
+            first: "Phobos",
+            second: "Deimos",
+        },
+        rings: 0,
+        orbit_period_days: 686.98,
+        surface_temperature_max_celcius: -5,
+        surface_temperature_min_celcius: -87,
+        facts: {
+            first: "Mars and Earth have approximately the same landmass. Even though Mars has only 15% of the Earth’s volume and just over 10% of the Earth’s mass, around two thirds of the Earth’s surface is covered in water.Martian surface gravity is only 37% of the Earth’s(meaning you could leap nearly three times higher on Mars).",
+            second: "Mars is home to the tallest mountain in the solar system. Olympus Mons, a shield volcano, is 21km high and 600km in diameter.Despite having formed over billions of years, evidence from volcanic lava flows is so recent many scientists believe it could still be active.",
+            third: "Only 18 missions to Mars have been successful. As of September 2014 there have been 40 missions to Mars, including orbiters, landers and rovers but not counting flybys.The most recent arrivals include the Mars Curiosity mission in 2012, the MAVEN mission, which arrived on September 22, 2014, followed by the Indian Space Research Organization’s MOM Mangalyaan orbiter, which arrived on September 24, 2014. The next missions to arrive will be the European Space Agency’s ExoMars mission, comprising an orbiter, lander, and a rover, followed by NASA’s InSight robotic lander mission, slated for launch in March 2016 and a planned arrival in September, 2016.",
+            fourth: "Mars has the largest dust storms in the solar system. They can last for months and cover the entire planet.The seasons are extreme because its elliptical(oval- shaped) orbital path around the Sun is more elongated than most other planets in the solar system.",
+            fifth: "On Mars the Sun appears about half the size as it does on Earth. At the closest point to the Sun, the Martian southern hemisphere leans towards the Sun, causing a short, intensely hot summer, while the northern hemisphere endures a brief, cold winter: at its farthest point from the Sun, the Martian northern hemisphere leans towards the Sun, causing a long, mild summer, while the southern hemisphere endures a lengthy, cold winter.",
+            sixth: "Pieces of Mars have fallen to Earth. Scientists have found tiny traces of Martian atmosphere within meteorites violently ejected from Mars, then orbiting the solar system amongst galactic debris for millions of years, before crash landing on Earth.This allowed scientists to begin studying Mars prior to launching space missions.",
+            seventh: "Mars takes its name from the Roman god of war. The ancient Greeks called the planet Ares, after their god of war; the Romans then did likewise, associating the planet’s blood- red colour with Mars, their own god of war.Interestingly, other ancient cultures also focused on colour – to China’s astronomers it was ‘the fire star’, whilst Egyptian priests called on ‘Her Desher’, or ‘the red one’.The red colour Mars is known for is due to the rock and dust covering its surface being rich in iron.",
+            eighth: "There are signs of liquid water on Mars. For years Mars has been known to have water in the form of ice.The first signs of trickling water are dark stripes or stains on crater wall and cliffs seen in satellite images.Due to Mars’ atmosphere this water would have to be salty to prevent it from freezing or vaporising.",
+            ninth: "One day Mars will have a ring. In the next 20-40 million years Mars’ largest moon Phobos will be torn apart by gravitational forces leading to the creation of a ring that could last up to 100 million years.",
+            tenth: "Sunsets on Mars are blue. During the martian day the sky is pinkish- red, this is the opposite of the Earth’s skies.",
+            eleventh: "It's thought that Mars's core is predominantly made up of iron, but also nickel and sulphur. The core is about half the size of the planet and may be entirely liquid, or have a solid iron centre and a liquid exterior.",
+            twelfth: "The deepest canyon on the planet is Valles Marineris at 7 kilometres - Earth's Grand Canyon is only 1.8 kilometres deep. Valles Marineris was mostly formed by tectonic processes.",
+            thirteenth: "Mars's thin atmosphere makes for extreme temperature differences on the planet. When the Sun's energy enters the atmosphere, it is not equally dispersed and easily escapes back out into space.",
+            fourteenth: "Mars has an elliptical orbit, meaning it is egg- or oval-shaped. This means that throughout its year, Mars's distance from the Sun ranges between around 206 million and 249 million kilometres. ",
+            fifteenth: "Mars has a large, dark patch on its surface, known as the Syrtis Major Planum. It reaches around 1,500 kilometres north from the equator and is around 1,000 kilometres in width. The dark colour is due to its primarily basalt rock composition.",
 
+        },
+    },
 
 ]);
