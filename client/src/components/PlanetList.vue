@@ -1,6 +1,6 @@
 <template>
   <ul>
-    <planet-listitem v-for="(planet, index) in planets" :key="index" :planet="planet" />
+    <planet-list-item v-for="(planet, index) in planets" :key="index" :planet="planet" />
   </ul>
 </template>
 
@@ -23,15 +23,7 @@ components: {
 }
 </script>
 
-<style scoped>
+<style>
 
-li {
-    list-style: none;
-    margin-left: -40px;
-}
-
-li:hover {
-    background: rgba(0, 0, 0, 0.067)
-}
 
 </style>

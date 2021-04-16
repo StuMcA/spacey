@@ -5,7 +5,7 @@
         </li>
         <li id="nav-bar-planet">
             <p>Planets</p>
-            <planet-list id="planet-list"/>
+            <planet-list id="planet-list" :planets="planets"/>
         </li>
         <li>
             <p>Moons</p>
@@ -25,7 +25,10 @@ export default {
     name: "nav-bar",
     components: {
         "planet-list": PlanetList
-    }
+    },
+    props: [
+        "planets"
+    ]
 }
 </script>
 
@@ -67,13 +70,14 @@ li:hover {
 #planet-list {
     display: none;
     border: none;
+    text-align: center;
+    background-color: white;
 }
 
 
 #nav-bar-planet:hover #planet-list {
     display: block;
-    border: none;
-
+    z-index: 1;
 }
 
 #search {

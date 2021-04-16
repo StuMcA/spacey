@@ -6,11 +6,21 @@
 
 <script>
 export default {
-    name: "planet-list-item"
-
+    name: "planet-list-item",
+    props: [
+        "planet"
+    ]
 }
 </script>
 
-<style>
+<style scoped>
 
+li {
+    list-style: none;
+    margin-left: -40px;
+}
+
+li:hover {
+    background: rgba(0, 0, 0, 0.067)
+}
 </style>
