@@ -24,7 +24,8 @@ export default {
 }
 
 .planet:hover > .hover-box {
-    background-color: rgba(0, 0, 0, 0.128);
+    color: black;
+    background-color: rgba(255, 255, 255, 0.423);
     display: block;
     position: relative;
     top: -100px;

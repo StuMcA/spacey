@@ -1,12 +1,11 @@
 <template>
   <ul>
-    <li v-for="(planet, index) in planets" :key="index">
-        <p>{{planet}}</p>
-    </li>
+    <planet-listitem v-for="(planet, index) in planets" :key="index" :planet="planet" />
   </ul>
 </template>
 
 <script>
+import PlanetListItem from './PlanetListItem.vue'
 export default {
 
 data() {
@@ -16,7 +15,10 @@ data() {
 },
 props: [
     "planets"
-]
+],
+components: {
+    'planet-list-item': PlanetListItem
+}
 
 }
 </script>
