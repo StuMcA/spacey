@@ -1,7 +1,10 @@
 <template>
   <section class="planet-fact-wrapper">
     <!-- NOTE I have hard coded the fact just to test the layout -Alex -->
-    <p>Venus is the second brightest natural object in the sky. The planet has an apparent magnitude of -3.8 to -4.6, which makes it visible on a bright, clear day. The Moon is the only other natural object that is brighter.</p>
+    <p>
+      Venus is the second brightest natural object in the sky. The planet has an apparent magnitude of -3.8 to -4.6, which makes it visible on a bright, clear day. The Moon is the only other natural
+      object that is brighter.
+    </p>
     <button class="next-fact-button">Next Fact</button>
   </section>
 </template>
@@ -12,8 +15,7 @@ export default {};
 
 <style scoped>
 .planet-fact-wrapper {
-  border: 1px solid white;
-  max-width: 20rem;
+  border: 1px solid darkgray;
   text-align: center;
 }
 .next-fact-button {

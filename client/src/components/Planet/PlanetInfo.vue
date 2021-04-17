@@ -1,6 +1,11 @@
 <template>
   <section class="planet-info-wrapper">
     <!-- NOTE I have hard coded the info just to test the layout -Alex -->
+    <p>
+      It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasion, visible to the
+      naked eye in broad daylight. Venus lies within Earth's orbit, and so never appears to venture far from the Sun, either setting in the west just after dusk or rising in the east a little while
+      before dawn.
+    </p>
     <p>Position: Venus is the second planet from the Sun.</p>
     <p>Distance from Sun: 108,209,475 km (0.732 AU)</p>
     <p>Diameter at equator: 12,104 km</p>
@@ -18,10 +23,9 @@ export default {};
 
 <style scoped>
 .planet-info-wrapper {
-  border: 1px solid white;
-  /* width: inherit; */
-  flex-grow: 1;
-  /* min-width: 25rem; */
+  border: 1px solid darkgray;
+  flex-grow: 2;
+  flex-basis: 31rem;
 }
 p {
   margin-top: 1rem;

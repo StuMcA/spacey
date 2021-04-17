@@ -3,7 +3,7 @@
     <h1 class="planet-name">VENUS <span class="planet-name-latin">Latin: Vunus</span></h1>
     <div class="planet-container">
       <planet-info />
-      <div>
+      <div class="planet-image-fact-wrapper">
         <planet-image />
         <planet-fact />
       </div>
@@ -29,6 +29,8 @@ export default {
 
 <style scoped>
 .planet-wrapper {
+    border: 1px solid darkgray;
+
   margin: 4rem auto auto auto;
   width: 80%;
   max-width: 1024px;
@@ -36,8 +38,14 @@ export default {
 .planet-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
   margin: 0rem;
+}
+.planet-image-fact-wrapper{
+  flex-basis:20rem;
+  flex-grow: 1;
+  align-items: center;
 }
 .planet-name {
   font-size: 2rem;
