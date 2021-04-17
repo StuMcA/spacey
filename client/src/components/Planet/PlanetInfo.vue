@@ -23,9 +23,9 @@ export default {};
 
 <style scoped>
 .planet-info-wrapper {
-  border: 1px solid darkgray;
+  /* border: 1px solid darkgray; */
   flex-grow: 2;
-  flex-basis: 31rem;
+  flex-basis: 27rem;
 }
 p {
   margin-top: 1rem;

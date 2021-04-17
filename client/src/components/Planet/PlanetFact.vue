@@ -15,7 +15,7 @@ export default {};
 
 <style scoped>
 .planet-fact-wrapper {
-  border: 1px solid darkgray;
+  /* border: 1px solid darkgray; */
   text-align: center;
 }
 .next-fact-button {

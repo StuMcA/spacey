@@ -29,8 +29,7 @@ export default {
 
 <style scoped>
 .planet-wrapper {
-    border: 1px solid darkgray;
-
+  /* border: 1px solid darkgray; */
   margin: 4rem auto auto auto;
   width: 80%;
   max-width: 1024px;
@@ -39,11 +38,12 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 0 2rem;
   width: 100%;
   margin: 0rem;
 }
-.planet-image-fact-wrapper{
-  flex-basis:20rem;
+.planet-image-fact-wrapper {
+  flex-basis: 15rem;
   flex-grow: 1;
   align-items: center;
 }
@@ -55,6 +55,6 @@ export default {
   font-size: 1.75rem;
   font-style: italic;
   opacity: 0.6;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 </style>
