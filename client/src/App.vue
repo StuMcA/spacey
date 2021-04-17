@@ -4,9 +4,9 @@
       <nav-bar :planets="planets"/>
     </header>
     <main>
-      <solar-system-container :planets="planets"/>
+      <!-- <solar-system-container :planets="planets"/> -->
       <!-- uncomment to view planet info template -->
-      <!-- <planet :planet="planets[1]"/> -->
+      <planet/>
     </main>
   </div>
 </template>
@@ -44,7 +44,7 @@ export default {
 <style>
 html{
   background-color: black;
-  font-size: 20px;
+  font-size: 16px;
   color: #dfdfdf;
   font-family: Avenir, Helvetica, Arial, sans-serif;
 }
