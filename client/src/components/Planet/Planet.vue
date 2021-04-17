@@ -1,6 +1,6 @@
 <template>
   <section class="planet-wrapper">
-    <h1 class="planet-name">{{ planet }} <span class="planet-name-latin">Latin: Vunus</span></h1>
+    <h1 class="planet-name">VENUS <span class="planet-name-latin">Latin: Vunus</span></h1>
     <div class="planet-container">
       <planet-info />
       <div>

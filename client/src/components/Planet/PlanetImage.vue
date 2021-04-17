@@ -1,5 +1,6 @@
 <template>
   <section class="planet-image-wrapper">
+    <!-- NOTE I have hard coded the image just to test the layout -Alex -->
       <img src="../../assets/Planets/Venus.jpg" alt="">
   </section>
 </template>
