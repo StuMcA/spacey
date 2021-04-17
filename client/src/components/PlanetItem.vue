@@ -1,7 +1,7 @@
 <template>
-  <div :id="planet.toLowerCase()" class="planet">
+  <div :id="planet.name.indexOf(' ') === -1 ? planet.name.toLowerCase() : planet.name.slice(0, planet.name.indexOf(' ')).toLowerCase()" class="planet">
       <div class="hover-box">
-          <h3>{{planet}}</h3>
+          <h3>{{planet.name}}</h3>
           <p>Distance from sun</p>
       </div>
   </div>
@@ -17,7 +17,11 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
+h3, p {
+    margin: 0;
+}
+
 .hover-box {
     width: 140px;
     display: none;
@@ -28,7 +32,8 @@ export default {
     background-color: rgba(255, 255, 255, 0.423);
     display: block;
     position: relative;
-    top: -100px;
+    top: -60px;
+    left: -60px;
 
 }
 

@@ -15,6 +15,7 @@
 import NavBar from './components/NavBar.vue'
 import SolarSystemContainer from './components/SolarSystemContainer.vue'
 import Planet from './components/Planet/Planet.vue'
+import PlanetService from './services/PlanetService.js'
 
 export default {
   name: 'App',
@@ -25,18 +26,17 @@ export default {
   },
   data() {
     return {
-      // This array should be replaced with data from the api
-      planets: [
-        "Mercury",
-        "Venus",
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Saturn",
-        "Uranus",
-        "Neptune"
-      ]
+      planets: []
     }
+  },
+  methods: {
+    fetchPlanets() {
+      PlanetService.getPlanets()
+      .then(planets => this.planets.push(...planets))
+    }
+  },
+  mounted() {
+    this.fetchPlanets();
   }
 }
 </script>
@@ -61,5 +61,6 @@ select:focus {
 body, header * {
   margin: 0;
 }
+
 
 </style>

@@ -2,8 +2,13 @@
     <section>
         <button>Change view</button>
         <section id="solar-system">
-            <div id="sun" class="planet">Sun</div>
+            <div id="sun" class="planet">
+                <div class="hover-box">
+                    <h3>The Sun</h3>
+                </div>
+            </div>
             <planet-item v-for="(planet, index) in planets" :key="index" :planet="planet" />
+            <div id="end-of-solar-system" class="planet"></div>
         </section>
     </section>
 </template>
@@ -30,8 +35,16 @@ button {
 }
 
 #solar-system {
-    width: 100%;
-    height: 800px;
+    width: 140%;
+    overflow: scroll;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: black;
+    z-index: -1;
 }
 
 .planet {
@@ -46,47 +59,55 @@ button {
 }
 
 #sun {
-    right: 2%;
+    right: 0%;
 }
 
 #mercury {
-    right: 3.1%;
+    right: 0.78%;
 
 }
 
 #venus {
-    right: 4.1%;
+    right: 1.5%;
 
 }
 
 #earth {
-    right: 5%;
+    right: 2.14%;
 
 }
 
 #mars {
-    right: 6.5%;
+    right: 3.21%;
 
 }
 
 #jupiter {
-    right: 17.5%;
+    right: 11.07%;
 
 }
 
 #saturn {
-    right: 30.5%;
+    right: 20.36%;
 
 }
 
 #uranus {
-    right: 59%;
+    right: 40.71%;
 
 }
 
 #neptune {
-    right: 92%;
+    right: 64.29%;
 
+}
+
+#pluto {
+    right: 82.64%;
+}
+
+#end-of-solar-system {
+    right: 140%;
 }
 
 
