@@ -22,23 +22,13 @@ export default {
   },
   data() {
     return {
-      // This array should be replaced with data from the api
-      planets: [
-        "Mercury",
-        "Venus",
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Saturn",
-        "Uranus",
-        "Neptune"
-      ]
+      planets: []
     }
   },
   methods: {
     fetchPlanets() {
       PlanetService.getPlanets()
-      .then(planets => this.planets = planets)
+      .then(planets => this.planets.push(...planets))
     }
   },
   mounted() {

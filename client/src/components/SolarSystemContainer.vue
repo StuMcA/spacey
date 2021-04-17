@@ -2,7 +2,11 @@
     <section>
         <button>Change view</button>
         <section id="solar-system">
-            <div id="sun" class="planet">Sun</div>
+            <div id="sun" class="planet">
+                <div class="hover-box">
+                    <h3>The Sun</h3>
+                </div>
+            </div>
             <planet-item v-for="(planet, index) in planets" :key="index" :planet="planet" />
         </section>
     </section>
@@ -87,6 +91,10 @@ button {
 #neptune {
     right: 92%;
 
+}
+
+#pluto {
+    right: 11.7%;
 }
 
 

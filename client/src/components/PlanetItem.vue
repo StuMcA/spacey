@@ -1,7 +1,7 @@
 <template>
-  <div :id="planet.toLowerCase()" class="planet">
+  <div :id="planet.name.toLowerCase()" class="planet">
       <div class="hover-box">
-          <h3>{{planet}}</h3>
+          <h3>{{planet.name}}</h3>
           <p>Distance from sun</p>
       </div>
   </div>
@@ -17,7 +17,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 h3, p {
     margin: 0;
 }

@@ -1,6 +1,6 @@
 <template>
   <ul>
-    <planet-list-item v-for="(planet, index) in planets" :key="index" :planet="planet" />
+    <planet-list-item v-for="(planet, index) in planets" :key="index" :planet="planet.name" />
   </ul>
 </template>
 
