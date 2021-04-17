@@ -30,7 +30,7 @@ export default {
 <style scoped>
 .planet-wrapper {
   /* border: 1px solid darkgray; */
-  margin: 4rem auto auto auto;
+  margin: 4rem auto 2rem auto;
   width: 80%;
   max-width: 1024px;
 }
@@ -58,6 +58,9 @@ export default {
   margin-left: 1rem;
 }
 @media screen and (max-width: 879px) {
+  .planet-wrapper{
+    width: 90%;
+  }
   .planet-container {
     gap: 2rem 2rem;
   }
