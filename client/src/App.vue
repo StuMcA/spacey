@@ -5,6 +5,8 @@
     </header>
     <main>
       <solar-system-container :planets="planets"/>
+      <!-- uncomment to view planet info template -->
+      <!-- <planet :planet="planets[1]"/> -->
     </main>
   </div>
 </template>
@@ -12,12 +14,14 @@
 <script>
 import NavBar from './components/NavBar.vue'
 import SolarSystemContainer from './components/SolarSystemContainer.vue'
+import Planet from './components/Planet/Planet.vue'
 
 export default {
   name: 'App',
   components: {
     'nav-bar': NavBar,
-    'solar-system-container': SolarSystemContainer
+    'solar-system-container': SolarSystemContainer,
+    'planet': Planet
   },
   data() {
     return {
@@ -38,12 +42,21 @@ export default {
 </script>
 
 <style>
-#app {
+html{
+  background-color: black;
+  font-size: 20px;
+  color: #dfdfdf;
   font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+#app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-  background-color: black;
 }
 body, header * {
   margin: 0;
