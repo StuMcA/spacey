@@ -2,7 +2,7 @@
   <section class="planet-wrapper">
     <h1 class="planet-name">VENUS <span class="planet-name-latin">Latin: Vunus</span></h1>
     <div class="planet-container">
-      <planet-info />
+      <planet-info class="planet-info"/>
       <div class="planet-image-fact-wrapper">
         <planet-image />
         <planet-fact />
@@ -56,5 +56,13 @@ export default {
   font-style: italic;
   opacity: 0.6;
   margin-left: 1rem;
+}
+@media screen and (max-width: 879px) {
+  .planet-container {
+    gap: 2rem 2rem;
+  }
+  .planet-image-fact-wrapper {
+    order: -1;
+  }
 }
 </style>
