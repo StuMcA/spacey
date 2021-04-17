@@ -13,8 +13,8 @@ export default {
 <style scoped>
 .planet-image-wrapper {
   border: 1px solid white;
-  width: 15rem;
-
+  width: fit-content;
+  max-width: 20rem;
 }
 img{
   width: 100%;
