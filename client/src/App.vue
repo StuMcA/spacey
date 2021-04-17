@@ -12,6 +12,7 @@
 <script>
 import NavBar from './components/NavBar.vue'
 import SolarSystemContainer from './components/SolarSystemContainer.vue'
+import PlanetService from './services/PlanetService.js'
 
 export default {
   name: 'App',
@@ -33,6 +34,15 @@ export default {
         "Neptune"
       ]
     }
+  },
+  methods: {
+    fetchPlanets() {
+      PlanetService.getPlanets()
+      .then(planets => this.planets = planets)
+    }
+  },
+  mounted() {
+    this.fetchPlanets();
   }
 }
 </script>
