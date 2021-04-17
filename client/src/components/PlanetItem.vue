@@ -18,6 +18,10 @@ export default {
 </script>
 
 <style scoped>
+h3, p {
+    margin: 0;
+}
+
 .hover-box {
     width: 140px;
     display: none;
@@ -28,7 +32,7 @@ export default {
     background-color: rgba(255, 255, 255, 0.423);
     display: block;
     position: relative;
-    top: -100px;
+    top: -60px;
 
 }
 
