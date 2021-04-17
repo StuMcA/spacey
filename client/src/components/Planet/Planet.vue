@@ -31,7 +31,7 @@ export default {
 .planet-wrapper {
   /* border: 1px solid darkgray; */
   margin: 4rem auto 2rem auto;
-  width: 80%;
+  width: 90%;
   max-width: 1024px;
 }
 .planet-container {
@@ -57,7 +57,7 @@ export default {
   opacity: 0.6;
   margin-left: 1rem;
 }
-@media screen and (max-width: 879px) {
+@media screen and (max-width: 817px) {
   .planet-wrapper{
     width: 90%;
   }

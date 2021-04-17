@@ -38,7 +38,7 @@ h1 {
 .next-fact-button:active {
   background-color: rgb(255, 0, 0);
 }
-@media screen and (max-width: 879px) {
+@media screen and (max-width: 817px) {
   .planet-fact-wrapper {
     border-radius: 1rem;
     background-color: rgb(26, 26, 26);

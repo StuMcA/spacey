@@ -34,7 +34,7 @@ p {
 h1 {
   display: none;
 }
-@media screen and (max-width: 879px) {
+@media screen and (max-width: 817px) {
   .planet-info-wrapper {
     /* border: 1px solid darkgray; */
     background-color: rgb(24, 24, 24);
