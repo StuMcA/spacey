@@ -1,6 +1,6 @@
 <template>
   <div 
-    :id="planet.name.indexOf(' ') === -1 ? planet.name.toLowerCase() : planet.name.slice(0, planet.name.indexOf(' ')).toLowerCase()" 
+    :id="planet.name.toLowerCase()" 
     class="planet" 
     :class="{active: isActive}" @click="toggleActive"
     :style="{
