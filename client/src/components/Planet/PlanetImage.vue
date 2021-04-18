@@ -1,22 +1,22 @@
 <template>
   <section class="planet-image-wrapper">
-      <img src="../../assets/Planets/Venus.jpg" alt="">
+    <!-- NOTE I have hard coded the image just to test the layout -Alex -->
+    <img src="../../assets/Planets/Venus.jpg" alt="" />
   </section>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style scoped>
 .planet-image-wrapper {
-  border: 1px solid white;
-  width: fit-content;
-  max-width: 20rem;
+  /* border: 1px solid darkgray; */
+  align-items: center;
+  max-width: 30rem;
+  margin: auto;
 }
-img{
+img {
   width: 100%;
 }
 </style>
