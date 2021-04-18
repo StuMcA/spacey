@@ -1,12 +1,34 @@
 <template>
   <section class="planet-image-wrapper">
-    <!-- NOTE I have hard coded the image just to test the layout -Alex -->
-    <img src="../../assets/Planets/Venus.jpg" alt="" />
+    <img :src="planetURL" alt="" />
   </section>
 </template>
 
 <script>
-export default {};
+// import { eventBus } from '@/main.js';
+
+export default {
+  name: 'PlanetImage',
+  props: ['planetName'],
+  data() {
+    return {
+      planetURL: null,
+    };
+  },
+  mounted() {
+    this.makeURL(this.planetName);
+  },
+  methods: {
+    makeURL() {
+      this.planetURL = require('../../assets/Planets/' + this.planetName + '.jpg');
+    },
+  },
+  watch: {
+    planetName: function() {
+      this.makeURL();
+    },
+  },
+};
 </script>
 
 <style scoped>
