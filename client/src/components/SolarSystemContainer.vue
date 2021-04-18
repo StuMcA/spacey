@@ -88,6 +88,7 @@ button {
 #jupiter {
     right: 11.07%;
     background-color: rgb(255, 128, 0);
+    z-index: 999;
 }
 
 #saturn {
@@ -123,13 +124,13 @@ button {
 .active .hover-box {
     padding: 20px;
     display: block;
-    bottom: 20px;
+    bottom: -60px;
     right: 0;
     left: 0;
     transition: 0.5s ease 0s;
     width: 100%;
-    position: fixed;
-    height: 50%;
+    position: relative;
+    /* height: 50%; */
     z-index: 10;
     text-align: left;
 }
