@@ -5,6 +5,13 @@ db.planets.insertMany([
     {
         name: "Mercury",
         position_from_sun: 1,
+        image_url: {
+            first: "https://scitechdaily.com/images/Iridescent-Mercury.jpg",
+            second: "https://www.cronodon.com/images/mercury-1a.jpg",
+            third: "https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/ma_1005_NID_Mercury_online3.jpg?itok=hjZo8tWi",
+            forth: "https://i.pinimg.com/originals/6d/ff/c4/6dffc49314b7b1fcdd396b3b02f5ced9.jpg",
+            fifth: "https://cdn.britannica.com/75/145475-050-916827A9/Caloris-Basin-Mercury-spacecraft-Messenger-2008.jpg",
+        },
         latin_name: "Mercurius",
         sumerian_name: "Enki",
         orbit_distance_km: 57909227,
@@ -42,6 +49,13 @@ db.planets.insertMany([
     {
         name: "Venus",
         position_from_sun: 2,
+        image_url: {
+            first: "https://earthsky.org/upl/2019/09/Venus-dayside.png",
+            second: "https://cdn.mos.cms.futurecdn.net/kaPwBjHiUKax8syodHNPmF.jpg",
+            third: "https://static.scientificamerican.com/sciam/cache/file/F7E0BB0E-3F76-4AF5-92AC0951C2976728_source.jpg?w=590&h=800&7D4AE32D-D3D4-4689-A81E895E9A173CC2",
+            forth: "https://solarsystem.nasa.gov/internal_resources/4319/",
+            fifth: "https://thesuffolkjournal.com/wp-content/uploads/2020/09/Venus-900x900.png",
+        },
         latin_name: "Venus",
         sumerian_name: "Inanna",
         orbit_distance_km: 108209475,
@@ -80,6 +94,13 @@ db.planets.insertMany([
     {
         name: "Earth",
         position_from_sun: 3,
+        image_url: {
+            first: "https://www.thoughtco.com/thmb/Whrni3pbKfnTfZyz2rzQEVS-jVc=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/Earth_Eastern_Hemisphere-56a8cda43df78cf772a0cc74.jpg",
+            second: "https://i2.wp.com/kashmirobserver.net/wp-content/uploads/2020/07/earth.jpg?fit=800%2C772&ssl=1",
+            third: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F9%2F97%2FThe_Earth_seen_from_Apollo_17.jpg%2F1200px-The_Earth_seen_from_Apollo_17.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FEarth&tbnid=BUbNaZxy9NyhgM&vet=12ahUKEwjwls60xYfwAhWP0OAKHSuzDBIQMygCegUIARCPAg..i&docid=88gjCNbYu3-8ZM&w=1200&h=1201&itg=1&q=images%20of%20the%20planet%20earth&ved=2ahUKEwjwls60xYfwAhWP0OAKHSuzDBIQMygCegUIARCPAg",
+            forth: "https://i.ytimg.com/vi/xncLubEj50k/maxresdefault.jpg",
+            fifth: "https://c.tadst.com/gfx/1200x630/international-earth-year.jpg?1",
+        },
         latin_name: "Terra",
         sumerian_name: "Ki",
         orbit_distance_km: 149598262,
@@ -117,6 +138,13 @@ db.planets.insertMany([
     {
         name: "Mars",
         position_from_sun: 4,
+        image_url: {
+            first: "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f775f2683bae528aec3c1ca%2F0x0.jpg",
+            second: "https://www.universetoday.com/wp-content/uploads/2011/12/mars-viking-zoom.jpg",
+            third: "https://c.files.bbci.co.uk/10F74/production/_114829496_mars.jpg",
+            forth: "https://www.nhm.ac.uk/content/dam/nhmwww/discover/planet-mars/mars-factfile-red-planet-full-width.jpg",
+            fifth: "https://scitechdaily.com/images/Olympus-Mons-Mars-scaled.jpg",
+        },
         latin_name: "Mars",
         sumerian_name: "Gugulanna",
         orbit_distance_km: 227943824,
@@ -155,6 +183,13 @@ db.planets.insertMany([
     {
         name: "Jupiter",
         position_from_sun: 5,
+        image_url: {
+            first: "https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
+            second: "https://cdn.mos.cms.futurecdn.net/iEv6pmS4gfbefs5JbwHWiJ.png",
+            third: "https://scitechdaily.com/images/Planet-Jupiter.jpg",
+            forth: "https://www.pnas.org/content/pnas/117/29/16716/F1.large.jpg",
+            fifth: "https://cdn.britannica.com/84/4284-050-16C7E8C2/Photograph-Jupiter-range-Voyager-1-cloud-bands-February-1-1979.jpg",
+        },
         latin_name: "Iuppiter",
         sumerian_name: "Enlil",
         orbit_distance_km: 778340821,
@@ -270,6 +305,13 @@ db.planets.insertMany([
     {
         name: "Saturn",
         position_from_sun: 6,
+        image_url: {
+            first: "https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg",
+            second: "https://i.pinimg.com/originals/aa/2f/78/aa2f78effbe107f23b6e5a3aebd4d563.jpg",
+            third: "https://cdn.mos.cms.futurecdn.net/XFL6HquyTYfQH5L7ztttp3.jpg",
+            forth: "https://i.pinimg.com/originals/f1/a4/22/f1a42242dbe3d614dc7f252198c3eee0.jpg",
+            fifth: "https://i.pinimg.com/originals/55/d2/e0/55d2e0b23e378116cf04ea2ebe19f63f.jpg",
+        },
         latin_name: "Saturnus",
         sumerian_name: "Ninurta",
         orbit_distance_km: 1426666422,
@@ -388,6 +430,13 @@ db.planets.insertMany([
     {
         name: "Uranus",
         position_from_sun: 7,
+        image_url: {
+            first: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/1200px-Uranus2.jpg",
+            second: "https://data.whicdn.com/images/331818858/original.jpg?t=1561112500",
+            third: "https://miro.medium.com/max/960/1*F04NVRyBDRuLwPkD0rBN9w.jpeg",
+            forth: "https://i.natgeofe.com/n/c1ee2a2c-b6c8-44ad-8e29-413a49732225/42912.jpg",
+            fifth: "https://www.universetoday.com/wp-content/uploads/2014/11/4_179.jpg",
+        },
         latin_name: "Uranus",
         sumerian_name: null,
         orbit_distance_km: 2870658186,
@@ -451,6 +500,13 @@ db.planets.insertMany([
     {
         name: "Neptune",
         position_from_sun: 8,
+        image_url: {
+            first: "https://media.wired.com/photos/5d04045bde1abfe4e801d054/4:3/w_1600,h_1200,c_limit/Science-Neptune-FA-PIA01492_orig.jpg",
+            second: "https://upload.wikimedia.org/wikipedia/commons/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg",
+            third: "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F648792456%2F0x0.jpg%3FcropX1%3D0%26cropX2%3D4587%26cropY1%3D173%26cropY2%3D2755",
+            forth: "https://static.wikia.nocookie.net/spore/images/1/15/Neptune.png/revision/latest?cb=20090222230615",
+            fifth: "https://scitechdaily.com/images/Neptune-Planet-Illustration.jpg",
+        },
         latin_name: "Neptunus",
         sumerian_name: null,
         orbit_distance_km: 4498396441,
@@ -499,8 +555,15 @@ db.planets.insertMany([
     },
 
     {
-        name: "Pluto (NOT ACTUALLY A PLANET!)",
+        name: "Pluto",
         position_from_sun: 9,
+        image_url: {
+            first: "https://cms.qz.com/wp-content/uploads/2016/11/pluto-poster.jpg?quality=75&strip=all&w=1200&h=900&crop=1",
+            second: "https://cdn.mos.cms.futurecdn.net/jGqBq44gCE3CogJTXAnwjT.jpg",
+            third: "https://i.pinimg.com/originals/09/38/35/0938352d9a2bdb296f092dd7cda93851.jpg",
+            forth: "https://cdn.vox-cdn.com/thumbor/Sf3U7g3bz1MmEOlLvRX--Ko61jI=/0x0:1180x766/1200x800/filters:focal(442x79:630x267)/cdn.vox-cdn.com/uploads/chorus_image/image/51865475/nh_pluto_crop.jpg.0.png",
+            fifth: "https://astrologynewsservice.com/wp-content/uploads/2015/07/pluto-illo.jpg",
+        },
         latin_name: "Pluto",
         sumerian_name: null,
         orbit_distance_km: 7375936441,
