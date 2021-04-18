@@ -42,7 +42,7 @@ export default {
         translate: function() {
             return `translate(-100px, -${this.planet.equatorial_diameter_km/2000}px)`
         }
-    }
+    },
 
 }
 </script>
@@ -66,6 +66,7 @@ h3, p {
 .planet:hover {
     box-shadow: 0 0 30px gold;
     z-index: 999;
+    transition: 0.3s linear 0s
 }
 
 .planet:hover > .hover-box {
