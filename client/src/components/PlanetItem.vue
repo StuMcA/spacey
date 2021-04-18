@@ -55,11 +55,10 @@ h3, p {
 .hover-box {
     width: 140px;
     display: none;
-    color: black;
-    background-color: rgba(255, 255, 255, 0.423);
+    color: rgb(255, 255, 255);
     position: relative;
-    bottom: -60px;
-    left: -80px;
+    top: 60px;
+    left: -60px;
 }
 
 .planet:hover {
