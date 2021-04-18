@@ -37,7 +37,7 @@ export default {
             return this.planet.equatorial_diameter_km/1000
         },
         calcDist: function() {
-            return this.planet.orbit_distance_km/75000000
+            return (this.planet.orbit_distance_km/75000000)
         },
         translate: function() {
             return `translate(-100px, -${this.planet.equatorial_diameter_km/2000}px)`
