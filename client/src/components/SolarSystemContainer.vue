@@ -133,6 +133,7 @@ button {
     /* height: 50%; */
     z-index: 10;
     text-align: left;
+    background-color: rgba(0, 0, 0, 0.176);
 }
 
 .active .hover-box * {
