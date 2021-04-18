@@ -1,12 +1,6 @@
 <template>
   <section class="planet-info-wrapper">
-    <!-- NOTE I have hard coded the info just to test the layout -Alex -->
     <h1>Details</h1>
-    <!-- <p>
-      It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasion, visible to the
-      naked eye in broad daylight. Venus lies within Earth's orbit, and so never appears to venture far from the Sun, either setting in the west just after dusk or rising in the east a little while
-      before dawn.
-    </p> -->
     <p>
       {{ planet.name }} is the {{ planet.position_from_sun
       }}<sup>{{ planet.position_from_sun == 1 ? 'st' : planet.position_from_sun == 2 ? 'nd' : planet.position_from_sun == 3 ? 'rd' : 'th' }}</sup> planet from the Sun.
