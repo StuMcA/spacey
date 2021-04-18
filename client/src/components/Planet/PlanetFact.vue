@@ -1,17 +1,21 @@
 <template>
   <section class="planet-fact-wrapper">
-    <!-- NOTE I have hard coded the fact just to test the layout -Alex -->
     <h1>Facts</h1>
-    <p>
-      Venus is the second brightest natural object in the sky. The planet has an apparent magnitude of -3.8 to -4.6, which makes it visible on a bright, clear day. The Moon is the only other natural
-      object that is brighter.
-    </p>
-    <button class="next-fact-button">Next Fact</button>
+    <p>{{planetFacts.first}}</p>
+    <button class="next-fact-button" @click="nextFact">Next Fact</button>
   </section>
 </template>
 
 <script>
-export default {};
+export default {
+  name: 'PlanetFacts',
+  props: ['planetFacts'],
+  methods: {
+    nextFact: function() {
+      // cycle to next fact in array
+    }
+  }
+};
 </script>
 
 <style scoped>
