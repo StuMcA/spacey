@@ -35,7 +35,7 @@ button {
 }
 
 #solar-system {
-    width: 140%;
+    width: 160%;
     overflow: scroll;
     position: absolute;
     top: 0;
@@ -49,8 +49,6 @@ button {
 
 .planet {
     background-color: white;
-    width: 50px;
-    height: 50px;
     border: 1px solid black;
     border-radius: 50%;
     position: absolute;
@@ -62,6 +60,9 @@ button {
 #sun {
     right: 0%;
     background-color: rgb(255, 255, 0);
+    width: 1392px;
+    height: 1392px;
+    transform: translate(1292px, -696px);
 }
 
 #mercury {
@@ -114,21 +115,18 @@ button {
 }
 
 .active {
-    width: 250px;
-    height: 250px;
+    width: 250px !important;
+    height: 250px !important;
     top: 30px;
-    transition: 1s;
-    
 }
 
 .active .hover-box {
     padding: 20px;
     display: block;
-    /* width: 500px; */
     bottom: 20px;
     right: 0;
     left: 0;
-    transition: 1s;
+    transition: 0.5s ease 0s;
     width: 100%;
     position: fixed;
     height: 50%;
