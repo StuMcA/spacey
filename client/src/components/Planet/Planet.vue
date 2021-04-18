@@ -1,11 +1,13 @@
 <template>
   <section class="planet-wrapper">
-    <h1 class="planet-name">VENUS <span class="planet-name-latin">Latin: Vunus</span></h1>
+    <h1 class="planet-name">
+      {{ planet.name.toUpperCase() }} <span class="planet-name-latin">Latin: {{ planet.latin_name }}</span>
+    </h1>
     <div class="planet-container">
-      <planet-info class="planet-info"/>
+      <planet-info class="planet-info" :planet="planet" />
       <div class="planet-image-fact-wrapper">
-        <planet-image />
-        <planet-fact />
+        <planet-image  :planetName="planet.name"/>
+        <planet-fact :planetFacts="planet.facts"/>
       </div>
     </div>
   </section>
@@ -58,7 +60,7 @@ export default {
   margin-left: 1rem;
 }
 @media screen and (max-width: 817px) {
-  .planet-wrapper{
+  .planet-wrapper {
     width: 90%;
   }
   .planet-container {
