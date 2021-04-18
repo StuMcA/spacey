@@ -38,9 +38,15 @@ export default {
   },
   mounted() {
     this.fetchPlanets();
+
     eventBus.$on('planet-selected', (planetName) => {
       this.selectedPlanet = this.planets.find((planet) => planet.name === planetName);
     });
+
+    eventBus.$on('home-selected', () => {
+      this.selectedPlanet = null
+    })
+
   },
 };
 </script>

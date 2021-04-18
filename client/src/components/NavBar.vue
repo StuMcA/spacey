@@ -1,7 +1,7 @@
 <template>
     <ul>
         <li>
-            <p>Home</p>
+            <p @click="homeClicked">Home</p>
         </li>
         <li id="nav-bar-planet">
             <p>Planets</p>
@@ -20,6 +20,7 @@
 
 <script>
 import PlanetList from '../components/PlanetList.vue'
+import { eventBus } from '@/main.js'
 
 export default {
     name: "nav-bar",
@@ -28,7 +29,13 @@ export default {
     },
     props: [
         "planets"
-    ]
+    ],
+    methods: {
+        homeClicked: function(){
+        console.log("home clicked");
+        eventBus.$emit('home-selected');
+      }
+    }
 }
 </script>
 
