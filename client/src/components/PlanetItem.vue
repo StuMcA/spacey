@@ -4,9 +4,9 @@
     class="planet" 
     :class="{active: isActive}" @click="toggleActive"
     :style="{
-        width: this.calcWidth(), 
-        height: this.calcWidth(),
-        right: this.calcDist(),
+        width: this.calcWidth()+'px', 
+        height: this.calcWidth()+'px',
+        right: this.calcDist()+'%',
         transform: this.translate()
     }"
   >
@@ -34,10 +34,10 @@ export default {
             this.isActive = !this.isActive
         },
         calcWidth: function() {
-            return `${this.planet.equatorial_diameter_km/1000}px`
+            return this.planet.equatorial_diameter_km/1000
         },
         calcDist: function() {
-            return `${this.planet.orbit_distance_km/75000000}%`
+            return this.planet.orbit_distance_km/75000000
         },
         translate: function() {
             return `translate(-100px, -${this.planet.equatorial_diameter_km/2000}px)`
@@ -53,16 +53,19 @@ h3, p {
 }
 
 .hover-box {
-    width: 140px;
+    width: 250px;
     display: none;
     color: rgb(255, 255, 255);
     position: relative;
-    top: 60px;
+    top: 50%;
     left: -60px;
+    cursor: pointer;
+    z-index: 999;
 }
 
 .planet:hover {
     box-shadow: 0 0 30px gold;
+    z-index: 999;
 }
 
 .planet:hover > .hover-box {
