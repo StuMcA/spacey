@@ -1,48 +1,52 @@
 <template>
   <div id="app">
     <header>
-      <nav-bar :planets="planets"/>
+      <nav-bar :planets="planets" />
     </header>
     <main>
-      <solar-system-container :planets="planets"/>
+      <solar-system-container v-if="!selectedPlanet" :planets="planets" />
       <!-- uncomment to view planet info template -->
-      <!-- <planet/> -->
+      <planet v-if="selectedPlanet" :planet="selectedPlanet" />
     </main>
   </div>
 </template>
 
 <script>
-import NavBar from './components/NavBar.vue'
-import SolarSystemContainer from './components/SolarSystemContainer.vue'
-import Planet from './components/Planet/Planet.vue'
-import PlanetService from './services/PlanetService.js'
+import NavBar from './components/NavBar.vue';
+import SolarSystemContainer from './components/SolarSystemContainer.vue';
+import Planet from './components/Planet/Planet.vue';
+import PlanetService from './services/PlanetService.js';
+import { eventBus } from '@/main.js';
 
 export default {
   name: 'App',
   components: {
     'nav-bar': NavBar,
     'solar-system-container': SolarSystemContainer,
-    'planet': Planet
+    planet: Planet,
   },
   data() {
     return {
-      planets: []
-    }
+      planets: [],
+      selectedPlanet: null,
+    };
   },
   methods: {
     fetchPlanets() {
-      PlanetService.getPlanets()
-      .then(planets => this.planets.push(...planets))
-    }
+      PlanetService.getPlanets().then((planets) => this.planets.push(...planets));
+    },
   },
   mounted() {
     this.fetchPlanets();
-  }
-}
+    eventBus.$on('planet-selected', (planetName) => {
+      this.selectedPlanet = this.planets.find((planet) => planet.name === planetName);
+    });
+  },
+};
 </script>
 
 <style>
-html{
+html {
   background-color: black;
   font-size: 16px;
   color: #dfdfdf;
@@ -58,9 +62,8 @@ select:focus {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-body, header * {
+body,
+header * {
   margin: 0;
 }
-
-
 </style>

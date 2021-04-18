@@ -1,15 +1,23 @@
 <template>
   <li>
-    <p>{{planet}}</p>
+    <p @click="planetClicked">{{planet}}</p>
   </li>
 </template>
 
 <script>
+import { eventBus } from '@/main.js';
+
 export default {
     name: "planet-list-item",
     props: [
         "planet"
-    ]
+    ],
+    methods: {
+      planetClicked: function(){
+        console.log(this.planet)
+        eventBus.$emit('planet-selected', this.planet)
+      }
+    }
 }
 </script>
 
