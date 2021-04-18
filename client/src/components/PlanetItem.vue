@@ -67,7 +67,6 @@ h3, p {
 }
 
 .planet:hover > .hover-box {
-    z-index: 100;
     display: block;
 }
 

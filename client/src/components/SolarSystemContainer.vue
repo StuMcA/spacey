@@ -35,7 +35,7 @@ button {
 }
 
 #solar-system {
-    width: 160%;
+    width: 100%;
     overflow: scroll;
     position: absolute;
     top: 0;
