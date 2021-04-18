@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <div>
         <button>Change view</button>
         <section id="solar-system">
             <div id="sun" class="planet">
@@ -10,7 +10,7 @@
             <planet-item v-for="(planet, index) in planets" :key="index" :planet="planet" />
             <div id="end-of-solar-system" class="planet"></div>
         </section>
-    </section>
+    </div>
 </template>
 
 <script>
@@ -35,7 +35,7 @@ button {
 }
 
 #solar-system {
-    width: 100%;
+    width: 110%;
     overflow: scroll;
     position: absolute;
     top: 0;
@@ -55,6 +55,7 @@ button {
     text-align: center;
     top: 50%;
     transition: 1s;
+    cursor: pointer;
 }
 
 #sun {
@@ -88,7 +89,6 @@ button {
 #jupiter {
     right: 11.07%;
     background-color: rgb(255, 128, 0);
-    z-index: 999;
 }
 
 #saturn {
@@ -118,17 +118,17 @@ button {
 .active {
     width: 250px !important;
     height: 250px !important;
-    top: 30px;
+    top: 100px;
+    z-index: 999;
 }
 
 .active .hover-box {
     padding: 20px;
     display: block;
-    bottom: -60px;
     right: 0;
     left: 0;
     transition: 0.5s ease 0s;
-    width: 100%;
+    width: 250px;
     position: relative;
     /* height: 50%; */
     z-index: 10;
