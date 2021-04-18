@@ -4,9 +4,9 @@
       <nav-bar :planets="planets"/>
     </header>
     <main>
-      <!-- <solar-system-container :planets="planets"/> -->
+      <solar-system-container :planets="planets"/>
       <!-- uncomment to view planet info template -->
-      <planet/>
+      <!-- <planet/> -->
     </main>
   </div>
 </template>

@@ -43,6 +43,11 @@ h3, p {
     left: -80px;
 }
 
+.planet:hover {
+    box-shadow: 0 0 30px gold;
+    transition: 0.25s;
+}
+
 .planet:hover > .hover-box {
     display: block;
     transition: 1s;
