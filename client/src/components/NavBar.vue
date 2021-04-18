@@ -52,7 +52,7 @@ li {
 }
 
 p {
-    margin: 4px auto;
+    margin: 4px auto 0px auto;
 }
 
 li:hover, label:hover {

@@ -4,7 +4,7 @@
         <section id="solar-system">
             <div id="sun" class="planet">
                 <div class="hover-box">
-                    <h3>The Sun</h3>
+                    <h3>Sol</h3>
                 </div>
             </div>
             <planet-item v-for="(planet, index) in planets" :key="index" :planet="planet" />
@@ -56,58 +56,88 @@ button {
     position: absolute;
     text-align: center;
     top: 50%;
+    transition: 1s;
 }
 
 #sun {
     right: 0%;
+    background-color: rgb(255, 255, 0);
 }
 
 #mercury {
     right: 0.78%;
-
+    background-color: rgb(192, 115, 7);
 }
 
 #venus {
     right: 1.5%;
-
+    background-color: rgb(188, 143, 58);
 }
 
 #earth {
     right: 2.14%;
-
+    background-color: rgb(45, 45, 255);
 }
 
 #mars {
     right: 3.21%;
-
+    background: rgb(139, 14, 14);
 }
 
 #jupiter {
     right: 11.07%;
-
+    background-color: rgb(255, 128, 0);
 }
 
 #saturn {
     right: 20.36%;
-
+    background-color: rgb(255, 212, 94);
 }
 
 #uranus {
     right: 40.71%;
-
+    background-color: rgb(218, 218, 255);
 }
 
 #neptune {
     right: 64.29%;
-
+    background-color: rgb(80, 80, 203);
 }
 
 #pluto {
     right: 82.64%;
+    background-color: grey;
 }
 
 #end-of-solar-system {
     right: 140%;
+}
+
+.active {
+    width: 250px;
+    height: 250px;
+    top: 30px;
+    transition: 1s;
+    
+}
+
+.active .hover-box {
+    padding: 20px;
+    display: block;
+    /* width: 500px; */
+    bottom: 20px;
+    right: 0;
+    left: 0;
+    transition: 1s;
+    width: 100%;
+    position: fixed;
+    height: 50%;
+    z-index: 10;
+    text-align: left;
+}
+
+.active .hover-box * {
+    display: block;
 }
 
 
