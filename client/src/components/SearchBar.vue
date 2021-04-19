@@ -48,8 +48,8 @@ export default {
     border: 1px solid rgba(255, 255, 255, 0.341);
     border-radius: 30px;
     display: flex;
-    width: 140px;
-    height: 100%;
+    width: 160px;
+    height: 30px;
 }
 
 
@@ -58,12 +58,18 @@ form {
     padding-left: 10px;
 }
 
+#search:hover {
+    background-color: rgba(255, 255, 255, 0.514);
+    color: black;
+    cursor: pointer;
+}
+
 input[type="text"] {
     color: white;
     border: none;
     background: transparent;
     margin: auto;
-    width: 100px;
+    width: 160px;
 }
 
 ::placeholder {

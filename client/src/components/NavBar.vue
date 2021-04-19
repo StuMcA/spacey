@@ -11,10 +11,10 @@
             <p>Moons</p>
 
         </li>
-        <li class="nav-bar-planet">
+        <div class="nav-bar-planet">
             <search-bar :planets="planets"/>
             <planet-list v-if="filteredPlanets.length" id="search-list" :planets="filteredPlanets" />
-        </li>
+        </div>
     </ul>
 </template>
 
@@ -48,7 +48,7 @@ export default {
     width: 100%;
     display: flex;
     position: fixed;
-    top: 0;
+    top: 5px;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -73,8 +73,9 @@ li:hover, label:hover {
 }
 
 li:hover {
-    background-color: rgba(255, 255, 255, 0.514);
-    color: black;
+    /* background-color: rgba(255, 255, 255, 0.514); */
+    /* color: black; */
+    border-bottom: 1px solid white;
 }
 
 .nav-bar-planet {

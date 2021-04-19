@@ -44,7 +44,7 @@ export default {
 <style>
 
 button {
-    margin: 20px auto 20px 20px;
+    margin: 50px auto 20px 20px;
 }
 
 #solar-system {

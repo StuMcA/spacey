@@ -26,16 +26,18 @@ components: {
 <style scoped>
 
 ul {
+    width: inherit;
     position: relative;
-    top: -30px;
+    top: -24px;
     flex-direction: column;
     margin-top: 30px;
     text-align: center;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.286);
 }
 
 li {
-  color: black;
+  color: rgb(255, 255, 255);
 }
+
 
 </style>
