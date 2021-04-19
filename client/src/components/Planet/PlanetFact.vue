@@ -1,7 +1,7 @@
 <template>
   <section class="planet-fact-wrapper">
     <h1>Facts</h1>
-    <p>{{planetFacts.first}}</p>
+    <p>{{ planetFacts.first }}</p>
     <button class="next-fact-button" @click="nextFact">Next Fact</button>
   </section>
 </template>
@@ -13,8 +13,8 @@ export default {
   methods: {
     nextFact: function() {
       // cycle to next fact in array
-    }
-  }
+    },
+  },
 };
 </script>
 
