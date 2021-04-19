@@ -38,7 +38,8 @@ export default {
   height: 40px;
 
   border-radius: 50%;
-  background: #fc3;
+  background: rgb(255, 208, 138);
+  box-shadow: 0 0 15px 5px rgba(255, 238, 184, 0.459);
 
   top: -20px;
   left: -20px;

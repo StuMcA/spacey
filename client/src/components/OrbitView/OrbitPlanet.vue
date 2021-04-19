@@ -16,8 +16,9 @@
           height: this.calcPlanetSize() + 'px',
           left: this.calcOffset() + 'px',
           top: '-' + this.calcPlanetOffset() + 'px',
-        }" :id="planet.name.toLowerCase()">
-      </div>
+        }"
+        :id="planet.name.toLowerCase()"
+      ></div>
     </div>
   </div>
 </template>
@@ -28,7 +29,7 @@ export default {
   props: ['planet'],
   methods: {
     calcWidthHeight: function() {
-      return this.planet.orbit_distance_au * 15 + 50;
+      return Math.sqrt(this.planet.orbit_distance_au) * 100;
     },
     calcOffset: function() {
       return this.calcWidthHeight() / 2;
