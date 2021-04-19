@@ -5,14 +5,14 @@
       {{ planet.name }} is the {{ planet.position_from_sun
       }}<sup>{{ planet.position_from_sun == 1 ? 'st' : planet.position_from_sun == 2 ? 'nd' : planet.position_from_sun == 3 ? 'rd' : 'th' }}</sup> planet from the Sun.
     </p>
-    <p>{{planet.name}} has {{ planet.number_of_moons == 0 ? 'no moon' : planet.number_of_moons == 1 ? '1 moon' : planet.number_of_moons + ' moons' }}.</p>
-    
+    <p>{{ planet.name }} has {{ planet.number_of_moons == 0 ? 'no moon' : planet.number_of_moons == 1 ? '1 moon' : planet.number_of_moons + ' moons' }}.</p>
+
     <p>Distance from Sun: {{ planet.orbit_distance_km.toLocaleString() }} km ({{ planet.orbit_distance_au }} AU)</p>
     <p>Diameter at equator: {{ planet.equatorial_diameter_km.toLocaleString() }} km</p>
     <p>Mass: {{ planet.mass }}</p>
-    <p>{{planet.name}} has {{ planet.rings == 0 ? 'no ring' : planet.rings == 1 ? '1 ring' : planet.rings + ' rings' }}.</p>
-    <p>Orbital period: {{planet.orbit_period_days.toLocaleString()}} days</p>
-    <p>Surface temperature:  {{planet.surface_temperature_min_celcius}}ºC to {{planet.surface_temperature_max_celcius}}ºC </p>
+    <p>{{ planet.name }} has {{ planet.rings == 0 ? 'no ring' : planet.rings == 1 ? '1 ring' : planet.rings + ' rings' }}.</p>
+    <p>Orbital period: {{ planet.orbit_period_days.toLocaleString() }} days</p>
+    <p>Surface temperature: {{ planet.surface_temperature_min_celcius }}ºC to {{ planet.surface_temperature_max_celcius }}ºC</p>
   </section>
 </template>
 
