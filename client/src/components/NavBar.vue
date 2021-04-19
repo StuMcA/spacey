@@ -11,7 +11,7 @@
             <p>Moons</p>
 
         </li>
-        <search-bar />
+        <search-bar :planets="planets"/>
     </ul>
 </template>
 

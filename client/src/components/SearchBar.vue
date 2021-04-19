@@ -1,14 +1,31 @@
 <template>
     <li id="search">
         <label for="search-text"><i class="fas fa-question-circle"></i></label>
-        <input type="text" id="search-text" placeholder="Search here">
+        <input type="text" id="search-text" placeholder="Search here" @keyup="findPlanet" :model="searchTerm">
     </li>
   
 </template>
 
 <script>
+// import {library, icon} from '@fortawesome/fontawesome-svg-core'
 export default {
-    name: 'search-bar'
+    name: 'search-bar',
+    props: [
+        "planets"
+    ],
+    data() {
+        return {
+            searchTerm: "".toLowerCase(),
+            filteredPlanets: []
+        }
+    },
+    methods: {
+        search: function () {
+            this.filteredPlanets = this.planets.filter((planet) => {
+                return planet.name.toLowerCase().indexOf(this.search) > -1
+            })
+        }
+    }
 
 }
 </script>
