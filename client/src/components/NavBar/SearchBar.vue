@@ -1,6 +1,6 @@
 <template>
     <div id="search">
-        <form autocomplete="off">
+        <form autocomplete="off" @submit.prevent>
             <label for="search-text"><i class="fas fa-question-circle"></i></label>
             <input type="text" id="search-text" placeholder="Search here" @keyup="search" v-model="searchTerm">
         </form>
@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import {eventBus} from '../main.js'
+import {eventBus} from '../../main.js'
 // import {library, icon} from '@fortawesome/fontawesome-svg-core'
 export default {
     name: 'search-bar',
@@ -21,12 +21,20 @@ export default {
         return {
             searchTerm: "",
             filteredPlanets: [],
-            showPlanetList: false
+            showPlanetList: false,
+            selectedPlanet: null
         }
     },
     methods: {
-        search: function () {
-            if(this.searchTerm === "") {
+        search: function (event) {
+            if(event.keyCode === 13) {
+                if(this.filteredPlanets.length === 1) {
+                    this.selectedPlanet = this.filteredPlanets[0].name
+                    eventBus.$emit('planet-selected', this.selectedPlanet)
+                } else {
+
+                }
+            } else if(this.searchTerm === "") {
                 this.filteredPlanets = []
             } else {
                 this.filteredPlanets = this.planets.filter((planet) => {
@@ -36,6 +44,10 @@ export default {
             });
             }
             eventBus.$emit("filtered-planets", this.filteredPlanets);
+        },
+        searchSubmit: function() {
+
+            
         }
     }
 

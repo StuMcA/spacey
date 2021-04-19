@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import NavBar from './components/NavBar.vue';
+import NavBar from './components/NavBar/NavBar.vue';
 import SolarSystemContainer from './components/SolarSystemContainer.vue';
 import Planet from './components/Planet/Planet.vue';
 import PlanetService from './services/PlanetService.js';
