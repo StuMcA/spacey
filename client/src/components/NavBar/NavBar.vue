@@ -1,9 +1,9 @@
 <template>
     <ul id="nav-bar">
-        <li>
-            <p @click="homeClicked">Home</p>
+        <li @click="homeClicked">
+            <p>Home</p>
         </li>
-        <li class="nav-bar-planet">
+        <li class="nav-bar-planet" @click="showPlanetList">
             <p>Planets</p>
             <planet-list id="planet-list" :planets="planets"/>
         </li>
@@ -12,7 +12,7 @@
 
         </li>
         <div class="nav-bar-planet">
-            <search-bar :planets="planets"/>
+            <search-bar :planets="planets" :selectedPlanet="selectedPlanet"/>
             <planet-list v-if="filteredPlanets.length" id="search-list" :planets="filteredPlanets" />
         </div>
     </ul>
@@ -25,18 +25,29 @@ import { eventBus } from '@/main.js'
 
 export default {
     name: "nav-bar",
+    data() {
+        return {
+            displayPlanetList: false
+        }
+    },
     components: {
         "planet-list": PlanetList,
         "search-bar": SearchBar
     },
     props: [
         "planets",
-        "filteredPlanets"
+        "filteredPlanets",
+        "selectedPlanet"
     ],
     methods: {
         homeClicked: function(){
         console.log("home clicked");
         eventBus.$emit('home-selected');
+      },
+
+      showPlanetList: function() {
+          this.planetList = true;
+          eventBus.$emit('show-planet-list', this.displayPlanetList)
       }
     }
 }

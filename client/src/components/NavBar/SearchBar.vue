@@ -15,27 +15,30 @@ import {eventBus} from '../../main.js'
 export default {
     name: 'search-bar',
     props: [
-        "planets"
+        "planets",
+        "selectedPlanet"
     ],
     data() {
         return {
             searchTerm: "",
             filteredPlanets: [],
             showPlanetList: false,
-            selectedPlanet: null
+            planet: this.selectedPlanet
         }
     },
     methods: {
         search: function (event) {
             if(event.keyCode === 13) {
                 if(this.filteredPlanets.length === 1) {
-                    this.selectedPlanet = this.filteredPlanets[0].name
-                    eventBus.$emit('planet-selected', this.selectedPlanet)
+                    this.planet = this.filteredPlanets[0].name
                 } else {
-
+                    this.showPlanetList = true;
+                    eventBus.$emit('show-planet-list', this.showPlanetList);
                 }
+                eventBus.$emit('planet-selected', this.planet)
             } else if(this.searchTerm === "") {
                 this.filteredPlanets = []
+                eventBus.$emit('show-planet-list', false)
             } else {
                 this.filteredPlanets = this.planets.filter((planet) => {
                     return planet.name.toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1 ||
