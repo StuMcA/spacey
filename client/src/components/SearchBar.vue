@@ -4,6 +4,7 @@
             <label for="search-text"><i class="fas fa-question-circle"></i></label>
             <input type="text" id="search-text" placeholder="Search here" @keyup="search" v-model="searchTerm">
         </form>
+        <planet-list v-if="filteredPlanets.length" id="search-list" :planets="filteredPlanets" />
 
     </li>
   
@@ -26,11 +27,15 @@ export default {
     },
     methods: {
         search: function () {
-            this.filteredPlanets = this.planets.filter((planet) => {
-                return planet.name.toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1 ||
-                planet.latin_name.toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1 ||
-                ("" + planet.sumerian_name).toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1
-            })
+            if(this.searchTerm === "") {
+                this.filteredPlanets = []
+            } else {
+                this.filteredPlanets = this.planets.filter((planet) => {
+                    return planet.name.toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1 ||
+                    planet.latin_name.toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1 ||
+                    ("" + planet.sumerian_name).toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1
+            });
+            }
             eventBus.$emit("filtered-planets", this.filteredPlanets);
         }
     }

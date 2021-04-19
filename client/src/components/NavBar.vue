@@ -12,20 +12,22 @@
 
         </li>
             <search-bar :planets="planets"/>
-            <planet-list id="search-list" :planets="filteredPlanets" />
+            <planet-list v-if="filteredPlanets.length" id="search-list" :planets="filteredPlanets" />
     </ul>
 </template>
 
 <script>
 import PlanetList from './PlanetList.vue'
 import SearchBar from './SearchBar.vue'
+import FilteredPlanets from "./FilteredPlanets"
 import { eventBus } from '@/main.js'
 
 export default {
     name: "nav-bar",
     components: {
         "planet-list": PlanetList,
-        "search-bar": SearchBar
+        "search-bar": SearchBar,
+        "filtered-planets": FilteredPlanets
     },
     props: [
         "planets",
