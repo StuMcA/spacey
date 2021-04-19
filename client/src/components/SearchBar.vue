@@ -1,12 +1,11 @@
 <template>
-    <li id="search">
-        <form>
+    <div id="search">
+        <form autocomplete="off">
             <label for="search-text"><i class="fas fa-question-circle"></i></label>
             <input type="text" id="search-text" placeholder="Search here" @keyup="search" v-model="searchTerm">
         </form>
-        <planet-list v-if="filteredPlanets.length" id="search-list" :planets="filteredPlanets" />
 
-    </li>
+    </div>
   
 </template>
 
@@ -48,7 +47,11 @@ export default {
 #search {
     border: 1px solid rgba(255, 255, 255, 0.341);
     border-radius: 30px;
+    display: flex;
+    width: 140px;
+    height: 100%;
 }
+
 
 form {
     display: flex;

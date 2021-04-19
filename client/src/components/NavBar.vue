@@ -3,7 +3,7 @@
         <li>
             <p @click="homeClicked">Home</p>
         </li>
-        <li id="nav-bar-planet">
+        <li class="nav-bar-planet">
             <p>Planets</p>
             <planet-list id="planet-list" :planets="planets"/>
         </li>
@@ -11,8 +11,10 @@
             <p>Moons</p>
 
         </li>
+        <li class="nav-bar-planet">
             <search-bar :planets="planets"/>
             <planet-list v-if="filteredPlanets.length" id="search-list" :planets="filteredPlanets" />
+        </li>
     </ul>
 </template>
 
@@ -48,10 +50,12 @@ export default {
     width: 100%;
     display: flex;
     position: fixed;
+    top: 0;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
     vertical-align: middle;
+    z-index: 999;
 }
 
 li {
@@ -75,7 +79,7 @@ li:hover {
     color: black;
 }
 
-#nav-bar-planet {
+.nav-bar-planet {
     display: flex;
     flex-direction: column;
 }
@@ -85,7 +89,7 @@ li:hover {
     display: none;
 }
 
-#nav-bar-planet:hover #planet-list {
+.nav-bar-planet:hover #planet-list {
     display: block;
     z-index: 1;
 }
@@ -94,6 +98,4 @@ li:hover {
     margin-left: auto;
     width: 120px;
 }
-
-
 </style>
