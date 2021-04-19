@@ -1,21 +1,22 @@
 <template>
     <div>
         <button @click="toggleView">Change view</button>
-        <section id="solar-system" :class="{topView: isTopView}">
+        <section v-if="!isTopView" id="solar-system" :class="{topView: isTopView}">
             <div id="sun" class="planet">
                 <div class="hover-box">
                     <h3>Sol</h3>
                 </div>
             </div>
-            <planet-item v-for="(planet, index) in planets" :key="index" :planet="planet" />
-            <!-- <orbit-item v-for="(planet, index) in planets" :key="index" :planet="planet" /> -->
+            <planet-item v-for="(planet) in planets" :key="planet.id" :planet="planet" />
             <div id="end-of-solar-system" class="planet"></div>
         </section>
+        <orbit-view v-if="isTopView" :planets="planets"/>
     </div>
 </template>
 
 <script>
 import PlanetItem from './PlanetItem.vue'
+import OrbitView from './OrbitView/OrbitView.vue'
 
 export default {
     name: "solar-system-container",
@@ -29,6 +30,7 @@ export default {
     },
     components: {
         "planet-item": PlanetItem,
+        'orbit-view': OrbitView,
     },
     methods: {
         toggleView: function() {
