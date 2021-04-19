@@ -9,7 +9,9 @@
     "test:e2e": "vue-cli-service test:e2e"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "core-js": "^3.6.5",
+    "js-search": "^2.0.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {

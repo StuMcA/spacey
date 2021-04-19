@@ -8,7 +8,7 @@
                 </div>
             </div>
             <planet-item v-for="(planet, index) in planets" :key="index" :planet="planet" />
-            <orbit-item v-for="(planet, index) in planets" :key="index" :planet="planet" />
+            <!-- <orbit-item v-for="(planet, index) in planets" :key="index" :planet="planet" /> -->
             <div id="end-of-solar-system" class="planet"></div>
         </section>
     </div>

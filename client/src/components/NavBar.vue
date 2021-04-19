@@ -11,21 +11,20 @@
             <p>Moons</p>
 
         </li>
-        <li id="search">
-            <label for="search-text">&#x1F50D;</label>
-            <input type="text" id="search-text" placeholder="Search here">
-        </li>
+        <search-bar />
     </ul>
 </template>
 
 <script>
-import PlanetList from '../components/PlanetList.vue'
+import PlanetList from './PlanetList.vue'
+import SearchBar from './SearchBar.vue'
 import { eventBus } from '@/main.js'
 
 export default {
     name: "nav-bar",
     components: {
-        "planet-list": PlanetList
+        "planet-list": PlanetList,
+        "search-bar": SearchBar
     },
     props: [
         "planets"
@@ -43,6 +42,7 @@ export default {
 
 ul {
     display: flex;
+    position: fixed;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -77,6 +77,8 @@ li:hover {
 }
 
 #planet-list {
+    margin-top: 30px;
+    width: 120px;
     display: none;
     border: none;
     text-align: center;
@@ -87,31 +89,6 @@ li:hover {
 #nav-bar-planet:hover #planet-list {
     display: block;
     z-index: 1;
-}
-
-#search {
-    border: 1px solid black;
-    border-radius: 30px;
-}
-
-input[type="text"] {
-    border: none;
-    background: transparent;
-    margin: auto;
-    width: 100px;
-}
-
-::placeholder {
-    color: white;
-}
-
-label {
-    margin: auto;
-    color: gray;
-}
-
-input[type="text"]:focus {
-    outline: none;
 }
 
 
