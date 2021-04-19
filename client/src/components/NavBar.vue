@@ -62,6 +62,7 @@ li {
     height: 30px;
     width: 160px;
     color: white;
+    text-shadow: 1px 1px 0 black;
 }
 
 p {
@@ -94,7 +95,6 @@ li:hover {
 }
 
 #search-list {
-    margin-left: auto;
-    width: 120px;
+    text-shadow: 1px 1px 0 black;
 }
 </style>

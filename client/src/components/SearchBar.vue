@@ -76,6 +76,7 @@ input[type="text"] {
     color: white;
     font-family: Avenir, Helvetica, Arial, sans-serif;
     font-size: 1.1em;
+    text-shadow: 1px 1px 0 black;
 }
 
 label {
