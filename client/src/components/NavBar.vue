@@ -21,15 +21,13 @@
 <script>
 import PlanetList from './PlanetList.vue'
 import SearchBar from './SearchBar.vue'
-import FilteredPlanets from "./FilteredPlanets"
 import { eventBus } from '@/main.js'
 
 export default {
     name: "nav-bar",
     components: {
         "planet-list": PlanetList,
-        "search-bar": SearchBar,
-        "filtered-planets": FilteredPlanets
+        "search-bar": SearchBar
     },
     props: [
         "planets",
