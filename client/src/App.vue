@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <nav-bar :planets="planets" />
+      <nav-bar :planets="planets" :filteredPlanets="filteredPlanets" />
     </header>
     <main>
       <solar-system-container v-if="!selectedPlanet" :planets="planets" />
@@ -29,6 +29,7 @@ export default {
     return {
       planets: [],
       selectedPlanet: null,
+      filteredPlanets: []
     };
   },
   methods: {
@@ -45,6 +46,10 @@ export default {
 
     eventBus.$on('home-selected', () => {
       this.selectedPlanet = null
+    });
+
+    eventBus.$on('filtered-planets', (planets) => {
+      this.filteredPlanets = planets;
     })
 
   },

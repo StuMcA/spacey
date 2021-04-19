@@ -23,7 +23,19 @@ components: {
 }
 </script>
 
-<style>
+<style scoped>
 
+ul {
+    position: relative;
+    top: -30px;
+    flex-direction: column;
+    margin-top: 30px;
+    text-align: center;
+    background-color: white;
+}
+
+li {
+  color: black;
+}
 
 </style>

@@ -1,12 +1,16 @@
 <template>
     <li id="search">
-        <label for="search-text"><i class="fas fa-question-circle"></i></label>
-        <input type="text" id="search-text" placeholder="Search here" @keyup="findPlanet" :model="searchTerm">
+        <form>
+            <label for="search-text"><i class="fas fa-question-circle"></i></label>
+            <input type="text" id="search-text" placeholder="Search here" @keyup="search" v-model="searchTerm">
+        </form>
+
     </li>
   
 </template>
 
 <script>
+import {eventBus} from '../main.js'
 // import {library, icon} from '@fortawesome/fontawesome-svg-core'
 export default {
     name: 'search-bar',
@@ -15,15 +19,19 @@ export default {
     ],
     data() {
         return {
-            searchTerm: "".toLowerCase(),
-            filteredPlanets: []
+            searchTerm: "",
+            filteredPlanets: [],
+            showPlanetList: false
         }
     },
     methods: {
         search: function () {
             this.filteredPlanets = this.planets.filter((planet) => {
-                return planet.name.toLowerCase().indexOf(this.search) > -1
+                return planet.name.toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1 ||
+                planet.latin_name.toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1 ||
+                ("" + planet.sumerian_name).toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1
             })
+            eventBus.$emit("filtered-planets", this.filteredPlanets);
         }
     }
 
@@ -37,7 +45,13 @@ export default {
     border-radius: 30px;
 }
 
+form {
+    display: flex;
+    padding-left: 10px;
+}
+
 input[type="text"] {
+    color: white;
     border: none;
     background: transparent;
     margin: auto;
@@ -46,6 +60,8 @@ input[type="text"] {
 
 ::placeholder {
     color: white;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-size: 1.1em;
 }
 
 label {

@@ -1,5 +1,5 @@
 <template>
-    <ul>
+    <ul id="nav-bar">
         <li>
             <p @click="homeClicked">Home</p>
         </li>
@@ -11,7 +11,8 @@
             <p>Moons</p>
 
         </li>
-        <search-bar :planets="planets"/>
+            <search-bar :planets="planets"/>
+            <planet-list id="search-list" :planets="filteredPlanets" />
     </ul>
 </template>
 
@@ -27,7 +28,8 @@ export default {
         "search-bar": SearchBar
     },
     props: [
-        "planets"
+        "planets",
+        "filteredPlanets"
     ],
     methods: {
         homeClicked: function(){
@@ -40,7 +42,8 @@ export default {
 
 <style scoped>
 
-ul {
+#nav-bar {
+    width: 100%;
     display: flex;
     position: fixed;
     flex-direction: row;
@@ -54,7 +57,6 @@ li {
     list-style: none;
     height: 30px;
     width: 160px;
-    /* border: 1px solid black; */
     color: white;
 }
 
@@ -77,18 +79,18 @@ li:hover {
 }
 
 #planet-list {
-    margin-top: 30px;
     width: 120px;
     display: none;
-    border: none;
-    text-align: center;
-    background-color: white;
 }
-
 
 #nav-bar-planet:hover #planet-list {
     display: block;
     z-index: 1;
+}
+
+#search-list {
+    margin-left: auto;
+    width: 120px;
 }
 
 
