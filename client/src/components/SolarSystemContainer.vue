@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="solar-system-wrapper">
         <button @click="toggleView">Change view</button>
         <section v-if="!isTopView" id="solar-system" :class="{topView: isTopView}">
             <div id="sun" class="planet">
@@ -44,6 +44,7 @@ export default {
 
 <style>
 
+
 button {
     margin: 50px auto 20px 20px;
     padding: 10px;
@@ -61,15 +62,16 @@ button:hover {
 
 #solar-system {
     width: 110%;
-    overflow: visible;
+    overflow: hidden;
     position: absolute;
     top: 0;
     bottom: 0;
-    right: 100px;
+    right: 0px;
     display: flex;
     flex-direction: row-reverse;
     z-index: -1;
     background-image: url(../assets/background.jpg);
+    
 }
 
 
@@ -94,10 +96,10 @@ button:hover {
 #sun {
     right: 0%;
     background-color: rgb(255, 255, 0);
-    width: 1392px;
-    height: 1392px;
+    width: 700px;
+    height: 700px;
     box-shadow: 0 0 50px 100px rgb(249, 229, 16);
-    transform: translate(1392px, -696px);
+    transform: translate(600px, -346px);
     animation: pulse-red 15s infinite, Yellowy 10s infinite;
  
 }
@@ -240,8 +242,10 @@ button:hover {
 }
 
 .active {
+    position: relative;
     width: 250px !important;
     height: 250px !important;
+    left:400px;
     top: 100px;
     z-index: 999;
 }
