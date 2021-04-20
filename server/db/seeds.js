@@ -1297,6 +1297,19 @@ db.solar_system.insertMany([
                 ],
             },
 
-        ]
+        ],
+
+        stars: [
+
+        ],
+
+        satellites: [
+
+        ],
+
+        planetoids: [
+
+        ],
+
     }
 ])
