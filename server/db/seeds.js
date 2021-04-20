@@ -24,12 +24,10 @@ db.solar_system.insertMany([
                 orbit_distance_au: 0.387,
                 equatorial_diameter_km: 4879,
                 mass: "3.29 × 10^23kg (0.06 Earths)",
-                number_of_moons: 0,
-                moon_list: [],
-                sig_moon_number: 0,
-                sig_moons: [{
-
-                }],
+                moons: {
+                    moon_list: [],
+                    sig_moons: []
+                },
                 rings: 0,
                 orbit_period_days: 88,
                 surface_temperature_max_celcius: 427,
@@ -86,12 +84,10 @@ db.solar_system.insertMany([
                 orbit_distance_au: 0.732,
                 equatorial_diameter_km: 12104,
                 mass: "4.87 × 10^24kg (0.82 Earths)",
-                number_of_moons: 0,
-                moon_list: [],
-                sig_moon_number: 0,
-                sig_moons: [{
-
-                }],
+                moons: {
+                    moon_list: [],
+                    sig_moons: []
+                },
                 rings: 0,
                 orbit_distance_km: 108209475,
                 orbit_distance_au: 0.73,
@@ -148,37 +144,38 @@ db.solar_system.insertMany([
                 orbit_distance_au: 1,
                 equatorial_diameter_km: 12756,
                 mass: "5.97 × 10^24kg",
-                number_of_moons: 1,
-                moon_list: [
-                    "Luna"
-                ],
-                sig_moon_number: 1,
-                sig_moons: [
-                    {
-                        name: "Luna",
-                        position: 1,
-                        image_url: [
-                            "https://cdn.mos.cms.futurecdn.net/SYNFvhA5XoBB6L6ScwzWk4-1200-80.jpg",
-                            "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2001/07/view_of_the_moon_seen_apollo_17/9215843-5-eng-GB/View_of_the_Moon_seen_Apollo_17_pillars.jpg",
-                            "https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/201311/20131107111722-0_0_0.jpg?itok=S7lx1m2D"
-                        ],
-                        orbit_distance_km: 384400,
-                        equatorial_diameter_km: 3475,
-                        mass: "7.35 × 10^22 kg (0.01 Earths)",
-                        orbit_period_in_days: 27.3,
-                        surface_temperature_max_celcius: 127,
-                        surface_temperature_min_celcius: -272,
-                        facts: [
+                moons: {
+                    moon_list: [
+                        "Luna"
+                    ],
+                    sig_moons: [
+                        {
+                            name: "Luna",
+                            position: 1,
+                            image_url: [
+                                "https://cdn.mos.cms.futurecdn.net/SYNFvhA5XoBB6L6ScwzWk4-1200-80.jpg",
+                                "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2001/07/view_of_the_moon_seen_apollo_17/9215843-5-eng-GB/View_of_the_Moon_seen_Apollo_17_pillars.jpg",
+                                "https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/201311/20131107111722-0_0_0.jpg?itok=S7lx1m2D"
+                            ],
+                            orbit_distance_km: 384400,
+                            equatorial_diameter_km: 3475,
+                            mass: "7.35 × 10^22 kg (0.01 Earths)",
+                            orbit_period_in_days: 27.3,
+                            surface_temperature_max_celcius: 127,
+                            surface_temperature_min_celcius: -272,
+                            facts: [
 
-                            "The Moon is Earth's only permanent natural satellite. It is the fifth-largest natural satellite in the Solar System, and the largest among planetary satellites relative to the size of the planet that it orbits. At 3475 km, the Moon's diameter is over one fourth that of the Earth's. In relation to its own size, no other planet has a moon as large.",
+                                "The Moon is Earth's only permanent natural satellite. It is the fifth-largest natural satellite in the Solar System, and the largest among planetary satellites relative to the size of the planet that it orbits. At 3475 km, the Moon's diameter is over one fourth that of the Earth's. In relation to its own size, no other planet has a moon as large.",
 
-                            "The Moon is made of rock and metal (not cheese), just like the Earth and the other rocky planets(Mercury, Venus and Mars).The crust, the Moon's outer shell, is covered by lunar soil, also called regolith: a blanket of fine rock particles, varying between three and 20 metres (10–65 feet) deep.",
+                                "The Moon is made of rock and metal (not cheese), just like the Earth and the other rocky planets(Mercury, Venus and Mars).The crust, the Moon's outer shell, is covered by lunar soil, also called regolith: a blanket of fine rock particles, varying between three and 20 metres (10–65 feet) deep.",
 
-                            "Today, astronomers know that the Moon is slowly moving away from the Earth. But at the rate it is traveling, about 1.5 inches (4 cm) per year, it will be a long time before the two part ways.",
+                                "Today, astronomers know that the Moon is slowly moving away from the Earth. But at the rate it is traveling, about 1.5 inches (4 cm) per year, it will be a long time before the two part ways.",
 
-                        ]
-                    }
-                ],
+                            ]
+                        }
+                    ],
+
+                },
                 rings: 0,
                 orbit_period_days: 365.24,
                 surface_temperature_max_celcius: 58,
@@ -236,61 +233,61 @@ db.solar_system.insertMany([
                 orbit_distance_au: 1.38,
                 equatorial_diameter_km: 6792,
                 mass: "6.39 × 10^23 kg (0.11 Earths)",
-                number_of_moons: 2,
-                moon_list: [
-                    "Phobos",
-                    "Deimos"
-                ],
-                sig_moon_number: 2,
-                sig_moons: [
-                    {
-                        name: "Phobos",
-                        position: 1,
-                        image_url: [
-                            "https://upload.wikimedia.org/wikipedia/commons/5/5c/Phobos_colour_2008.jpg",
-                            "https://lh3.googleusercontent.com/proxy/XoCwPbhFezreWcC2dnMRpypLZm1pGGbxydevbzIeeHPrUNHnKOhOO6oy3Y919Mg6aAJuhch52Pl-nK6Z1D1SQRt31sPEG5Nklx_O0SDnEsnhTSvcANc",
-                            "https://cdn.mos.cms.futurecdn.net/aZD75EMbNzuSGSeTFFh7mL.jpg"
-                        ],
-                        orbit_distance_km: 9377,
-                        equatorial_diameter_km: 22.533,
-                        mass: "1.0659×1016kg (1.78477 nEarths)",
-                        orbit_period_in_days: 0.318,
-                        surface_temperature_max_celcius: -4,
-                        surface_temperature_min_celcius: -112,
-                        facts: [
+                moons: {
+                    moon_list: [
+                        "Phobos",
+                        "Deimos"
+                    ],
+                    sig_moons: [
+                        {
+                            name: "Phobos",
+                            position: 1,
+                            image_url: [
+                                "https://upload.wikimedia.org/wikipedia/commons/5/5c/Phobos_colour_2008.jpg",
+                                "https://lh3.googleusercontent.com/proxy/XoCwPbhFezreWcC2dnMRpypLZm1pGGbxydevbzIeeHPrUNHnKOhOO6oy3Y919Mg6aAJuhch52Pl-nK6Z1D1SQRt31sPEG5Nklx_O0SDnEsnhTSvcANc",
+                                "https://cdn.mos.cms.futurecdn.net/aZD75EMbNzuSGSeTFFh7mL.jpg"
+                            ],
+                            orbit_distance_km: 9377,
+                            equatorial_diameter_km: 22.533,
+                            mass: "1.0659×1016kg (1.78477 nEarths)",
+                            orbit_period_in_days: 0.318,
+                            surface_temperature_max_celcius: -4,
+                            surface_temperature_min_celcius: -112,
+                            facts: [
 
-                            "Phobos is one of the least reflective bodies in the Solar System, with an albedo of just 0.071. Surface temperatures range from about −4 °C (25 °F) on the sunlit side to −112 °C (−170 °F) on the shadowed side",
+                                "Phobos is one of the least reflective bodies in the Solar System, with an albedo of just 0.071. Surface temperatures range from about −4 °C (25 °F) on the sunlit side to −112 °C (−170 °F) on the shadowed side",
 
-                            "Phobos is named after the Greek god Phobos, a son of Ares (Mars) and Aphrodite (Venus) and twin brother of Deimos. Phobos was the god and personification of fear and panic and the root of the word phobia.",
+                                "Phobos is named after the Greek god Phobos, a son of Ares (Mars) and Aphrodite (Venus) and twin brother of Deimos. Phobos was the god and personification of fear and panic and the root of the word phobia.",
 
-                            "Phobos is heavily cratered.[28] The most prominent of these is the crater, Stickney, a large impact crater some 9 km (5.6 mi) in diameter, taking up a substantial proportion of the moon's surface area. The impact that created Stickney must have nearly shattered Phobos and have led to theories that Phobos may be hollow (due to the impact forcing the interior of the moon to be forced out) or in a state of extremely gradual collapse",
-                        ]
-                    },
-                    {
-                        name: "Deimos",
-                        position: 2,
-                        image_url: [
-                            "https://cdn.britannica.com/95/76195-050-06005F96/Deimos-outer-moons-distance-orbiter-Mars-Viking-October-1977.jpg",
-                            "https://upload.wikimedia.org/wikipedia/commons/8/8d/Deimos-MRO.jpg",
-                            "https://apod.nasa.gov/apod/image/0903/deimos_hirise.jpg"
-                        ],
-                        orbit_distance_km: 23460,
-                        equatorial_diameter_km: 12.4,
-                        mass: "1.4762×1015 kg (0.247179 nEarths)",
-                        orbit_period_in_days: 1.25,
-                        surface_temperature_max_celcius: -4,
-                        surface_temperature_min_celcius: -112,
-                        facts: [
+                                "Phobos is heavily cratered.[28] The most prominent of these is the crater, Stickney, a large impact crater some 9 km (5.6 mi) in diameter, taking up a substantial proportion of the moon's surface area. The impact that created Stickney must have nearly shattered Phobos and have led to theories that Phobos may be hollow (due to the impact forcing the interior of the moon to be forced out) or in a state of extremely gradual collapse",
+                            ]
+                        },
+                        {
+                            name: "Deimos",
+                            position: 2,
+                            image_url: [
+                                "https://cdn.britannica.com/95/76195-050-06005F96/Deimos-outer-moons-distance-orbiter-Mars-Viking-October-1977.jpg",
+                                "https://upload.wikimedia.org/wikipedia/commons/8/8d/Deimos-MRO.jpg",
+                                "https://apod.nasa.gov/apod/image/0903/deimos_hirise.jpg"
+                            ],
+                            orbit_distance_km: 23460,
+                            equatorial_diameter_km: 12.4,
+                            mass: "1.4762×1015 kg (0.247179 nEarths)",
+                            orbit_period_in_days: 1.25,
+                            surface_temperature_max_celcius: -4,
+                            surface_temperature_min_celcius: -112,
+                            facts: [
 
-                            "It is named after Deimos, the Ancient Greek god and personification of dread and terror, and who is also a son of Ares and Aphrodite and the twin brother of Phobos.",
+                                "It is named after Deimos, the Ancient Greek god and personification of dread and terror, and who is also a son of Ares and Aphrodite and the twin brother of Phobos.",
 
-                            "Deimos is possibly an asteroid that was perturbed by Jupiter into an orbit that allowed it to be captured by Mars, though this hypothesis is still controversial and disputed",
+                                "Deimos is possibly an asteroid that was perturbed by Jupiter into an orbit that allowed it to be captured by Mars, though this hypothesis is still controversial and disputed",
 
-                            "Deimos's orbit is slowly getting larger, because it is far enough away from Mars and because of tidal acceleration. It is expected to eventually escape Mars's gravity.",
+                                "Deimos's orbit is slowly getting larger, because it is far enough away from Mars and because of tidal acceleration. It is expected to eventually escape Mars's gravity.",
 
-                        ]
-                    }
-                ],
+                            ]
+                        }
+                    ],
+                },
                 rings: 0,
                 orbit_period_days: 686.98,
                 surface_temperature_max_celcius: -5,
@@ -346,190 +343,189 @@ db.solar_system.insertMany([
                 orbit_distance_au: 5.20,
                 equatorial_diameter_km: 142984,
                 mass: "1.90 × 10^27kg (318 Earths)",
-                number_of_moons: 79,
-                moon_list: [
-                    "Metis",
-                    "Adrastea",
-                    "Amalthea",
-                    "Thebe",
-                    "Io",
-                    "Europa",
-                    "Ganymede",
-                    "Callisto",
-                    "Themisto",
-                    "Leda",
-                    "Ersa",
-                    "Pandia",
-                    "Himalia",
-                    "Lysithea",
-                    "Elara",
-                    "Dia",
-                    "Carpo",
-                    "Valetudo",
-                    "Euporie",
-                    "Eupheme",
-                    "S/2003 J 1",
-                    "S/2010 J 2",
-                    "Helike",
-                    "S/2003 J 16",
-                    "S/2003 J 2",
-                    "Euanthe",
-                    "S/2017 J 7",
-                    "Hermippe",
-                    "Praxidike",
-                    "Thyone",
-                    "Thelxinoe",
-                    "S/2017 J 3",
-                    "Ananke",
-                    "Mneme",
-                    "S/2016 J 1",
-                    "Orthosie",
-                    "Harpalyke",
-                    "Iocaste",
-                    "S/2017 J 9",
-                    "S/2003 J 12",
-                    "S/2003 J 4",
-                    "Erinome",
-                    "Aitne",
-                    "Herse",
-                    "Taygete",
-                    "S/2017 J 2",
-                    "S/2017 J 6",
-                    "Eukelade",
-                    "Carme",
-                    "S/2003 J 19",
-                    "Isonoe",
-                    "S/2003 J 10",
-                    "Autonoe",
-                    "Philophrosyne",
-                    "Cyllene",
-                    "Pasithee",
-                    "S/2010 J 1",
-                    "Pasiphae",
-                    "Sponde",
-                    "S/2017 J 8",
-                    "Eurydome",
-                    "S/2017 J 5",
-                    "Kalyke",
-                    "Hegemone",
-                    "Kale",
-                    "Kallichore",
-                    "S/2011 J 1",
-                    "S/2017 J 1",
-                    "Chaldene",
-                    "Arche",
-                    "Eirene",
-                    "Kore",
-                    "S/2011 J 2",
-                    "S/2003 J 9",
-                    "Megaclite",
-                    "Aoede",
-                    "S/2003 J 23",
-                    "Callirrhoe",
-                    "Sinope",
-                ],
-                sig_moon_number: 4,
-                sig_moons: [
-                    {
-                        name: "Io",
-                        position: 5,
-                        image_url: [
-                            "https://cdn.mos.cms.futurecdn.net/f8FkN4Z2kXwUxmF5DQQgqc.jpg",
-                            "https://solarsystem.nasa.gov/system/stellar_items/image_files/14_feature_1600x900_io.jpg",
-                            "https://lh3.googleusercontent.com/proxy/rn-zc2-hxx7uC45oKOabXtaAXug32mT40iVRwIq0CP3PRWLPD7gKDr6gEI5n2mu01LTFPXjbrtockvPFgeM1t8o3jD6nZU44VoBt9jXNpuyTqg"
-                        ],
-                        orbit_distance_km: 422000,
-                        equatorial_diameter_km: 3643.2,
-                        mass: "(8.931938±0.000018) × 1022kg (0.015 Earths)",
-                        orbit_period_in_days: 1.77,
-                        surface_temperature_max_celcius: 1200,
-                        surface_temperature_min_celcius: -130,
-                        facts: [
+                moons: {
+                    moon_list: [
+                        "Metis",
+                        "Adrastea",
+                        "Amalthea",
+                        "Thebe",
+                        "Io",
+                        "Europa",
+                        "Ganymede",
+                        "Callisto",
+                        "Themisto",
+                        "Leda",
+                        "Ersa",
+                        "Pandia",
+                        "Himalia",
+                        "Lysithea",
+                        "Elara",
+                        "Dia",
+                        "Carpo",
+                        "Valetudo",
+                        "Euporie",
+                        "Eupheme",
+                        "S/2003 J 1",
+                        "S/2010 J 2",
+                        "Helike",
+                        "S/2003 J 16",
+                        "S/2003 J 2",
+                        "Euanthe",
+                        "S/2017 J 7",
+                        "Hermippe",
+                        "Praxidike",
+                        "Thyone",
+                        "Thelxinoe",
+                        "S/2017 J 3",
+                        "Ananke",
+                        "Mneme",
+                        "S/2016 J 1",
+                        "Orthosie",
+                        "Harpalyke",
+                        "Iocaste",
+                        "S/2017 J 9",
+                        "S/2003 J 12",
+                        "S/2003 J 4",
+                        "Erinome",
+                        "Aitne",
+                        "Herse",
+                        "Taygete",
+                        "S/2017 J 2",
+                        "S/2017 J 6",
+                        "Eukelade",
+                        "Carme",
+                        "S/2003 J 19",
+                        "Isonoe",
+                        "S/2003 J 10",
+                        "Autonoe",
+                        "Philophrosyne",
+                        "Cyllene",
+                        "Pasithee",
+                        "S/2010 J 1",
+                        "Pasiphae",
+                        "Sponde",
+                        "S/2017 J 8",
+                        "Eurydome",
+                        "S/2017 J 5",
+                        "Kalyke",
+                        "Hegemone",
+                        "Kale",
+                        "Kallichore",
+                        "S/2011 J 1",
+                        "S/2017 J 1",
+                        "Chaldene",
+                        "Arche",
+                        "Eirene",
+                        "Kore",
+                        "S/2011 J 2",
+                        "S/2003 J 9",
+                        "Megaclite",
+                        "Aoede",
+                        "S/2003 J 23",
+                        "Callirrhoe",
+                        "Sinope",
+                    ],
+                    sig_moons: [
+                        {
+                            name: "Io",
+                            position: 5,
+                            image_url: [
+                                "https://cdn.mos.cms.futurecdn.net/f8FkN4Z2kXwUxmF5DQQgqc.jpg",
+                                "https://solarsystem.nasa.gov/system/stellar_items/image_files/14_feature_1600x900_io.jpg",
+                                "https://lh3.googleusercontent.com/proxy/rn-zc2-hxx7uC45oKOabXtaAXug32mT40iVRwIq0CP3PRWLPD7gKDr6gEI5n2mu01LTFPXjbrtockvPFgeM1t8o3jD6nZU44VoBt9jXNpuyTqg"
+                            ],
+                            orbit_distance_km: 422000,
+                            equatorial_diameter_km: 3643.2,
+                            mass: "(8.931938±0.000018) × 1022kg (0.015 Earths)",
+                            orbit_period_in_days: 1.77,
+                            surface_temperature_max_celcius: 1200,
+                            surface_temperature_min_celcius: -130,
+                            facts: [
 
-                            "It was discovered in 1610 by Galileo Galilei and was named after the mythological character Io, a priestess of Hera who became one of Zeus's lovers.",
+                                "It was discovered in 1610 by Galileo Galilei and was named after the mythological character Io, a priestess of Hera who became one of Zeus's lovers.",
 
-                            "Unlike most moons in the outer Solar System, which are mostly composed of water ice, Io is primarily composed of silicate rock surrounding a molten iron or iron sulfide core. Most of Io's surface is composed of extensive plains with a frosty coating of sulfur and sulfur dioxide. It has the hottest surface of any planetary body in our solar system, due to a mix of extreme radiation, volcanic activity and unique atmosphere make-up which includes a large plasma torus thanks to the influence of Jupiter.",
+                                "Unlike most moons in the outer Solar System, which are mostly composed of water ice, Io is primarily composed of silicate rock surrounding a molten iron or iron sulfide core. Most of Io's surface is composed of extensive plains with a frosty coating of sulfur and sulfur dioxide. It has the hottest surface of any planetary body in our solar system, due to a mix of extreme radiation, volcanic activity and unique atmosphere make-up which includes a large plasma torus thanks to the influence of Jupiter.",
 
-                            "Features on Io are named after characters and places from the Io myth, as well as deities of fire, volcanoes, the Sun, and thunder from various myths, and characters and places from Dante's Inferno: names appropriate to the volcanic nature of the surface. Since the surface was first seen up close by Voyager 1, the International Astronomical Union has approved 225 names for Io's volcanoes, mountains, plateaus, and large albedo features. ",
+                                "Features on Io are named after characters and places from the Io myth, as well as deities of fire, volcanoes, the Sun, and thunder from various myths, and characters and places from Dante's Inferno: names appropriate to the volcanic nature of the surface. Since the surface was first seen up close by Voyager 1, the International Astronomical Union has approved 225 names for Io's volcanoes, mountains, plateaus, and large albedo features.",
 
-                        ]
-                    },
+                            ]
+                        },
 
-                    {
-                        name: "Europa",
-                        position: 6,
-                        image_url: [
-                            "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/05/new_evidence_of_watery_plumes_on_jupiter_s_moon_europa/22008941-1-eng-GB/New_evidence_of_watery_plumes_on_Jupiter_s_moon_Europa_pillars.jpg",
-                            "https://cbsnews1.cbsistatic.com/hub/i/2015/07/06/4c4c3b65-afc4-4899-acfb-b977f96bf85a/blood-redscarsandveinsoneuropa.jpg",
-                            "https://upload.wikimedia.org/wikipedia/commons/e/e4/Europa-moon-with-margins.jpg"
-                        ],
-                        orbit_distance_km: 671000,
-                        equatorial_diameter_km: 1569,
-                        mass: "(4.799844±0.000013) × 1022kg (0.008 Earths)",
-                        orbit_period_in_days: 3.551181,
-                        surface_temperature_max_celcius: -160,
-                        surface_temperature_min_celcius: -220,
-                        facts: [
+                        {
+                            name: "Europa",
+                            position: 6,
+                            image_url: [
+                                "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/05/new_evidence_of_watery_plumes_on_jupiter_s_moon_europa/22008941-1-eng-GB/New_evidence_of_watery_plumes_on_Jupiter_s_moon_Europa_pillars.jpg",
+                                "https://cbsnews1.cbsistatic.com/hub/i/2015/07/06/4c4c3b65-afc4-4899-acfb-b977f96bf85a/blood-redscarsandveinsoneuropa.jpg",
+                                "https://upload.wikimedia.org/wikipedia/commons/e/e4/Europa-moon-with-margins.jpg"
+                            ],
+                            orbit_distance_km: 671000,
+                            equatorial_diameter_km: 1569,
+                            mass: "(4.799844±0.000013) × 1022kg (0.008 Earths)",
+                            orbit_period_in_days: 3.551181,
+                            surface_temperature_max_celcius: -160,
+                            surface_temperature_min_celcius: -220,
+                            facts: [
 
-                            "Europa or Jupiter II, is the smallest of the four Galilean moons orbiting Jupiter, and the sixth-closest to the planet of all the 79 known moons of Jupiter. It is also the sixth-largest moon in the Solar System. Europa was discovered in 1610 by Galileo Galilei and was named after Europa, the Phoenician mother of King Minos of Crete and lover of Zeus (the Greek equivalent of the Roman god Jupiter).",
+                                "Europa or Jupiter II, is the smallest of the four Galilean moons orbiting Jupiter, and the sixth-closest to the planet of all the 79 known moons of Jupiter. It is also the sixth-largest moon in the Solar System. Europa was discovered in 1610 by Galileo Galilei and was named after Europa, the Phoenician mother of King Minos of Crete and lover of Zeus (the Greek equivalent of the Roman god Jupiter).",
 
-                            "Slightly smaller than Earth's Moon, Europa is primarily made of silicate rock and has a water-ice crust and probably an iron–nickel core. It has a very thin atmosphere, composed primarily of oxygen. Its surface is striated by cracks and streaks, but craters are relatively few. In addition to Earth-bound telescope observations, Europa has been examined by a succession of space-probe flybys, the first occurring in the early 1970s.",
+                                "Slightly smaller than Earth's Moon, Europa is primarily made of silicate rock and has a water-ice crust and probably an iron–nickel core. It has a very thin atmosphere, composed primarily of oxygen. Its surface is striated by cracks and streaks, but craters are relatively few. In addition to Earth-bound telescope observations, Europa has been examined by a succession of space-probe flybys, the first occurring in the early 1970s.",
 
-                            "Europa has the smoothest surface of any known solid object in the Solar System. The apparent youth and smoothness of the surface have led to the hypothesis that a water ocean exists beneath the surface, which could conceivably harbor extraterrestrial life.",
+                                "Europa has the smoothest surface of any known solid object in the Solar System. The apparent youth and smoothness of the surface have led to the hypothesis that a water ocean exists beneath the surface, which could conceivably harbor extraterrestrial life.",
 
-                        ]
-                    },
+                            ]
+                        },
 
-                    {
-                        name: "Ganymede",
-                        position: 7,
-                        image_url: [
-                            "https://scx2.b-cdn.net/gfx/news/2015/8-jupitersmoon.jpg",
-                            "https://upload.wikimedia.org/wikipedia/commons/f/f2/Ganymede_g1_true-edit1.jpg",
-                            "https://solarsystem.nasa.gov/system/content_pages/main_images/445_PIA00716.jpg"
-                        ],
-                        orbit_distance_km: 1070400,
-                        equatorial_diameter_km: 2631.2,
-                        mass: "1.4819×1023 kg (0.025 Earths)",
-                        orbit_period_in_days: 7.3,
-                        surface_temperature_max_celcius: -183,
-                        surface_temperature_min_celcius: -113,
-                        facts: [
+                        {
+                            name: "Ganymede",
+                            position: 7,
+                            image_url: [
+                                "https://scx2.b-cdn.net/gfx/news/2015/8-jupitersmoon.jpg",
+                                "https://upload.wikimedia.org/wikipedia/commons/f/f2/Ganymede_g1_true-edit1.jpg",
+                                "https://solarsystem.nasa.gov/system/content_pages/main_images/445_PIA00716.jpg"
+                            ],
+                            orbit_distance_km: 1070400,
+                            equatorial_diameter_km: 2631.2,
+                            mass: "1.4819×1023 kg (0.025 Earths)",
+                            orbit_period_in_days: 7.3,
+                            surface_temperature_max_celcius: -183,
+                            surface_temperature_min_celcius: -113,
+                            facts: [
 
-                            "Ganymede is a satellite of Jupiter (Jupiter III) and is the largest and most massive of the Solar System's moons. The ninth-largest object in the Solar System, it is the largest without a substantial atmosphere. It has a diameter of 5,268 km (3,273 mi), making it 26% larger than the planet Mercury by volume, although it is only 45% as massive. Possessing a metallic core, it has the lowest moment of inertia factor of any solid body in the Solar System and is the only moon known to have a magnetic field. Outward from Jupiter, it is the seventh satellite and the third of the Galilean moons, the first group of objects discovered orbiting another planet. Ganymede orbits Jupiter in roughly seven days and is in a 1:2:4 orbital resonance with the moons Europa and Io, respectively.",
+                                "Ganymede is a satellite of Jupiter (Jupiter III) and is the largest and most massive of the Solar System's moons. The ninth-largest object in the Solar System, it is the largest without a substantial atmosphere. It has a diameter of 5,268 km (3,273 mi), making it 26% larger than the planet Mercury by volume, although it is only 45% as massive. Possessing a metallic core, it has the lowest moment of inertia factor of any solid body in the Solar System and is the only moon known to have a magnetic field. Outward from Jupiter, it is the seventh satellite and the third of the Galilean moons, the first group of objects discovered orbiting another planet. Ganymede orbits Jupiter in roughly seven days and is in a 1:2:4 orbital resonance with the moons Europa and Io, respectively.",
 
-                            "Ganymede is composed of approximately equal amounts of silicate rock and water. It is a fully differentiated body with an iron-rich, liquid core, and an internal ocean that may contain more water than all of Earth's oceans combined. Its surface is composed of two main types of terrain. Dark regions, saturated with impact craters and dated to four billion years ago, cover about a third of it. Lighter regions, crosscut by extensive grooves and ridges and only slightly less ancient, cover the remainder. The cause of the light terrain's disrupted geology is not fully known, but was likely the result of tectonic activity due to tidal heating.",
+                                "Ganymede is composed of approximately equal amounts of silicate rock and water. It is a fully differentiated body with an iron-rich, liquid core, and an internal ocean that may contain more water than all of Earth's oceans combined. Its surface is composed of two main types of terrain. Dark regions, saturated with impact craters and dated to four billion years ago, cover about a third of it. Lighter regions, crosscut by extensive grooves and ridges and only slightly less ancient, cover the remainder. The cause of the light terrain's disrupted geology is not fully known, but was likely the result of tectonic activity due to tidal heating.",
 
-                            "The Europa Jupiter System Mission (EJSM) had a proposed launch date in 2020, and was a joint NASA and ESA proposal for exploration of many of Jupiter's moons including Ganymede. In February 2009 it was announced that ESA and NASA had given this mission priority ahead of the Titan Saturn System Mission. EJSM consisted of the NASA-led Jupiter Europa Orbiter, the ESA-led Jupiter Ganymede Orbiter, and possibly a JAXA-led Jupiter Magnetospheric Orbiter. ESA's contribution faced funding competition from other ESA projects but on May 2, 2012 the European part of the mission, renamed Jupiter Icy Moon Explorer (JUICE), obtained a L1 launch slot in 2022 with an Ariane 5 in the ESA's Cosmic Vision science programme. The spacecraft will orbit Ganymede and conduct multiple flyby investigations of Callisto and Europa.",
+                                "The Europa Jupiter System Mission (EJSM) had a proposed launch date in 2020, and was a joint NASA and ESA proposal for exploration of many of Jupiter's moons including Ganymede. In February 2009 it was announced that ESA and NASA had given this mission priority ahead of the Titan Saturn System Mission. EJSM consisted of the NASA-led Jupiter Europa Orbiter, the ESA-led Jupiter Ganymede Orbiter, and possibly a JAXA-led Jupiter Magnetospheric Orbiter. ESA's contribution faced funding competition from other ESA projects but on May 2, 2012 the European part of the mission, renamed Jupiter Icy Moon Explorer (JUICE), obtained a L1 launch slot in 2022 with an Ariane 5 in the ESA's Cosmic Vision science programme. The spacecraft will orbit Ganymede and conduct multiple flyby investigations of Callisto and Europa",
 
-                        ]
-                    },
+                            ]
+                        },
 
-                    {
-                        name: "Callisto",
-                        position: 8,
-                        image_url: [
-                            "https://static.wikia.nocookie.net/marvelcomicsfanon/images/1/13/Telos.jpg/revision/latest?cb=20190816151817",
-                            "https://upload.wikimedia.org/wikipedia/commons/e/e9/Callisto.jpg",
-                            "https://i.pinimg.com/originals/66/22/b0/6622b05975668d468e8cffa5fcc35115.jpg"
-                        ],
-                        orbit_distance_km: 1883000,
-                        equatorial_diameter_km: 2400,
-                        mass: "(1.075938±0.000137) × 1023kg (0.018 Earths)",
-                        orbit_period_in_days: 16.68902,
-                        surface_temperature_max_celcius: -22.15,
-                        surface_temperature_min_celcius: -108.15,
-                        facts: [
+                        {
+                            name: "Callisto",
+                            position: 8,
+                            image_url: [
+                                "https://static.wikia.nocookie.net/marvelcomicsfanon/images/1/13/Telos.jpg/revision/latest?cb=20190816151817",
+                                "https://upload.wikimedia.org/wikipedia/commons/e/e9/Callisto.jpg",
+                                "https://i.pinimg.com/originals/66/22/b0/6622b05975668d468e8cffa5fcc35115.jpg"
+                            ],
+                            orbit_distance_km: 1883000,
+                            equatorial_diameter_km: 2400,
+                            mass: "(1.075938±0.000137) × 1023kg (0.018 Earths)",
+                            orbit_period_in_days: 16.68902,
+                            surface_temperature_max_celcius: -22.15,
+                            surface_temperature_min_celcius: -108.15,
+                            facts: [
 
-                            "Callisto is about 4.5 billion years old, about the same age as Jupiter. It is the most heavily cratered object in the solar system, according to NASA. There is hardly any geologic activity on its surface. The surface has not changed much since initial impacts molded its surface 4 billion years ago",
+                                "Callisto is about 4.5 billion years old, about the same age as Jupiter. It is the most heavily cratered object in the solar system, according to NASA. There is hardly any geologic activity on its surface. The surface has not changed much since initial impacts molded its surface 4 billion years ago",
 
-                            "If Callisto is habitable — and how it formed that way — are among the outstanding questions that the JUICE mission will start studying. JUICE is slated to launch toward Jupiter in 2022 and work at the planet for at least three years, between 2030 and 2033",
+                                "If Callisto is habitable — and how it formed that way — are among the outstanding questions that the JUICE mission will start studying. JUICE is slated to launch toward Jupiter in 2022 and work at the planet for at least three years, between 2030 and 2033",
 
-                            "The likely presence of an ocean within Callisto leaves open the possibility that it could harbor life. However, conditions are thought to be less favorable than on nearby Europa.[23] Various space probes from Pioneers 10 and 11 to Galileo and Cassini have studied Callisto. Because of its low radiation levels, Callisto has long been considered the most suitable place for a human base for future exploration of the Jovian system.",
-                        ]
-                    }
-
-                ],
+                                "The likely presence of an ocean within Callisto leaves open the possibility that it could harbor life. However, conditions are thought to be less favorable than on nearby Europa.[23] Various space probes from Pioneers 10 and 11 to Galileo and Cassini have studied Callisto. Because of its low radiation levels, Callisto has long been considered the most suitable place for a human base for future exploration of the Jovian system.",
+                            ]
+                        }
+                    ]
+                },
                 rings: 4,
                 orbit_period_days: 4333,
                 surface_temperature_max_celcius: -108,
@@ -544,7 +540,7 @@ db.solar_system.insertMany([
 
                     "Jupiter orbits the Sun once every 11.8 Earth years. From our point of view on Earth, it appears to move slowly in the sky, taking months to move from one constellation to another.",
 
-                    "Jupiter has unique cloud features. The upper atmosphere of Jupiter is divided into cloud belts and zones.They are made primarily of ammonia crystals, sulfur, and mixtures of the two compounds.",
+                    "Jupiter has unique cloud features. The upper atmosphere of Jupiter is divided into cloud belts and zones.They are made primarily of ammonia crystals, sulfur, and mixtures of the two compounds",
 
                     "The Great Red Spot is a huge storm on Jupiter. It has raged for at least 350 years.It is so large that three Earths could fit inside it.",
 
@@ -586,258 +582,257 @@ db.solar_system.insertMany([
                 orbit_distance_au: 9.58,
                 equatorial_diameter_km: 120536,
                 mass: "5.68 × 10^26 kg (95 Earths)",
-                number_of_moons: 82,
-                moon_list: [
-                    "S/2009 S 1",
-                    "Pan",
-                    "Daphnis",
-                    "Atlas",
-                    "Prometheus",
-                    "Pandora",
-                    "Epimetheus",
-                    "Janus",
-                    "Aegaeon",
-                    "Mimas",
-                    "Methone",
-                    "Anthe",
-                    "Pallene",
-                    "Enceladus",
-                    "Tethys",
-                    "Telesto",
-                    "Calypso",
-                    "Dione",
-                    "Helene",
-                    "Polydeuces",
-                    "Rhea",
-                    "Titan",
-                    "Hyperion",
-                    "Iapetus",
-                    "Kiviuq",
-                    "Ijiraq",
-                    "Phoebe",
-                    "Paaliaq",
-                    "Skathi",
-                    "S/2004 S 37",
-                    "S/2007 S 2",
-                    "Albiorix",
-                    "Bebhionn",
-                    "S/2004 S 29",
-                    "Skoll",
-                    "S/2004 S 31",
-                    "Erriapus",
-                    "Tarqeq",
-                    "Siarnaq",
-                    "Tarvos",
-                    "Hyrrokkin",
-                    "Greip",
-                    "Mundilfari",
-                    "S/2004 S 13",
-                    "S/2006 S 1",
-                    "S/2007 S 3",
-                    "Suttungr",
-                    "S/2004 S 20",
-                    "Jarnsaxa",
-                    "Narvi",
-                    "Bergelmir",
-                    "Hati",
-                    "S/2004 S 17",
-                    "S/2004 S 12",
-                    "S/2004 S 27",
-                    "Farbauti",
-                    "Thrymr",
-                    "Bestla",
-                    "S/2004 S 7",
-                    "Aegir",
-                    "S/2004 S 30",
-                    "S/2004 S 22",
-                    "S/2004 S 25",
-                    "S/2004 S 32",
-                    "S/2004 S 23",
-                    "S/2006 S 3",
-                    "S/2004 S 35",
-                    "Kari",
-                    "S/2004 S 28",
-                    "Loge",
-                    "S/2004 S 38",
-                    "Fenrir",
-                    "Ymir",
-                    "Surtur",
-                    "S/2004 S 33",
-                    "S/2004 S 24",
-                    "S/2004 S 21",
-                    "S/2004 S 39",
-                    "S/2004 S 36",
-                    "Fornjot",
-                    "S/2004 S 34",
-                    "S/2004 S 26",
-                ],
-                sig_moon_number: 7,
-                sig_moons: [
-                    {
-                        name: "Mimas",
-                        position: 10,
-                        image_url: [
-                            "https://static.wikia.nocookie.net/planet-archives/images/3/3e/Mimas.jpg/revision/latest?cb=20200704181732",
-                            "https://lh3.googleusercontent.com/proxy/bxSt_VeT-q0qQxjzGCOIiTEu3COIdQbV67P3OyeFA7qRKOL28l3uUBdHxidTb_TDMlfjsvnhYkFl3t7IG3wpgnJDHNpG9E2sx4Zxa25ZQtDh4-xs",
-                            "https://cdn.mos.cms.futurecdn.net/WiawvKiNw9xCjC8BWLmay6.jpg"
-                        ],
-                        orbit_distance_km: 186000,
-                        equatorial_diameter_km: 396.4,
-                        mass: "(3.7493±0.0031) × 1019kg (6.3×10−6 Earths)",
-                        orbit_period_in_days: 0.942,
-                        surface_temperature_max_celcius: -181.15,
-                        surface_temperature_min_celcius: -200,
-                        facts: [
+                moons: {
+                    moon_list: [
+                        "S/2009 S 1",
+                        "Pan",
+                        "Daphnis",
+                        "Atlas",
+                        "Prometheus",
+                        "Pandora",
+                        "Epimetheus",
+                        "Janus",
+                        "Aegaeon",
+                        "Mimas",
+                        "Methone",
+                        "Anthe",
+                        "Pallene",
+                        "Enceladus",
+                        "Tethys",
+                        "Telesto",
+                        "Calypso",
+                        "Dione",
+                        "Helene",
+                        "Polydeuces",
+                        "Rhea",
+                        "Titan",
+                        "Hyperion",
+                        "Iapetus",
+                        "Kiviuq",
+                        "Ijiraq",
+                        "Phoebe",
+                        "Paaliaq",
+                        "Skathi",
+                        "S/2004 S 37",
+                        "S/2007 S 2",
+                        "Albiorix",
+                        "Bebhionn",
+                        "S/2004 S 29",
+                        "Skoll",
+                        "S/2004 S 31",
+                        "Erriapus",
+                        "Tarqeq",
+                        "Siarnaq",
+                        "Tarvos",
+                        "Hyrrokkin",
+                        "Greip",
+                        "Mundilfari",
+                        "S/2004 S 13",
+                        "S/2006 S 1",
+                        "S/2007 S 3",
+                        "Suttungr",
+                        "S/2004 S 20",
+                        "Jarnsaxa",
+                        "Narvi",
+                        "Bergelmir",
+                        "Hati",
+                        "S/2004 S 17",
+                        "S/2004 S 12",
+                        "S/2004 S 27",
+                        "Farbauti",
+                        "Thrymr",
+                        "Bestla",
+                        "S/2004 S 7",
+                        "Aegir",
+                        "S/2004 S 30",
+                        "S/2004 S 22",
+                        "S/2004 S 25",
+                        "S/2004 S 32",
+                        "S/2004 S 23",
+                        "S/2006 S 3",
+                        "S/2004 S 35",
+                        "Kari",
+                        "S/2004 S 28",
+                        "Loge",
+                        "S/2004 S 38",
+                        "Fenrir",
+                        "Ymir",
+                        "Surtur",
+                        "S/2004 S 33",
+                        "S/2004 S 24",
+                        "S/2004 S 21",
+                        "S/2004 S 39",
+                        "S/2004 S 36",
+                        "Fornjot",
+                        "S/2004 S 34",
+                        "S/2004 S 26",
+                    ],
+                    sig_moons: [
+                        {
+                            name: "Mimas",
+                            position: 10,
+                            image_url: [
+                                "https://static.wikia.nocookie.net/planet-archives/images/3/3e/Mimas.jpg/revision/latest?cb=20200704181732",
+                                "https://lh3.googleusercontent.com/proxy/bxSt_VeT-q0qQxjzGCOIiTEu3COIdQbV67P3OyeFA7qRKOL28l3uUBdHxidTb_TDMlfjsvnhYkFl3t7IG3wpgnJDHNpG9E2sx4Zxa25ZQtDh4-xs",
+                                "https://cdn.mos.cms.futurecdn.net/WiawvKiNw9xCjC8BWLmay6.jpg"
+                            ],
+                            orbit_distance_km: 186000,
+                            equatorial_diameter_km: 396.4,
+                            mass: "(3.7493±0.0031) × 1019kg (6.3×10−6 Earths)",
+                            orbit_period_in_days: 0.942,
+                            surface_temperature_max_celcius: -181.15,
+                            surface_temperature_min_celcius: -200,
+                            facts: [
 
-                            "Mimas, also designated Saturn I, is a moon of Saturn which was discovered in 1789 by William Herschel. It is named after Mimas, a son of Gaia in Greek mythology.",
+                                "Mimas, also designated Saturn I, is a moon of Saturn which was discovered in 1789 by William Herschel. It is named after Mimas, a son of Gaia in Greek mythology.",
 
-                            "Mimas's most distinctive feature is a giant impact crater 130 km (81 mi) across, named Herschel after the discoverer of Mimas. Herschel's diameter is almost a third of Mimas's own diameter; its walls are approximately 5 km (3 mi) high, parts of its floor measure 10 km (6 mi) deep, and its central peak rises 6 km (4 mi) above the crater floor. If there were a crater of an equivalent scale on Earth (in relative size) it would be over 4,000 km (2,500 mi) in diameter, wider than Australia. The impact that made this crater must have nearly shattered Mimas: fractures can be seen on the opposite side of Mimas that may have been created by shock waves from the impact travelling through Mimas's core.",
+                                "Mimas's most distinctive feature is a giant impact crater 130 km (81 mi) across, named Herschel after the discoverer of Mimas. Herschel's diameter is almost a third of Mimas's own diameter; its walls are approximately 5 km (3 mi) high, parts of its floor measure 10 km (6 mi) deep, and its central peak rises 6 km (4 mi) above the crater floor. If there were a crater of an equivalent scale on Earth (in relative size) it would be over 4,000 km (2,500 mi) in diameter, wider than Australia. The impact that made this crater must have nearly shattered Mimas: fractures can be seen on the opposite side of Mimas that may have been created by shock waves from the impact travelling through Mimas's core.",
 
-                            "When seen from certain angles, Mimas resembles the Death Star, a fictional space station and superweapon known from the 1977 film Star Wars. Herschel resembles the concave disc of the Death Star's superlaser. This is coincidental, as the film was made nearly three years before Mimas was resolved well enough to see the crater.",
-                        ]
-                    },
-                    {
-                        name: "Enceladus",
-                        position: 14,
-                        image_url: [
-                            "https://upload.wikimedia.org/wikipedia/commons/8/83/PIA17202_-_Approaching_Enceladus.jpg",
-                            "https://solarsystem.nasa.gov/system/content_pages/main_images/486_PIA11133.jpg",
-                            "https://www.universetoday.com/wp-content/uploads/2014/12/enceladusstripes_cassini_big-e1445285714763.jpg"
-                        ],
-                        orbit_distance_km: 147909,
-                        equatorial_diameter_km: 252.1,
-                        mass: "(1.08022±0.00101) × 1020kg (1.8×10−5 Earths)",
-                        orbit_period_in_days: 1.4,
-                        surface_temperature_max_celcius: -128,
-                        surface_temperature_min_celcius: -240,
-                        facts: [
+                                "When seen from certain angles, Mimas resembles the Death Star, a fictional space station and superweapon known from the 1977 film Star Wars. Herschel resembles the concave disc of the Death Star's superlaser. This is coincidental, as the film was made nearly three years before Mimas was resolved well enough to see the crater.",
+                            ]
+                        },
+                        {
+                            name: "Enceladus",
+                            position: 14,
+                            image_url: [
+                                "https://upload.wikimedia.org/wikipedia/commons/8/83/PIA17202_-_Approaching_Enceladus.jpg",
+                                "https://solarsystem.nasa.gov/system/content_pages/main_images/486_PIA11133.jpg",
+                                "https://www.universetoday.com/wp-content/uploads/2014/12/enceladusstripes_cassini_big-e1445285714763.jpg"
+                            ],
+                            orbit_distance_km: 147909,
+                            equatorial_diameter_km: 252.1,
+                            mass: "(1.08022±0.00101) × 1020kg (1.8×10−5 Earths)",
+                            orbit_period_in_days: 1.4,
+                            surface_temperature_max_celcius: -128,
+                            surface_temperature_min_celcius: -240,
+                            facts: [
 
-                            "Enceladus is the sixth-largest moon of Saturn. It is about 500 kilometers (310 mi) in diameter, about a tenth of that of Saturn's largest moon, Titan. Enceladus is mostly covered by fresh, clean ice, making it one of the most reflective bodies of the Solar System.",
+                                "Enceladus is the sixth-largest moon of Saturn. It is about 500 kilometers (310 mi) in diameter, about a tenth of that of Saturn's largest moon, Titan. Enceladus is mostly covered by fresh, clean ice, making it one of the most reflective bodies of the Solar System.",
 
-                            "The geyser observations, along with the finding of escaping internal heat and very few (if any) impact craters in the south polar region, show that Enceladus is currently geologically active. On June 27, 2018, scientists reported the detection of complex macromolecular organics on Enceladus's jet plumes, as sampled by the Cassini orbiter. These indicate potential hydrothermal activity on the moon driving complex chemistry",
+                                "The geyser observations, along with the finding of escaping internal heat and very few (if any) impact craters in the south polar region, show that Enceladus is currently geologically active. On June 27, 2018, scientists reported the detection of complex macromolecular organics on Enceladus's jet plumes, as sampled by the Cassini orbiter. These indicate potential hydrothermal activity on the moon driving complex chemistry",
 
-                            "Enceladus is named after the giant Enceladus of Greek mythology. The name, like the names of each of the first seven satellites of Saturn to be discovered, was suggested by William Herschel's son John Herschel in his 1847 publication Results of Astronomical Observations made at the Cape of Good Hope. He chose these names because Saturn, known in Greek mythology as Cronus, was the leader of the Titans.",
-                        ]
-                    },
-                    {
-                        name: "Tethys",
-                        position: 15,
-                        image_url: [
-                            "https://www.universetoday.com/wp-content/uploads/2012/04/tethys-4-14-12-melanthius.jpg",
-                            "https://www.geo.fu-berlin.de/geol/fachrichtungen/planet/press/archiv2015/cassini_tethys1/bild_orbit214_color-mosaic/orbit214_color-mosaic_546.png",
-                            "https://lh3.googleusercontent.com/proxy/uFTMScttTGUxz7ICf6GV3UIRCdFI_CHM-F_eCWDM1Q93QJvtcK4l7Hc7-y_Iv3zbqaSPggeS2phVbmC1Y7Q1tYkV5aks_XNJBc9J4i5ihA7Yi0yO4qEC"
-                        ],
-                        orbit_distance_km: 295000,
-                        equatorial_diameter_km: 1062,
-                        mass: "6.17 × 1020kg (0.000103 Earth mass)",
-                        orbit_period_in_days: 1.9,
-                        surface_temperature_max_celcius: -147,
-                        surface_temperature_min_celcius: -196,
-                        facts: [
+                                "Enceladus is named after the giant Enceladus of Greek mythology. The name, like the names of each of the first seven satellites of Saturn to be discovered, was suggested by William Herschel's son John Herschel in his 1847 publication Results of Astronomical Observations made at the Cape of Good Hope. He chose these names because Saturn, known in Greek mythology as Cronus, was the leader of the Titans.",
+                            ]
+                        },
+                        {
+                            name: "Tethys",
+                            position: 15,
+                            image_url: [
+                                "https://www.universetoday.com/wp-content/uploads/2012/04/tethys-4-14-12-melanthius.jpg",
+                                "https://www.geo.fu-berlin.de/geol/fachrichtungen/planet/press/archiv2015/cassini_tethys1/bild_orbit214_color-mosaic/orbit214_color-mosaic_546.png",
+                                "https://lh3.googleusercontent.com/proxy/uFTMScttTGUxz7ICf6GV3UIRCdFI_CHM-F_eCWDM1Q93QJvtcK4l7Hc7-y_Iv3zbqaSPggeS2phVbmC1Y7Q1tYkV5aks_XNJBc9J4i5ihA7Yi0yO4qEC"
+                            ],
+                            orbit_distance_km: 295000,
+                            equatorial_diameter_km: 1062,
+                            mass: "6.17 × 1020kg (0.000103 Earth mass)",
+                            orbit_period_in_days: 1.9,
+                            surface_temperature_max_celcius: -147,
+                            surface_temperature_min_celcius: -196,
+                            facts: [
 
-                            "Tethys, or Saturn III, is a mid-sized moon of Saturn about 1,060 km (660 mi) across. It was discovered by G. D. Cassini in 1684 and is named after the titan Tethys of Greek mythology.",
+                                "Tethys, or Saturn III, is a mid-sized moon of Saturn about 1,060 km (660 mi) across. It was discovered by G. D. Cassini in 1684 and is named after the titan Tethys of Greek mythology.",
 
-                            "Tethys has a low density of 0.98 g/cm3, the lowest of all the major moons in the Solar System, indicating that it is made of water ice with just a small fraction of rock. This is confirmed by the spectroscopy of its surface, which identified water ice as the dominant surface material. A small amount of an unidentified dark material is present as well. The surface of Tethys is very bright, being the second-brightest of the moons of Saturn after Enceladus, and neutral in color.",
+                                "Tethys has a low density of 0.98 g/cm3, the lowest of all the major moons in the Solar System, indicating that it is made of water ice with just a small fraction of rock. This is confirmed by the spectroscopy of its surface, which identified water ice as the dominant surface material. A small amount of an unidentified dark material is present as well. The surface of Tethys is very bright, being the second-brightest of the moons of Saturn after Enceladus, and neutral in color.",
 
-                            "Tethys has been approached by several space probes including Pioneer 11 (1979), Voyager 1 (1980), Voyager 2 (1981), and multiple times by Cassini between 2004 and 2017.",
-                        ]
-                    },
-                    {
-                        name: "Dione",
-                        position: 18,
-                        image_url: [
-                            "https://cdn.britannica.com/20/3920-050-1D493D3F/moon-Dione-Saturn-distance-Voyager-1-NASA-November-10-1980.jpg",
-                            "https://cdn.britannica.com/74/145074-050-4D9110AA/Dione-image-moons-Saturn-spacecraft-Cassini-July-24-2006.jpg",
-                            "https://upload.wikimedia.org/wikipedia/commons/d/d0/Dione_in_natural_light_%28cropped%29.jpg"
-                        ],
-                        orbit_distance_km: 377400,
-                        equatorial_diameter_km: 1122.8,
-                        mass: "(1.095452±0.000168) × 1021kg (1.834×10−4 Earths)",
-                        orbit_period_in_days: 2.6,
-                        surface_temperature_max_celcius: -162,
-                        surface_temperature_min_celcius: -186,
-                        facts: [
+                                "Tethys has been approached by several space probes including Pioneer 11 (1979), Voyager 1 (1980), Voyager 2 (1981), and multiple times by Cassini between 2004 and 2017.",
+                            ]
+                        },
+                        {
+                            name: "Dione",
+                            position: 18,
+                            image_url: [
+                                "https://cdn.britannica.com/20/3920-050-1D493D3F/moon-Dione-Saturn-distance-Voyager-1-NASA-November-10-1980.jpg",
+                                "https://cdn.britannica.com/74/145074-050-4D9110AA/Dione-image-moons-Saturn-spacecraft-Cassini-July-24-2006.jpg",
+                                "https://upload.wikimedia.org/wikipedia/commons/d/d0/Dione_in_natural_light_%28cropped%29.jpg"
+                            ],
+                            orbit_distance_km: 377400,
+                            equatorial_diameter_km: 1122.8,
+                            mass: "(1.095452±0.000168) × 1021kg (1.834×10−4 Earths)",
+                            orbit_period_in_days: 2.6,
+                            surface_temperature_max_celcius: -162,
+                            surface_temperature_min_celcius: -186,
+                            facts: [
 
-                            "Dione (/daɪˈoʊni/) is a moon of Saturn. It was discovered by Italian astronomer Giovanni Domenico Cassini in 1684. It is named after the Titaness Dione of Greek mythology. It is also designated Saturn IV.",
+                                "Dione (/daɪˈoʊni/) is a moon of Saturn. It was discovered by Italian astronomer Giovanni Domenico Cassini in 1684. It is named after the Titaness Dione of Greek mythology. It is also designated Saturn IV.",
 
-                            "At 1122 km (697 mi) in diameter, Dione is the 15th largest moon in the Solar System, and is more massive than all known moons smaller than itself combined. About two thirds of Dione's mass is water ice, and the remaining is a dense core, probably silicate rock.",
+                                "At 1122 km (697 mi) in diameter, Dione is the 15th largest moon in the Solar System, and is more massive than all known moons smaller than itself combined. About two thirds of Dione's mass is water ice, and the remaining is a dense core, probably silicate rock.",
 
-                            "Giovanni Domenico Cassini named the four moons he discovered (Tethys, Dione, Rhea and Iapetus) Sidera Lodoicea ('the stars of Louis') to honor king Louis XIV. Cassini found Dione in 1684 using a large aerial telescope he set up on the grounds of the Paris Observatory. The satellites of Saturn were not named until 1847, when William Herschel's son John Herschel published Results of Astronomical Observations made at the Cape of Good Hope, suggesting that the names of the Titans (sisters and brothers of Cronus) be used.",
-                        ]
-                    },
-                    {
-                        name: "Rhea",
-                        position: 21,
-                        image_url: [
-                            "https://lh3.googleusercontent.com/proxy/X-2oz6cPPzS6ndNkDI3VsSmR8kkcSix9aPS6ZRe-QqIvYqAj9nOelnwZUxJy8KF5D20PdtxJ-1ZfCG6hh50i4A-i1QEr6DJ1y3uF5otGhaZS0js8",
-                            "https://solarsystem.nasa.gov/system/content_pages/main_images/805_PIA12648.jpg",
-                            "https://upload.wikimedia.org/wikipedia/commons/4/41/Rhea_%28moon%29.jpg"
-                        ],
-                        orbit_distance_km: 527068,
-                        equatorial_diameter_km: 1527.6,
-                        mass: "(2.306518±0.000353) × 1021kg (~3.9×10−4 Earths)",
-                        orbit_period_in_days: 4.5,
-                        surface_temperature_max_celcius: -174,
-                        surface_temperature_min_celcius: -220,
-                        facts: [
+                                "Giovanni Domenico Cassini named the four moons he discovered (Tethys, Dione, Rhea and Iapetus) Sidera Lodoicea ('the stars of Louis') to honor king Louis XIV. Cassini found Dione in 1684 using a large aerial telescope he set up on the grounds of the Paris Observatory. The satellites of Saturn were not named until 1847, when William Herschel's son John Herschel published Results of Astronomical Observations made at the Cape of Good Hope, suggesting that the names of the Titans (sisters and brothers of Cronus) be used.",
+                            ]
+                        },
+                        {
+                            name: "Rhea",
+                            position: 21,
+                            image_url: [
+                                "https://lh3.googleusercontent.com/proxy/X-2oz6cPPzS6ndNkDI3VsSmR8kkcSix9aPS6ZRe-QqIvYqAj9nOelnwZUxJy8KF5D20PdtxJ-1ZfCG6hh50i4A-i1QEr6DJ1y3uF5otGhaZS0js8",
+                                "https://solarsystem.nasa.gov/system/content_pages/main_images/805_PIA12648.jpg",
+                                "https://upload.wikimedia.org/wikipedia/commons/4/41/Rhea_%28moon%29.jpg"
+                            ],
+                            orbit_distance_km: 527068,
+                            equatorial_diameter_km: 1527.6,
+                            mass: "(2.306518±0.000353) × 1021kg (~3.9×10−4 Earths)",
+                            orbit_period_in_days: 4.5,
+                            surface_temperature_max_celcius: -174,
+                            surface_temperature_min_celcius: -220,
+                            facts: [
 
-                            "Rhea is the second-largest moon of Saturn and the ninth-largest moon in the Solar System. It is the second smallest body in the Solar System for which precise measurements have confirmed a shape consistent with hydrostatic equilibrium, after dwarf planet Ceres. It was discovered in 1672 by Giovanni Domenico Cassini.",
+                                "Rhea is the second-largest moon of Saturn and the ninth-largest moon in the Solar System. It is the second smallest body in the Solar System for which precise measurements have confirmed a shape consistent with hydrostatic equilibrium, after dwarf planet Ceres. It was discovered in 1672 by Giovanni Domenico Cassini.",
 
-                            "Rhea is named after the Titan Rhea of Greek mythology, the 'mother of the gods' and wife of Kronos, the Greek counterpart of the god Saturn. It is also designated Saturn V (being the fifth major moon going outward from the planet, after Mimas, Enceladus, Tethys, and Dione).",
+                                "Rhea is named after the Titan Rhea of Greek mythology, the 'mother of the gods' and wife of Kronos, the Greek counterpart of the god Saturn. It is also designated Saturn V (being the fifth major moon going outward from the planet, after Mimas, Enceladus, Tethys, and Dione).",
 
-                            "On March 6, 2008, NASA announced that Rhea may have a tenuous ring system. This would mark the first discovery of rings around a moon. The rings' existence was inferred by observed changes in the flow of electrons trapped by Saturn's magnetic field as Cassini passed by Rhea. Dust and debris could extend out to Rhea's Hill sphere, but were thought to be denser nearer the moon, with three narrow rings of higher density",
+                                "On March 6, 2008, NASA announced that Rhea may have a tenuous ring system. This would mark the first discovery of rings around a moon. The rings' existence was inferred by observed changes in the flow of electrons trapped by Saturn's magnetic field as Cassini passed by Rhea. Dust and debris could extend out to Rhea's Hill sphere, but were thought to be denser nearer the moon, with three narrow rings of higher density",
 
-                        ]
-                    },
-                    {
-                        name: "Titan",
-                        position: 22,
-                        image_url: [
-                            "https://mk0astronomynow9oh6g.kinstacdn.com/wp-content/uploads/2015/12/PIA20016.jpg",
-                            "https://www.universetoday.com/wp-content/uploads/2016/04/titan_large.jpg",
-                            "https://media.tegna-media.com/assets/WQAD/images/d6c14552-b85f-4c85-875f-65331a327f61/d6c14552-b85f-4c85-875f-65331a327f61_750x422.jpg"
-                        ],
-                        orbit_distance_km: 1400000000,
-                        equatorial_diameter_km: 5149.5,
-                        mass: "(1.3452±0.0002) × 1023kg (0.0225 Earths)",
-                        orbit_period_in_days: 16,
-                        surface_temperature_max_celcius: -179.6,
-                        surface_temperature_min_celcius: -185.6,
-                        facts: [
+                            ]
+                        },
+                        {
+                            name: "Titan",
+                            position: 22,
+                            image_url: [
+                                "https://mk0astronomynow9oh6g.kinstacdn.com/wp-content/uploads/2015/12/PIA20016.jpg",
+                                "https://www.universetoday.com/wp-content/uploads/2016/04/titan_large.jpg",
+                                "https://media.tegna-media.com/assets/WQAD/images/d6c14552-b85f-4c85-875f-65331a327f61/d6c14552-b85f-4c85-875f-65331a327f61_750x422.jpg"
+                            ],
+                            orbit_distance_km: 1400000000,
+                            equatorial_diameter_km: 5149.5,
+                            mass: "(1.3452±0.0002) × 1023kg (0.0225 Earths)",
+                            orbit_period_in_days: 16,
+                            surface_temperature_max_celcius: -179.6,
+                            surface_temperature_min_celcius: -185.6,
+                            facts: [
 
-                            "Titan is the largest moon of Saturn and the second-largest natural satellite in the Solar System. It is the only moon known to have a dense atmosphere, and the only known body in space, other than Earth, where clear evidence of stable bodies of surface liquid has been found.",
+                                "Titan is the largest moon of Saturn and the second-largest natural satellite in the Solar System. It is the only moon known to have a dense atmosphere, and the only known body in space, other than Earth, where clear evidence of stable bodies of surface liquid has been found.",
 
-                            "Titan is one of seven gravitationally rounded moons in orbit around Saturn, and the second most distant from Saturn of those seven. Frequently described as a planet-like moon, Titan is 50% larger (in diameter) than Earth's Moon and 80% more massive. It is the second-largest moon in the Solar System after Jupiter's moon Ganymede, and is larger than the planet Mercury, but only 40% as massive.",
+                                "Titan is one of seven gravitationally rounded moons in orbit around Saturn, and the second most distant from Saturn of those seven. Frequently described as a planet-like moon, Titan is 50% larger (in diameter) than Earth's Moon and 80% more massive. It is the second-largest moon in the Solar System after Jupiter's moon Ganymede, and is larger than the planet Mercury, but only 40% as massive.",
 
-                            "The atmosphere of Titan is largely nitrogen; minor components lead to the formation of methane and ethane clouds and heavy organonitrogen haze. The climate—including wind and rain—creates surface features similar to those of Earth, such as dunes, rivers, lakes, seas (probably of liquid methane and ethane), and deltas, and is dominated by seasonal weather patterns as on Earth. With its liquids (both surface and subsurface) and robust nitrogen atmosphere, Titan's methane cycle bears a striking similarity to Earth's water cycle, albeit at the much lower temperature of about 94 K (−179.2 °C; −290.5 °F)",
+                                "The atmosphere of Titan is largely nitrogen; minor components lead to the formation of methane and ethane clouds and heavy organonitrogen haze. The climate—including wind and rain—creates surface features similar to those of Earth, such as dunes, rivers, lakes, seas (probably of liquid methane and ethane), and deltas, and is dominated by seasonal weather patterns as on Earth. With its liquids (both surface and subsurface) and robust nitrogen atmosphere, Titan's methane cycle bears a striking similarity to Earth's water cycle, albeit at the much lower temperature of about 94 K (−179.2 °C; −290.5 °F)",
 
-                        ]
-                    },
-                    {
-                        name: "Iapetus",
-                        position: 24,
-                        image_url: [
-                            "https://upload.wikimedia.org/wikipedia/commons/c/c9/Iapetus_as_seen_by_the_Cassini_probe_-_20071008.jpg",
-                            "https://astronomy.com/~/media/DE89D2749359491BAEA168DDB386F6B4.jpg",
-                            "https://i.imgur.com/EZeEUrc.jpg"
-                        ],
-                        orbit_distance_km: 3561300,
-                        equatorial_diameter_km: 1469,
-                        mass: "(1.805635±0.000375) × 1021kg (0.1155 Earths)",
-                        orbit_period_in_days: 79,
-                        surface_temperature_max_celcius: -143.333,
-                        surface_temperature_min_celcius: -173.333,
-                        facts: [
+                            ]
+                        },
+                        {
+                            name: "Iapetus",
+                            position: 24,
+                            image_url: [
+                                "https://upload.wikimedia.org/wikipedia/commons/c/c9/Iapetus_as_seen_by_the_Cassini_probe_-_20071008.jpg",
+                                "https://astronomy.com/~/media/DE89D2749359491BAEA168DDB386F6B4.jpg",
+                                "https://i.imgur.com/EZeEUrc.jpg"
+                            ],
+                            orbit_distance_km: 3561300,
+                            equatorial_diameter_km: 1469,
+                            mass: "(1.805635±0.000375) × 1021kg (0.1155 Earths)",
+                            orbit_period_in_days: 79,
+                            surface_temperature_max_celcius: -143.333,
+                            surface_temperature_min_celcius: -173.333,
+                            facts: [
 
-                            "Iapetus is the third-largest natural satellite of Saturn, eleventh-largest in the Solar System, and the largest body in the Solar System known not to be in hydrostatic equilibrium. Discoveries by the Cassini mission in 2007 revealed several unusual features, such as a massive equatorial ridge running three-quarters of the way around the moon.",
+                                "Iapetus is the third-largest natural satellite of Saturn, eleventh-largest in the Solar System, and the largest body in the Solar System known not to be in hydrostatic equilibrium. Discoveries by the Cassini mission in 2007 revealed several unusual features, such as a massive equatorial ridge running three-quarters of the way around the moon.",
 
-                            "apetus is named after the Titan Iapetus from Greek mythology. The name was suggested by John Herschel (son of William Herschel, discoverer of Mimas and Enceladus) in his 1847 publication Results of Astronomical Observations made at the Cape of Good Hope, in which he advocated naming the moons of Saturn after the Titans, brothers and sisters of the Titan Cronus (whom the Romans equated with their god Saturn).",
+                                "apetus is named after the Titan Iapetus from Greek mythology. The name was suggested by John Herschel (son of William Herschel, discoverer of Mimas and Enceladus) in his 1847 publication Results of Astronomical Observations made at the Cape of Good Hope, in which he advocated naming the moons of Saturn after the Titans, brothers and sisters of the Titan Cronus (whom the Romans equated with their god Saturn).",
 
-                            "The orbit of Iapetus is somewhat unusual. Although it is Saturn's third-largest moon, it orbits much farther from Saturn than the next closest major moon, Titan. It has also the most inclined orbital plane of the regular satellites; only the irregular outer satellites like Phoebe have more inclined orbits. Because of this distant, inclined orbit, Iapetus is the only large moon from which the rings of Saturn would be clearly visible; from the other inner moons, the rings would be edge-on and difficult to see.",
-                        ]
-                    },
-
-                ],
+                                "The orbit of Iapetus is somewhat unusual. Although it is Saturn's third-largest moon, it orbits much farther from Saturn than the next closest major moon, Titan. It has also the most inclined orbital plane of the regular satellites; only the irregular outer satellites like Phoebe have more inclined orbits. Because of this distant, inclined orbit, Iapetus is the only large moon from which the rings of Saturn would be clearly visible; from the other inner moons, the rings would be edge-on and difficult to see.",
+                            ]
+                        },
+                    ]
+                },
                 rings: 7,
                 orbit_period_days: 10756,
                 surface_temperature_max_celcius: -122,
@@ -895,157 +890,156 @@ db.solar_system.insertMany([
                 orbit_distance_au: 19.22,
                 equatorial_diameter_km: 51118,
                 mass: "8.68 × 10^25 kg (15 Earths)",
-                number_of_moons: 27,
-                moon_list: [
-                    "Cordelia",
-                    "Ophelia",
-                    "Bianca",
-                    "Cressida",
-                    "Desdemona",
-                    "Juliet",
-                    "Portia",
-                    "Rosalind",
-                    "Cupid",
-                    "Belinda",
-                    "Perdita",
-                    "Puck",
-                    "Mab",
-                    "Miranda",
-                    "Ariel",
-                    "Umbriel",
-                    "Titania",
-                    "Oberon",
-                    "Francisco",
-                    "Caliban",
-                    "Stephano",
-                    "Trinculo",
-                    "Sycorax",
-                    "Margaret",
-                    "Prospero",
-                    "Setebos",
-                    "Ferdinand",
-                ],
-                sig_moon_number: 5,
-                sig_moons: [
-                    {
-                        name: "Miranda",
-                        position: 14,
-                        image_url: [
-                            "https://upload.wikimedia.org/wikipedia/commons/e/e1/PIA18185_Miranda%27s_Icy_Face.jpg",
-                            "https://cdn.britannica.com/32/78232-050-8CCA6A1E/innermost-moons-Miranda-Uranus-mosaic-images-Voyager-Jan-24-1986.jpg",
-                            "https://www.nasa.gov/sites/default/files/images/173645main_image_feature_796_ys_full.jpg"
-                        ],
-                        orbit_distance_km: 129900,
-                        equatorial_diameter_km: 471.6,
-                        mass: "(6.4±0.3) × 1019kg",
-                        orbit_period_in_days: 1.4,
-                        surface_temperature_max_celcius: -189.15,
-                        // No info available
-                        surface_temperature_min_celcius: null,
-                        facts: [
+                moons: {
+                    moon_list: [
+                        "Cordelia",
+                        "Ophelia",
+                        "Bianca",
+                        "Cressida",
+                        "Desdemona",
+                        "Juliet",
+                        "Portia",
+                        "Rosalind",
+                        "Cupid",
+                        "Belinda",
+                        "Perdita",
+                        "Puck",
+                        "Mab",
+                        "Miranda",
+                        "Ariel",
+                        "Umbriel",
+                        "Titania",
+                        "Oberon",
+                        "Francisco",
+                        "Caliban",
+                        "Stephano",
+                        "Trinculo",
+                        "Sycorax",
+                        "Margaret",
+                        "Prospero",
+                        "Setebos",
+                        "Ferdinand",
+                    ],
+                    sig_moons: [
+                        {
+                            name: "Miranda",
+                            position: 14,
+                            image_url: [
+                                "https://upload.wikimedia.org/wikipedia/commons/e/e1/PIA18185_Miranda%27s_Icy_Face.jpg",
+                                "https://cdn.britannica.com/32/78232-050-8CCA6A1E/innermost-moons-Miranda-Uranus-mosaic-images-Voyager-Jan-24-1986.jpg",
+                                "https://www.nasa.gov/sites/default/files/images/173645main_image_feature_796_ys_full.jpg"
+                            ],
+                            orbit_distance_km: 129900,
+                            equatorial_diameter_km: 471.6,
+                            mass: "(6.4±0.3) × 1019kg",
+                            orbit_period_in_days: 1.4,
+                            surface_temperature_max_celcius: -189.15,
+                            surface_temperature_min_celcius: null,
+                            facts: [
 
-                            "Miranda, also designated Uranus V, is the smallest and innermost of Uranus's five round satellites. It was discovered by Gerard Kuiper on 16 February 1948 at McDonald Observatory in Texas, and named after Miranda from William Shakespeare's play The Tempest. Like the other large moons of Uranus, Miranda orbits close to its planet's equatorial plane. Because Uranus orbits the Sun on its side, Miranda's orbit is perpendicular to the ecliptic and shares Uranus' extreme seasonal cycle.",
+                                "Miranda, also designated Uranus V, is the smallest and innermost of Uranus's five round satellites. It was discovered by Gerard Kuiper on 16 February 1948 at McDonald Observatory in Texas, and named after Miranda from William Shakespeare's play The Tempest. Like the other large moons of Uranus, Miranda orbits close to its planet's equatorial plane. Because Uranus orbits the Sun on its side, Miranda's orbit is perpendicular to the ecliptic and shares Uranus' extreme seasonal cycle.",
 
-                            "At just 470 km in diameter, Miranda is one of the smallest closely observed objects in the Solar System that might be in hydrostatic equilibrium (spherical under its own gravity). The only close-up images of Miranda are from the Voyager 2 probe, which made observations of Miranda during its Uranus flyby in January 1986. During the flyby, Miranda's southern hemisphere pointed towards the Sun, so only that part was studied.",
+                                "At just 470 km in diameter, Miranda is one of the smallest closely observed objects in the Solar System that might be in hydrostatic equilibrium (spherical under its own gravity). The only close-up images of Miranda are from the Voyager 2 probe, which made observations of Miranda during its Uranus flyby in January 1986. During the flyby, Miranda's southern hemisphere pointed towards the Sun, so only that part was studied.",
 
-                            "While crater counts suggest that the majority of Miranda's surface is old, with a similar geological history to the other Uranian satellites, few of those craters are particularly large, indicating that most must have formed after a major resurfacing event in its distant past. Craters on Miranda also appear to possess softened edges, which could be the result either of ejecta or of cryovolcanism. The temperature at Miranda's south pole is roughly 85K, a temperature at which pure water ice adopts the properties of rock",
+                                "While crater counts suggest that the majority of Miranda's surface is old, with a similar geological history to the other Uranian satellites, few of those craters are particularly large, indicating that most must have formed after a major resurfacing event in its distant past. Craters on Miranda also appear to possess softened edges, which could be the result either of ejecta or of cryovolcanism. The temperature at Miranda's south pole is roughly 85K, a temperature at which pure water ice adopts the properties of rock",
 
-                        ]
-                    },
-                    {
-                        name: "Ariel",
-                        position: 15,
-                        image_url: [
-                            "https://solarsystem.nasa.gov/system/content_pages/main_images/220_PIA00041.jpg",
-                            "https://i.pinimg.com/originals/73/5b/94/735b941e8f2fb269a87642b317c845de.jpg",
-                            "https://upload.wikimedia.org/wikipedia/commons/5/59/Ariel_%28moon%29.jpg"
-                        ],
-                        orbit_distance_km: 190000,
-                        equatorial_diameter_km: 1157.8,
-                        mass: "(1.251±0.021) × 1021kg",
-                        orbit_period_in_days: 3.33,
-                        surface_temperature_max_celcius: -190.15,
-                        surface_temperature_min_celcius: null,
-                        facts: [
+                            ]
+                        },
+                        {
+                            name: "Ariel",
+                            position: 15,
+                            image_url: [
+                                "https://solarsystem.nasa.gov/system/content_pages/main_images/220_PIA00041.jpg",
+                                "https://i.pinimg.com/originals/73/5b/94/735b941e8f2fb269a87642b317c845de.jpg",
+                                "https://upload.wikimedia.org/wikipedia/commons/5/59/Ariel_%28moon%29.jpg"
+                            ],
+                            orbit_distance_km: 190000,
+                            equatorial_diameter_km: 1157.8,
+                            mass: "(1.251±0.021) × 1021kg",
+                            orbit_period_in_days: 3.33,
+                            surface_temperature_max_celcius: -190.15,
+                            surface_temperature_min_celcius: null,
+                            facts: [
 
-                            "Ariel is the fourth-largest of the 27 known moons of Uranus. Ariel orbits and rotates in the equatorial plane of Uranus, which is almost perpendicular to the orbit of Uranus and so has an extreme seasonal cycle. It was discovered in October 1851 by William Lassell and named for a character in two different pieces of literature, Alexander Pope's The Rape of the Lock and Shakespeare's The Tempest.",
+                                "Ariel is the fourth-largest of the 27 known moons of Uranus. Ariel orbits and rotates in the equatorial plane of Uranus, which is almost perpendicular to the orbit of Uranus and so has an extreme seasonal cycle. It was discovered in October 1851 by William Lassell and named for a character in two different pieces of literature, Alexander Pope's The Rape of the Lock and Shakespeare's The Tempest.",
 
-                            "Among Uranus's five major moons, Ariel is the second closest to the planet, orbiting at the distance of about 190,000 km.[f] Its orbit has a small eccentricity and is inclined very little relative to the equator of Uranus. Its orbital period is around 2.5 Earth days, coincident with its rotational period. This means that one side of the moon always faces the planet; a condition known as tidal lock.",
+                                "Among Uranus's five major moons, Ariel is the second closest to the planet, orbiting at the distance of about 190,000 km.[f] Its orbit has a small eccentricity and is inclined very little relative to the equator of Uranus. Its orbital period is around 2.5 Earth days, coincident with its rotational period. This means that one side of the moon always faces the planet; a condition known as tidal lock.",
 
-                            "Except for water, the only other compound identified on the surface of Ariel by infrared spectroscopy is carbon dioxide (CO2), which is concentrated mainly on its trailing hemisphere. Ariel shows the strongest spectroscopic evidence for CO2 of any Uranian satellite, and was the first Uranian satellite on which this compound was discovered. The origin of the carbon dioxide is not completely clear. It might be produced locally from carbonates or organic materials under the influence of the energetic charged particles coming from Uranus's magnetosphere or solar ultraviolet radiation. ",
+                                "Except for water, the only other compound identified on the surface of Ariel by infrared spectroscopy is carbon dioxide (CO2), which is concentrated mainly on its trailing hemisphere. Ariel shows the strongest spectroscopic evidence for CO2 of any Uranian satellite, and was the first Uranian satellite on which this compound was discovered. The origin of the carbon dioxide is not completely clear. It might be produced locally from carbonates or organic materials under the influence of the energetic charged particles coming from Uranus's magnetosphere or solar ultraviolet radiation. ",
 
-                        ]
-                    },
-                    {
-                        name: "Umbriel",
-                        position: 16,
-                        image_url: [
-                            "https://sos.noaa.gov/ftp_mirror/astronomy/uranus_moons/umbriel/media/thumbnail_big.jpg",
-                            "https://i.pinimg.com/originals/f2/a2/90/f2a2900a77e7540488199ca55cf5e9e3.jpg",
-                            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Umbriel.png/768px-Umbriel.png"
-                        ],
-                        orbit_distance_km: 266000,
-                        equatorial_diameter_km: 1169.4,
-                        mass: "(1.275±0.028) × 1021kg",
-                        orbit_period_in_days: 4.125,
-                        surface_temperature_max_celcius: -188.15,
-                        surface_temperature_min_celcius: null,
-                        facts: [
+                            ]
+                        },
+                        {
+                            name: "Umbriel",
+                            position: 16,
+                            image_url: [
+                                "https://sos.noaa.gov/ftp_mirror/astronomy/uranus_moons/umbriel/media/thumbnail_big.jpg",
+                                "https://i.pinimg.com/originals/f2/a2/90/f2a2900a77e7540488199ca55cf5e9e3.jpg",
+                                "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Umbriel.png/768px-Umbriel.png"
+                            ],
+                            orbit_distance_km: 266000,
+                            equatorial_diameter_km: 1169.4,
+                            mass: "(1.275±0.028) × 1021kg",
+                            orbit_period_in_days: 4.125,
+                            surface_temperature_max_celcius: -188.15,
+                            surface_temperature_min_celcius: null,
+                            facts: [
 
-                            "Umbriel is a moon of Uranus discovered on October 24, 1851, by William Lassell. It was discovered at the same time as Ariel and named after a character in Alexander Pope's poem The Rape of the Lock. Umbriel consists mainly of ice with a substantial fraction of rock, and may be differentiated into a rocky core and an icy mantle. The surface is the darkest among Uranian moons, and appears to have been shaped primarily by impacts. However, the presence of canyons suggests early endogenic processes, and the moon may have undergone an early endogenically driven resurfacing event that obliterated its older surface.",
+                                "Umbriel is a moon of Uranus discovered on October 24, 1851, by William Lassell. It was discovered at the same time as Ariel and named after a character in Alexander Pope's poem The Rape of the Lock. Umbriel consists mainly of ice with a substantial fraction of rock, and may be differentiated into a rocky core and an icy mantle. The surface is the darkest among Uranian moons, and appears to have been shaped primarily by impacts. However, the presence of canyons suggests early endogenic processes, and the moon may have undergone an early endogenically driven resurfacing event that obliterated its older surface.",
 
-                            "Covered by numerous impact craters reaching 210 km (130 mi) in diameter, Umbriel is the second most heavily cratered satellite of Uranus after Oberon. The most prominent surface feature is a ring of bright material on the floor of Wunda crater. This moon, like all moons of Uranus, probably formed from an accretion disk that surrounded the planet just after its formation.",
+                                "Covered by numerous impact craters reaching 210 km (130 mi) in diameter, Umbriel is the second most heavily cratered satellite of Uranus after Oberon. The most prominent surface feature is a ring of bright material on the floor of Wunda crater. This moon, like all moons of Uranus, probably formed from an accretion disk that surrounded the planet just after its formation.",
 
-                            "Umbriel may be differentiated into a rocky core surrounded by an icy mantle. If this is the case, the radius of the core (317 km) is about 54% of the radius of the moon, and its mass is around 40% of the moon's mass—the parameters are dictated by the moon's composition. The pressure in the center of Umbriel is about 0.24 GPa (2.4 kbar). The current state of the icy mantle is unclear, although the existence of a subsurface ocean is considered unlikely.",
-                        ]
-                    },
-                    {
-                        name: "Titania",
-                        position: 17,
-                        image_url: [
-                            "https://solarsystem.nasa.gov/system/content_pages/main_images/292_PIA00036.jpg",
-                            "https://www.universetoday.com/wp-content/uploads/2010/02/Titania.jpg",
-                            "https://sos.noaa.gov/ftp_mirror/astronomy/uranus_moons/titania/media/thumbnail_big.jpg"
-                        ],
-                        orbit_distance_km: 435840,
-                        equatorial_diameter_km: 1576.8,
-                        mass: "(3.400±0.061)×1021 kg",
-                        orbit_period_in_days: 8.708333,
-                        surface_temperature_max_celcius: -184.15,
-                        surface_temperature_min_celcius: -213.15,
-                        facts: [
+                                "Umbriel may be differentiated into a rocky core surrounded by an icy mantle. If this is the case, the radius of the core (317 km) is about 54% of the radius of the moon, and its mass is around 40% of the moon's mass—the parameters are dictated by the moon's composition. The pressure in the center of Umbriel is about 0.24 GPa (2.4 kbar). The current state of the icy mantle is unclear, although the existence of a subsurface ocean is considered unlikely.",
+                            ]
+                        },
+                        {
+                            name: "Titania",
+                            position: 17,
+                            image_url: [
+                                "https://solarsystem.nasa.gov/system/content_pages/main_images/292_PIA00036.jpg",
+                                "https://www.universetoday.com/wp-content/uploads/2010/02/Titania.jpg",
+                                "https://sos.noaa.gov/ftp_mirror/astronomy/uranus_moons/titania/media/thumbnail_big.jpg"
+                            ],
+                            orbit_distance_km: 435840,
+                            equatorial_diameter_km: 1576.8,
+                            mass: "(3.400±0.061)×1021 kg",
+                            orbit_period_in_days: 8.708333,
+                            surface_temperature_max_celcius: -184.15,
+                            surface_temperature_min_celcius: -213.15,
+                            facts: [
 
-                            "Titania, also designated Uranus III, is the largest of the moons of Uranus and the eighth largest moon in the Solar System at a diameter of 1,578 kilometres (981 mi). Discovered by William Herschel in 1787, Titania is named after the queen of the fairies in Shakespeare's A Midsummer Night's Dream. Its orbit lies inside Uranus's magnetosphere.",
+                                "Titania, also designated Uranus III, is the largest of the moons of Uranus and the eighth largest moon in the Solar System at a diameter of 1,578 kilometres (981 mi). Discovered by William Herschel in 1787, Titania is named after the queen of the fairies in Shakespeare's A Midsummer Night's Dream. Its orbit lies inside Uranus's magnetosphere.",
 
-                            "Titania was discovered by William Herschel on January 11, 1787, the same day he discovered Uranus's second largest moon, Oberon. He later reported the discoveries of four more satellites, although they were subsequently revealed as spurious. For nearly fifty years following their discovery, Titania and Oberon would not be observed by any instrument other than William Herschel's, although the moon can be seen from Earth with a present-day high-end amateur telescope",
+                                "Titania was discovered by William Herschel on January 11, 1787, the same day he discovered Uranus's second largest moon, Oberon. He later reported the discoveries of four more satellites, although they were subsequently revealed as spurious. For nearly fifty years following their discovery, Titania and Oberon would not be observed by any instrument other than William Herschel's, although the moon can be seen from Earth with a present-day high-end amateur telescope",
 
-                            "Titania's orbit lies completely inside the Uranian magnetosphere. This is important, because the trailing hemispheres of satellites orbiting inside a magnetosphere are struck by magnetospheric plasma, which co-rotates with the planet. This bombardment may lead to the darkening of the trailing hemispheres, which is actually observed for all Uranian moons except Oberon (see below).",
-                        ]
-                    },
-                    {
-                        name: "Oberon",
-                        position: 18,
-                        image_url: [
-                            "https://www.universetoday.com/wp-content/uploads/2010/02/Oberon_USGS1.jpg",
-                            "https://www.universetoday.com/wp-content/uploads/2010/02/Umbriel_usgsx2.jpg",
-                            "https://sos.noaa.gov/ftp_mirror/astronomy/uranus_moons/oberon/media/thumbnail_big.jpg"
-                        ],
-                        orbit_distance_km: 584000,
-                        equatorial_diameter_km: 1522.8,
-                        mass: "(3.076±0.087)×1021 kg",
-                        orbit_period_in_days: 13,
-                        surface_temperature_max_celcius: -193.15,
-                        surface_temperature_min_celcius: -203.15,
-                        facts: [
+                                "Titania's orbit lies completely inside the Uranian magnetosphere. This is important, because the trailing hemispheres of satellites orbiting inside a magnetosphere are struck by magnetospheric plasma, which co-rotates with the planet. This bombardment may lead to the darkening of the trailing hemispheres, which is actually observed for all Uranian moons except Oberon (see below).",
+                            ]
+                        },
+                        {
+                            name: "Oberon",
+                            position: 18,
+                            image_url: [
+                                "https://www.universetoday.com/wp-content/uploads/2010/02/Oberon_USGS1.jpg",
+                                "https://www.universetoday.com/wp-content/uploads/2010/02/Umbriel_usgsx2.jpg",
+                                "https://sos.noaa.gov/ftp_mirror/astronomy/uranus_moons/oberon/media/thumbnail_big.jpg"
+                            ],
+                            orbit_distance_km: 584000,
+                            equatorial_diameter_km: 1522.8,
+                            mass: "(3.076±0.087)×1021 kg",
+                            orbit_period_in_days: 13,
+                            surface_temperature_max_celcius: -193.15,
+                            surface_temperature_min_celcius: -203.15,
+                            facts: [
 
-                            "Oberon, also designated Uranus IV, is the outermost major moon of the planet Uranus. It is the second-largest and second most massive of the Uranian moons, and the ninth most massive moon in the Solar System. Discovered by William Herschel in 1787, Oberon is named after the mythical king of the fairies who appears as a character in Shakespeare's A Midsummer Night's Dream.",
+                                "Oberon, also designated Uranus IV, is the outermost major moon of the planet Uranus. It is the second-largest and second most massive of the Uranian moons, and the ninth most massive moon in the Solar System. Discovered by William Herschel in 1787, Oberon is named after the mythical king of the fairies who appears as a character in Shakespeare's A Midsummer Night's Dream.",
 
-                            "Oberon orbits Uranus at a distance of about 584,000 km, being the farthest from the planet among its five major moons. Oberon's orbit has a small orbital eccentricity and inclination relative to the equator of Uranus.[4] Its orbital period is around 13.5 days, coincident with its rotational period. In other words, Oberon is a synchronous satellite, tidally locked, with one face always pointing toward the planet. Oberon spends a significant part of its orbit outside the Uranian magnetosphere. As a result, its surface is directly struck by the solar wind",
+                                "Oberon orbits Uranus at a distance of about 584,000 km, being the farthest from the planet among its five major moons. Oberon's orbit has a small orbital eccentricity and inclination relative to the equator of Uranus.[4] Its orbital period is around 13.5 days, coincident with its rotational period. In other words, Oberon is a synchronous satellite, tidally locked, with one face always pointing toward the planet. Oberon spends a significant part of its orbit outside the Uranian magnetosphere. As a result, its surface is directly struck by the solar wind",
 
-                            "Discovered in 1787, little was known about this moon until Voyager 2 passed it during its flyby of Uranus in January 1986. Its orbit lies partially outside Uranus's magnetosphere and this effects viewing via telescope or traditional means",
-                        ]
-                    }
-                ],
+                                "Discovered in 1787, little was known about this moon until Voyager 2 passed it during its flyby of Uranus in January 1986. Its orbit lies partially outside Uranus's magnetosphere and this effects viewing via telescope or traditional means",
+                            ]
+                        }
+                    ]
+                },
                 rings: 13,
                 orbit_period_days: 30687,
                 surface_temperature_max_celcius: -153,
@@ -1102,72 +1096,72 @@ db.solar_system.insertMany([
                 orbit_distance_au: 30.10,
                 equatorial_diameter_km: 49528,
                 mass: "1.02 × 10^26 kg (17 Earths)",
-                number_of_moons: 14,
-                moon_list: [
-                    "Naiad",
-                    "Thalassa",
-                    "Despina",
-                    "Galatea",
-                    "Larissa",
-                    "Hippocamp",
-                    "Proteus",
-                    "Triton",
-                    "Nereid",
-                    "Halimede",
-                    "Sao",
-                    "Laomedeia",
-                    "Psamathe",
-                    "Neso",
-                ],
-                sig_moon_number: 2,
-                sig_moons: [
-                    {
-                        name: "Triton",
-                        position: 8,
-                        image_url: [
-                            "https://www.thefactsite.com/wp-content/uploads/2019/10/triton-facts.jpg",
-                            "https://cdn.mos.cms.futurecdn.net/fxdQJeaQN5WCBJzWBeUzqR.jpg",
-                            "https://lh3.googleusercontent.com/proxy/XCnbZ8qks7YrGeC78zl1ZL78trXQiFQgBkcN98PMQc8Nsb_2R7J_eHaET4jA5sw1nNjBFbVTBbi0elDzNrtqimzq0lcqBzXvMYwKiykFNQ22jGvsTxk"
-                        ],
-                        orbit_distance_km: 354800,
-                        equatorial_diameter_km: 2706.8,
-                        mass: "(3.076±0.087)×1021 kg",
-                        orbit_period_in_days: 5.875,
-                        surface_temperature_max_celcius: null,
-                        surface_temperature_min_celcius: -235.2,
-                        facts: [
+                moons: {
+                    moon_list: [
+                        "Naiad",
+                        "Thalassa",
+                        "Despina",
+                        "Galatea",
+                        "Larissa",
+                        "Hippocamp",
+                        "Proteus",
+                        "Triton",
+                        "Nereid",
+                        "Halimede",
+                        "Sao",
+                        "Laomedeia",
+                        "Psamathe",
+                        "Neso",
+                    ],
+                    sig_moons: [
+                        {
+                            name: "Triton",
+                            position: 8,
+                            image_url: [
+                                "https://www.thefactsite.com/wp-content/uploads/2019/10/triton-facts.jpg",
+                                "https://cdn.mos.cms.futurecdn.net/fxdQJeaQN5WCBJzWBeUzqR.jpg",
+                                "https://lh3.googleusercontent.com/proxy/XCnbZ8qks7YrGeC78zl1ZL78trXQiFQgBkcN98PMQc8Nsb_2R7J_eHaET4jA5sw1nNjBFbVTBbi0elDzNrtqimzq0lcqBzXvMYwKiykFNQ22jGvsTxk"
+                            ],
+                            orbit_distance_km: 354800,
+                            equatorial_diameter_km: 2706.8,
+                            mass: "(3.076±0.087)×1021 kg",
+                            orbit_period_in_days: 5.875,
+                            surface_temperature_max_celcius: null,
+                            surface_temperature_min_celcius: -235.2,
+                            facts: [
 
-                            "Triton is the largest natural satellite of the planet Neptune, and the first Neptunian moon to be discovered. The discovery was made on October 10, 1846, by English astronomer William Lassell. It is the only large moon in the Solar System with a retrograde orbit, an orbit in the direction opposite to its planet's rotation",
+                                "Triton is the largest natural satellite of the planet Neptune, and the first Neptunian moon to be discovered. The discovery was made on October 10, 1846, by English astronomer William Lassell. It is the only large moon in the Solar System with a retrograde orbit, an orbit in the direction opposite to its planet's rotation",
 
-                            "Triton is one of the few moons in the Solar System known to be geologically active (the others being Jupiter's Io and Europa, and Saturn's Enceladus and Titan). As a consequence, its surface is relatively young, with few obvious impact craters.",
+                                "Triton is one of the few moons in the Solar System known to be geologically active (the others being Jupiter's Io and Europa, and Saturn's Enceladus and Titan). As a consequence, its surface is relatively young, with few obvious impact craters.",
 
-                            "Triton is named after the Greek sea god Triton, the son of Poseidon (the Greek god corresponding to the Roman Neptune). The name was first proposed by Camille Flammarion in his 1880 book Astronomie Populaire and was officially adopted many decades later. Until the discovery of the second moon Nereid in 1949, Triton was commonly referred to as 'the satellite of Neptune'. Lassell did not name his own discovery; he later successfully suggested the name Hyperion, previously chosen by John Herschel, for the eighth moon of Saturn when he discovered it",
-                        ]
-                    },
-                    {
-                        name: "Nereid",
-                        position: 9,
-                        image_url: [
-                            "https://i0.wp.com/www.astronomylovers.com/wp-content/uploads/2020/05/nereid.jpg?fit=915%2C610&ssl=1",
-                            "https://alchetron.com/cdn/nereid-moon-b0865733-0957-4aba-9a35-ca89160e525-resize-750.jpeg",
-                            "https://ak.picdn.net/shutterstock/videos/1018915744/thumb/1.jpg"
-                        ],
-                        orbit_distance_km: 5513400,
-                        equatorial_diameter_km: 340,
-                        mass: "3.1×1019",
-                        orbit_period_in_days: 360,
-                        surface_temperature_max_celcius: -223.15,
-                        surface_temperature_min_celcius: null,
-                        facts: [
+                                "Triton is named after the Greek sea god Triton, the son of Poseidon (the Greek god corresponding to the Roman Neptune). The name was first proposed by Camille Flammarion in his 1880 book Astronomie Populaire and was officially adopted many decades later. Until the discovery of the second moon Nereid in 1949, Triton was commonly referred to as 'the satellite of Neptune'. Lassell did not name his own discovery; he later successfully suggested the name Hyperion, previously chosen by John Herschel, for the eighth moon of Saturn when he discovered it",
+                            ]
+                        },
+                        {
+                            name: "Nereid",
+                            position: 9,
+                            image_url: [
+                                "https://i0.wp.com/www.astronomylovers.com/wp-content/uploads/2020/05/nereid.jpg?fit=915%2C610&ssl=1",
+                                "https://alchetron.com/cdn/nereid-moon-b0865733-0957-4aba-9a35-ca89160e525-resize-750.jpeg",
+                                "https://ak.picdn.net/shutterstock/videos/1018915744/thumb/1.jpg"
+                            ],
+                            orbit_distance_km: 5513400,
+                            equatorial_diameter_km: 340,
+                            mass: "3.1×1019",
+                            orbit_period_in_days: 360,
+                            surface_temperature_max_celcius: -223.15,
+                            surface_temperature_min_celcius: null,
+                            facts: [
 
-                            "Nereid was discovered on 1 May 1949 by Gerard P. Kuiper on photographic plates taken with the 82-inch telescope at the McDonald Observatory. He proposed the name in the report of his discovery. It is named after the Nereids, sea-nymphs of Greek mythology and attendants of the god Neptune. It was the second and last moon of Neptune to be discovered before the arrival of Voyager 2 (not counting a single observation of an occultation by Larissa in 1981).",
+                                "Nereid was discovered on 1 May 1949 by Gerard P. Kuiper on photographic plates taken with the 82-inch telescope at the McDonald Observatory. He proposed the name in the report of his discovery. It is named after the Nereids, sea-nymphs of Greek mythology and attendants of the god Neptune. It was the second and last moon of Neptune to be discovered before the arrival of Voyager 2 (not counting a single observation of an occultation by Larissa in 1981).",
 
-                            "Spectrally, Nereid appears neutral in colour and water ice has been detected on its surface. Its spectrum appears to be intermediate between Uranus's moons Titania and Umbriel, which suggests that Nereid's surface is composed of a mixture of water ice and some spectrally neutral material. The spectrum is markedly different from minor planets of the outer solar system, centaurs Pholus, Chiron and Chariklo, suggesting that Nereid formed around Neptune rather than being a captured body.",
+                                "Spectrally, Nereid appears neutral in colour and water ice has been detected on its surface. Its spectrum appears to be intermediate between Uranus's moons Titania and Umbriel, which suggests that Nereid's surface is composed of a mixture of water ice and some spectrally neutral material. The spectrum is markedly different from minor planets of the outer solar system, centaurs Pholus, Chiron and Chariklo, suggesting that Nereid formed around Neptune rather than being a captured body.",
 
-                            "Nereid's orbit is the most eccentric in the solar system. Its distance to Neptune ranges from about 1,353,600 kilometers (841,100 miles) to 9,623,700 kilometers (5,980,200 miles).",
-                        ]
-                    }
-                ],
+                                "Nereid's orbit is the most eccentric in the solar system. Its distance to Neptune ranges from about 1,353,600 kilometers (841,100 miles) to 9,623,700 kilometers (5,980,200 miles).",
+                            ]
+                        }
+                    ]
+                },
                 rings: 6,
                 orbit_period_days: 60190,
                 surface_temperature_max_celcius: -201,
@@ -1224,40 +1218,40 @@ db.solar_system.insertMany([
                 orbit_distance_au: 49.305,
                 equatorial_diameter_km: 2372,
                 mass: "12.5 x 1021kg (0.0021 x Earth's)",
-                number_of_moons: 5,
-                moon_list: [
-                    "Charon",
-                    "Styx",
-                    "Nix",
-                    "Kerberos",
-                    "Hydra",
-                ],
-                sig_moon_number: 1,
-                sig_moons: [
-                    {
-                        name: "Charon",
-                        position: 1,
-                        image_url: [
-                            "https://solarsystem.nasa.gov/system/content_pages/main_images/538_PIA19968.jpg",
-                            "https://cdn.mos.cms.futurecdn.net/9v3Jyf9Zd24LZo4xKkwYe6.jpg",
-                            "https://img.etimg.com/thumb/width-640,height-480,imgsize-60269,resizemode-1,msid-49194064/news/science/nasa-captures-plutos-moon-charon-in-stunning-detail.jpg"
-                        ],
-                        orbit_distance_km: 17536,
-                        equatorial_diameter_km: 1212,
-                        mass: "(1.586±0.015) × 1021kg (2.66×10−4 Earths)",
-                        orbit_period_in_days: 6.387,
-                        surface_temperature_max_celcius: -213,
-                        surface_temperature_min_celcius: -240,
-                        facts: [
+                moons: {
+                    moon_list: [
+                        "Charon",
+                        "Styx",
+                        "Nix",
+                        "Kerberos",
+                        "Hydra",
+                    ],
+                    sig_moons: [
+                        {
+                            name: "Charon",
+                            position: 1,
+                            image_url: [
+                                "https://solarsystem.nasa.gov/system/content_pages/main_images/538_PIA19968.jpg",
+                                "https://cdn.mos.cms.futurecdn.net/9v3Jyf9Zd24LZo4xKkwYe6.jpg",
+                                "https://img.etimg.com/thumb/width-640,height-480,imgsize-60269,resizemode-1,msid-49194064/news/science/nasa-captures-plutos-moon-charon-in-stunning-detail.jpg"
+                            ],
+                            orbit_distance_km: 17536,
+                            equatorial_diameter_km: 1212,
+                            mass: "(1.586±0.015) × 1021kg (2.66×10−4 Earths)",
+                            orbit_period_in_days: 6.387,
+                            surface_temperature_max_celcius: -213,
+                            surface_temperature_min_celcius: -240,
+                            facts: [
 
-                            "With half the diameter and one eighth the mass of Pluto, Charon is a very large moon in comparison to its parent body. Its gravitational influence is such that the barycenter of the Plutonian system lies outside Pluto. This has led to the argument that Pluto–Charon is sometimes considered a double dwarf planet",
+                                "With half the diameter and one eighth the mass of Pluto, Charon is a very large moon in comparison to its parent body. Its gravitational influence is such that the barycenter of the Plutonian system lies outside Pluto. This has led to the argument that Pluto–Charon is sometimes considered a double dwarf planet",
 
-                            "Charon and Pluto orbit each other every 6.387 days. The two objects are gravitationally locked to one another, so each keeps the same face towards the other. This is a case of mutual tidal locking, as compared to that of the Earth and the Moon, where the Moon always shows the same face to Earth, but not vice versa.",
+                                "Charon and Pluto orbit each other every 6.387 days. The two objects are gravitationally locked to one another, so each keeps the same face towards the other. This is a case of mutual tidal locking, as compared to that of the Earth and the Moon, where the Moon always shows the same face to Earth, but not vice versa.",
 
-                            "The New Horizons spacecraft is the only probe that has visited the Pluto system. It approached Charon to within 27,000 km (17,000 mi) in 2015. In a released photo by New Horizons, an unusual surface feature has captivated and baffled the scientist team of the mission. The image reveals a mountain rising out of a depression, described as 'a large mountain sitting in a moat'.",
-                        ]
-                    }
-                ],
+                                "The New Horizons spacecraft is the only probe that has visited the Pluto system. It approached Charon to within 27,000 km (17,000 mi) in 2015. In a released photo by New Horizons, an unusual surface feature has captivated and baffled the scientist team of the mission. The image reveals a mountain rising out of a depression, described as 'a large mountain sitting in a moat'.",
+                            ]
+                        }
+                    ]
+                },
                 rings: 0,
                 orbit_period_days: 90560,
                 surface_temperature_max_celcius: -223,
@@ -1298,18 +1292,38 @@ db.solar_system.insertMany([
             },
 
         ],
+        sun: {
+            name: "Sun",
+            star_intro: "",
+            image_url: [
+                "https://www.extremetech.com/wp-content/uploads/2020/01/NASA-Sun.jpg",
+                "https://cdn.cnn.com/cnnnext/dam/assets/150216005531-vo-nasa-solar-dynamics-observatory-5-years-00011523.jpg",
+                "https://apod.nasa.gov/apod/image/1907/SpotlessSunIss_Colacurcio_2048.jpg",
+                "https://static.bhphotovideo.com/explora/sites/default/files/styles/top_shot/public/ts-space-sun-and-solar-viewing-facts-versus-fiction.jpg?itok=gaBs6QMS",
+                "https://d2r55xnwy6nx47.cloudfront.net/uploads/2018/07/SolarFull_SeanDoran_2880FullwidthLede.jpg",
+            ],
+            latin_name: "Solis",
+            sumerian_name: "Ud",
+            equatorial_diameter_km: 1391016,
+            mass: "1.4 x 1029 kg + 3.0 x 1032 kg",
+            surface_temperature_max_celcius: 100000,
+            surface_temperature_min_celcius: 5504.85,
+            internal_temperature_celcius: 14999982.222,
+            facts: [
+                "The Sun accounts for 99.86% of the mass in the solar system.",
 
-        stars: [
+                "One day the Sun will consume the Earth.",
 
-        ],
+                "The Sun is what is known as a main sequence star; that is, a sphere composed primarily of the two gases hydrogen and helium such that certain conditions are met. The first condition is that it must have a mass falling within a certain range.",
 
-        satellites: [
+                "The size of the Sun compared to the largest known stars (red giants) is not very big. However, if compared to the most common type of star in the universe, the red dwarf, the Sun is quite a bit larger. Thus, the Sun is not the biggest type of star in the universe, but it is definitely larger than most.",
 
-        ],
+                "As far as the Sun’s mass compared to other bodies found in our solar system, the Sun is easily the most massive. The Sun alone contains 99.8% of the total mass in the Solar System. In terms of size, the Sun has a diameter of roughly 1.4 million kilometers(870, 000 miles).To put this in perspective, this is almost 110 times the diameter of the Earth.What this means is that about one million Earth’s could fit inside the Sun.",
 
-        planetoids: [
-
-        ],
-
+                "The Sun is almost a perfect sphere. Considering the sheer size of the Sun, there is only a 10 km difference in its polar and equatorial diameters – this makes it the closest thing to a perfect sphere observed in nature."
+            ]
+        },
+        satellites: [],
+        planetoids: [],
     }
 ])
