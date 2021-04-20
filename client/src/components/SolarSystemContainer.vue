@@ -45,6 +45,17 @@ export default {
 
 button {
     margin: 50px auto 20px 20px;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+    backdrop-filter: blur(3px);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.334);
 }
 
 #solar-system {

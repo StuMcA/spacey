@@ -104,6 +104,7 @@ li:hover {
 #planet-list {
     width: 120px;
     display: none;
+    backdrop-filter: blur(3px);
 }
 
 .nav-bar-planet:hover #planet-list {
