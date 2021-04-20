@@ -34,7 +34,7 @@ export default {
   },
   methods: {
     fetchPlanets() {
-      PlanetService.getPlanets().then((planets) => this.planets.push(...planets));
+      PlanetService.getPlanets().then((solarSystem) => this.planets.push(...solarSystem[0].planets));
     },
   },
   mounted() {

@@ -1,4 +1,4 @@
-const baseURL = "http://localhost:3000/api/planets/";
+const baseURL = "http://localhost:3000/api/solar_system/";
 
 export default {
     async getPlanets() {

@@ -1,7 +1,7 @@
 <template>
   <section class="planet-fact-wrapper">
     <h1>Facts</h1>
-    <p>{{ planetFacts.first }}</p>
+    <p>{{ planetFacts[0] }}</p>
     <button class="next-fact-button" @click="nextFact">Next Fact</button>
   </section>
 </template>
