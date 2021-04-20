@@ -1,7 +1,7 @@
 <template>
   <section class="planet-fact-wrapper">
     <h1>Facts</h1>
-    <p>{{ planetFacts[0] }}</p>
+    <p>{{ planetFacts[currentFact] }}</p>
     <button class="next-fact-button" @click="nextFact">Next Fact</button>
   </section>
 </template>
@@ -10,9 +10,23 @@
 export default {
   name: 'PlanetFacts',
   props: ['planetFacts'],
+  data() {
+    return {
+      currentFact: 0,
+    };
+  },
   methods: {
     nextFact: function() {
-      // cycle to next fact in array
+      if (this.currentFact < this.planetFacts.length - 1) {
+        this.currentFact += 1;
+      } else {
+        this.currentFact = 0;
+      }
+    },
+  },
+  watch: {
+    planetFacts: function() {
+      this.currentFact = 0;
     },
   },
 };
