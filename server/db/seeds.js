@@ -34,35 +34,35 @@ db.solar_system.insertMany([
                 surface_temperature_min_celcius: -173,
                 facts: [
 
-                    "This planet has been known to humanity since ancient times and although its discovery date is unknown, the first mentions of the planet are believed to be around 3000 BC by the Sumerians.",
+                    "Mercury has been known to humanity since ancient times and although its discovery date is unknown, the first mentions of the planet are believed to be around 3000 BC by the Sumerians.",
 
-                    "A year on this planet is 88 days, yet a day is 176 of our days. This planet is also nearly tidally locked to the Sun – also known as a gravitational lock – and over time this has slowed the rotation of the planet to almost match its orbit around the Sun.",
+                    "A year on Mercury is 88 days, yet a day is 176 of our days. Mercury is also nearly tidally locked to the Sun – also known as a gravitational lock – and over time this has slowed the rotation of the planet to almost match its orbit around the Sun.",
 
-                    "Not only is this planet the smallest planet, it is also shrinking. In a very, very slow process, it is getting smaller every day. It is estimated that the planet is about 9 miles smaller than it was four billion years ago(we told you it was a slow process). Astronomers believe this is happening because it’s iron core is cooling, which is making it solid, therefore reducing the planet’s volume.",
+                    "Not only is Mercury the smallest planet, it is also shrinking. In a very, very slow process, it is getting smaller every day. It is estimated that the planet is about 9 miles smaller than it was four billion years ago(we told you it was a slow process). Astronomers believe this is happening because it’s iron core is cooling, which is making it solid, therefore reducing the planet’s volume.",
 
-                    "This planet is the smallest planet in the solar system with a diameter of 4879 km and is one of five planets that is visible to the naked eye.",
+                    "Mercury is the smallest planet in the solar system with a diameter of 4879 km and is one of five planets that is visible to the naked eye.",
 
-                    "This planet is the second densest planet. Despite its small size, it is very dense because it is composed mainly of heavy metals and rock – the main characteristic of terrestrial planets.",
+                    "Mercury is the second densest planet. Despite its small size, it is very dense because it is composed mainly of heavy metals and rock – the main characteristic of terrestrial planets.",
 
-                    "This planet is named after the messenger of the Roman gods, who is also known as Hermes in Greek mythology.This is because of the speed in which this planet orbits the Sun and the speed with which the Roman deity was able to deliver messages.",
+                    "Mercury is named after the messenger of the Roman gods, who is also known as Hermes in Greek mythology.This is because of the speed in which Mercury orbits the Sun and the speed with which the Roman deity was able to deliver messages.",
 
-                    "Modern astronomers didn’t consider that this planet to be a planet at all until 1543 when Copernicus published his Sun-centered model of the Solar System, which put the Sun as the centre of the solar system rather than the previously believed centre, our home planet.",
+                    "Modern astronomers didn’t consider that Mercury to be a planet at all until 1543 when Copernicus published his Sun-centered model of the Solar System, which put the Sun as the centre of the solar system rather than the previously believed centre, Earth.",
 
-                    "The planet has just 38% of the gravity on our home planet. This means that it isn’t able to hold the atmosphere it has and it instead gets blown away by solar winds. However those same solar winds are also bringing in new gases, radioactive decay and dust from micrometeorites which replenishes the atmosphere.",
+                    "The planet has just 38% of the gravity on Earth. This means that it isn’t able to hold the atmosphere it has and it instead gets blown away by solar winds. However those same solar winds are also bringing in new gases, radioactive decay and dust from micrometeorites which replenishes the atmosphere.",
 
-                    "This planet has no moons or rings because of it's low gravity and lack of consistent atmosphere. The only other planet with no moons is Venus.",
+                    "Mercury has no moons or rings because of it's low gravity and lack of consistent atmosphere. The only other planet with no moons is Venus.",
 
-                    "It was once believed that a planet called Vulcan existed between the orbit of this planet and the Sun – however the existence of such a planet was never found. This is where the idea for the planet Vulcan in Star Trek comes from,",
+                    "It was once believed that a planet called Vulcan existed between the orbit of Mercury and the Sun – however the existence of such a planet was never found. This is where the idea for the planet Vulcan in Star Trek comes from,",
 
-                    "The orbit of this planet is an ellipse rather than circular. It has the most eccentric orbit in the solar system and the least circular of all of the planets, according to scientists and astronomers.",
+                    "The orbit of Mercury is an ellipse rather than circular. It has the most eccentric orbit in the solar system and the least circular of all of the planets, according to scientists and astronomers.",
 
-                    "This planet is only the second hottest planet. It's nearest neighbor, though farther from the Sun than it, actually experiences higher temperatures. This is because this planet has no atmosphere to regulate temperature and results in the most extreme temperature change of all the planets, ranging from -170°C(-280°F) during the night to 430°C(800°F) during the day.",
+                    "Mercury is only the second hottest planet. It's nearest neighbor, though farther from the Sun than it, actually experiences higher temperatures. This is because Mercury has no atmosphere to regulate temperature and results in the most extreme temperature change of all the planets, ranging from -170°C(-280°F) during the night to 430°C(800°F) during the day.",
 
-                    "This planet does not experience any seasons. The axis of this planet has the smallest tilt of all other planets, and this results in a lack of seasons on its surface.",
+                    "Mercury does not experience any seasons. The axis of Mercury has the smallest tilt of all other planets, and this results in a lack of seasons on its surface.",
 
-                    "This planet is the only planet which doesn’t rotate exactly once every year, instead rotating three times for every two orbits of the Sun. This is because it is nearly tidally locked to the Sun.",
+                    "Mercury is the only planet which doesn’t rotate exactly once every year, instead rotating three times for every two orbits of the Sun. This is because it is nearly tidally locked to the Sun.",
 
-                    "The orbit of this planet was important in proving Albert Einstein’s theory of General Relativity and is referenced in several of the physicists studies and mathematical arguments as cosmic proof of relativity in action, due to its orbit, speed and more complex mathematical truths.",
+                    "The orbit of Mercury was important in proving Albert Einstein’s theory of General Relativity and is referenced in several of the physicists studies and mathematical arguments as cosmic proof of relativity in action, due to its orbit, speed and more complex mathematical truths.",
                 ]
             },
 
@@ -96,33 +96,33 @@ db.solar_system.insertMany([
                 surface_temperature_min_celcius: 462,
                 facts: [
 
-                    "This planet is the second brightest natural object in the sky. The planet has an apparent magnitude of -3.8 to -4.6, which makes it visible on a bright, clear day. The Moon is the only other natural object that is brighter.",
+                    "Venus is the second brightest natural object in the sky. The planet has an apparent magnitude of -3.8 to -4.6, which makes it visible on a bright, clear day. The Moon is the only other natural object that is brighter.",
 
-                    "This planet is sometimes referred to as the “morning star” and “evening star”. When the orbit of this planet overtakes Earth’s orbit, it changes from being visible at sunrise to being visible at sunset.They were known as Phosphorus and Hesperus by the Greeks, and Lucifer and Vesper by the Romans.",
+                    "Venus is sometimes referred to as the “morning star” and “evening star”. When the orbit of Jupiter overtakes Earth’s orbit, it changes from being visible at sunrise to being visible at sunset.They were known as Phosphorus and Hesperus by the Greeks, and Lucifer and Vesper by the Romans.",
 
-                    "One day on this planet is longer than one year. Due to the slow rotation on its axis, it takes 243 Earth-days to complete one rotation. The orbit of the planet takes 225 of our days – making a year on this planet shorter on day on this planet.",
+                    "One day on Venus is longer than one year. Due to the slow rotation on its axis, it takes 243 Earth-days to complete one rotation. The orbit of the planet takes 225 of our days – making a year on Venus shorter on day on Earth",
 
-                    "This planet is named after the Roman goddess of love and beauty. This may be, in part, due the brightness of the planet and may date back to the Babylonians in 1581 who referred to this planet as 'bright queen of the sky'.",
+                    "Venus is named after the Roman goddess of love and beauty. This may be, in part, due the brightness of the planet and may date back to the Babylonians in 1581 who referred to Venus as 'bright queen of the sky'.",
 
-                    "In spite of this planet being known as the sister planet to our planet, it is also considered one of the most hostile planets with regards to compatibility for Earth life. This is due to an incredibly hot surface, poisonous gases in the atmosphere and the incredible atmospheric pressure.",
+                    "In spite of Venus being known as the sister planet to our planet, it is also considered one of the most hostile planets with regards to compatibility for Earth life. This is due to an incredibly hot surface, poisonous gases in the atmosphere and the incredible atmospheric pressure.",
 
-                    "This planet has no moons nor rings but often has a shimmer effect due to its incredibly dense, thick atmosphere.",
+                    "Venus has no moons nor rings but often has a shimmer effect due to its incredibly dense, thick atmosphere.",
 
-                    "Billions of years ago, the climate of this planet may been similar to that of ours and scientists believe that this planet once possessed large amounts of water or oceans. However, due to the high temperatures produce from the extreme greenhouse effect, this water boiled off long ago.",
+                    "Billions of years ago, the climate of Venus may been similar to that of ours and scientists believe that Venus once possessed large amounts of water or oceans. However, due to the high temperatures produce from the extreme greenhouse effect, this water boiled off long ago.",
 
-                    "This plane rotate in the opposite direction to other planets. Most other planets rotate counter-clockwise on their axis. However this planet, like one other planet much further out from the sun, rotates clockwise. This is known as a retrograde rotation and may have been caused by a collision with an asteroid or other object which caused the planet to change its rotational path.",
+                    "This plane rotate in the opposite direction to other planets. Most other planets rotate counter-clockwise on their axis. However Venus, like Uranus, rotates clockwise. This is known as a retrograde rotation and may have been caused by a collision with an asteroid or other object which caused the planet to change its rotational path.",
 
-                    "This planet is the hottest planet in the solar system with an average surface temperature of 462°C (863°F). Also, this planet doesn’t tilt on its axis which means there are no seasons either. The atmosphere is a dense 96.5% carbon dioxide which traps heat and caused the greenhouse effect which evaporated any water sources billions of years ago.",
+                    "Venus is the hottest planet in the solar system with an average surface temperature of 462°C (863°F). Also, Venus doesn’t tilt on its axis which means there are no seasons either. The atmosphere is a dense 96.5% carbon dioxide which traps heat and caused the greenhouse effect which evaporated any water sources billions of years ago.",
 
-                    "The temperature on this planet doesn’t vary much between the night and day, remaining very high constantly. This is due to the slow movement of the solar winds across the surface of the planet.",
+                    "The temperature on Venus doesn’t vary much between the night and day, remaining very high constantly. This is due to the slow movement of the solar winds across the surface of the planet.",
 
-                    "The estimated age of this planets surface is around 300-400 million years old. By comparison, the surface of our home is about 100 million years old. For this reason, this planet is sometimes called a potential, tragic, future for our planet",
+                    "The estimated age of the Venusian surface is around 300-400 million years old. By comparison, the surface of our home is about 100 million years old. For this reason, Venus is sometimes called a potential, tragic, future for our planet",
 
-                    "The atmospheric pressure of this planet is 92 times stronger than our planet. This means that any small asteroids entering the atmosphere of Venus are crushed by the immense pressure, which is why there are no small surface craters on the planet. This pressure is equivalent to being around 1,000 km under our planets oceans.",
+                    "The atmospheric pressure of Venus is 92 times stronger than our planet. This means that any small asteroids entering the atmosphere of Venus are crushed by the immense pressure, which is why there are no small surface craters on the planet. This pressure is equivalent to being around 1,000 km under our planets oceans.",
 
-                    "This planet has a very weak magnetic field. This surprised scientists, who expected this planet to have a magnetic field similar in strength to our planet. One possible reason for this is that this planet has no solid inner core, or that its core is not cooling.",
+                    "Venus has a very weak magnetic field. This surprised scientists, who expected Venus to have a magnetic field similar in strength to our planet. One possible reason for this is that Venus has no solid inner core, or that its core is not cooling.",
 
-                    "This planet is the only planet in the Solar System to be named after a female figure.",
+                    "Venus is the only planet in the Solar System to be named after a female figure.",
                 ]
             },
 
@@ -182,35 +182,35 @@ db.solar_system.insertMany([
                 surface_temperature_min_celcius: -88,
                 facts: [
 
-                    "This planet was once believed to be the centre of the universe. For 2000 years ancient astronomers believed that this planet was static and had other celestial bodies travelling in circular orbits around it. They believed this because of the apparent movement on the Sun and planets in relation to their viewpoint. In 1543, Copernicus published his Sun-centered model of the Solar System which put the Sun at the centre of our solar system instead.",
+                    "Earth was once believed to be the centre of the universe. For 2000 years ancient astronomers believed that Earth was static and had other celestial bodies travelling in circular orbits around it. In 1543, Copernicus published his Sun-centered model of the Solar System which put the Sun at the centre of our solar system instead.",
 
-                    "This planet is the only planet not named for a mythological god or goddess. The other seven planets in the solar system were named after Roman gods or goddesses. The five visible to the naked eye were named during ancient times. This Roman method was also used after the discovery of later planets. This planets name comes from the Old English and means ground or land.",
+                    "Earth is the only planet not named for a mythological god or goddess. The other seven planets in the solar system were named after Roman gods or goddesses. The five visible to the naked eye were named during ancient times. This Roman method was also used after the discovery of later planets. Earths name comes from the Old English and means ground or land.",
 
-                    "This planet is the most dense planet in the solar system. The density of this planet differs in each part of the planet. The core, for example, is denser than the crust but the average density of the planet is around 5.52 grams per cubic centimetre.",
+                    "Earth is the most dense planet in the solar system. The density of Earth differs in each part of the planet. The core, for example, is denser than the crust but the average density of the planet is around 5.52 grams per cubic centimetre.",
 
-                    "The gravity between this planet and its Moon causes the tides. This effect on the Moon means it is tidally locked to this planet with its rotation period is the same as its orbit time so it always presents the same face to this planet.",
+                    "The gravity between Earth and its Moon causes the tides. This effect on the Moon means it is tidally locked to Earth with its rotation period is the same as its orbit time so it always presents the same face to Earth.",
 
-                    "The rotation of the this planet is gradually slowing down. The deceleration of the this planets rotation is very slow, approximately 17 milliseconds per hundred years. Eventually this will lengthen our days but it will take around 140 million years before the days here will have increased from 24 to 25 hours.",
+                    "The rotation of the Earth is gradually slowing down. The deceleration of the Earths rotation is very slow, approximately 17 milliseconds per hundred years. Eventually this will lengthen our days but it will take around 140 million years before the days here will have increased from 24 to 25 hours.",
 
-                    "This planets atmosphere is composed of 78% nitrogen, 21% oxygen, and trace amounts of other gases including argon and carbon dixoide.",
+                    "Earths atmosphere is composed of 78% nitrogen, 21% oxygen, and trace amounts of other gases including argon and carbon dixoide.",
 
-                    "The large amount of oxygen on this planet comes from its plant life’s consumption of carbon dioxide during photosynthesis",
+                    "The large amount of oxygen on Earth comes from its plant life’s consumption of carbon dioxide during photosynthesis",
 
-                    "This planet has a very powerful magnetic field. This field protects the planet from the effects of solar winds and is believed to be a result of the nickel-iron core of the planet combined with its rapid rotation.",
+                    "Earth has a very powerful magnetic field. This field protects the planet from the effects of solar winds and is believed to be a result of the nickel-iron core of the planet combined with its rapid rotation.",
 
-                    "This planet has an Ozone Layer which protects it from harmful solar radiation. This shell is a special type of oxygen that absorbs most of the Sun’s powerful UV rays.",
+                    "Earth has an Ozone Layer which protects it from harmful solar radiation. This shell is a special type of oxygen that absorbs most of the Sun’s powerful UV rays.",
 
-                    "70% of the this planets surface is covered by water – the remainder consists of continents and islands which together have many lakes and other sources of water.",
+                    "70% of the Earths surface is covered by water – the remainder consists of continents and islands which together have many lakes and other sources of water.",
 
-                    "The first life on this planet developed in the oceans through a process called abiogenesis or biopoiesis. This is a natural process in which life grows from non-living matter like simple organic compounds.",
+                    "The first life on Earth developed in the oceans through a process called abiogenesis or biopoiesis. This is a natural process in which life grows from non-living matter like simple organic compounds.",
 
-                    "This planets water was initially trapped within the planet. Over time the water was brought to the surface by the planet’s volcanic activity.",
+                    "Earths water was initially trapped within the planet. Over time the water was brought to the surface by the planet’s volcanic activity.",
 
-                    "This planet has relatively few visible impact craters compared with other solid bodies in our solar system. This is because this planet is highly geologically active and has processes like tectonics and erosion that reshape its surface.",
+                    "Earth has relatively few visible impact craters compared with other solid bodies in our solar system. This is because Earth is highly geologically active and has processes like tectonics and erosion that reshape its surface.",
 
-                    "The highest point found on this planet is Mount Everest which reaches a height of 8.8 km.",
+                    "The highest point found on Earth is Mount Everest which reaches a height of 8.8 km.",
 
-                    "The lowest point on this planet is called Challenger Deep and at 10.9 km below sea level, it is further than the peak of Mount Everest.",
+                    "The lowest point on Earth is called Challenger Deep and at 10.9 km below sea level, it is further than the peak of Mount Everest.",
 
                 ]
             },
@@ -294,35 +294,35 @@ db.solar_system.insertMany([
                 surface_temperature_min_celcius: -87,
                 facts: [
 
-                    "This planet and our home planet have approximately the same landmass. Even though this planet has only 15% of our home planets volume and just over 10% of the our home planets mass, around two thirds of the our home planets surface is covered in water. By contrast, this planets surface gravity is only 37% of the our home planets (meaning you could leap nearly three times higher here).",
+                    "Mars and Earth have approximately the same landmass. Even though Mars has only 15% of Earths volume and just over 10% of the Earths mass, around two thirds of the Earths surface is covered in water. By contrast, Mars surface gravity is only 37% of Earths (meaning you could leap nearly three times higher here).",
 
-                    "This planet is home to the tallest mountain in the solar system. Olympus Mons, a shield volcano, is 21km high and 600km in diameter.Despite having formed over billions of years, evidence from volcanic lava flows is so recent many scientists believe it could still be active.",
+                    "Mars is home to the tallest mountain in the solar system. Olympus Mons, a shield volcano, is 21km high and 600km in diameter.Despite having formed over billions of years, evidence from volcanic lava flows is so recent many scientists believe it could still be active.",
 
-                    "Only 18 missions to this planet have been successful. As of September 2014 there have been 40 missions to this planet, including orbiters, landers and rovers but not counting flybys.The most important missions include the Curiosity missions (begun in 2012), the MAVEN mission, which arrived on September 22, 2014, followed by the Indian Space Research Organization’s MOM Mangalyaan orbiter, which arrived on September 24, 2014 and the NASA’s InSight robotic lander mission in September, 2016.",
+                    "Only 18 missions to Mars have been successful. As of September 2014 there have been 40 missions to Mars, including orbiters, landers and rovers but not counting flybys.The most important missions include the Curiosity missions (begun in 2012), the MAVEN mission, which arrived on September 22, 2014, followed by the Indian Space Research Organization’s MOM Mangalyaan orbiter, which arrived on September 24, 2014 and the NASA’s InSight robotic lander mission in September, 2016.",
 
-                    "This planet has the largest dust storms in the solar system. They can last for months and cover the entire planet.The seasons are extreme because its elliptical(oval- shaped) orbital path around the Sun is more elongated than most other planets in the solar system.",
+                    "Mars has the largest dust storms in the solar system. They can last for months and cover the entire planet.The seasons are extreme because its elliptical(oval- shaped) orbital path around the Sun is more elongated than most other planets in the solar system.",
 
-                    "On this planet the Sun appears about half the size as it does on Earth. At the closest point to the Sun, this planets southern hemisphere leans towards the Sun, causing a short, intensely hot summer, while the northern hemisphere endures a brief, cold winter: at its farthest point from the Sun, the northern hemisphere leans towards the Sun, causing a long, mild summer, while the southern hemisphere endures a lengthy, cold winter.",
+                    "On Mars the Sun appears about half the size as it does on Earth. At the closest point to the Sun, Mars southern hemisphere leans towards the Sun, causing a short, intensely hot summer, while the northern hemisphere endures a brief, cold winter: at its farthest point from the Sun, the northern hemisphere leans towards the Sun, causing a long, mild summer, while the southern hemisphere endures a lengthy, cold winter.",
 
-                    "Pieces of this planet have fallen to our home planet. Scientists have found tiny traces of this planets atmosphere within meteorites which orbited the solar system amongst galactic debris for millions of years before crash landing on our home planet. This allowed scientists to begin studying this planet prior to launching space missions.",
+                    "Pieces of Mars have fallen to Earth. Scientists have found tiny traces of Mars atmosphere within meteorites which orbited the solar system amongst galactic debris for millions of years before crash landing on Earth. This allowed scientists to begin studying Mars prior to launching space missions.",
 
-                    "This planet takes its name from the Roman god of war. The ancient Greeks called the planet Ares, after their god of war; the Romans then did likewise, associating the planet’s blood- red colour with their own god of war. Interestingly, other ancient cultures also focused on colour – to China’s astronomers it was ‘the fire star’, whilst Egyptian priests called on ‘Her Desher’, or ‘the red one’.The red colour this planet is known for is due to the rock and dust covering its surface being rich in iron.",
+                    "Mars takes its name from the Roman god of war. The ancient Greeks called the planet Ares, after their god of war; the Romans then did likewise, associating the planet’s blood- red colour with their own god of war. Interestingly, other ancient cultures also focused on colour – to China’s astronomers it was ‘the fire star’, whilst Egyptian priests called on ‘Her Desher’, or ‘the red one’.The red colour Mars is known for is due to the rock and dust covering its surface being rich in iron.",
 
-                    "There are signs of liquid water on this planet. For years this planet has been known to have water in the form of ice. The first signs of trickling water are dark stripes or stains on crater wall and cliffs seen in satellite images.Due to this planets atmosphere this water would have to be salty to prevent it from freezing or vaporizing.",
+                    "There are signs of liquid water on Mars. For years Mars has been known to have water in the form of ice. The first signs of trickling water are dark stripes or stains on crater wall and cliffs seen in satellite images.Due to Mars atmosphere this water would have to be salty to prevent it from freezing or vaporizing.",
 
-                    "One day this planet will have a ring. In the next 20-40 million years this planets largest moon Phobos will be torn apart by gravitational forces leading to the creation of a ring that could last up to 100 million years.",
+                    "One day Mars will have a ring. In the next 20-40 million years Mars largest moon Phobos will be torn apart by gravitational forces leading to the creation of a ring that could last up to 100 million years.",
 
-                    "Sunsets on this planet are blue. During the day the sky is pinkish-red, this is the opposite of the our home planets skies.",
+                    "Sunsets on Mars are blue. During the day the sky is pinkish-red, this is the opposite of the Earths skies.",
 
-                    "It's thought that this planets's core is predominantly made up of iron, but also nickel and sulphur. The core is about half the size of the planet and may be entirely liquid, or have a solid iron centre and a liquid exterior.",
+                    "It's thought that Mars's core is predominantly made up of iron, but also nickel and sulphur. The core is about half the size of the planet itself and may be entirely liquid, or have a solid iron centre and a liquid exterior.",
 
-                    "The deepest canyon on the planet is Valles Marineris at 7 kilometres. Our home planets Grand Canyon is only 1.8 kilometres deep. Valles Marineris was mostly formed by tectonic processes.",
+                    "The deepest canyon on Mars is Valles Marineris at 7 kilometres. Earths Grand Canyon is only 1.8 kilometres deep. Valles Marineris was mostly formed by tectonic processes.",
 
-                    "This planets thin atmosphere makes for extreme temperature differences on the planet. When the Sun's energy enters the atmosphere, it is not equally dispersed and easily escapes back out into space.",
+                    "Mars thin atmosphere makes for extreme temperature differences on the planet. When the Sun's energy enters the atmosphere, it is not equally dispersed and easily escapes back out into space.",
 
-                    "This planet has an elliptical orbit, meaning it is egg/oval-shaped. This means that throughout its year, this planets distance from the Sun ranges between around 206 million and 249 million kilometres. ",
+                    "Mars has an elliptical orbit, meaning it is egg/oval-shaped. This means that throughout its year, Mars distance from the Sun ranges between around 206 million and 249 million kilometres. ",
 
-                    "This planet has a large, dark patch on its surface, known as the Syrtis Major Planum. It reaches around 1,500 kilometres north from the equator and is around 1,000 kilometres in width. The dark colour is due to its primarily basalt rock composition.",
+                    "Mars has a large, dark patch on its surface, known as the Syrtis Major Planum. It reaches around 1,500 kilometres north from the equator and is around 1,000 kilometres in width. The dark colour is due to its primarily basalt rock composition.",
                 ],
             },
 
@@ -442,11 +442,11 @@ db.solar_system.insertMany([
                             surface_temperature_min_celcius: -130,
                             facts: [
 
-                                "It was discovered in 1610 by Galileo Galilei and was named after the mythological character Io, a priestess of Hera who became one of Zeus's lovers.",
+                                "Io was discovered in 1610 by Galileo Galilei and was named after the mythological character Io, a priestess of Hera who became one of Zeus's lovers. Features on Io are named after characters and places from the Io myth, as well as deities of fire, volcanoes, the Sun, and thunder from various myths, and characters and places from Dante's Inferno: names appropriate to the volcanic nature of the surface.",
 
-                                "Unlike most moons in the outer Solar System, which are mostly composed of water ice, Io is primarily composed of silicate rock surrounding a molten iron or iron sulfide core. Most of Io's surface is composed of extensive plains with a frosty coating of sulfur and sulfur dioxide. It has the hottest surface of any planetary body in our solar system, due to a mix of extreme radiation, volcanic activity and unique atmosphere make-up which includes a large plasma torus thanks to the influence of Jupiter.",
+                                "Unlike most moons in the outer Solar System, which are mostly composed of water ice, Io is primarily composed of silicate rock surrounding a molten iron or iron sulfide core. Most of Io's surface is composed of extensive plains with a frosty coating of sulfur and sulfur dioxide.",
 
-                                "Features on Io are named after characters and places from the Io myth, as well as deities of fire, volcanoes, the Sun, and thunder from various myths, and characters and places from Dante's Inferno: names appropriate to the volcanic nature of the surface. Since the surface was first seen up close by Voyager 1, the International Astronomical Union has approved 225 names for Io's volcanoes, mountains, plateaus, and large albedo features.",
+                                "Io has the hottest surface of any planetary body in our solar system, due to a mix of extreme radiation, volcanic activity and unique atmosphere make-up which includes a large plasma torus thanks to the influence of Jupiter.Since the surface was first seen up close by Voyager 1, the International Astronomical Union has approved 225 names for Io's volcanoes, mountains, plateaus, and large albedo features.",
 
                             ]
                         },
@@ -492,11 +492,11 @@ db.solar_system.insertMany([
                             surface_temperature_min_celcius: -113,
                             facts: [
 
-                                "Ganymede is a satellite of Jupiter (Jupiter III) and is the largest and most massive of the Solar System's moons. The ninth-largest object in the Solar System, it is the largest without a substantial atmosphere. It has a diameter of 5,268 km (3,273 mi), making it 26% larger than the planet Mercury by volume, although it is only 45% as massive. Possessing a metallic core, it has the lowest moment of inertia factor of any solid body in the Solar System and is the only moon known to have a magnetic field. Outward from Jupiter, it is the seventh satellite and the third of the Galilean moons, the first group of objects discovered orbiting another planet. Ganymede orbits Jupiter in roughly seven days and is in a 1:2:4 orbital resonance with the moons Europa and Io, respectively.",
+                                "Ganymede is a satellite of Jupiter (Jupiter III) and is the largest and most massive of the Solar System's moons. The ninth-largest object in the Solar System, it is the largest without a substantial atmosphere. Possessing a metallic core, it has the lowest moment of inertia factor of any solid body in the Solar System and is the only moon known to have a magnetic field.",
 
-                                "Ganymede is composed of approximately equal amounts of silicate rock and water. It is a fully differentiated body with an iron-rich, liquid core, and an internal ocean that may contain more water than all of Earth's oceans combined. Its surface is composed of two main types of terrain. Dark regions, saturated with impact craters and dated to four billion years ago, cover about a third of it. Lighter regions, crosscut by extensive grooves and ridges and only slightly less ancient, cover the remainder. The cause of the light terrain's disrupted geology is not fully known, but was likely the result of tectonic activity due to tidal heating.",
+                                "Its surface is composed of two main types of terrain. Dark regions, saturated with impact craters and dated to four billion years ago, cover about a third of it. Lighter regions, crosscut by extensive grooves and ridges and only slightly less ancient, cover the remainder. The cause of the light terrain's disrupted geology is not fully known, but was likely the result of tectonic activity due to tidal heating.",
 
-                                "The Europa Jupiter System Mission (EJSM) had a proposed launch date in 2020, and was a joint NASA and ESA proposal for exploration of many of Jupiter's moons including Ganymede. In February 2009 it was announced that ESA and NASA had given this mission priority ahead of the Titan Saturn System Mission. EJSM consisted of the NASA-led Jupiter Europa Orbiter, the ESA-led Jupiter Ganymede Orbiter, and possibly a JAXA-led Jupiter Magnetospheric Orbiter. ESA's contribution faced funding competition from other ESA projects but on May 2, 2012 the European part of the mission, renamed Jupiter Icy Moon Explorer (JUICE), obtained a L1 launch slot in 2022 with an Ariane 5 in the ESA's Cosmic Vision science programme. The spacecraft will orbit Ganymede and conduct multiple flyby investigations of Callisto and Europa",
+                                "Ganymede is composed of approximately equal amounts of silicate rock and water.It is a fully differentiated body with an iron- rich, liquid core, and an internal ocean that may contain more water than all of Earth's oceans combined."
 
                             ]
                         },
@@ -505,9 +505,10 @@ db.solar_system.insertMany([
                             name: "Callisto",
                             position: 8,
                             image_url: [
+                                "https://i.pinimg.com/originals/66/22/b0/6622b05975668d468e8cffa5fcc35115.jpg",
                                 "https://static.wikia.nocookie.net/marvelcomicsfanon/images/1/13/Telos.jpg/revision/latest?cb=20190816151817",
                                 "https://upload.wikimedia.org/wikipedia/commons/e/e9/Callisto.jpg",
-                                "https://i.pinimg.com/originals/66/22/b0/6622b05975668d468e8cffa5fcc35115.jpg"
+
                             ],
                             orbit_distance_km: 1883000,
                             equatorial_diameter_km: 2400,
@@ -532,21 +533,21 @@ db.solar_system.insertMany([
                 surface_temperature_min_celcius: -161,
                 facts: [
 
-                    "Jupiter is the fourth brightest object in the solar system. Only the Sun, Moon and Venus are brighter.It is one of five planets visible to the naked eye from Earth.",
+                    "Jupiter is the fourth brightest object in the solar system. Only the Sun, Moon and Venus are brighter. It is one of five planets visible to the naked eye from Earth.",
 
-                    "The ancient Babylonians were the first to record their sightings of Jupiter. This was around the 7th or 8th century BC.Jupiter is named after the king of the Roman gods.To the Greeks, it represented Zeus, the god of thunder.The Mesopotamians saw Jupiter as the god Marduk and patron of the city of Babylon.Germanic tribes saw this planet as Donar, or Thor.",
+                    "The ancient Babylonians were the first to record their sightings of Jupiter. This was around the 7th or 8th century BC. Jupiter is named after the king of the Roman gods. To the Greeks, it represented Zeus, the god of thunder.The Mesopotamians saw Jupiter as the god Marduk and patron of the city of Babylon. Germanic tribes saw Jupiter as Donar, or Thor.",
 
                     "Jupiter has the shortest day of all the planets. It turns on its axis once every 9 hours and 55 minutes.The rapid rotation flattens the planet slightly, giving it an oblate shape.",
 
-                    "Jupiter orbits the Sun once every 11.8 Earth years. From our point of view on Earth, it appears to move slowly in the sky, taking months to move from one constellation to another.",
+                    "Jupiter orbits the Sun once every 11.8 of Earths years. From our point of view on our home planet, it appears to move slowly in the sky, taking months to move from one constellation to another.",
 
-                    "Jupiter has unique cloud features. The upper atmosphere of Jupiter is divided into cloud belts and zones.They are made primarily of ammonia crystals, sulfur, and mixtures of the two compounds",
+                    "Jupiter has unique cloud features. The upper atmosphere of Jupiter is divided into cloud belts and zones. They are made primarily of ammonia crystals, sulfur, and mixtures of the two compounds",
 
-                    "The Great Red Spot is a huge storm on Jupiter. It has raged for at least 350 years.It is so large that three Earths could fit inside it.",
+                    "The Great Red Spot is a huge storm on Jupiter. It has raged for at least 350 years. It is so large that three of Earths could fit inside it.",
 
-                    "Jupiter’s interior is made of rock, metal, and hydrogen compounds. Below Jupiter’s massive atmosphere(which is made primarily of hydrogen), there are layers of compressed hydrogen gas, liquid metallic hydrogen, and a core of ice, rock, and metals.",
+                    "Jupiter's interior is made of rock, metal, and hydrogen compounds. Below its massive atmosphere(which is made primarily of hydrogen), there are layers of compressed hydrogen gas, liquid metallic hydrogen, and a core of ice, rock, and metals.",
 
-                    "Jupiter’s moon Ganymede is the largest moon in the solar system. Jupiter’s moons are sometimes called the Jovian satellites, the largest of these are Ganymeade, Callisto Io and Europa. Ganymeade measures 5, 268 km across, making it larger than the planet Mercury.",
+                    "Jupiter's moon Ganymede is the largest moon in the solar system. Jupiter's moons are sometimes called the Jovian satellites, the largest of these are Ganymeade, Callisto, Io and Europa. Ganymeade measures 5268 km across, making it, despite being a moon, larger than some other planets in our solar system.",
 
                     "Jupiter has a thin ring system. Its rings are composed mainly of dust particles ejected from some of Jupiter’s smaller worlds during impacts from incoming comets and asteroids.The ring system begins some 92, 000 kilometres above Jupiter’s cloud tops and stretches out to more than 225, 000 km from the planet.They are between 2, 000 to 12, 500 kilometres thick.",
 
@@ -558,7 +559,7 @@ db.solar_system.insertMany([
 
                     "Jupiter is the only planet that has a center of mass with the Sun that lies outside the volume of the Sun, though by only 7% of the Sun’s radius.",
 
-                    "The largest of Jupiter’s moons, Ganymede is the largest moon in the solar system. The moons are sometimes called the Jovian satellites and the largest of them are Ganymede, Callisto, Io and Europa. Ganymede is larger than the planet Mercury with a diameter of around 5,268 km.",
+                    "A lot like the Sun, Jupiter is mostly composed of hydrogen and helium. Jupiter contains the largest ocean in the solar system, an ocean of liquid hydrogen.",
 
                     "Jupiter actually experiences the most intense auroras in the solar system, being hundreds of times brighter than on Earth. Just like on Earth, auroras on Jupiter are caused by solar storms. However, Jupiter has an additional source for its auroras: charged particles thrown into space by its orbiting moon Io, which is famous for its many large volcanoes.",
 
@@ -672,8 +673,8 @@ db.solar_system.insertMany([
                             name: "Mimas",
                             position: 10,
                             image_url: [
-                                "https://static.wikia.nocookie.net/planet-archives/images/3/3e/Mimas.jpg/revision/latest?cb=20200704181732",
                                 "https://lh3.googleusercontent.com/proxy/bxSt_VeT-q0qQxjzGCOIiTEu3COIdQbV67P3OyeFA7qRKOL28l3uUBdHxidTb_TDMlfjsvnhYkFl3t7IG3wpgnJDHNpG9E2sx4Zxa25ZQtDh4-xs",
+                                "https://static.wikia.nocookie.net/planet-archives/images/3/3e/Mimas.jpg/revision/latest?cb=20200704181732",
                                 "https://cdn.mos.cms.futurecdn.net/WiawvKiNw9xCjC8BWLmay6.jpg"
                             ],
                             orbit_distance_km: 186000,
@@ -741,9 +742,9 @@ db.solar_system.insertMany([
                             name: "Dione",
                             position: 18,
                             image_url: [
+                                "https://upload.wikimedia.org/wikipedia/commons/d/d0/Dione_in_natural_light_%28cropped%29.jpg",
                                 "https://cdn.britannica.com/20/3920-050-1D493D3F/moon-Dione-Saturn-distance-Voyager-1-NASA-November-10-1980.jpg",
                                 "https://cdn.britannica.com/74/145074-050-4D9110AA/Dione-image-moons-Saturn-spacecraft-Cassini-July-24-2006.jpg",
-                                "https://upload.wikimedia.org/wikipedia/commons/d/d0/Dione_in_natural_light_%28cropped%29.jpg"
                             ],
                             orbit_distance_km: 377400,
                             equatorial_diameter_km: 1122.8,
@@ -764,9 +765,10 @@ db.solar_system.insertMany([
                             name: "Rhea",
                             position: 21,
                             image_url: [
+                                "https://upload.wikimedia.org/wikipedia/commons/4/41/Rhea_%28moon%29.jpg",
                                 "https://lh3.googleusercontent.com/proxy/X-2oz6cPPzS6ndNkDI3VsSmR8kkcSix9aPS6ZRe-QqIvYqAj9nOelnwZUxJy8KF5D20PdtxJ-1ZfCG6hh50i4A-i1QEr6DJ1y3uF5otGhaZS0js8",
                                 "https://solarsystem.nasa.gov/system/content_pages/main_images/805_PIA12648.jpg",
-                                "https://upload.wikimedia.org/wikipedia/commons/4/41/Rhea_%28moon%29.jpg"
+
                             ],
                             orbit_distance_km: 527068,
                             equatorial_diameter_km: 1527.6,
@@ -965,7 +967,7 @@ db.solar_system.insertMany([
 
                                 "Among Uranus's five major moons, Ariel is the second closest to the planet, orbiting at the distance of about 190,000 km.[f] Its orbit has a small eccentricity and is inclined very little relative to the equator of Uranus. Its orbital period is around 2.5 Earth days, coincident with its rotational period. This means that one side of the moon always faces the planet; a condition known as tidal lock.",
 
-                                "Except for water, the only other compound identified on the surface of Ariel by infrared spectroscopy is carbon dioxide (CO2), which is concentrated mainly on its trailing hemisphere. Ariel shows the strongest spectroscopic evidence for CO2 of any Uranian satellite, and was the first Uranian satellite on which this compound was discovered. The origin of the carbon dioxide is not completely clear. It might be produced locally from carbonates or organic materials under the influence of the energetic charged particles coming from Uranus's magnetosphere or solar ultraviolet radiation. ",
+                                "Except for water, the only other compound identified on the surface of Ariel by infrared spectroscopy is carbon dioxide (CO2), which is concentrated mainly on its trailing hemisphere. Ariel shows the strongest spectroscopic evidence for CO2 of any Uranian satellite. The origin of the carbon dioxide is not completely clear. It might be produced locally from carbonates or organic materials under the influence of the energetic charged particles coming from Uranus's magnetosphere or solar ultraviolet radiation. ",
 
                             ]
                         },
@@ -1168,7 +1170,7 @@ db.solar_system.insertMany([
                 surface_temperature_min_celcius: -218,
                 facts: [
 
-                    "Neptune was not known to the ancients. It is not visible to the naked eye and was first observed in 1846. Its position was determined using mathematical predictions.It was named after the Roman god of the sea.",
+                    "Neptune was not known to the ancients. It is not visible to the naked eye and was first observed in 1846. Its position was determined using mathematical predictions. It was named after the Roman god of the sea.",
 
                     "Neptune has 6 faint rings. However, one of the rings was only discovered very recently by Voyager 2 and there is debate in the scientic community regarding if the 6th ring is in fact a ring that seperates and rejoins on occaion",
 
@@ -1184,7 +1186,7 @@ db.solar_system.insertMany([
 
                     "Neptune has 14 moons. The most interesting moon is Triton, a frozen world that is spewing nitrogen ice and dust particles out from below its surface.It was likely captured by the gravitational pull of Neptune.It is probably the coldest world in the solar system.",
 
-                    "Only one spacecraft has flown by Neptune. In 1989, the Voyager 2 spacecraft swept past the planet.It returned the first close- up images of the Neptune system.The NASA/ ESA Hubble Space Telescope has also studied this planet, as have a number of ground - based telescopes",
+                    "Only one spacecraft has flown by Neptune. In 1989, the Voyager 2 spacecraft swept past the planet.It returned the first close- up images of the Neptune system.The NASA/ ESA Hubble Space Telescope has also studied Mercury, as have a number of ground - based telescopes",
 
                     "The Great Dark Spot in the southern atmosphere of Neptune was first discovered in 1989 by the Voyager 2 spacecraft. It was an incredibly large rotating storm system with winds of up to 1,500 miles per hour, the strongest winds recorded on any planet. How such powerful winds were discovered on a planet so far from the sun is still considered a mystery to this day.",
 
@@ -1294,7 +1296,7 @@ db.solar_system.insertMany([
         ],
         sun: {
             name: "Sun",
-            star_intro: "",
+            star_intro: "The Sun, Solis, Ud, the primary source of light, heat and energy in our solar system. The Sun is located in the center of the Solar System. It is a nearly perfect sphere of hot plasma, essentially, a hot ball of glowing gases. It is the most important source of energy for life on Earth (and possibly on other planets or moons too...?).",
             image_url: [
                 "https://www.extremetech.com/wp-content/uploads/2020/01/NASA-Sun.jpg",
                 "https://cdn.cnn.com/cnnnext/dam/assets/150216005531-vo-nasa-solar-dynamics-observatory-5-years-00011523.jpg",
@@ -1310,17 +1312,37 @@ db.solar_system.insertMany([
             surface_temperature_min_celcius: 5504.85,
             internal_temperature_celcius: 14999982.222,
             facts: [
-                "The Sun accounts for 99.86% of the mass in the solar system.",
 
-                "One day the Sun will consume the Earth.",
+                "The Sun accounts for 99.86% of the mass in the solar system. It has a mass of around 330,000 times that of Earth. It is three quarters hydrogen and most of its remaining mass is helium..",
 
-                "The Sun is what is known as a main sequence star; that is, a sphere composed primarily of the two gases hydrogen and helium such that certain conditions are met. The first condition is that it must have a mass falling within a certain range.",
+                "Over one million Earth’s could fit inside the Sun.If you were to fill a hollow Sun with spherical Earths, somewhere around 960, 000 would fit inside.However, if you squashed those Earths to ensure there was no wasted space then you could fit 1, 300, 000 Earths inside the Sun.The surface area of the Sun is 11, 990 times that of Earth.",
 
                 "The size of the Sun compared to the largest known stars (red giants) is not very big. However, if compared to the most common type of star in the universe, the red dwarf, the Sun is quite a bit larger. Thus, the Sun is not the biggest type of star in the universe, but it is definitely larger than most.",
 
                 "As far as the Sun’s mass compared to other bodies found in our solar system, the Sun is easily the most massive. The Sun alone contains 99.8% of the total mass in the Solar System. In terms of size, the Sun has a diameter of roughly 1.4 million kilometers(870, 000 miles).To put this in perspective, this is almost 110 times the diameter of the Earth.What this means is that about one million Earth’s could fit inside the Sun.",
 
-                "The Sun is almost a perfect sphere. Considering the sheer size of the Sun, there is only a 10 km difference in its polar and equatorial diameters – this makes it the closest thing to a perfect sphere observed in nature."
+                "One day the Sun will consume the Earth. The Sun will continue to burn for about 130 million years after it burns through all of its hydrogen, instead burning helium. During this time it will expand to such a size that it will engulf Mercury and Venus. When it reaches this point, it will have become a red giant star. The most probable fate of the planet is absorption by the Sun in about 7.5 billion years, after the star has entered the later red giant phase and expanded beyond the planet's current orbit.",
+
+                "The Sun is halfway through its life. At 4.5 billion years old, the Sun has burned off around half of its hydrogen stores and has enough left to continue burning hydrogen for another 5 billion years. Currently the Sun is a yellow dwarf star.",
+
+                "The Sun will eventually be about the size of Earth. Once the Sun has completed its red giant phase, it will collapse.It’s huge mass will be retained, but it will have a volume similar to that of Earth.When that happens, it will be known as a white dwarf.",
+
+                "The Sun is what is known as a main sequence star; that is, a sphere composed primarily of the two gases hydrogen and helium such that certain conditions are met. The first condition is that it must have a mass falling within a certain range. The energy created by the Sun’s core is nuclear fusion. This huge amount of energy is produced when four hydrogen nuclei are combined into one helium nucleus.",
+
+                "The Sun is almost a perfect sphere. Considering the sheer size of the Sun, there is only a 10 km difference in its polar and equatorial diameters – this makes it the closest thing to a perfect sphere observed in nature.",
+
+                "The Sun is travelling at 220 km per second.It is around 24, 000 - 26, 000 light - years from the galactic centre and it takes the Sun approximately 225 - 250 million years to complete one orbit of the centre of the Milky Way.",
+
+                "It takes eight minutes for light reach Earth from the Sun.The average distance from the Sun to the Earth is about 150 million km.Light travels at 300, 000 km per second so dividing one by the other gives you 500 seconds – eight minutes and twenty seconds.This energy can reach Earth in mere minutes, but it takes millions of years to travel from the Sun’s core to its surface.",
+
+                "The distance between Earth and Sun changes.This is because the Earth travels on a elliptical orbit path around the Sun.The distance between the two ranges from 147 to 152 million km.This distance between them is one Astronomical Unit(AU).",
+
+                "Temperatures inside the Sun can reach 15 million degrees Celsius.Energy is generated through nuclear fusion in the Sun’s core – this is when hydrogen converts to helium – and because objects generally expand, the Sun would explode like an enormous bomb if it wasn’t for it’s tremendous gravitational pull.",
+
+                "The Sun generates solar winds. These are ejections of plasma (extremely hot charged particles) that originate in the layer of the Sun know as the corona and they can travel through the solar system at up to 450 km per second. The Aurora Borealis and Aurora Australis are caused by the interaction of solar winds with Earth’s atmosphere.",
+
+                "The Sun has a powerful magnetic field. When magnetic energy is released by the Sun during magnetic storms, solar flares occur which we see on Earth as sunspots. Sunspots are dark areas on the Sun’s surface caused by magnetic variations. The reason they appear dark is due to their temperature being much lower than surrounding areas."
+
             ]
         },
         satellites: [],
