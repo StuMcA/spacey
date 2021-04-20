@@ -1,7 +1,7 @@
 <template>
   <section class="planet-wrapper">
-    <h1 class="planet-name">
-      {{ planet.name.toUpperCase() }} <span class="planet-name-latin">Latin: {{ planet.latin_name }}</span>
+    <h1 class="title">
+      {{ planet.name.toUpperCase() }} <span class="title-latin">Latin: {{ planet.latin_name }}</span>
     </h1>
     <div class="planet-container">
       <planet-info class="planet-info" :planet="planet" />
@@ -9,8 +9,12 @@
         <planet-image :planetName="planet.name" />
         <planet-fact :planetFacts="planet.facts" />
       </div>
+      <image-grid />
     </div>
-    <!-- <moon :moon="planet.sig_moons[0]"/> -->
+    <div v-if="planet.moons.moon_list.length > 0">
+      <h1 class="title">Significant Moons</h1>
+      <moon v-for="(moon, index) in planet.moons.sig_moons" :key="index" :moon="moon" />
+    </div>
   </section>
 </template>
 
@@ -18,6 +22,7 @@
 import PlanetInfo from './PlanetInfo.vue';
 import PlanetImage from './PlanetImage.vue';
 import PlanetFact from './PlanetFact.vue';
+import ImageGrid from './ImageGrid.vue';
 import Moon from '../Moon/Moon';
 
 export default {
@@ -26,6 +31,7 @@ export default {
     'planet-info': PlanetInfo,
     'planet-image': PlanetImage,
     'planet-fact': PlanetFact,
+    'image-grid': ImageGrid,
     'moon': Moon,
   },
   props: ['planet'],
@@ -52,10 +58,10 @@ export default {
   flex-grow: 1;
   align-items: center;
 }
-.planet-name {
+.title {
   font-size: 2rem;
 }
-.planet-name-latin {
+.title-latin {
   font-family: times;
   font-size: 1.75rem;
   font-style: italic;
@@ -71,6 +77,7 @@ export default {
   }
   .planet-image-fact-wrapper {
     order: -1;
+    flex-basis: auto;
   }
 }
 </style>

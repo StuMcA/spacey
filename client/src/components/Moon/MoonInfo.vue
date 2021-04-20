@@ -1,19 +1,20 @@
 <template>
   <section class="moon-info-wrapper">
-    <h1>Details</h1>
-    <h1>hello</h1>
-    <p>
-      {{ moon.name }} is the {{ moon.position_from_sun}}<sup>{{ moon.position_from_sun == 1 ? 'st' : moon.position_from_sun == 2 ? 'nd' : moon.position_from_sun == 3 ? 'rd' : 'th' }}</sup> moon from the Sun.
-      {{ moon.moon_intro }}
-    </p>
-    <p>{{ moon.name }} has {{ moon.number_of_moons == 0 ? 'no moon' : moon.number_of_moons == 1 ? '1 moon' : moon.number_of_moons + ' moons' }}.</p>
+    <div class="moon-info">
+      <p>
+        {{ moon.name }} is the {{ moon.position }}<sup>{{ moon.position % 10 == 1 ? 'st' : moon.position % 10 == 2 ? 'nd' : moon.position % 10 == 3 ? 'rd' : 'th' }}</sup> moon from the planet.
+        {{ moon.moon_intro }}
+      </p>
 
-    <p>Distance from Sun: {{ moon.orbit_distance_km.toLocaleString() }} km ({{ moon.orbit_distance_au }} AU)</p>
-    <p>Diameter at equator: {{ moon.equatorial_diameter_km.toLocaleString() }} km</p>
-    <p>Mass: {{ moon.mass }}</p>
-    <p>{{ moon.name }} has {{ moon.rings == 0 ? 'no ring' : moon.rings == 1 ? '1 ring' : moon.rings + ' rings' }}.</p>
-    <p>Orbital period: {{ moon.orbit_period_days.toLocaleString() }} days</p>
-    <p>Surface temperature: {{ moon.surface_temperature_min_celcius }}ºC to {{ moon.surface_temperature_max_celcius }}ºC</p>
+      <p>Distance from planet: {{ moon.orbit_distance_km.toLocaleString() }} km</p>
+      <p>Diameter at equator: {{ moon.equatorial_diameter_km.toLocaleString() }} km</p>
+      <p>Mass: {{ moon.mass }}</p>
+      <p>Orbital period: {{ moon.orbit_period_in_days.toLocaleString() }} days</p>
+      <p>Surface temperature: {{ moon.surface_temperature_min_celcius }}ºC to {{ moon.surface_temperature_max_celcius }}ºC</p>
+    </div>
+    <div class="moon-image">
+      <img :src="moon.image_url[0]" :alt="'image of ' + moon.name" class="moon-image" />
+    </div>
   </section>
 </template>
 
@@ -27,24 +28,29 @@ export default {
 <style scoped>
 .moon-info-wrapper {
   /* border: 1px solid darkgray; */
+  display: flex;
+  justify-content: space-between;
   flex-grow: 2;
-  flex-basis: 27rem;
 }
 p {
   margin-top: 1rem;
 }
-h1 {
-  display: none;
+.moon-image {
+  width: auto;
+  height: 15rem;
 }
 @media screen and (max-width: 817px) {
   .moon-info-wrapper {
     /* border: 1px solid darkgray; */
-    background-color: rgb(24, 24, 24);
     padding: 1rem;
-    border-radius: 1rem;
+    flex-wrap: wrap;
   }
-  h1 {
-    display: block;
+  .moon-info {
+    flex-shrink: 1;
+  }
+  .moon-image {
+    order: -1;
+    flex-grow: 5;
   }
 }
 </style>

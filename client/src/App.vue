@@ -75,7 +75,8 @@ html {
 button:focus,
 input:focus,
 textarea:focus,
-select:focus {
+select:focus,
+summary:focus {
   outline: none;
 }
 #app {
