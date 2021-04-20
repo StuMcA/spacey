@@ -133,7 +133,7 @@ db.solar_system.insertMany([
             {
 
                 name: "Earth",
-                planet_intro: "Our home, the only known planet capable of supporting life. From here, we gaze upon the cosmos in wonder, eager to explore, to discover, to learn",
+                planet_intro: "Our home, the only known planet capable of supporting life. From here, we gaze upon the cosmos in wonder, eager to explore, to discover, to learn.",
                 position_from_sun: 3,
                 image_url: [
                     "https://www.thoughtco.com/thmb/Whrni3pbKfnTfZyz2rzQEVS-jVc=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/Earth_Eastern_Hemisphere-56a8cda43df78cf772a0cc74.jpg",
@@ -170,7 +170,7 @@ db.solar_system.insertMany([
                         surface_temperature_min_celcius: -272,
                         facts: [
 
-                            "The Moon is Earth's only permanent natural satellite. It is the fifth-largest natural satellite in the Solar System, and the largest among planetary satellites relative to the size of the planet that it orbits. At 3475 km, the Moon's diameter is over one fourth that of the Earth's. In relation to its own size, no other planet has a moon as large",
+                            "The Moon is Earth's only permanent natural satellite. It is the fifth-largest natural satellite in the Solar System, and the largest among planetary satellites relative to the size of the planet that it orbits. At 3475 km, the Moon's diameter is over one fourth that of the Earth's. In relation to its own size, no other planet has a moon as large.",
 
                             "The Moon is made of rock and metal (not cheese), just like the Earth and the other rocky planets(Mercury, Venus and Mars).The crust, the Moon's outer shell, is covered by lunar soil, also called regolith: a blanket of fine rock particles, varying between three and 20 metres (10–65 feet) deep.",
 
@@ -189,9 +189,9 @@ db.solar_system.insertMany([
 
                     "This planet is the only planet not named for a mythological god or goddess. The other seven planets in the solar system were named after Roman gods or goddesses. The five visible to the naked eye were named during ancient times. This Roman method was also used after the discovery of later planets. This planets name comes from the Old English and means ground or land.",
 
-                    "This planet is the most dense planet in the solar system. The density of this planet differs in each part of the planet – the core, for example, is denser than the crust – but the average density of the planet is around 5.52 grams per cubic centimetre.",
+                    "This planet is the most dense planet in the solar system. The density of this planet differs in each part of the planet. The core, for example, is denser than the crust but the average density of the planet is around 5.52 grams per cubic centimetre.",
 
-                    "The gravity between this planet and its Moon causes the tides. This effect on the Moon means it is tidally locked to this planet – its rotation period is the same as its orbit time so it always presents the same face to this planet.",
+                    "The gravity between this planet and its Moon causes the tides. This effect on the Moon means it is tidally locked to this planet with its rotation period is the same as its orbit time so it always presents the same face to this planet.",
 
                     "The rotation of the this planet is gradually slowing down. The deceleration of the this planets rotation is very slow, approximately 17 milliseconds per hundred years. Eventually this will lengthen our days but it will take around 140 million years before the days here will have increased from 24 to 25 hours.",
 
@@ -1225,7 +1225,7 @@ db.solar_system.insertMany([
                 equatorial_diameter_km: 2372,
                 mass: "12.5 x 1021kg (0.0021 x Earth's)",
                 number_of_moons: 5,
-                mmoon_list: [
+                moon_list: [
                     "Charon",
                     "Styx",
                     "Nix",
