@@ -32,7 +32,9 @@ ul {
     flex-direction: column;
     margin-top: 30px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.286);
+    background-color: rgba(0, 0, 0, 0.32);
+    backdrop-filter: blur(3px);
+    border-radius: 3px;
 }
 
 li {

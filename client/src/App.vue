@@ -67,10 +67,11 @@ export default {
 
 <style>
 html {
-  background-color: black;
+  /* background-color: black; */
   font-size: 16px;
   color: #dfdfdf;
   font-family: Avenir, Helvetica, Arial, sans-serif;
+  background-image: url(./assets/background.jpg);
 }
 button:focus,
 input:focus,

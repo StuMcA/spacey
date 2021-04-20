@@ -80,6 +80,8 @@ li {
     color: white;
     text-shadow: 1px 1px 0 black;
     backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.32);
+    border-radius: 3px;
 }
 
 p {

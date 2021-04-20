@@ -52,6 +52,7 @@ button {
     border-radius: 4px;
     backdrop-filter: blur(3px);
     cursor: pointer;
+    z-index: 999;
 }
 
 button:hover {
@@ -67,7 +68,6 @@ button:hover {
     right: 100px;
     display: flex;
     flex-direction: row-reverse;
-    background-image: url(../assets/background.jpg)
 }
 
 
