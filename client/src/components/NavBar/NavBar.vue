@@ -3,8 +3,8 @@
         <li @click="homeClicked">
             <p>Home</p>
         </li>
-        <li class="nav-bar-planet" @click="showPlanetList">
-            <p>Planets</p>
+        <li class="nav-bar-planet">
+            <p @click="showPlanetList">Planets</p>
             <planet-list id="planet-list" :planets="planets"/>
         </li>
         <li>
@@ -46,7 +46,8 @@ export default {
       },
 
       showPlanetList: function() {
-          this.planetList = true;
+          eventBus.$emit('filtered-planets', this.planets)
+          this.displayPlanetList = true;
           eventBus.$emit('show-planet-list', this.displayPlanetList)
       }
     }

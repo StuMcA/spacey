@@ -15,6 +15,8 @@ export default {
     methods: {
       planetClicked: function(){
         console.log(this.planet)
+        eventBus.$emit('filtered-planets', [])
+        eventBus.$emit('show-planet-list', false)
         eventBus.$emit('planet-selected', this.planet)
       }
     }
