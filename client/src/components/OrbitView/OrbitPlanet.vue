@@ -37,7 +37,7 @@ export default {
       return this.calcWidthHeight() / 2;
     },
     calcOrbitPeriod: function() {
-      return this.planet.orbit_period_days / 88;
+      return this.planet.orbit_period_days / 73;
     },
     calcPlanetSize: function() {
       return Math.sqrt(this.planet.equatorial_diameter_km) / 15;
@@ -112,18 +112,19 @@ export default {
 }
 .saturn > div {
   position: relative;
+  transform: rotate(-90deg);
+  left: -1px;
+  top: -8px;
   width: 20px;
   height: 35px;
   border-radius: 50%;
   background: none;
   border: 3px solid #8b784ec5;
-  left: -1px;
-  top: -8px;
-  transform: rotate(-90deg);
+
+  animation-name: ring;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  animation-name: ring;
-  -webkit-animation-duration: 61s;
+  animation-duration: 73.6s;
 }
 .neptune {
   background-color: rgb(55, 65, 204);
