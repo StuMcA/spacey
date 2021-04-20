@@ -13,7 +13,7 @@
         </li>
         <div class="nav-bar-planet">
             <search-bar :planets="planets" :selectedPlanet="selectedPlanet"/>
-            <planet-list v-if="filteredPlanets.length" id="search-list" :planets="filteredPlanets" />
+            <planet-list v-if="this.searchTerm" id="search-list" :planets="filteredPlanets" />
         </div>
     </ul>
 </template>
@@ -27,7 +27,8 @@ export default {
     name: "nav-bar",
     data() {
         return {
-            displayPlanetList: false
+            displayPlanetList: false,
+            searchTerm: ""
         }
     },
     components: {
@@ -50,6 +51,9 @@ export default {
           this.displayPlanetList = true;
           eventBus.$emit('show-planet-list', this.displayPlanetList)
       }
+    },
+    mounted() {
+        eventBus.$on('search-term', (term) => this.searchTerm = term)
     }
 }
 </script>

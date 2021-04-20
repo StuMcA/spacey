@@ -37,6 +37,7 @@ export default {
                 }
                 eventBus.$emit('show-planet-list', this.showPlanetList);
                 eventBus.$emit('planet-selected', this.planet)
+                this.searchTerm = "";
             } else if(this.searchTerm === "") {
                 this.filteredPlanets = []
                 eventBus.$emit('show-planet-list', false)
@@ -47,6 +48,7 @@ export default {
                     ("" + planet.sumerian_name).toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1
             });
             }
+            eventBus.$emit('search-term', this.searchTerm)
             eventBus.$emit("filtered-planets", this.filteredPlanets);
         },
         searchSubmit: function() {
