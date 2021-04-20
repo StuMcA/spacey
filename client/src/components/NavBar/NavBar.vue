@@ -62,6 +62,7 @@ export default {
     width: 100%;
     height: 2rem;
     background-color: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(12px);
     display: flex;
     
     flex-direction: row;
