@@ -873,7 +873,7 @@ db.solar_system.insertMany([
             {
 
                 name: "Uranus",
-                planet_intro: "URANUS INTRO",
+                planet_intro: "Uranus is known as the “sideways planet” because it rotates on its side. Uranus was discovered in 1781 by William Herschel. Uranus was the first planet found using a telescope. Uranus is an Ice Giant planet and nearly four times larger than Earth.",
                 position_from_sun: 7,
                 image_url: [
                     "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/1200px-Uranus2.jpg",
@@ -1080,15 +1080,15 @@ db.solar_system.insertMany([
 
             {
                 name: "Neptune",
-                planet_intro: "NEPTUNE INTRO",
+                planet_intro: "Neptune is dark, cold, and very windy. It's the last of the planets in our solar system. It's more than 30 times as far from the Sun as Earth is. Neptune is very similar to Uranus. It's made of a thick soup of water, ammonia, and methane over an Earth-sized solid center",
                 position_from_sun: 8,
-                image_url: {
-                    first: "https://media.wired.com/photos/5d04045bde1abfe4e801d054/4:3/w_1600,h_1200,c_limit/Science-Neptune-FA-PIA01492_orig.jpg",
-                    second: "https://upload.wikimedia.org/wikipedia/commons/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg",
-                    third: "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F648792456%2F0x0.jpg%3FcropX1%3D0%26cropX2%3D4587%26cropY1%3D173%26cropY2%3D2755",
-                    forth: "https://static.wikia.nocookie.net/spore/images/1/15/Neptune.png/revision/latest?cb=20090222230615",
-                    fifth: "https://scitechdaily.com/images/Neptune-Planet-Illustration.jpg",
-                },
+                image_url: [
+                    "https://media.wired.com/photos/5d04045bde1abfe4e801d054/4:3/w_1600,h_1200,c_limit/Science-Neptune-FA-PIA01492_orig.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg",
+                    "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F648792456%2F0x0.jpg%3FcropX1%3D0%26cropX2%3D4587%26cropY1%3D173%26cropY2%3D2755",
+                    "https://static.wikia.nocookie.net/spore/images/1/15/Neptune.png/revision/latest?cb=20090222230615",
+                    "https://scitechdaily.com/images/Neptune-Planet-Illustration.jpg",
+                ],
                 latin_name: "Neptunus",
                 sumerian_name: null,
                 orbit_distance_km: 4498396441,
@@ -1174,15 +1174,15 @@ db.solar_system.insertMany([
 
             {
                 name: "Pluto",
-                planet_intro: "PLUTO INTRO",
+                planet_intro: "Pluto, originally considered the ninth planet, was classified as a dwarf planet. The icy body and its five moons orbit the sun far out in the Kuiper Belt, a shadowy zone beyond the orbit of Neptune thought to be populated by hundreds of thousands of rocky, icy bodies. We still love it though.",
                 position_from_sun: 9,
-                image_url: {
-                    first: "https://cms.qz.com/wp-content/uploads/2016/11/pluto-poster.jpg?quality=75&strip=all&w=1200&h=900&crop=1",
-                    second: "https://cdn.mos.cms.futurecdn.net/jGqBq44gCE3CogJTXAnwjT.jpg",
-                    third: "https://i.pinimg.com/originals/09/38/35/0938352d9a2bdb296f092dd7cda93851.jpg",
-                    forth: "https://cdn.vox-cdn.com/thumbor/Sf3U7g3bz1MmEOlLvRX--Ko61jI=/0x0:1180x766/1200x800/filters:focal(442x79:630x267)/cdn.vox-cdn.com/uploads/chorus_image/image/51865475/nh_pluto_crop.jpg.0.png",
-                    fifth: "https://astrologynewsservice.com/wp-content/uploads/2015/07/pluto-illo.jpg",
-                },
+                image_url: [
+                    "https://cms.qz.com/wp-content/uploads/2016/11/pluto-poster.jpg?quality=75&strip=all&w=1200&h=900&crop=1",
+                    "https://cdn.mos.cms.futurecdn.net/jGqBq44gCE3CogJTXAnwjT.jpg",
+                    "https://i.pinimg.com/originals/09/38/35/0938352d9a2bdb296f092dd7cda93851.jpg",
+                    "https://cdn.vox-cdn.com/thumbor/Sf3U7g3bz1MmEOlLvRX--Ko61jI=/0x0:1180x766/1200x800/filters:focal(442x79:630x267)/cdn.vox-cdn.com/uploads/chorus_image/image/51865475/nh_pluto_crop.jpg.0.png",
+                    "https://astrologynewsservice.com/wp-content/uploads/2015/07/pluto-illo.jpg",
+                ],
                 latin_name: "Pluto",
                 sumerian_name: null,
                 orbit_distance_km: 7375936441,
