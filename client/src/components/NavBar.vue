@@ -1,9 +1,9 @@
 <template>
-    <ul>
+    <ul id="nav-bar">
         <li>
             <p @click="homeClicked">Home</p>
         </li>
-        <li id="nav-bar-planet">
+        <li class="nav-bar-planet">
             <p>Planets</p>
             <planet-list id="planet-list" :planets="planets"/>
         </li>
@@ -11,24 +11,27 @@
             <p>Moons</p>
 
         </li>
-        <li id="search">
-            <label for="search-text">&#x1F50D;</label>
-            <input type="text" id="search-text" placeholder="Search here">
-        </li>
+        <div class="nav-bar-planet">
+            <search-bar :planets="planets"/>
+            <planet-list v-if="filteredPlanets.length" id="search-list" :planets="filteredPlanets" />
+        </div>
     </ul>
 </template>
 
 <script>
-import PlanetList from '../components/PlanetList.vue'
+import PlanetList from './PlanetList.vue'
+import SearchBar from './SearchBar.vue'
 import { eventBus } from '@/main.js'
 
 export default {
     name: "nav-bar",
     components: {
-        "planet-list": PlanetList
+        "planet-list": PlanetList,
+        "search-bar": SearchBar
     },
     props: [
-        "planets"
+        "planets",
+        "filteredPlanets"
     ],
     methods: {
         homeClicked: function(){
@@ -41,12 +44,16 @@ export default {
 
 <style scoped>
 
-ul {
+#nav-bar {
+    width: 100%;
     display: flex;
+    position: fixed;
+    top: 5px;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
     vertical-align: middle;
+    z-index: 999;
 }
 
 li {
@@ -54,7 +61,6 @@ li {
     list-style: none;
     height: 30px;
     width: 160px;
-    /* border: 1px solid black; */
     color: white;
 }
 
@@ -67,52 +73,28 @@ li:hover, label:hover {
 }
 
 li:hover {
-    background-color: rgba(255, 255, 255, 0.514);
-    color: black;
+    /* background-color: rgba(255, 255, 255, 0.514); */
+    /* color: black; */
+    border-bottom: 1px solid white;
 }
 
-#nav-bar-planet {
+.nav-bar-planet {
     display: flex;
     flex-direction: column;
 }
 
 #planet-list {
+    width: 120px;
     display: none;
-    border: none;
-    text-align: center;
-    background-color: white;
 }
 
-
-#nav-bar-planet:hover #planet-list {
+.nav-bar-planet:hover #planet-list {
     display: block;
     z-index: 1;
 }
 
-#search {
-    border: 1px solid black;
-    border-radius: 30px;
+#search-list {
+    margin-left: auto;
+    width: 120px;
 }
-
-input[type="text"] {
-    border: none;
-    background: transparent;
-    margin: auto;
-    width: 100px;
-}
-
-::placeholder {
-    color: white;
-}
-
-label {
-    margin: auto;
-    color: gray;
-}
-
-input[type="text"]:focus {
-    outline: none;
-}
-
-
 </style>

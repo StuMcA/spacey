@@ -29,6 +29,8 @@ li {
 }
 
 li:hover {
-    background: rgba(0, 0, 0, 0.067)
+    background: rgba(255, 255, 255, 0.622);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
 }
 </style>

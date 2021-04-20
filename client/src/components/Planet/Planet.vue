@@ -6,8 +6,8 @@
     <div class="planet-container">
       <planet-info class="planet-info" :planet="planet" />
       <div class="planet-image-fact-wrapper">
-        <planet-image  :planetName="planet.name"/>
-        <planet-fact :planetFacts="planet.facts"/>
+        <planet-image :planetName="planet.name" />
+        <planet-fact :planetFacts="planet.facts" />
       </div>
     </div>
   </section>
