@@ -76,13 +76,13 @@ form {
 }
 
 #search:hover {
-    background-color: rgba(255, 255, 255, 0.514);
-    color: black;
+    background-color: rgba(255, 255, 255, 0.267);
+    color: white;
     cursor: pointer;
 }
 
 #search:hover ::placeholder {
-    color: black;
+    color: white;
     text-shadow: none;
 }
 

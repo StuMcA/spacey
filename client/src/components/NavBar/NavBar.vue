@@ -7,10 +7,6 @@
             <p @click="showPlanetList">Planets</p>
             <planet-list id="planet-list" :planets="planets"/>
         </li>
-        <li>
-            <p>Moons</p>
-
-        </li>
         <div class="nav-bar-planet">
             <search-bar :planets="planets" :selectedPlanet="selectedPlanet"/>
             <planet-list v-if="this.searchTerm" id="search-list" :planets="filteredPlanets" />
@@ -61,27 +57,31 @@ export default {
 <style scoped>
 
 #nav-bar {
-    width: 100%;
-    display: flex;
     position: fixed;
-    top: 5px;
+    top: 0;
+    width: 100%;
+    height: 2rem;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
-    vertical-align: middle;
+    /* flex-wrap: wrap; */
+    /* vertical-align: middle; */
     z-index: 999;
+    padding: 0.5rem;
 }
 
 li {
     display: flex;
     list-style: none;
-    height: 30px;
+    height: 2.5rem;
     width: 160px;
     color: white;
-    text-shadow: 1px 1px 0 black;
-    backdrop-filter: blur(10px);
-    background-color: rgba(0, 0, 0, 0.32);
-    border-radius: 3px;
+    /* text-shadow: 1px 1px 0 black; */
+    /* backdrop-filter: blur(10px); */
+    /* background-color: rgba(0, 0, 0, 0.32); */
+    /* border-radius: 3px; */
 }
 
 p {
@@ -115,6 +115,6 @@ li:hover {
 }
 
 #search-list {
-    text-shadow: 1px 1px 0 black;
+    /* text-shadow: 1px 1px 0 black; */
 }
 </style>

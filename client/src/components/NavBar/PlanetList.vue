@@ -28,17 +28,19 @@ components: {
 ul {
     width: inherit;
     position: relative;
-    top: -24px;
     flex-direction: column;
-    margin-top: 30px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.32);
+    background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(3px);
-    border-radius: 3px;
+    /* border-radius: 3px; */
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    /* border: 1px solid white; */
 }
 
 li {
-  color: rgb(255, 255, 255);
+  padding: .25rem;
 }
 
 
