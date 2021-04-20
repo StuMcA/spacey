@@ -34,6 +34,7 @@ export default {
     },
     methods: {
         toggleView: function() {
+            console.log("I HAVE BEEN CLICKED")
             this.isTopView = !this.isTopView
         }
     }
@@ -52,7 +53,6 @@ button {
     border-radius: 4px;
     backdrop-filter: blur(3px);
     cursor: pointer;
-    z-index: 999;
 }
 
 button:hover {
@@ -68,6 +68,8 @@ button:hover {
     right: 100px;
     display: flex;
     flex-direction: row-reverse;
+    z-index: -1;
+    background-image: url(../assets/background.jpg);
 }
 
 
