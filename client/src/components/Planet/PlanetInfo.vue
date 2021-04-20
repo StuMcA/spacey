@@ -2,9 +2,8 @@
   <section class="planet-info-wrapper">
     <h1>Details</h1>
     <p>
-      {{ planet.planet_intro }}.
-      {{ planet.name }} is the {{ planet.position_from_sun
-      }}<sup>{{ planet.position_from_sun == 1 ? 'st' : planet.position_from_sun == 2 ? 'nd' : planet.position_from_sun == 3 ? 'rd' : 'th' }}</sup> planet from the Sun.
+      {{ planet.name }} is the {{ planet.position_from_sun}}<sup>{{ planet.position_from_sun == 1 ? 'st' : planet.position_from_sun == 2 ? 'nd' : planet.position_from_sun == 3 ? 'rd' : 'th' }}</sup> planet from the Sun.
+      {{ planet.planet_intro }}
     </p>
     <p>{{ planet.name }} has {{ planet.number_of_moons == 0 ? 'no moon' : planet.number_of_moons == 1 ? '1 moon' : planet.number_of_moons + ' moons' }}.</p>
 
