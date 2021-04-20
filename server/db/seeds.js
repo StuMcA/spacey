@@ -9,7 +9,7 @@ db.solar_system.insertMany([
             {
 
                 name: "Mercury",
-                planet_intro: "Mercury, named for its incredibly speed of orbit around the sun, was once believed by ancient civilizations to be two different planets – one which appeared in the morning and another which appeared in the evening. The Sumerians were the first to document it as one, very swift planet around 3000BC",
+                planet_intro: "Mercury, named for its incredibly speed of orbit around the sun, was once believed by ancient civilizations to be two different planets – one which appeared in the morning and another which appeared in the evening. The Sumerians were the first to document it as one, very swift planet around 3000BC.",
                 position_from_sun: 1,
                 image_url: [
                     "https://scitechdaily.com/images/Iridescent-Mercury.jpg",
@@ -40,7 +40,7 @@ db.solar_system.insertMany([
 
                     "A year on this planet is 88 days, yet a day is 176 of our days. This planet is also nearly tidally locked to the Sun – also known as a gravitational lock – and over time this has slowed the rotation of the planet to almost match its orbit around the Sun.",
 
-                    "Not only is this planet the smallest planet, it is also shrinking. In a very, very slow process, it is getting smaller every day.It is estimated that the planet is about 9 miles smaller than it was four billion years ago(we told you it was a slow process). Astronomers believe this is happening because it’s iron core is cooling, which is making it solid, therefore reducing the planet’s volume.",
+                    "Not only is this planet the smallest planet, it is also shrinking. In a very, very slow process, it is getting smaller every day. It is estimated that the planet is about 9 miles smaller than it was four billion years ago(we told you it was a slow process). Astronomers believe this is happening because it’s iron core is cooling, which is making it solid, therefore reducing the planet’s volume.",
 
                     "This planet is the smallest planet in the solar system with a diameter of 4879 km and is one of five planets that is visible to the naked eye.",
 
@@ -48,21 +48,21 @@ db.solar_system.insertMany([
 
                     "This planet is named after the messenger of the Roman gods, who is also known as Hermes in Greek mythology.This is because of the speed in which this planet orbits the Sun and the speed with which the Roman deity was able to deliver messages.",
 
-                    "Modern astronomers didn’t consider that this planet to be a planet at all until 1543 when Copernicus published his Sun- centered model of the Solar System – putting the Sun as the centre of the solar system rather than the previously believed centre, our home planet.",
+                    "Modern astronomers didn’t consider that this planet to be a planet at all until 1543 when Copernicus published his Sun-centered model of the Solar System, which put the Sun as the centre of the solar system rather than the previously believed centre, our home planet.",
 
-                    "The planet has just 38% of the gravity on our home planet.This means that it isn’t able to hold the atmosphere it has and it instead gets blown away by solar winds. However those same solar winds are also bringing in new gases, radioactive decay and dust from micrometeorites – replenishing the atmosphere.",
+                    "The planet has just 38% of the gravity on our home planet. This means that it isn’t able to hold the atmosphere it has and it instead gets blown away by solar winds. However those same solar winds are also bringing in new gases, radioactive decay and dust from micrometeorites which replenishes the atmosphere.",
 
-                    "This planet has no moons or rings because of it's low gravity and lack of atmosphere.",
+                    "This planet has no moons or rings because of it's low gravity and lack of consistent atmosphere. The only other planet with no moons is Venus.",
 
-                    "It was once believed that a planet called Vulcan existed between the orbit of this planet and the Sun – however the existence of such a planet was never found. This is where the idea for the planet Vulcan in Star Trek comes from",
+                    "It was once believed that a planet called Vulcan existed between the orbit of this planet and the Sun – however the existence of such a planet was never found. This is where the idea for the planet Vulcan in Star Trek comes from,",
 
                     "The orbit of this planet is an ellipse rather than circular. It has the most eccentric orbit in the solar system and the least circular of all of the planets, according to scientists and astronomers.",
 
-                    "This planet is only the second hottest planet. It's nearest neighbor, though farther from the Sun than it, actually experiences higher temperatures.This is because this planet has no atmosphere to regulate temperature and results in the most extreme temperature change of all the planets, ranging from -170°C(-280°F) during the night to 430°C(800°F) during the day.",
+                    "This planet is only the second hottest planet. It's nearest neighbor, though farther from the Sun than it, actually experiences higher temperatures. This is because this planet has no atmosphere to regulate temperature and results in the most extreme temperature change of all the planets, ranging from -170°C(-280°F) during the night to 430°C(800°F) during the day.",
 
                     "This planet does not experience any seasons. The axis of this planet has the smallest tilt of all other planets, and this results in a lack of seasons on its surface.",
 
-                    "This planet is the only planet which doesn’t rotate exactly once every year – instead rotating three times for every two orbits of the Sun. This is because it is nearly tidally locked to the Sun.",
+                    "This planet is the only planet which doesn’t rotate exactly once every year, instead rotating three times for every two orbits of the Sun. This is because it is nearly tidally locked to the Sun.",
 
                     "The orbit of this planet was important in proving Albert Einstein’s theory of General Relativity and is referenced in several of the physicists studies and mathematical arguments as cosmic proof of relativity in action, due to its orbit, speed and more complex mathematical truths.",
                 ]
@@ -108,11 +108,11 @@ db.solar_system.insertMany([
 
                     "This planet is named after the Roman goddess of love and beauty. This may be, in part, due the brightness of the planet and may date back to the Babylonians in 1581 who referred to this planet as 'bright queen of the sky'.",
 
-                    "In spite of this planet being known as the sister planet to our planet, it is also considered one of the most hostile planets with regards to compatibility for Earth life. This is due to an incredibly hot surface, poisonous gases in the atmosphere and the incredible atmospheric pressure",
+                    "In spite of this planet being known as the sister planet to our planet, it is also considered one of the most hostile planets with regards to compatibility for Earth life. This is due to an incredibly hot surface, poisonous gases in the atmosphere and the incredible atmospheric pressure.",
 
                     "This planet has no moons nor rings but often has a shimmer effect due to its incredibly dense, thick atmosphere.",
 
-                    "Billions of years ago, the climate of this planet may been similar to that of ours and scientists believe that this planet once possessed large amounts of water or oceans. However, due to the high temperatures produce from the extreme greenhouse effect, this water boiled off long ago",
+                    "Billions of years ago, the climate of this planet may been similar to that of ours and scientists believe that this planet once possessed large amounts of water or oceans. However, due to the high temperatures produce from the extreme greenhouse effect, this water boiled off long ago.",
 
                     "This plane rotate in the opposite direction to other planets. Most other planets rotate counter-clockwise on their axis. However this planet, like one other planet much further out from the sun, rotates clockwise. This is known as a retrograde rotation and may have been caused by a collision with an asteroid or other object which caused the planet to change its rotational path.",
 
@@ -689,7 +689,7 @@ db.solar_system.insertMany([
                         surface_temperature_min_celcius: -200,
                         facts: [
 
-                            "Mimas /ˈmaɪməs/, also designated Saturn I, is a moon of Saturn which was discovered in 1789 by William Herschel.[11] It is named after Mimas, a son of Gaia in Greek mythology.",
+                            "Mimas, also designated Saturn I, is a moon of Saturn which was discovered in 1789 by William Herschel. It is named after Mimas, a son of Gaia in Greek mythology.",
 
                             "Mimas's most distinctive feature is a giant impact crater 130 km (81 mi) across, named Herschel after the discoverer of Mimas. Herschel's diameter is almost a third of Mimas's own diameter; its walls are approximately 5 km (3 mi) high, parts of its floor measure 10 km (6 mi) deep, and its central peak rises 6 km (4 mi) above the crater floor. If there were a crater of an equivalent scale on Earth (in relative size) it would be over 4,000 km (2,500 mi) in diameter, wider than Australia. The impact that made this crater must have nearly shattered Mimas: fractures can be seen on the opposite side of Mimas that may have been created by shock waves from the impact travelling through Mimas's core.",
 
@@ -711,9 +711,12 @@ db.solar_system.insertMany([
                         surface_temperature_max_celcius: -128,
                         surface_temperature_min_celcius: -240,
                         facts: [
+
                             "Enceladus is the sixth-largest moon of Saturn. It is about 500 kilometers (310 mi) in diameter, about a tenth of that of Saturn's largest moon, Titan. Enceladus is mostly covered by fresh, clean ice, making it one of the most reflective bodies of the Solar System.",
+
                             "The geyser observations, along with the finding of escaping internal heat and very few (if any) impact craters in the south polar region, show that Enceladus is currently geologically active. On June 27, 2018, scientists reported the detection of complex macromolecular organics on Enceladus's jet plumes, as sampled by the Cassini orbiter. These indicate potential hydrothermal activity on the moon driving complex chemistry",
-                            "Enceladus is named after the giant Enceladus of Greek mythology.[1] The name, like the names of each of the first seven satellites of Saturn to be discovered, was suggested by William Herschel's son John Herschel in his 1847 publication Results of Astronomical Observations made at the Cape of Good Hope.[34] He chose these names because Saturn, known in Greek mythology as Cronus, was the leader of the Titans.",
+
+                            "Enceladus is named after the giant Enceladus of Greek mythology. The name, like the names of each of the first seven satellites of Saturn to be discovered, was suggested by William Herschel's son John Herschel in his 1847 publication Results of Astronomical Observations made at the Cape of Good Hope. He chose these names because Saturn, known in Greek mythology as Cronus, was the leader of the Titans.",
                         ]
                     },
                     {
@@ -731,8 +734,11 @@ db.solar_system.insertMany([
                         surface_temperature_max_celcius: -147,
                         surface_temperature_min_celcius: -196,
                         facts: [
+
                             "Tethys, or Saturn III, is a mid-sized moon of Saturn about 1,060 km (660 mi) across. It was discovered by G. D. Cassini in 1684 and is named after the titan Tethys of Greek mythology.",
+
                             "Tethys has a low density of 0.98 g/cm3, the lowest of all the major moons in the Solar System, indicating that it is made of water ice with just a small fraction of rock. This is confirmed by the spectroscopy of its surface, which identified water ice as the dominant surface material. A small amount of an unidentified dark material is present as well. The surface of Tethys is very bright, being the second-brightest of the moons of Saturn after Enceladus, and neutral in color.",
+
                             "Tethys has been approached by several space probes including Pioneer 11 (1979), Voyager 1 (1980), Voyager 2 (1981), and multiple times by Cassini between 2004 and 2017.",
                         ]
                     },
@@ -752,9 +758,9 @@ db.solar_system.insertMany([
                         surface_temperature_min_celcius: -186,
                         facts: [
 
-                            "Dione (/daɪˈoʊni/) is a moon of Saturn. It was discovered by Italian astronomer Giovanni Domenico Cassini in 1684.[10] It is named after the Titaness Dione of Greek mythology. It is also designated Saturn IV.",
+                            "Dione (/daɪˈoʊni/) is a moon of Saturn. It was discovered by Italian astronomer Giovanni Domenico Cassini in 1684. It is named after the Titaness Dione of Greek mythology. It is also designated Saturn IV.",
 
-                            "At 1122 km (697 mi) in diameter, Dione is the 15th largest moon in the Solar System, and is more massive than all known moons smaller than itself combined.About two thirds of Dione's mass is water ice, and the remaining is a dense core, probably silicate rock.",
+                            "At 1122 km (697 mi) in diameter, Dione is the 15th largest moon in the Solar System, and is more massive than all known moons smaller than itself combined. About two thirds of Dione's mass is water ice, and the remaining is a dense core, probably silicate rock.",
 
                             "Giovanni Domenico Cassini named the four moons he discovered (Tethys, Dione, Rhea and Iapetus) Sidera Lodoicea ('the stars of Louis') to honor king Louis XIV. Cassini found Dione in 1684 using a large aerial telescope he set up on the grounds of the Paris Observatory. The satellites of Saturn were not named until 1847, when William Herschel's son John Herschel published Results of Astronomical Observations made at the Cape of Good Hope, suggesting that the names of the Titans (sisters and brothers of Cronus) be used.",
                         ]
@@ -823,9 +829,9 @@ db.solar_system.insertMany([
                         surface_temperature_min_celcius: -173.333,
                         facts: [
 
-                            "Iapetus (/aɪˈæpɪtəs/) is the third-largest natural satellite of Saturn, eleventh-largest in the Solar System,[10] and the largest body in the Solar System known not to be in hydrostatic equilibrium.[11] Discoveries by the Cassini mission in 2007 revealed several unusual features, such as a massive equatorial ridge running three-quarters of the way around the moon.",
+                            "Iapetus is the third-largest natural satellite of Saturn, eleventh-largest in the Solar System, and the largest body in the Solar System known not to be in hydrostatic equilibrium. Discoveries by the Cassini mission in 2007 revealed several unusual features, such as a massive equatorial ridge running three-quarters of the way around the moon.",
 
-                            "apetus is named after the Titan Iapetus from Greek mythology. The name was suggested by John Herschel (son of William Herschel, discoverer of Mimas and Enceladus) in his 1847 publication Results of Astronomical Observations made at the Cape of Good Hope,[15] in which he advocated naming the moons of Saturn after the Titans, brothers and sisters of the Titan Cronus (whom the Romans equated with their god Saturn).",
+                            "apetus is named after the Titan Iapetus from Greek mythology. The name was suggested by John Herschel (son of William Herschel, discoverer of Mimas and Enceladus) in his 1847 publication Results of Astronomical Observations made at the Cape of Good Hope, in which he advocated naming the moons of Saturn after the Titans, brothers and sisters of the Titan Cronus (whom the Romans equated with their god Saturn).",
 
                             "The orbit of Iapetus is somewhat unusual. Although it is Saturn's third-largest moon, it orbits much farther from Saturn than the next closest major moon, Titan. It has also the most inclined orbital plane of the regular satellites; only the irregular outer satellites like Phoebe have more inclined orbits. Because of this distant, inclined orbit, Iapetus is the only large moon from which the rings of Saturn would be clearly visible; from the other inner moons, the rings would be edge-on and difficult to see.",
                         ]
@@ -870,6 +876,7 @@ db.solar_system.insertMany([
 
                 ],
             },
+
             {
 
                 name: "Uranus",
@@ -937,11 +944,11 @@ db.solar_system.insertMany([
                         surface_temperature_min_celcius: null,
                         facts: [
 
-                            "Miranda, also designated Uranus V, is the smallest and innermost of Uranus's five round satellites. It was discovered by Gerard Kuiper on 16 February 1948 at McDonald Observatory in Texas, and named after Miranda from William Shakespeare's play The Tempest.[10] Like the other large moons of Uranus, Miranda orbits close to its planet's equatorial plane. Because Uranus orbits the Sun on its side, Miranda's orbit is perpendicular to the ecliptic and shares Uranus' extreme seasonal cycle.",
+                            "Miranda, also designated Uranus V, is the smallest and innermost of Uranus's five round satellites. It was discovered by Gerard Kuiper on 16 February 1948 at McDonald Observatory in Texas, and named after Miranda from William Shakespeare's play The Tempest. Like the other large moons of Uranus, Miranda orbits close to its planet's equatorial plane. Because Uranus orbits the Sun on its side, Miranda's orbit is perpendicular to the ecliptic and shares Uranus' extreme seasonal cycle.",
 
                             "At just 470 km in diameter, Miranda is one of the smallest closely observed objects in the Solar System that might be in hydrostatic equilibrium (spherical under its own gravity). The only close-up images of Miranda are from the Voyager 2 probe, which made observations of Miranda during its Uranus flyby in January 1986. During the flyby, Miranda's southern hemisphere pointed towards the Sun, so only that part was studied.",
 
-                            "While crater counts suggest that the majority of Miranda's surface is old, with a similar geological history to the other Uranian satellites,[22][29] few of those craters are particularly large, indicating that most must have formed after a major resurfacing event in its distant past.[20] Craters on Miranda also appear to possess softened edges, which could be the result either of ejecta or of cryovolcanism.[29] The temperature at Miranda's south pole is roughly 85 K, a temperature at which pure water ice adopts the properties of rock",
+                            "While crater counts suggest that the majority of Miranda's surface is old, with a similar geological history to the other Uranian satellites, few of those craters are particularly large, indicating that most must have formed after a major resurfacing event in its distant past. Craters on Miranda also appear to possess softened edges, which could be the result either of ejecta or of cryovolcanism. The temperature at Miranda's south pole is roughly 85K, a temperature at which pure water ice adopts the properties of rock",
 
                         ]
                     },
@@ -985,11 +992,11 @@ db.solar_system.insertMany([
                         surface_temperature_min_celcius: null,
                         facts: [
 
-                            "Umbriel /ˈʌmbriəl/ is a moon of Uranus discovered on October 24, 1851, by William Lassell. It was discovered at the same time as Ariel and named after a character in Alexander Pope's poem The Rape of the Lock. Umbriel consists mainly of ice with a substantial fraction of rock, and may be differentiated into a rocky core and an icy mantle. The surface is the darkest among Uranian moons, and appears to have been shaped primarily by impacts. However, the presence of canyons suggests early endogenic processes, and the moon may have undergone an early endogenically driven resurfacing event that obliterated its older surface.",
+                            "Umbriel is a moon of Uranus discovered on October 24, 1851, by William Lassell. It was discovered at the same time as Ariel and named after a character in Alexander Pope's poem The Rape of the Lock. Umbriel consists mainly of ice with a substantial fraction of rock, and may be differentiated into a rocky core and an icy mantle. The surface is the darkest among Uranian moons, and appears to have been shaped primarily by impacts. However, the presence of canyons suggests early endogenic processes, and the moon may have undergone an early endogenically driven resurfacing event that obliterated its older surface.",
 
                             "Covered by numerous impact craters reaching 210 km (130 mi) in diameter, Umbriel is the second most heavily cratered satellite of Uranus after Oberon. The most prominent surface feature is a ring of bright material on the floor of Wunda crater. This moon, like all moons of Uranus, probably formed from an accretion disk that surrounded the planet just after its formation.",
 
-                            "Umbriel may be differentiated into a rocky core surrounded by an icy mantle.[24] If this is the case, the radius of the core (317 km) is about 54% of the radius of the moon, and its mass is around 40% of the moon's mass—the parameters are dictated by the moon's composition. The pressure in the center of Umbriel is about 0.24 GPa (2.4 kbar).[24] The current state of the icy mantle is unclear, although the existence of a subsurface ocean is considered unlikely.",
+                            "Umbriel may be differentiated into a rocky core surrounded by an icy mantle. If this is the case, the radius of the core (317 km) is about 54% of the radius of the moon, and its mass is around 40% of the moon's mass—the parameters are dictated by the moon's composition. The pressure in the center of Umbriel is about 0.24 GPa (2.4 kbar). The current state of the icy mantle is unclear, although the existence of a subsurface ocean is considered unlikely.",
                         ]
                     },
                     {
@@ -1031,11 +1038,11 @@ db.solar_system.insertMany([
                         surface_temperature_min_celcius: -203.15,
                         facts: [
 
-                            "Oberon /ˈoʊbərɒn/, also designated Uranus IV, is the outermost major moon of the planet Uranus. It is the second-largest and second most massive of the Uranian moons, and the ninth most massive moon in the Solar System. Discovered by William Herschel in 1787, Oberon is named after the mythical king of the fairies who appears as a character in Shakespeare's A Midsummer Night's Dream. Its orbit lies partially outside Uranus's magnetosphere.",
+                            "Oberon, also designated Uranus IV, is the outermost major moon of the planet Uranus. It is the second-largest and second most massive of the Uranian moons, and the ninth most massive moon in the Solar System. Discovered by William Herschel in 1787, Oberon is named after the mythical king of the fairies who appears as a character in Shakespeare's A Midsummer Night's Dream.",
 
-                            "Oberon orbits Uranus at a distance of about 584,000 km, being the farthest from the planet among its five major moons.[e] Oberon's orbit has a small orbital eccentricity and inclination relative to the equator of Uranus.[4] Its orbital period is around 13.5 days, coincident with its rotational period. In other words, Oberon is a synchronous satellite, tidally locked, with one face always pointing toward the planet. Oberon spends a significant part of its orbit outside the Uranian magnetosphere. As a result, its surface is directly struck by the solar wind",
+                            "Oberon orbits Uranus at a distance of about 584,000 km, being the farthest from the planet among its five major moons. Oberon's orbit has a small orbital eccentricity and inclination relative to the equator of Uranus.[4] Its orbital period is around 13.5 days, coincident with its rotational period. In other words, Oberon is a synchronous satellite, tidally locked, with one face always pointing toward the planet. Oberon spends a significant part of its orbit outside the Uranian magnetosphere. As a result, its surface is directly struck by the solar wind",
 
-                            "",
+                            "Discovered in 1787, little was known about this moon until Voyager 2 passed it during its flyby of Uranus in January 1986. Its orbit lies partially outside Uranus's magnetosphere and this effects viewing via telescope or traditional means",
                         ]
                     }
                 ],
@@ -1112,27 +1119,55 @@ db.solar_system.insertMany([
                     "Psamathe",
                     "Neso",
                 ],
-                sig_moon_number: 0,
-                sig_moons: [{
-                    name: "",
-                    position: 0,
-                    image_url: [
-                        "",
-                        "",
-                        ""
-                    ],
-                    orbit_distance_km: 0,
-                    equatorial_diameter_km: 0,
-                    mass: "",
-                    orbit_period_in_days: 0,
-                    surface_temperature_max_celcius: 0,
-                    surface_temperature_min_celcius: 0,
-                    facts: [
-                        "",
-                        "",
-                        "",
-                    ]
-                }],
+                sig_moon_number: 2,
+                sig_moons: [
+                    {
+                        name: "Triton",
+                        position: 8,
+                        image_url: [
+                            "https://www.thefactsite.com/wp-content/uploads/2019/10/triton-facts.jpg",
+                            "https://cdn.mos.cms.futurecdn.net/fxdQJeaQN5WCBJzWBeUzqR.jpg",
+                            "https://lh3.googleusercontent.com/proxy/XCnbZ8qks7YrGeC78zl1ZL78trXQiFQgBkcN98PMQc8Nsb_2R7J_eHaET4jA5sw1nNjBFbVTBbi0elDzNrtqimzq0lcqBzXvMYwKiykFNQ22jGvsTxk"
+                        ],
+                        orbit_distance_km: 354800,
+                        equatorial_diameter_km: 2706.8,
+                        mass: "(3.076±0.087)×1021 kg",
+                        orbit_period_in_days: 5.875,
+                        surface_temperature_max_celcius: null,
+                        surface_temperature_min_celcius: -235.2,
+                        facts: [
+
+                            "Triton is the largest natural satellite of the planet Neptune, and the first Neptunian moon to be discovered. The discovery was made on October 10, 1846, by English astronomer William Lassell. It is the only large moon in the Solar System with a retrograde orbit, an orbit in the direction opposite to its planet's rotation",
+
+                            "Triton is one of the few moons in the Solar System known to be geologically active (the others being Jupiter's Io and Europa, and Saturn's Enceladus and Titan). As a consequence, its surface is relatively young, with few obvious impact craters.",
+
+                            "Triton is named after the Greek sea god Triton, the son of Poseidon (the Greek god corresponding to the Roman Neptune). The name was first proposed by Camille Flammarion in his 1880 book Astronomie Populaire and was officially adopted many decades later. Until the discovery of the second moon Nereid in 1949, Triton was commonly referred to as 'the satellite of Neptune'. Lassell did not name his own discovery; he later successfully suggested the name Hyperion, previously chosen by John Herschel, for the eighth moon of Saturn when he discovered it",
+                        ]
+                    },
+                    {
+                        name: "Nereid",
+                        position: 9,
+                        image_url: [
+                            "https://i0.wp.com/www.astronomylovers.com/wp-content/uploads/2020/05/nereid.jpg?fit=915%2C610&ssl=1",
+                            "https://alchetron.com/cdn/nereid-moon-b0865733-0957-4aba-9a35-ca89160e525-resize-750.jpeg",
+                            "https://ak.picdn.net/shutterstock/videos/1018915744/thumb/1.jpg"
+                        ],
+                        orbit_distance_km: 5513400,
+                        equatorial_diameter_km: 340,
+                        mass: "3.1×1019",
+                        orbit_period_in_days: 360,
+                        surface_temperature_max_celcius: -223.15,
+                        surface_temperature_min_celcius: null,
+                        facts: [
+
+                            "Nereid was discovered on 1 May 1949 by Gerard P. Kuiper on photographic plates taken with the 82-inch telescope at the McDonald Observatory. He proposed the name in the report of his discovery. It is named after the Nereids, sea-nymphs of Greek mythology and attendants of the god Neptune. It was the second and last moon of Neptune to be discovered before the arrival of Voyager 2 (not counting a single observation of an occultation by Larissa in 1981).",
+
+                            "Spectrally, Nereid appears neutral in colour and water ice has been detected on its surface. Its spectrum appears to be intermediate between Uranus's moons Titania and Umbriel, which suggests that Nereid's surface is composed of a mixture of water ice and some spectrally neutral material. The spectrum is markedly different from minor planets of the outer solar system, centaurs Pholus, Chiron and Chariklo, suggesting that Nereid formed around Neptune rather than being a captured body.",
+
+                            "Nereid's orbit is the most eccentric in the solar system. Its distance to Neptune ranges from about 1,353,600 kilometers (841,100 miles) to 9,623,700 kilometers (5,980,200 miles).",
+                        ]
+                    }
+                ],
                 rings: 6,
                 orbit_period_days: 60190,
                 surface_temperature_max_celcius: -201,
@@ -1197,27 +1232,32 @@ db.solar_system.insertMany([
                     "Kerberos",
                     "Hydra",
                 ],
-                sig_moon_number: 0,
-                sig_moons: [{
-                    name: "",
-                    position: 0,
-                    image_url: [
-                        "",
-                        "",
-                        ""
-                    ],
-                    orbit_distance_km: 0,
-                    equatorial_diameter_km: 0,
-                    mass: "",
-                    orbit_period_in_days: 0,
-                    surface_temperature_max_celcius: 0,
-                    surface_temperature_min_celcius: 0,
-                    facts: [
-                        "",
-                        "",
-                        "",
-                    ]
-                }],
+                sig_moon_number: 1,
+                sig_moons: [
+                    {
+                        name: "Charon",
+                        position: 1,
+                        image_url: [
+                            "https://solarsystem.nasa.gov/system/content_pages/main_images/538_PIA19968.jpg",
+                            "https://cdn.mos.cms.futurecdn.net/9v3Jyf9Zd24LZo4xKkwYe6.jpg",
+                            "https://img.etimg.com/thumb/width-640,height-480,imgsize-60269,resizemode-1,msid-49194064/news/science/nasa-captures-plutos-moon-charon-in-stunning-detail.jpg"
+                        ],
+                        orbit_distance_km: 17536,
+                        equatorial_diameter_km: 1212,
+                        mass: "(1.586±0.015) × 1021kg (2.66×10−4 Earths)",
+                        orbit_period_in_days: 6.387,
+                        surface_temperature_max_celcius: -213,
+                        surface_temperature_min_celcius: -240,
+                        facts: [
+
+                            "With half the diameter and one eighth the mass of Pluto, Charon is a very large moon in comparison to its parent body. Its gravitational influence is such that the barycenter of the Plutonian system lies outside Pluto. This has led to the argument that Pluto–Charon is sometimes considered a double dwarf planet",
+
+                            "Charon and Pluto orbit each other every 6.387 days. The two objects are gravitationally locked to one another, so each keeps the same face towards the other. This is a case of mutual tidal locking, as compared to that of the Earth and the Moon, where the Moon always shows the same face to Earth, but not vice versa.",
+
+                            "The New Horizons spacecraft is the only probe that has visited the Pluto system. It approached Charon to within 27,000 km (17,000 mi) in 2015. In a released photo by New Horizons, an unusual surface feature has captivated and baffled the scientist team of the mission. The image reveals a mountain rising out of a depression, described as 'a large mountain sitting in a moat'.",
+                        ]
+                    }
+                ],
                 rings: 0,
                 orbit_period_days: 90560,
                 surface_temperature_max_celcius: -223,
@@ -1257,6 +1297,19 @@ db.solar_system.insertMany([
                 ],
             },
 
-        ]
+        ],
+
+        stars: [
+
+        ],
+
+        satellites: [
+
+        ],
+
+        planetoids: [
+
+        ],
+
     }
 ])
