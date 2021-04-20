@@ -1272,7 +1272,7 @@ db.solar_system.insertMany([
 
                     "Pluto is one third water. This is in the form of water ice which is more than 3 times as much water as in all the Earth’s oceans, the remaining two thirds are rock.Pluto’s surface is covered with ices, and has several mountain ranges, light and dark regions, and a scattering of craters.",
 
-                    "Pluto is smaller than a number of moons. These are Ganymede, Titan, Callisto, Io, Europa, Triton, and the Earth’s moon.Pluto has 66% of the diameter of the Earth’s moon and 18% of its mass.While it is now confirmed that Pluto is the largest dwarf planet for around 10 years it was thought that this was Eris.",
+                    "Pluto is smaller than a number of moons. These are Ganymede, Titan, Callisto, Io, Europa, Triton, and the Earth’s moon. Pluto has 66% of the diameter of the Earth’s moon and 18% of its mass.While it is now confirmed that Pluto is the largest dwarf planet for around 10 years it was thought that this was Eris.",
 
                     "Pluto has a eccentric and inclined orbit. This takes it between 4.4 and 7.3 billion km from the Sun meaning Pluto is periodically closer to the Sun than Neptune.",
 
