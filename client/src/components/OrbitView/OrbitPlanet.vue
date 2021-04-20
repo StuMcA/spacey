@@ -84,8 +84,16 @@ export default {
     transform: rotate(-360deg);
   }
 }
+@keyframes ring {
+  from {
+    transform: rotate(-90deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
 .mercury {
-  background-color: rgb(187, 187, 187);
+  background-color: rgb(211, 195, 195);
 }
 .venus {
   background-color: rgb(255, 214, 101);
@@ -94,10 +102,10 @@ export default {
   background-color: rgb(0, 174, 255);
 }
 .mars {
-  background-color: red;
+  background-color: rgb(248, 95, 56);
 }
 .jupiter {
-  background-color: rgb(238, 188, 94);
+  background-color: rgb(177, 151, 104);
 }
 .saturn {
   background-color: rgb(236, 183, 148);
@@ -108,9 +116,14 @@ export default {
   height: 35px;
   border-radius: 50%;
   background: none;
-  border: 3px solid #8b784e91;
+  border: 3px solid #8b784ec5;
   left: -1px;
   top: -8px;
+  transform: rotate(-90deg);
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: ring;
+  -webkit-animation-duration: 61s;
 }
 .neptune {
   background-color: rgb(55, 65, 204);

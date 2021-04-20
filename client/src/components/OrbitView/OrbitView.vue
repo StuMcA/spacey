@@ -5,6 +5,7 @@
       <div class="sun"></div>
       <orbit-planet v-for="(planet, index) in planets" :key="index" :planet="planet" />
     </div>
+    <p>4 seconds = 1 year</p>
   </div>
 </template>
 
@@ -23,7 +24,7 @@ export default {
 <style scoped>
 .wrapper {
   position: relative;
-  margin: 5rem auto 2rem auto;
+  margin: 4rem auto 2rem auto;
   width: 90%;
   max-width: 1024px;
 }
@@ -38,8 +39,8 @@ export default {
   height: 40px;
 
   border-radius: 100%;
-  background: rgb(255, 242, 223);
-  box-shadow: 0 0 15px 5px rgba(255, 238, 184, 0.459);
+  background: rgb(255, 246, 233);
+  box-shadow: 0 0 5px 2px rgb(255, 242, 223);
 
   top: -20px;
   left: -20px;
