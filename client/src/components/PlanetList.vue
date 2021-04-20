@@ -40,14 +40,21 @@ ul {
     overflow: scroll;
 }
 
+h2 {
+    margin: -60px 0 0 0;
+}
+
 li {
     cursor: pointer;
     padding: 1px 30px;
     border: 1px solid transparent;
+    margin: 30px;
+    padding: 0 20px 20px 20px;
+    overflow: hidden;
 }
 
 li:hover {
-    background-image: radial-gradient(circle, #010101 50%, #ffffff2a 100%);
+    background-image: linear-gradient(to right,#ffffff2a 0%, transparent 20%, transparent 80%, #ffffff2a 100%);
     border: 1px solid rgba(255, 255, 255, 0.293);
 }
 

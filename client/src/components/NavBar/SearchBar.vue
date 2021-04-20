@@ -38,9 +38,6 @@ export default {
                 eventBus.$emit('show-planet-list', this.showPlanetList);
                 eventBus.$emit('planet-selected', this.planet)
                 this.searchTerm = "";
-            } else if(this.searchTerm === "") {
-                this.filteredPlanets = []
-                eventBus.$emit('show-planet-list', false)
             } else {
                 this.filteredPlanets = this.planets.filter((planet) => {
                     return planet.name.toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1 ||
@@ -68,6 +65,8 @@ export default {
     display: flex;
     width: 160px;
     height: 30px;
+    backdrop-filter: blur(3px);
+    background-color: rgba(0, 0, 0, 0.32);
 }
 
 
@@ -82,8 +81,14 @@ form {
     cursor: pointer;
 }
 
+#search:hover ::placeholder {
+    color: black;
+    text-shadow: none;
+}
+
 input[type="text"] {
     color: white;
+    text-shadow: 1px 1px 0 black;
     border: none;
     background: transparent;
     margin: auto;

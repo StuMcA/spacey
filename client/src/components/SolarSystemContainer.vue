@@ -45,6 +45,18 @@ export default {
 
 button {
     margin: 50px auto 20px 20px;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+    backdrop-filter: blur(3px);
+    cursor: pointer;
+    z-index: 999;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.334);
 }
 
 #solar-system {
@@ -56,9 +68,11 @@ button {
     right: 100px;
     display: flex;
     flex-direction: row-reverse;
-    background-color: rgb(0, 0, 0);
-    z-index: -1;
 }
+
+
+/* background-color: rgb(0, 0, 0);
+    z-index: -1; */
 
 .topView {
     transform: scale(0.25) translate(-55%, 0);
@@ -78,26 +92,25 @@ button {
 #sun {
     right: 0%;
     background-color: rgb(255, 255, 0);
-    box-shadow: 0 0 4000px #d34555;
     width: 1392px;
     height: 1392px;
+    box-shadow: 0 0 50px 100px rgb(249, 229, 16);
     transform: translate(1392px, -696px);
     animation: pulse-red 15s infinite, Yellowy 10s infinite;
-    box-shadow:
-    0 0 140px 60px rgb(249, 229, 16); /* outer cyan */
+ 
 }
 
 @keyframes pulse-red {
 	0% {
-		box-shadow: 0 0 0 0 rgba(255, 221, 30, 0.221);
+		box-shadow: 0 0 0 0 rgba(255, 221, 30, 0.123);
 	}
 	
 	70% {
-		box-shadow: 0 0 0 4000px rgba(255, 82, 82, 0);
+		box-shadow: 0 0 0 4000px rgba(0, 0, 0, 0);
 	}
 	
 	100% {
-		box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 	}
 }
 
@@ -108,46 +121,116 @@ button {
 }
 
 
-
-
-
 #mercury {
-    background-color: rgb(192, 115, 7);
+    background-color: rgb(255, 197, 5);
+    animation: mercury 8s infinite;
 }
 
 #venus {
     background-color: rgb(188, 143, 58);
+    animation: Venus 8s infinite;
+}
+
+@-webkit-keyframes venus {  
+  0% { background-color: rgb(185, 156, 100); }
+  50% { background-color: rgb(221, 181, 105); }
+  100% { background-color: rgb(188, 143, 58);}
 }
 
 #earth {
     background-color: rgb(45, 45, 255);
     box-shadow:
-    0 0 140px 5px #0ff; /* outer cyan */
+    0 0 20px 1px #0ff; /* outer cyan */
+    animation: Bluey 14s infinite;
+}
+
+ @-webkit-keyframes Bluey {  
+  0% { background-color: rgb(83, 86, 253); }
+  25% { background-color: rgb(25, 165, 95); }
+  50% { background-color: rgb(3, 86, 253); }
+  75% { background-color: rgb(25, 165, 95); }
+  100% { background-color: rgb(83, 86, 253);}
 }
 
 #mars {
     background: rgb(139, 14, 14);
+    animation: mars 8s infinite;
+
+}
+
+@-webkit-keyframes mars {  
+  0% { background-color: rgb(168, 18, 18); }
+  50% { background-color: rgb(202, 22, 22); }
+  100% { background-color: rgb(168, 18, 18);}
 }
 
 #jupiter {
     background-color: rgb(255, 128, 0);
+    animation: jupiter 12s infinite;
+    box-shadow: inset 0 0 20px 7px rgba(0, 0, 0, 0.23);
+    box-shadow: inset 0 0 10px 7px rgba(0, 0, 0, 0.23);
+    box-shadow: inset 0 0 10px 10px rgba(0, 0, 0, 0.23);
 }
+
+/* @-webkit-keyframes jupiter {  
+  0% { background-color: rgb(255, 128, 0); }
+  50% { background-color: rgba(255, 128, 0, 0.795); }
+  100% { background-color: rgb(255, 128, 0);}
+} */
 
 #saturn {
     background-color: rgb(255, 212, 94);
+    animation: saturn 8s infinite;
+    box-shadow: inset 0 0 20px 7px rgba(0, 0, 0, 0.23);
+    box-shadow: inset 0 0 10px 7px rgba(0, 0, 0, 0.23);
+    box-shadow: inset 0 0 10px 10px rgba(0, 0, 0, 0.23);
 }
+
+@-webkit-keyframes saturn {  
+  0% { background-color: rgb(255, 212, 94) }
+  50% { background-color: rgb(255, 230, 162); }
+  100% { background-color: rgb(255, 212, 94);}
+}
+
 
 
 #uranus {
     background-color: rgb(218, 218, 255);
+    animation: uranus 15s infinite;
+    box-shadow: inset 0 0 20px 7px rgba(0, 0, 0, 0.23);
+    box-shadow: inset 0 0 10px 7px rgba(0, 0, 0, 0.23);
+    box-shadow: inset 0 0 10px 10px rgba(0, 0, 0, 0.23);
 }
+
+ /* @-webkit-keyframes uranus {  
+  0% { background-color: rgb(218, 218, 255); }
+  50% { background-color: rgba(218, 218, 255, 0.644); }
+  100% { background-color: rgb(218, 218, 255);}
+} */
 
 #neptune {
     background-color: rgb(80, 80, 203);
+    animation: neptune 10s infinite;
+    box-shadow: inset 0 0 20px 7px rgba(0, 0, 0, 0.23);
+    box-shadow: inset 0 0 10px 7px rgba(0, 0, 0, 0.23);
+    box-shadow: inset 0 0 10px 10px rgba(0, 0, 0, 0.23);
+}
+
+@-webkit-keyframes neptune {  
+  0% { background-color: rgb(80, 80, 203); }
+  50% { background-color: rgb(80, 80, 203); }
+  100% { background-color: rgb(80, 80, 203);}
 }
 
 #pluto {
     background-color: grey;
+    animation: pluto 12s infinite;
+}
+
+@-webkit-keyframes pluto {  
+  0% { background-color: rgb(143, 143, 143); }
+  50% { background-color: rgb(201, 201, 201); }
+  100% { background-color: rgb(143, 143, 143);}
 }
 
 #end-of-solar-system {
