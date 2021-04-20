@@ -26,6 +26,7 @@ db.solar_system.insertMany([
                 mass: "3.29 × 10^23kg (0.06 Earths)",
                 number_of_moons: 0,
                 moon_list: [],
+                sig_moon_number: 0,
                 sig_moons: [{
 
                 }],
@@ -87,6 +88,7 @@ db.solar_system.insertMany([
                 mass: "4.87 × 10^24kg (0.82 Earths)",
                 number_of_moons: 0,
                 moon_list: [],
+                sig_moon_number: 0,
                 sig_moons: [{
 
                 }],
