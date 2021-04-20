@@ -56,7 +56,7 @@ button {
     right: 100px;
     display: flex;
     flex-direction: row-reverse;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     z-index: -1;
 }
 
@@ -66,7 +66,7 @@ button {
 
 .planet {
     background-color: white;
-    border: 1px solid black;
+    border: 0px solid transparent;
     border-radius: 50%;
     position: absolute;
     text-align: center;
@@ -78,10 +78,38 @@ button {
 #sun {
     right: 0%;
     background-color: rgb(255, 255, 0);
+    box-shadow: 0 0 4000px #d34555;
     width: 1392px;
     height: 1392px;
     transform: translate(1392px, -696px);
+    animation: pulse-red 15s infinite, Yellowy 10s infinite;
+    box-shadow:
+    0 0 140px 60px rgb(249, 229, 16); /* outer cyan */
 }
+
+@keyframes pulse-red {
+	0% {
+		box-shadow: 0 0 0 0 rgba(255, 221, 30, 0.221);
+	}
+	
+	70% {
+		box-shadow: 0 0 0 4000px rgba(255, 82, 82, 0);
+	}
+	
+	100% {
+		box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+	}
+}
+
+ @-webkit-keyframes Yellowy {  
+  0% { background-color: rgb(254, 246, 17); }
+  50% { background-color: rgb(255, 197, 5); }
+  100% { background-color: rgb(254, 246, 17);}
+}
+
+
+
+
 
 #mercury {
     background-color: rgb(192, 115, 7);
@@ -93,6 +121,8 @@ button {
 
 #earth {
     background-color: rgb(45, 45, 255);
+    box-shadow:
+    0 0 140px 5px #0ff; /* outer cyan */
 }
 
 #mars {
@@ -106,6 +136,7 @@ button {
 #saturn {
     background-color: rgb(255, 212, 94);
 }
+
 
 #uranus {
     background-color: rgb(218, 218, 255);
