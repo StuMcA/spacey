@@ -29,7 +29,7 @@ export default {
   margin: 1rem 0 0 0;
 }
 .moon-name {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .moon-info {
   padding: 1rem;
