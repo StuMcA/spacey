@@ -3,22 +3,24 @@
     <div
       class="orbit-path"
       :style="{
-        'width': this.calcWidthHeight() + 'px',
-        'height': this.calcWidthHeight() + 'px',
-        'top': '-' + this.calcOffset() + 'px',
-        'left': '-' + this.calcOffset() + 'px',
+        width: this.calcWidthHeight() + 'px',
+        height: this.calcWidthHeight() + 'px',
+        top: '-' + this.calcOffset() + 'px',
+        left: '-' + this.calcOffset() + 'px',
         '-webkit-animation-duration': this.calcOrbitPeriod() + 's',
       }"
     >
       <div
         :style="{
-          'width': this.calcPlanetSize() + 'px',
-          'height': this.calcPlanetSize() + 'px',
-          'left': this.calcOffset() + 'px',
-          'top': '-' + this.calcPlanetOffset() + 'px',
+          width: this.calcPlanetSize() + 'px',
+          height: this.calcPlanetSize() + 'px',
+          left: this.calcOffset() + 'px',
+          top: '-' + this.calcPlanetOffset() + 'px',
         }"
-        :id="planet.name.toLowerCase()"
-      ></div>
+        :class="planet.name.toLowerCase()"
+      >
+        <div></div>
+      </div>
     </div>
   </div>
 </template>
@@ -50,15 +52,18 @@ export default {
 <style>
 .orbit-path {
   position: absolute;
-  border: 1px solid rgb(121, 121, 121);
-  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.301);
+  border-radius: 100%;
 }
 .orbit-path > div {
-  border-radius: 50%;
+  border-radius: 100%;
   position: relative;
 }
 
 .orbit-animation-container > div {
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: orbit;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
   -webkit-animation-name: orbit;
@@ -70,5 +75,50 @@ export default {
   to {
     -webkit-transform: rotate(-360deg);
   }
+}
+@keyframes orbit {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+.mercury {
+  background-color: rgb(187, 187, 187);
+}
+.venus {
+  background-color: rgb(255, 214, 101);
+}
+.earth {
+  background-color: rgb(0, 174, 255);
+}
+.mars {
+  background-color: red;
+}
+.jupiter {
+  background-color: rgb(238, 188, 94);
+}
+.saturn {
+  background-color: rgb(236, 183, 148);
+}
+.saturn > div {
+  position: relative;
+  width: 20px;
+  height: 35px;
+  border-radius: 50%;
+  background: none;
+  border: 3px solid #8b784e91;
+  left: -1px;
+  top: -8px;
+}
+.neptune {
+  background-color: rgb(55, 65, 204);
+}
+.uranus {
+  background-color: rgb(176, 255, 251);
+}
+.pluto {
+  background-color: rgb(230, 218, 204);
 }
 </style>

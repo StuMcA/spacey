@@ -23,12 +23,12 @@ export default {
 <style scoped>
 .wrapper {
   position: relative;
-  margin: 4rem auto 2rem auto;
+  margin: 5rem auto 2rem auto;
   width: 90%;
   max-width: 1024px;
 }
 .orbit-view-container {
-  position: absolute;
+  position: relative;
   top: 20rem;
   left: 50%;
 }
@@ -37,7 +37,7 @@ export default {
   width: 40px;
   height: 40px;
 
-  border-radius: 50%;
+  border-radius: 100%;
   background: rgb(255, 242, 223);
   box-shadow: 0 0 15px 5px rgba(255, 238, 184, 0.459);
 
