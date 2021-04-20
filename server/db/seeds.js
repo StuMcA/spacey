@@ -108,11 +108,11 @@ db.solar_system.insertMany([
 
                     "This planet is named after the Roman goddess of love and beauty. This may be, in part, due the brightness of the planet and may date back to the Babylonians in 1581 who referred to this planet as 'bright queen of the sky'.",
 
-                    "In spite of this planet being known as the sister planet to our planet, it is also considered one of the most hostile planets with regards to compatibility for Earth life. This is due to an incredibly hot surface, poisonous gases in the atmosphere and the incredible atmospheric pressure",
+                    "In spite of this planet being known as the sister planet to our planet, it is also considered one of the most hostile planets with regards to compatibility for Earth life. This is due to an incredibly hot surface, poisonous gases in the atmosphere and the incredible atmospheric pressure.",
 
                     "This planet has no moons nor rings but often has a shimmer effect due to its incredibly dense, thick atmosphere.",
 
-                    "Billions of years ago, the climate of this planet may been similar to that of ours and scientists believe that this planet once possessed large amounts of water or oceans. However, due to the high temperatures produce from the extreme greenhouse effect, this water boiled off long ago",
+                    "Billions of years ago, the climate of this planet may been similar to that of ours and scientists believe that this planet once possessed large amounts of water or oceans. However, due to the high temperatures produce from the extreme greenhouse effect, this water boiled off long ago.",
 
                     "This plane rotate in the opposite direction to other planets. Most other planets rotate counter-clockwise on their axis. However this planet, like one other planet much further out from the sun, rotates clockwise. This is known as a retrograde rotation and may have been caused by a collision with an asteroid or other object which caused the planet to change its rotational path.",
 
