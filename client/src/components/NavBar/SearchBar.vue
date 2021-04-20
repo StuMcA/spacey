@@ -38,9 +38,6 @@ export default {
                 eventBus.$emit('show-planet-list', this.showPlanetList);
                 eventBus.$emit('planet-selected', this.planet)
                 this.searchTerm = "";
-            } else if(this.searchTerm === "") {
-                this.filteredPlanets = []
-                eventBus.$emit('show-planet-list', false)
             } else {
                 this.filteredPlanets = this.planets.filter((planet) => {
                     return planet.name.toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1 ||
