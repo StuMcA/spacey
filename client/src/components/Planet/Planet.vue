@@ -10,6 +10,7 @@
         <planet-fact :planetFacts="planet.facts" />
       </div>
     </div>
+    <!-- <moon :moon="planet.sig_moons[0]"/> -->
   </section>
 </template>
 
@@ -17,6 +18,7 @@
 import PlanetInfo from './PlanetInfo.vue';
 import PlanetImage from './PlanetImage.vue';
 import PlanetFact from './PlanetFact.vue';
+import Moon from '../Moon/Moon';
 
 export default {
   name: 'planet',
@@ -24,6 +26,7 @@ export default {
     'planet-info': PlanetInfo,
     'planet-image': PlanetImage,
     'planet-fact': PlanetFact,
+    'moon': Moon,
   },
   props: ['planet'],
 };
