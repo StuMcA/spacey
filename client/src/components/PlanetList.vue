@@ -36,6 +36,8 @@ ul {
     list-style: none;
     width: 90%;
     margin: 40px auto;
+    height: 100%;
+    overflow: scroll;
 }
 
 li {

@@ -75,6 +75,7 @@ li {
     width: 160px;
     color: white;
     text-shadow: 1px 1px 0 black;
+    backdrop-filter: blur(10px);
 }
 
 p {
