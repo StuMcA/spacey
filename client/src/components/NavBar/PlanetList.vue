@@ -33,6 +33,7 @@ ul {
     margin-top: 30px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.286);
+    backdrop-filter: blur(3px);
 }
 
 li {

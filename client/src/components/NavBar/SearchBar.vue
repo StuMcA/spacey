@@ -30,11 +30,12 @@ export default {
         search: function (event) {
             if(event.keyCode === 13) {
                 if(this.filteredPlanets.length === 1) {
+                    this.showPlanetList = false;
                     this.planet = this.filteredPlanets[0].name
                 } else {
                     this.showPlanetList = true;
-                    eventBus.$emit('show-planet-list', this.showPlanetList);
                 }
+                eventBus.$emit('show-planet-list', this.showPlanetList);
                 eventBus.$emit('planet-selected', this.planet)
             } else if(this.searchTerm === "") {
                 this.filteredPlanets = []
