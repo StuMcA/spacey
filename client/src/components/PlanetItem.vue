@@ -34,13 +34,13 @@ export default {
             this.isActive = !this.isActive
         },
         calcWidth: function() {
-            return this.planet.equatorial_diameter_km/1000
+            return Math.sqrt(this.planet.equatorial_diameter_km)/3.5
         },
         calcDist: function() {
-            return (this.planet.orbit_distance_km/75000000)
+            return Math.sqrt(this.planet.orbit_distance_km)/1200
         },
         translate: function() {
-            return `translate(-100px, -${this.planet.equatorial_diameter_km/2000}px)`
+            return `translate(-100px, -${this.calcWidth()/2}px)`
         }
     },
 
