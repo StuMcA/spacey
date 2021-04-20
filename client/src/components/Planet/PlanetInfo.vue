@@ -2,6 +2,7 @@
   <section class="planet-info-wrapper">
     <h1>Details</h1>
     <p>
+      {{ planet.planet_intro }}.
       {{ planet.name }} is the {{ planet.position_from_sun
       }}<sup>{{ planet.position_from_sun == 1 ? 'st' : planet.position_from_sun == 2 ? 'nd' : planet.position_from_sun == 3 ? 'rd' : 'th' }}</sup> planet from the Sun.
     </p>

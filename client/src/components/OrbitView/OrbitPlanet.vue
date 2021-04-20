@@ -1,21 +1,21 @@
 <template>
-  <div class="orbit-animation">
+  <div class="orbit-animation-container">
     <div
       class="orbit-path"
       :style="{
-        width: this.calcWidthHeight() + 'px',
-        height: this.calcWidthHeight() + 'px',
-        top: '-' + this.calcOffset() + 'px',
-        left: '-' + this.calcOffset() + 'px',
+        'width': this.calcWidthHeight() + 'px',
+        'height': this.calcWidthHeight() + 'px',
+        'top': '-' + this.calcOffset() + 'px',
+        'left': '-' + this.calcOffset() + 'px',
         '-webkit-animation-duration': this.calcOrbitPeriod() + 's',
       }"
     >
       <div
         :style="{
-          width: this.calcPlanetSize() + 'px',
-          height: this.calcPlanetSize() + 'px',
-          left: this.calcOffset() + 'px',
-          top: '-' + this.calcPlanetOffset() + 'px',
+          'width': this.calcPlanetSize() + 'px',
+          'height': this.calcPlanetSize() + 'px',
+          'left': this.calcOffset() + 'px',
+          'top': '-' + this.calcPlanetOffset() + 'px',
         }"
         :id="planet.name.toLowerCase()"
       ></div>
@@ -38,7 +38,7 @@ export default {
       return this.planet.orbit_period_days / 88;
     },
     calcPlanetSize: function() {
-      return this.planet.equatorial_diameter_km / 4700 + 5;
+      return Math.sqrt(this.planet.equatorial_diameter_km) / 15;
     },
     calcPlanetOffset: function() {
       return this.calcPlanetSize() / 2;
@@ -52,16 +52,13 @@ export default {
   position: absolute;
   border: 1px solid rgb(121, 121, 121);
   border-radius: 50%;
-  /* -webkit-animation-duration: 5s; */
 }
 .orbit-path > div {
   border-radius: 50%;
-  background: #fc3;
-
   position: relative;
 }
 
-.orbit-animation > div {
+.orbit-animation-container > div {
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
   -webkit-animation-name: orbit;
@@ -71,7 +68,7 @@ export default {
     -webkit-transform: rotate(0deg);
   }
   to {
-    -webkit-transform: rotate(360deg);
+    -webkit-transform: rotate(-360deg);
   }
 }
 </style>
