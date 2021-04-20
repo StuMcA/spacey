@@ -7,14 +7,27 @@ app.use(cors());
 const parser = require('body-parser');
 app.use(parser.json());
 
+// Planet Router
 const MongoClient = require('mongodb').MongoClient;
 const createRouter = require('./helpers/create_router.js');
 MongoClient.connect('mongodb://localhost:27017')
     .then((client) => {
         const db = client.db('sol');
-        const sightingsCollection = db.collection('solar_system');
-        const sightingsRouter = createRouter(sightingsCollection);
-        app.use('/api/solar_system', sightingsRouter);
+        const planetsCollection = db.collection('solar_system');
+        const planetsRouter = createRouter(planetsCollection);
+        app.use('/api/solar_system', planetsRouter);
+    })
+    .catch(console.err);
+
+// Sun Router
+const MongoClient = require('mongodb').MongoClient;
+const createRouter = require('./helpers/create_router.js');
+MongoClient.connect('mongodb://localhost:27017')
+    .then((client) => {
+        const db = client.db('sol');
+        const sunCollection = db.collection('sun');
+        const sunRouter = createRouter(sunCollection);
+        app.use('/api/sun', sunRouter);
     })
     .catch(console.err);
 
