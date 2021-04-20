@@ -5,7 +5,7 @@ const createRouter = function (collection) {
 
     const router = express.Router();
 
-    // INDEX/ALL PLANETS
+    // INDEX/ALL
     router.get('/', (req, res) => {
         collection
             .find()
@@ -18,7 +18,7 @@ const createRouter = function (collection) {
             });
     });
 
-    // GET/INDIVIDUAL PLANET
+    // GET/INDIVIDUAL
     router.get('/:id', (req, res) => {
         const id = req.params.id;
         collection
