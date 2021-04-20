@@ -1,10 +1,10 @@
 <template>
     <ul id="nav-bar">
-        <li>
-            <p @click="homeClicked">Home</p>
+        <li @click="homeClicked">
+            <p>Home</p>
         </li>
         <li class="nav-bar-planet">
-            <p>Planets</p>
+            <p @click="showPlanetList">Planets</p>
             <planet-list id="planet-list" :planets="planets"/>
         </li>
         <li>
@@ -12,8 +12,8 @@
 
         </li>
         <div class="nav-bar-planet">
-            <search-bar :planets="planets"/>
-            <planet-list v-if="filteredPlanets.length" id="search-list" :planets="filteredPlanets" />
+            <search-bar :planets="planets" :selectedPlanet="selectedPlanet"/>
+            <planet-list v-if="this.searchTerm" id="search-list" :planets="filteredPlanets" />
         </div>
     </ul>
 </template>
@@ -25,19 +25,35 @@ import { eventBus } from '@/main.js'
 
 export default {
     name: "nav-bar",
+    data() {
+        return {
+            displayPlanetList: false,
+            searchTerm: ""
+        }
+    },
     components: {
         "planet-list": PlanetList,
         "search-bar": SearchBar
     },
     props: [
         "planets",
-        "filteredPlanets"
+        "filteredPlanets",
+        "selectedPlanet"
     ],
     methods: {
         homeClicked: function(){
         console.log("home clicked");
         eventBus.$emit('home-selected');
+      },
+
+      showPlanetList: function() {
+          eventBus.$emit('filtered-planets', this.planets)
+          this.displayPlanetList = true;
+          eventBus.$emit('show-planet-list', this.displayPlanetList)
       }
+    },
+    mounted() {
+        eventBus.$on('search-term', (term) => this.searchTerm = term)
     }
 }
 </script>
@@ -62,6 +78,8 @@ li {
     height: 30px;
     width: 160px;
     color: white;
+    text-shadow: 1px 1px 0 black;
+    backdrop-filter: blur(10px);
 }
 
 p {
@@ -94,7 +112,6 @@ li:hover {
 }
 
 #search-list {
-    margin-left: auto;
-    width: 120px;
+    text-shadow: 1px 1px 0 black;
 }
 </style>

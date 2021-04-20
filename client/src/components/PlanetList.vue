@@ -1,43 +1,54 @@
 <template>
   <ul>
-    <planet-list-item v-for="(planet, index) in planets" :key="index" :planet="planet.name" />
+      <li v-for="(planet) in planets" :key="planet.id" @click="planetClicked(planet)">
+          <planet-image :planetName="planet.name" />
+          <h2>{{planet.name}}</h2>
+      </li>
   </ul>
 </template>
 
 <script>
-import PlanetListItem from './PlanetListItem.vue'
+import {eventBus} from '../main.js'
+import PlanetImage from './Planet/PlanetImage.vue'
+
 export default {
-
-data() {
-    return {
-
-    }
-},
+name: 'planet-list',
 props: [
-    "planets"
+    'planets'
 ],
 components: {
-    'planet-list-item': PlanetListItem
+    'planet-image': PlanetImage
+},
+methods: {
+    planetClicked: function(planet){
+    console.log(planet.name)
+    eventBus.$emit('filtered-planets', [])
+    eventBus.$emit('show-planet-list', false)
+    eventBus.$emit('planet-selected', planet.name)
+    }
 }
-
 }
 </script>
 
 <style scoped>
-
 ul {
-    width: inherit;
-    position: relative;
-    top: -24px;
-    flex-direction: column;
-    margin-top: 30px;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.286);
+    margin: 50px 0 0 0;
+    list-style: none;
+    width: 90%;
+    margin: 40px auto;
+    height: 100%;
+    overflow: scroll;
 }
 
 li {
-  color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 1px 30px;
+    border: 1px solid transparent;
 }
 
+li:hover {
+    background-image: radial-gradient(circle, #010101 50%, #ffffff2a 100%);
+    border: 1px solid rgba(255, 255, 255, 0.293);
+}
 
 </style>

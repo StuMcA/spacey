@@ -1,21 +1,23 @@
 <template>
   <div id="app">
     <header>
-      <nav-bar :planets="planets" :filteredPlanets="filteredPlanets" />
+      <nav-bar :planets="planets" :filteredPlanets="filteredPlanets" :selectedPlanet="selectedPlanet"/>
     </header>
     <main>
-      <solar-system-container v-if="!selectedPlanet" :planets="planets" />
+      <solar-system-container v-if="!selectedPlanet && !showPlanetList" :planets="planets" />
       <!-- uncomment to view planet info template -->
-      <planet v-if="selectedPlanet" :planet="selectedPlanet" />
+      <planet v-if="selectedPlanet && !showPlanetList" :planet="selectedPlanet" />
+      <planet-list v-if="showPlanetList" :planets="filteredPlanets"/>
     </main>
   </div>
 </template>
 
 <script>
-import NavBar from './components/NavBar.vue';
+import NavBar from './components/NavBar/NavBar.vue';
 import SolarSystemContainer from './components/SolarSystemContainer.vue';
 import Planet from './components/Planet/Planet.vue';
 import PlanetService from './services/PlanetService.js';
+import PlanetList from './components/PlanetList.vue'
 import { eventBus } from '@/main.js';
 
 export default {
@@ -24,12 +26,14 @@ export default {
     'nav-bar': NavBar,
     'solar-system-container': SolarSystemContainer,
     planet: Planet,
+    'planet-list': PlanetList
   },
   data() {
     return {
       planets: [],
       selectedPlanet: null,
-      filteredPlanets: []
+      filteredPlanets: [],
+      showPlanetList: false
     };
   },
   methods: {
@@ -45,11 +49,16 @@ export default {
     });
 
     eventBus.$on('home-selected', () => {
-      this.selectedPlanet = null
+      this.selectedPlanet = null;
+      this.showPlanetList = false;
     });
 
     eventBus.$on('filtered-planets', (planets) => {
       this.filteredPlanets = planets;
+    });
+
+    eventBus.$on('show-planet-list', (boolean) => {
+      this.showPlanetList = boolean;
     })
 
   },
@@ -76,5 +85,9 @@ select:focus {
 body,
 header * {
   margin: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 </style>

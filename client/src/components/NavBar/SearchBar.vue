@@ -1,6 +1,6 @@
 <template>
     <div id="search">
-        <form autocomplete="off">
+        <form autocomplete="off" @submit.prevent>
             <label for="search-text"><i class="fas fa-question-circle"></i></label>
             <input type="text" id="search-text" placeholder="Search here" @keyup="search" v-model="searchTerm">
         </form>
@@ -10,24 +10,37 @@
 </template>
 
 <script>
-import {eventBus} from '../main.js'
+import {eventBus} from '../../main.js'
 // import {library, icon} from '@fortawesome/fontawesome-svg-core'
 export default {
     name: 'search-bar',
     props: [
-        "planets"
+        "planets",
+        "selectedPlanet"
     ],
     data() {
         return {
             searchTerm: "",
             filteredPlanets: [],
-            showPlanetList: false
+            showPlanetList: false,
+            planet: this.selectedPlanet
         }
     },
     methods: {
-        search: function () {
-            if(this.searchTerm === "") {
+        search: function (event) {
+            if(event.keyCode === 13) {
+                if(this.filteredPlanets.length === 1) {
+                    this.showPlanetList = false;
+                    this.planet = this.filteredPlanets[0].name
+                } else {
+                    this.showPlanetList = true;
+                }
+                eventBus.$emit('show-planet-list', this.showPlanetList);
+                eventBus.$emit('planet-selected', this.planet)
+                this.searchTerm = "";
+            } else if(this.searchTerm === "") {
                 this.filteredPlanets = []
+                eventBus.$emit('show-planet-list', false)
             } else {
                 this.filteredPlanets = this.planets.filter((planet) => {
                     return planet.name.toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1 ||
@@ -35,7 +48,12 @@ export default {
                     ("" + planet.sumerian_name).toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1
             });
             }
+            eventBus.$emit('search-term', this.searchTerm)
             eventBus.$emit("filtered-planets", this.filteredPlanets);
+        },
+        searchSubmit: function() {
+
+            
         }
     }
 
@@ -76,6 +94,7 @@ input[type="text"] {
     color: white;
     font-family: Avenir, Helvetica, Arial, sans-serif;
     font-size: 1.1em;
+    text-shadow: 1px 1px 0 black;
 }
 
 label {
