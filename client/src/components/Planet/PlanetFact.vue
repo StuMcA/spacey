@@ -46,6 +46,7 @@ h1 {
   background-color: black;
   color: white;
   font-size: 0.8rem;
+  margin: 1rem;
   padding: 0.5rem 1rem 0.5rem 1rem;
   transition: 0.15s;
 }

@@ -68,7 +68,7 @@ export default {
 <style>
 html {
   background-color: black;
-  font-size: 16px;
+  font-size: 18px;
   color: #dfdfdf;
   font-family: Avenir, Helvetica, Arial, sans-serif;
 }

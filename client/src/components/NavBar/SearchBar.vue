@@ -76,19 +76,19 @@ form {
 }
 
 #search:hover {
-    background-color: rgba(255, 255, 255, 0.514);
-    color: black;
+    background-color: rgba(255, 255, 255, 0.267);
+    color: white;
     cursor: pointer;
 }
 
 #search:hover ::placeholder {
-    color: black;
-    text-shadow: none;
+    color: white;
+    /* text-shadow: none; */
 }
 
 input[type="text"] {
     color: white;
-    text-shadow: 1px 1px 0 black;
+    /* text-shadow: 1px 1px 0 black; */
     border: none;
     background: transparent;
     margin: auto;
@@ -99,7 +99,7 @@ input[type="text"] {
     color: white;
     font-family: Avenir, Helvetica, Arial, sans-serif;
     font-size: 1.1em;
-    text-shadow: 1px 1px 0 black;
+    /* text-shadow: 1px 1px 0 black; */
 }
 
 label {

@@ -1,6 +1,6 @@
 <template>
     <div class="solar-system-wrapper">
-        <button @click="toggleView">Change view</button>
+        <button class="change-view-button" @click="toggleView">Change view</button>
         <section v-if="!isTopView" id="solar-system" :class="{topView: isTopView}">
             <div id="sun" class="planet">
                 <div class="hover-box">
@@ -25,7 +25,7 @@ export default {
     ],
     data() {
         return {
-            isTopView: false
+            isTopView: true,
         }
     },
     components: {
@@ -43,9 +43,28 @@ export default {
 </script>
 
 <style>
+.change-view-button {
+  border: 0.1rem solid white;
+  border-radius: 0.5rem;
+  background-color: black;
+  color: white;
+  font-size: 0.8rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  transition: 0.15s;
 
+  position: absolute;
+  bottom: 5rem;
+  left: 5rem;
+}
+.change-view-button:hover {
+  background-color: rgb(122, 13, 13);
+  box-shadow: 0 0 2rem red;
+}
+.change-view-button:active {
+  background-color: rgb(255, 0, 0);
+}
 
-button {
+/* .change-view-button {
     margin: 50px auto 20px 20px;
     padding: 10px;
     border: 1px solid white;
@@ -56,9 +75,9 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.change-view-button:hover {
     background-color: rgba(255, 255, 255, 0.334);
-}
+} */
 
 #solar-system {
     width: 110%;

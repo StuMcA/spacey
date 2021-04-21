@@ -1,6 +1,6 @@
 <template>
   <section class="moon-wrapper">
-    <details :open="openDetails" class="moon-container">
+    <details class="moon-container">
     <summary class="moon-name">{{ moon.name.toUpperCase() }}</summary>
       <moon-info class="moon-info" :moon="moon" />
     </details>
@@ -9,25 +9,13 @@
 
 <script>
 import MoonInfo from './MoonInfo'
-import MoonFact from './MoonFact';
 
 export default {
   name: 'Moon',
   components: {
     'moon-info': MoonInfo,
-    'moon-fact': MoonFact,
   },
   props: ['moon'],
-  data() {
-    return {
-      openDetails: "false",
-    }
-  },
-  watch: {
-    moon: function(){
-      this.openDetails = "false"
-    }
-  }
 };
 </script>
 
@@ -41,7 +29,7 @@ export default {
   margin: 1rem 0 0 0;
 }
 .moon-name {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .moon-info {
   padding: 1rem;
