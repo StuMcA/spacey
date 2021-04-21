@@ -4,7 +4,8 @@ Our solar system is beautiful and with this browser app children and adults can 
 
 With facts, stats, pictures and a viewer of the planets in motion around the sun based on real distance and speed calculations, we at *Team Planeteers* hope you enjoy it!
 
-To install Spacey locally via the terminal *Note: Please use two terminals*:
+To install Spacey locally via the terminal:
+*Note: Please use two terminals, one for server and one for clients*:
 
 ## SERVER/BACK-END
 
