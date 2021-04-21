@@ -33,12 +33,15 @@ To install Spacey locally via the terminal please follow these steps:
 # CLIENT/FRONT-END (TERMINAL TWO)
 
 **To get to the client folder:**
+
     Use cd commands to navigate to client folder
 
 **To install Node Package Manager (npm) on the client side:**
+
     ~npm install
 
 **To run server on the client side:**
+
     ~npm run serve
 
 The app will now run locally via your browser at http://localhost:8080/
