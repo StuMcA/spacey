@@ -8,9 +8,11 @@
       <button v-if="!isTopView && !selectedPlanet && !showPlanetList" class="change-view-button" @click="toggleViewOrbit">Orbit View</button>
       <transition name="component-fade" mode="out-in">
         <component v-bind:is="component" v-if="!selectedPlanet && !showPlanetList" :planets='planets' :sun="sun"/>
+        <planet v-if="selectedPlanet && !showPlanetList" :planet="selectedPlanet" />
+        <planet-list-page v-if="showPlanetList" :planets="filteredPlanets"/>
       </transition>
-      <planet v-if="selectedPlanet && !showPlanetList" :planet="selectedPlanet" />
-      <planet-list-page v-if="showPlanetList" :planets="filteredPlanets"/>
+      
+      
     </main>
   </div>
 </template>
