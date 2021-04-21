@@ -10,6 +10,7 @@
     }"
   >
     <div id="rings" v-if="planet.name === 'Saturn'"></div>
+    <div id="rings-left" v-if="planet.name === 'Saturn'"></div>
     <div class="hover-box">
       <h3>
         {{ planet.name }}<span class="hidden">{{ planet.latin_name }}</span>
@@ -86,10 +87,10 @@ span {
 #rings {
   position: relative;
   border-radius: 50%;
-  /* border:  20px solid green; */
-  height: 30%;
+  border-bottom:  20px solid rgb(151, 125, 9);
+  height: 40%;
   top: 30%;
-  width: 120%;
-  left: -10%;
+  width: 150%;
+  left: -25%;
 }
 </style>
