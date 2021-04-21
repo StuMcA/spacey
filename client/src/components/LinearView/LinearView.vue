@@ -14,7 +14,7 @@
         </div>
       </div>
       <planet-item v-for="planet in planets" :key="planet.id" :planet="planet" />
-      <div id="end-of-solar-system" class="planet"></div>
+      <!-- <div id="end-of-solar-system" class="planet"></div> -->
     </section>
     <orbit-view v-if="isTopView" :planets="planets" />
   </div>
@@ -102,7 +102,8 @@ export default {
 
 
 #solar-system {
-    width: 230vw;
+    width: 215vw;
+    padding-left: 15vw;
     height: 100vh;
     overflow: hidden;
     align-items: center;
@@ -112,12 +113,10 @@ export default {
     flex-direction: row-reverse;
     z-index: -1;
     background: url(../../assets/background.jpg) fixed;
-  
+    transform: translateZ(-50px) scale(1.1);
+    left: 0;
 }
 
-#end-of-solar-system {
-    right: 140%;
-}
 
 .topView {
     transform: scale(0.25) translate(-55%, 0);
