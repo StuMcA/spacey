@@ -4,10 +4,11 @@ Our solar system is beautiful and with this browser app children and adults can 
 
 With facts, stats, pictures and a viewer of the planets in motion around the sun based on real distance and speed calculations, we at *Team Planeteers* hope you enjoy it!
 
-To install Spacey locally via the terminal:
+To install Spacey locally via the terminal please follow these steps:
+
 *Note: Please use two terminals, one for server and one for clients*:
 
-## SERVER/BACK-END
+## SERVER/BACK-END (TERMINAL ONE)
 
 **To get to the server folder:**
     Use cd commands to navigate to server folder
@@ -21,7 +22,7 @@ To install Spacey locally via the terminal:
 **To run the server which allows for access of data by the front end:**
     ~node server
 
-# CLIENT/FRONT-END
+# CLIENT/FRONT-END (TERMINAL TWO)
 
 **To get to the client folder:**
     Use cd commands to navigate to client folder
