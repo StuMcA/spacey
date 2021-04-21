@@ -74,7 +74,7 @@ export default {
     box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.6);
   }
   50% {
-    box-shadow: 0 0 20px 7px rgba(255, 234, 48, 0.7);
+    box-shadow: 0 0 20px 10px rgba(255, 234, 48, 0.7);
   }
   100% {
     box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.6);

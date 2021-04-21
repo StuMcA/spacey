@@ -50,7 +50,7 @@ export default {
   padding: 0.5rem 1rem 0.5rem 1rem;
   transition: 0.15s;
 
-  position: absolute;
+  position: fixed;
   bottom: 5rem;
   left: 5rem;
 }
@@ -129,6 +129,8 @@ export default {
     height: 700px;
     box-shadow: 0 0 50px 100px rgb(249, 229, 16);
     animation: pulse 15s infinite, sunAnimation 10s infinite;
+    background: url(../../assets/Planets/Sun.gif);
+    filter: blur(3px) brightness(3);
 }
 @keyframes pulse {
 	0% {
