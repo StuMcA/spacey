@@ -242,20 +242,19 @@ button:hover {
 }
 
 .active {
-    position: relative;
     width: 250px !important;
     height: 250px !important;
-    left:400px;
     top: 100px;
+    left:inherit;
     z-index: 999;
 }
 
 .active .hover-box {
-    padding: 20px;
+    padding: 5px, 20px, 10px, 25px;
     display: block;
     right: 0;
     left: 0;
-    transition: 0.5s ease 0s;
+    transition: 1.5s ease 0s;
     width: 250px;
     position: relative;
     z-index: 10;
