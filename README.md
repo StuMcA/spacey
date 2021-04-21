@@ -1,4 +1,4 @@
-# Spacey is an educational app to teach children about the cosmo!
+# Spacey is an educational app to teach children about the cosmos!
 
 Our solar system is beautiful and with this browser app children and adults can enjoy learning all about Sol, the solar system we call home.
 
