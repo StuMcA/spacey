@@ -2,6 +2,7 @@
   <section class="moon-wrapper">
     <details class="moon-container">
       <summary class="moon-name">{{ moon.name.toUpperCase() }}</summary>
+      <p><sup>Click the arrow for more information</sup></p>
       <moon-info class="moon-info" :moon="moon" />
     </details>
   </section>

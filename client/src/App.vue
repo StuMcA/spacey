@@ -104,8 +104,7 @@ header * {
 .component-fade-enter-active, .component-fade-leave-active {
   transition: opacity 1s ease;
 }
-.component-fade-enter, .component-fade-leave-to
-/* .component-fade-leave-active below version 2.1.8 */ {
+.component-fade-enter, .component-fade-leave-to {
   opacity: 0;
 }
 </style>
