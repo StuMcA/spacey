@@ -1,14 +1,14 @@
 <template>
   <section class="moon-wrapper">
     <details class="moon-container">
-    <summary class="moon-name">{{ moon.name.toUpperCase() }}</summary>
+      <summary class="moon-name">{{ moon.name.toUpperCase() }}</summary>
       <moon-info class="moon-info" :moon="moon" />
     </details>
   </section>
 </template>
 
 <script>
-import MoonInfo from './MoonInfo'
+import MoonInfo from './MoonInfo';
 
 export default {
   name: 'Moon',

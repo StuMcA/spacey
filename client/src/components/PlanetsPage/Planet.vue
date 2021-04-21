@@ -32,7 +32,7 @@ export default {
     'planet-image': PlanetImage,
     'planet-fact': PlanetFact,
     'image-grid': ImageGrid,
-    'moon': Moon,
+    moon: Moon,
   },
   props: ['planet'],
 };

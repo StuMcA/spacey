@@ -2,10 +2,11 @@
   <section class="planet-info-wrapper">
     <h1>Details</h1>
     <p>
-      {{ planet.name }} is the {{ planet.position_from_sun}}<sup>{{ planet.position_from_sun % 10 == 1 ? 'st' : planet.position_from_sun % 10 == 2 ? 'nd' : planet.position_from_sun % 10 == 3 ? 'rd' : 'th' }}</sup> planet from the Sun.
+      {{ planet.name }} is the {{ planet.position_from_sun
+      }}<sup>{{ planet.position_from_sun % 10 == 1 ? 'st' : planet.position_from_sun % 10 == 2 ? 'nd' : planet.position_from_sun % 10 == 3 ? 'rd' : 'th' }}</sup> planet from the Sun.
       {{ planet.planet_intro }}
     </p>
-    
+
     <p>{{ planet.name }} has {{ planet.moons.moon_list.length == 0 ? 'no moon' : planet.moons.moon_list.length == 1 ? '1 moon' : planet.moons.moon_list.length + ' moons' }}.</p>
 
     <p>Distance from Sun: {{ planet.orbit_distance_km.toLocaleString() }} km ({{ planet.orbit_distance_au }} AU)</p>
