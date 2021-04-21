@@ -128,7 +128,7 @@ export default {
     top: 50%;
     transition: 1s;
     cursor: pointer;
-    transform: scale(0.95)
+    transform: scale(0.95);
 }
 
 
