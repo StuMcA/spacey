@@ -34,35 +34,37 @@ db.solar_system.insertMany([
                 surface_temperature_min_celcius: -173,
                 facts: [
 
-                    "Mercury has been known to humanity since ancient times and although its discovery date is unknown, the first mentions of the planet are believed to be around 3000 BC by the Sumerians.",
+                    "Mercury has been known to humanity since ancient times and although its discovery date is unknown, the first mentions of the planet are believed to be around 3000 BC by the Sumerians who named it Enki",
 
-                    "A year on Mercury is 88 days, yet a day is 176 of our days. Mercury is also nearly tidally locked to the Sun – also known as a gravitational lock – and over time this has slowed the rotation of the planet to almost match its orbit around the Sun.",
+                    "A year on Mercury is 88 days, yet a day there is 176 Earth days. Mercury is also nearly tidally locked to the Sun and over time this has slowed the rotation of the planet to almost match its orbit around the Sun.",
 
-                    "Not only is Mercury the smallest planet, it is also shrinking. In a very, very slow process, it is getting smaller every day. It is estimated that the planet is about 9 miles smaller than it was four billion years ago(we told you it was a slow process). Astronomers believe this is happening because it’s iron core is cooling, which is making it solid, therefore reducing the planet’s volume.",
+                    "Not only is Mercury the smallest planet, it is also shrinking. It is estimated that the planet is about 9 miles smaller than it was four billion years ago  because it’s iron core is cooling, which is making it solid, therefore reducing the planet’s volume.",
 
-                    "Mercury is the smallest planet in the solar system with a diameter of 4879 km and is one of five planets that is visible to the naked eye.",
+                    "Mercury is the smallest planet in the solar system with a diameter of 4879 km and is one of five planets that is visible to the naked eye. It is also one of the brighter planets in the sky and visible to the naked eye",
 
-                    "Mercury is the second densest planet. Despite its small size, it is very dense because it is composed mainly of heavy metals and rock – the main characteristic of terrestrial planets.",
+                    "Mercury is the second densest planet. Despite its small size, it is very dense because it is composed mainly of heavy metals and rock, the main characteristic of terrestrial planets.This means it also has the highest velocity of any planet",
 
                     "Mercury is named after the messenger of the Roman gods, who is also known as Hermes in Greek mythology.This is because of the speed in which Mercury orbits the Sun and the speed with which the Roman deity was able to deliver messages.",
 
-                    "Modern astronomers didn’t consider that Mercury to be a planet at all until 1543 when Copernicus published his Sun-centered model of the Solar System, which put the Sun as the centre of the solar system rather than the previously believed centre, Earth.",
+                    "Modern astronomers didn’t consider that Mercury to be a planet at all until 1543 when Copernicus published his Sun-centered model of the Solar System, which put the Sun as the centre of the solar system.",
 
-                    "The planet has just 38% of the gravity on Earth. This means that it isn’t able to hold the atmosphere it has and it instead gets blown away by solar winds. However those same solar winds are also bringing in new gases, radioactive decay and dust from micrometeorites which replenishes the atmosphere.",
+                    "The planet has just 38% of the gravity on Earth. This means that it isn’t able to hold the atmosphere it has and it instead gets blown away by solar winds. However those same solar winds are also bringing in new gases.",
 
-                    "Mercury has no moons or rings because of it's low gravity and lack of consistent atmosphere. The only other planet with no moons is Venus.",
+                    "Mercury has no moons or rings because of it's low gravity and lack of consistent atmosphere. This is also theorized to be due to the gravity of the Sun pulling potential moons out of Mercury (and also Venus)'s orbit.",
 
                     "It was once believed that a planet called Vulcan existed between the orbit of Mercury and the Sun – however the existence of such a planet was never found. This is where the idea for the planet Vulcan in Star Trek comes from,",
 
                     "The orbit of Mercury is an ellipse rather than circular. It has the most eccentric orbit in the solar system and the least circular of all of the planets, according to scientists and astronomers.",
 
-                    "Mercury is only the second hottest planet. It's nearest neighbor, though farther from the Sun than it, actually experiences higher temperatures. This is because Mercury has no atmosphere to regulate temperature and results in the most extreme temperature change of all the planets, ranging from -170°C(-280°F) during the night to 430°C(800°F) during the day.",
+                    "This is because Mercury has no atmosphere to regulate temperature and results in the most extreme temperature change of all the planets, ranging from -170°C(-280°F) during the night to 430°C(800°F) during the day.",
 
-                    "Mercury does not experience any seasons. The axis of Mercury has the smallest tilt of all other planets, and this results in a lack of seasons on its surface.",
+                    "Mercury does not experience any seasons. The axis of Mercury has the smallest tilt of all other planets, and this results in a lack of seasons on its surface. The only real variant in temperature occurs between day and night",
 
-                    "Mercury is the only planet which doesn’t rotate exactly once every year, instead rotating three times for every two orbits of the Sun. This is because it is nearly tidally locked to the Sun.",
+                    "Mercury is the only planet which doesn’t rotate exactly once every year, instead rotating three times for every two orbits of the Sun. This is because it is nearly tidally locked to the Sun and turns very slowly relative to its size.",
 
-                    "The orbit of Mercury was important in proving Albert Einstein’s theory of General Relativity and is referenced in several of the physicists studies and mathematical arguments as cosmic proof of relativity in action, due to its orbit, speed and more complex mathematical truths.",
+                    "Mercury is only the second hottest planet. It's nearest neighbor, though farther from the Sun than it, actually experiences higher temperatures because Mercury lacks an atmosphere and loses heat very easily.",
+
+                    "The orbit of Mercury was important in proving Albert Einstein’s theory of General Relativity as cosmic proof of relativity in action, due to its orbit, speed and more complex mathematical truths.",
                 ]
             },
 
@@ -98,23 +100,25 @@ db.solar_system.insertMany([
 
                     "Venus is the second brightest natural object in the sky. The planet has an apparent magnitude of -3.8 to -4.6, which makes it visible on a bright, clear day. The Moon is the only other natural object that is brighter.",
 
-                    "Venus is sometimes referred to as the “morning star” and “evening star”. When the orbit of Jupiter overtakes Earth’s orbit, it changes from being visible at sunrise to being visible at sunset.They were known as Phosphorus and Hesperus by the Greeks, and Lucifer and Vesper by the Romans.",
+                    "Venus is sometimes referred to as the 'morning star' and 'evening star'. When the orbit of Jupiter overtakes Earth’s orbit, it changes from being visible at sunrise to being visible at sunset. Some cultures believed Venus to be two planets.",
+
+                    "Different cultures noticed Venus changing sides in the sky at certain points in the year and assumed they were two planets. They were known as Phosphorus and Hesperus by the Greeks, and Lucifer and Vesper by the Romans.",
 
                     "One day on Venus is longer than one year. Due to the slow rotation on its axis, it takes 243 Earth-days to complete one rotation. The orbit of the planet takes 225 of our days – making a year on Venus shorter on day on Earth",
 
-                    "Venus is named after the Roman goddess of love and beauty. This may be, in part, due the brightness of the planet and may date back to the Babylonians in 1581 who referred to Venus as 'bright queen of the sky'.",
+                    "Venus is named after the Roman goddess of love and beauty. This may be, in part, due the brightness of the planet and may date back to the Babylonians in 1581 who referred to Venus as 'bright queen of the sky' due to its luminance.",
 
-                    "In spite of Venus being known as the sister planet to our planet, it is also considered one of the most hostile planets with regards to compatibility for Earth life. This is due to an incredibly hot surface, poisonous gases in the atmosphere and the incredible atmospheric pressure.",
+                    "In spite of Venus being known as the sister planet to our planet, it is also considered one of the most hostile planets for life. This is due to an incredibly hot surface, poisonous gases in the atmosphere and the incredible atmospheric pressure.",
 
-                    "Venus has no moons nor rings but often has a shimmer effect due to its incredibly dense, thick atmosphere.",
+                    "Venus has no moons nor rings but often has a shimmer effect due to its incredibly dense, thick atmosphere. The reasons for the lack of moons are unknown but suspected to be the gravity of the Sun pulling small objects out of Venus's orbit",
 
-                    "Billions of years ago, the climate of Venus may been similar to that of ours and scientists believe that Venus once possessed large amounts of water or oceans. However, due to the high temperatures produce from the extreme greenhouse effect, this water boiled off long ago.",
+                    "Billions of years ago, the climate of Venus may been similar to that of ours and scientists believe that Venus once possessed large amounts of water or oceans. However, due to the high temperatures produce from the extreme greenhouse effect, this water boiled off long ago and is no longer present.",
 
-                    "This plane rotate in the opposite direction to other planets. Most other planets rotate counter-clockwise on their axis. However Venus, like Uranus, rotates clockwise. This is known as a retrograde rotation and may have been caused by a collision with an asteroid or other object which caused the planet to change its rotational path.",
+                    "Most other planets rotate counter-clockwise on their axis. However Venus, like Uranus, rotates clockwise. This is known as a retrograde rotation and may have been caused by a collision with an asteroid which changed its rotational path.",
 
-                    "Venus is the hottest planet in the solar system with an average surface temperature of 462°C (863°F). Also, Venus doesn’t tilt on its axis which means there are no seasons either. The atmosphere is a dense 96.5% carbon dioxide which traps heat and caused the greenhouse effect which evaporated any water sources billions of years ago.",
+                    "Venus is the hottest planet in the solar system and it doesn’t tilt on its axis which means there are no seasons either. The atmosphere is a dense 96.5% carbon dioxide which traps heat and caused the greenhouse effect.",
 
-                    "The temperature on Venus doesn’t vary much between the night and day, remaining very high constantly. This is due to the slow movement of the solar winds across the surface of the planet.",
+                    "The temperature on Venus doesn’t vary much between the night and day, remaining very high constantly. This is due to the slow movement of the solar winds across the surface of the planet, which is unusual in our solar system",
 
                     "The estimated age of the Venusian surface is around 300-400 million years old. By comparison, the surface of our home is about 100 million years old. For this reason, Venus is sometimes called a potential, tragic, future for our planet",
 
@@ -122,14 +126,14 @@ db.solar_system.insertMany([
 
                     "Venus has a very weak magnetic field. This surprised scientists, who expected Venus to have a magnetic field similar in strength to our planet. One possible reason for this is that Venus has no solid inner core, or that its core is not cooling.",
 
-                    "Venus is the only planet in the Solar System to be named after a female figure.",
+                    "Venus is the only planet in the Solar System to be named after a female figure and is often associated with beauty due to its brightness and light. It is also often contrasted with Mars, who is often associated with masculinity",
                 ]
             },
 
             {
 
                 name: "Earth",
-                planet_intro: "Our home, the only known planet capable of supporting life. From here, we gaze upon the cosmos in wonder, eager to explore, to discover, to learn.",
+                planet_intro: "Our home, the only known planet capable of supporting life. From here, we gaze upon the cosmos in wonder, eager to explore, to discover, to learn. Human beings are now on the cusp of being able to leave Earth for life on other planets but our home is still one of the most interesting planets in the solar system.",
                 position_from_sun: 3,
                 image_url: [
                     "https://www.thoughtco.com/thmb/Whrni3pbKfnTfZyz2rzQEVS-jVc=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/Earth_Eastern_Hemisphere-56a8cda43df78cf772a0cc74.jpg",
@@ -182,35 +186,33 @@ db.solar_system.insertMany([
                 surface_temperature_min_celcius: -88,
                 facts: [
 
-                    "Earth was once believed to be the centre of the universe. For 2000 years ancient astronomers believed that Earth was static and had other celestial bodies travelling in circular orbits around it. In 1543, Copernicus published his Sun-centered model of the Solar System which put the Sun at the centre of our solar system instead.",
+                    "For 2000 years ancient astronomers believed that Earth was static and other celestial bodies traveled around it. In 1543, Copernicus published his Sun-centered model of the Solar System which put the Sun at the centre of our solar system instead.",
 
-                    "Earth is the only planet not named for a mythological god or goddess. The other seven planets in the solar system were named after Roman gods or goddesses. The five visible to the naked eye were named during ancient times. This Roman method was also used after the discovery of later planets. Earths name comes from the Old English and means ground or land.",
+                    "Earth is the only planet not named for a mythological god or goddess. The other seven planets in the solar system were named after Roman gods or goddesses. Earth's name comes from the Old English and means ground or land.",
 
-                    "Earth is the most dense planet in the solar system. The density of Earth differs in each part of the planet. The core, for example, is denser than the crust but the average density of the planet is around 5.52 grams per cubic centimetre.",
+                    "Earth is the most dense planet in the solar system. The density of Earth differs in each part of the planet. The core, for example, is denser than the crust but the average density of the planet is around 5.52 grams per cubic cm.",
 
                     "The gravity between Earth and its Moon causes the tides. This effect on the Moon means it is tidally locked to Earth with its rotation period is the same as its orbit time so it always presents the same face to Earth.",
 
-                    "The rotation of the Earth is gradually slowing down. The deceleration of the Earths rotation is very slow, approximately 17 milliseconds per hundred years. Eventually this will lengthen our days but it will take around 140 million years before the days here will have increased from 24 to 25 hours.",
+                    "The rotation of the Earth is gradually slowing down. The deceleration of the Earths rotation is very slow, approximately 17 milliseconds per hundred years. Eventually (around 140 million years) this will lengthen our days from 24 to 25 hours.",
 
-                    "Earths atmosphere is composed of 78% nitrogen, 21% oxygen, and trace amounts of other gases including argon and carbon dixoide.",
+                    "Earths atmosphere is composed of 78% nitrogen, 21% oxygen, and trace amounts of other gases including argon and carbon dixoide. This unique combination of atmospheric gases is one of the principle reasons that the Earth can support life.",
 
-                    "The large amount of oxygen on Earth comes from its plant life’s consumption of carbon dioxide during photosynthesis",
+                    "The large amount of oxygen on Earth comes from its plant life’s consumption of carbon dioxide during photosynthesis. Most other planets have far higher levels of carbon in their atmospheres (or no atmosphere at all).",
 
                     "Earth has a very powerful magnetic field. This field protects the planet from the effects of solar winds and is believed to be a result of the nickel-iron core of the planet combined with its rapid rotation.",
 
-                    "Earth has an Ozone Layer which protects it from harmful solar radiation. This shell is a special type of oxygen that absorbs most of the Sun’s powerful UV rays.",
+                    "Earth has an Ozone Layer which protects it from harmful solar radiation. This shell is a special type of oxygen that absorbs most of the Sun’s powerful UV rays. This is of huge benefit to life on the planet.",
 
-                    "70% of the Earths surface is covered by water – the remainder consists of continents and islands which together have many lakes and other sources of water.",
+                    "70% of the Earths surface is covered by water – the remainder consists of continents and islands which together have many lakes and other sources of water. Earth is believed to not be the most water dense object in our solar system however.",
 
-                    "The first life on Earth developed in the oceans through a process called abiogenesis or biopoiesis. This is a natural process in which life grows from non-living matter like simple organic compounds.",
+                    "The first life on Earth developed in the oceans through a process called abiogenesis or biopoiesis. This is a natural, albeit highly complex process in which life grows from non-living matter like simple organic compounds.",
 
-                    "Earths water was initially trapped within the planet. Over time the water was brought to the surface by the planet’s volcanic activity.",
+                    "Earths water was initially trapped within the planet. Over time the water was brought to the surface by the planet’s volcanic activity. Even today there is a similar volume of water underground to the volume in the polar caps.",
 
                     "Earth has relatively few visible impact craters compared with other solid bodies in our solar system. This is because Earth is highly geologically active and has processes like tectonics and erosion that reshape its surface.",
 
-                    "The highest point found on Earth is Mount Everest which reaches a height of 8.8 km.",
-
-                    "The lowest point on Earth is called Challenger Deep and at 10.9 km below sea level, it is further than the peak of Mount Everest.",
+                    "The highest point found on Earth is Mount Everest which reaches a height of 8.8 km. The lowest point on Earth is called Challenger Deep and at 10.9 km below sea level, it is further than the peak of Mount Everest.",
 
                 ]
             },
@@ -218,7 +220,7 @@ db.solar_system.insertMany([
             {
 
                 name: "Mars",
-                planet_intro: "Mars, also known as the Red Planet, is the first planet that humans might live on beyond our Earth and the only planet other than Earth that human machines have survived landing on and have explored.",
+                planet_intro: "Mars, also known as the Red Planet, is the first planet that humans might live on beyond our Earth and the only planet other than Earth that human machines have survived landing on and have explored. From myths and legends to sci-fi speculation to future possible home, Mars has always fascinated humans.",
                 position_from_sun: 4,
                 image_url: [
                     "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f775f2683bae528aec3c1ca%2F0x0.jpg",
@@ -247,6 +249,7 @@ db.solar_system.insertMany([
                                 "https://lh3.googleusercontent.com/proxy/XoCwPbhFezreWcC2dnMRpypLZm1pGGbxydevbzIeeHPrUNHnKOhOO6oy3Y919Mg6aAJuhch52Pl-nK6Z1D1SQRt31sPEG5Nklx_O0SDnEsnhTSvcANc",
                                 "https://cdn.mos.cms.futurecdn.net/aZD75EMbNzuSGSeTFFh7mL.jpg"
                             ],
+            
                             orbit_distance_km: 9377,
                             equatorial_diameter_km: 22.533,
                             mass: "1.0659×1016kg (1.78477 nEarths)",
@@ -255,20 +258,20 @@ db.solar_system.insertMany([
                             surface_temperature_min_celcius: -112,
                             facts: [
 
-                                "Phobos is one of the least reflective bodies in the Solar System, with an albedo of just 0.071. Surface temperatures range from about −4 °C (25 °F) on the sunlit side to −112 °C (−170 °F) on the shadowed side",
+                                "Phobos is one of the least reflective bodies in the Solar System, with an albedo of just 0.071. Surface temperatures range from about −4 °C (25 °F) on the sunlit side to −112 °C (−170 °F) on the shadowed side.",
 
                                 "Phobos is named after the Greek god Phobos, a son of Ares (Mars) and Aphrodite (Venus) and twin brother of Deimos. Phobos was the god and personification of fear and panic and the root of the word phobia.",
 
-                                "Phobos is heavily cratered.[28] The most prominent of these is the crater, Stickney, a large impact crater some 9 km (5.6 mi) in diameter, taking up a substantial proportion of the moon's surface area. The impact that created Stickney must have nearly shattered Phobos and have led to theories that Phobos may be hollow (due to the impact forcing the interior of the moon to be forced out) or in a state of extremely gradual collapse",
+                                "Phobos is heavily cratered.[28] The most prominent of these is the crater, Stickney, a large impact crater some 9 km (5.6 mi) in diameter, taking up a substantial proportion of the moon's surface area. The impact that created Stickney must have nearly shattered Phobos and have led to theories that Phobos may be hollow (due to the impact forcing the interior of the moon to be forced out) or in a state of extremely gradual collapse.",
                             ]
                         },
                         {
                             name: "Deimos",
                             position: 2,
                             image_url: [
+                                "https://apod.nasa.gov/apod/image/0903/deimos_hirise.jpg",
                                 "https://cdn.britannica.com/95/76195-050-06005F96/Deimos-outer-moons-distance-orbiter-Mars-Viking-October-1977.jpg",
                                 "https://upload.wikimedia.org/wikipedia/commons/8/8d/Deimos-MRO.jpg",
-                                "https://apod.nasa.gov/apod/image/0903/deimos_hirise.jpg"
                             ],
                             orbit_distance_km: 23460,
                             equatorial_diameter_km: 12.4,
@@ -280,7 +283,7 @@ db.solar_system.insertMany([
 
                                 "It is named after Deimos, the Ancient Greek god and personification of dread and terror, and who is also a son of Ares and Aphrodite and the twin brother of Phobos.",
 
-                                "Deimos is possibly an asteroid that was perturbed by Jupiter into an orbit that allowed it to be captured by Mars, though this hypothesis is still controversial and disputed",
+                                "Deimos is possibly an asteroid that was perturbed by Jupiter into an orbit that allowed it to be captured by Mars, though this hypothesis is still controversial and disputed.",
 
                                 "Deimos's orbit is slowly getting larger, because it is far enough away from Mars and because of tidal acceleration. It is expected to eventually escape Mars's gravity.",
 
@@ -294,33 +297,35 @@ db.solar_system.insertMany([
                 surface_temperature_min_celcius: -87,
                 facts: [
 
-                    "Mars and Earth have approximately the same landmass. Even though Mars has only 15% of Earths volume and just over 10% of the Earths mass, around two thirds of the Earths surface is covered in water. By contrast, Mars surface gravity is only 37% of Earths (meaning you could leap nearly three times higher here).",
+                    "Mars and Earth have approximately the same landmass. Even though Mars has only 15% of Earths volume and just over 10% of the Earths mass, around two thirds of the Earths surface is covered in water as opposed to Mars which has very little water present.",
 
                     "Mars is home to the tallest mountain in the solar system. Olympus Mons, a shield volcano, is 21km high and 600km in diameter.Despite having formed over billions of years, evidence from volcanic lava flows is so recent many scientists believe it could still be active.",
 
-                    "Only 18 missions to Mars have been successful. As of September 2014 there have been 40 missions to Mars, including orbiters, landers and rovers but not counting flybys.The most important missions include the Curiosity missions (begun in 2012), the MAVEN mission, which arrived on September 22, 2014, followed by the Indian Space Research Organization’s MOM Mangalyaan orbiter, which arrived on September 24, 2014 and the NASA’s InSight robotic lander mission in September, 2016.",
+                    "As of September 2014 there have been 40 missions to Mars including the Curiosity missions (2012 onwards), the MAVEN mission (2014), the Indian Space Research Organization’s MOM Mangalyaan orbiter (2014) and the NASA’s InSight robotic lander mission (2016).",
 
                     "Mars has the largest dust storms in the solar system. They can last for months and cover the entire planet.The seasons are extreme because its elliptical(oval- shaped) orbital path around the Sun is more elongated than most other planets in the solar system.",
 
-                    "On Mars the Sun appears about half the size as it does on Earth. At the closest point to the Sun, Mars southern hemisphere leans towards the Sun, causing a short, intensely hot summer, while the northern hemisphere endures a brief, cold winter: at its farthest point from the Sun, the northern hemisphere leans towards the Sun, causing a long, mild summer, while the southern hemisphere endures a lengthy, cold winter.",
+                    "At the closest point to the Sun, Mar's southern hemisphere has a short hot summer, while the north endures a brief cold winter. At its farthest point, the north hemisphere leans to the Sun, causing a long mild summer, while the south endures a lengthy cold winter.",
 
-                    "Pieces of Mars have fallen to Earth. Scientists have found tiny traces of Mars atmosphere within meteorites which orbited the solar system amongst galactic debris for millions of years before crash landing on Earth. This allowed scientists to begin studying Mars prior to launching space missions.",
+                    "Pieces of Mars have fallen to Earth. Scientists have found tiny traces of Mars atmosphere within meteorites that crashed landing on Earth. This allowed scientists to begin studying Mars prior to launching space missions.",
 
-                    "Mars takes its name from the Roman god of war. The ancient Greeks called the planet Ares, after their god of war; the Romans then did likewise, associating the planet’s blood- red colour with their own god of war. Interestingly, other ancient cultures also focused on colour – to China’s astronomers it was ‘the fire star’, whilst Egyptian priests called on ‘Her Desher’, or ‘the red one’.The red colour Mars is known for is due to the rock and dust covering its surface being rich in iron.",
+                    "Mars takes its name from the Roman god of war. The ancient Greeks called the planet Ares, after their god of war; the Romans then did likewise, associating the planet’s blood- red colour with their own god of war.",
+                    
+                    "Interestingly, many ancient cultures focused on Mars colour, to China’s astronomers it was ‘the fire star’, whilst Egyptian priests called on ‘Her Desher’ or ‘the red one’.The red colour Mars is known for is due to rock and dust covering its surface being rich in iron.",
 
-                    "There are signs of liquid water on Mars. For years Mars has been known to have water in the form of ice. The first signs of trickling water are dark stripes or stains on crater wall and cliffs seen in satellite images.Due to Mars atmosphere this water would have to be salty to prevent it from freezing or vaporizing.",
+                    "There are signs of liquid water on Mars. The first signs of trickling water are dark stripes or stains on crater wall and cliffs seen in satellite images. Due to Mars atmosphere this water would have to be salty to prevent it from freezing or vaporizing.",
 
                     "One day Mars will have a ring. In the next 20-40 million years Mars largest moon Phobos will be torn apart by gravitational forces leading to the creation of a ring that could last up to 100 million years.",
 
-                    "Sunsets on Mars are blue. During the day the sky is pinkish-red, this is the opposite of the Earths skies.",
+                    "Sunsets on Mars are blue and often very bright. During the day the sky is pinkish-red and somewhat dull. This is the opposite of the Earths skies and due to its atmosphere reacting with the white light of the Sun.",
 
                     "It's thought that Mars's core is predominantly made up of iron, but also nickel and sulphur. The core is about half the size of the planet itself and may be entirely liquid, or have a solid iron centre and a liquid exterior.",
 
-                    "The deepest canyon on Mars is Valles Marineris at 7 kilometres. Earths Grand Canyon is only 1.8 kilometres deep. Valles Marineris was mostly formed by tectonic processes.",
+                    "The deepest canyon on Mars is Valles Marineris at 7 kilometres. Earths Grand Canyon is only 1.8 kilometres deep. Valles Marineris was mostly formed by tectonic processes and would experience fundamentally different pressure to the surface.",
 
-                    "Mars thin atmosphere makes for extreme temperature differences on the planet. When the Sun's energy enters the atmosphere, it is not equally dispersed and easily escapes back out into space.",
+                    "Mars thin atmosphere makes for extreme temperature differences on the planet. When the Sun's energy enters the atmosphere, it is not equally dispersed and easily escapes back out into space, which make extreme variation likely.",
 
-                    "Mars has an elliptical orbit, meaning it is egg/oval-shaped. This means that throughout its year, Mars distance from the Sun ranges between around 206 million and 249 million kilometres. ",
+                    "Mars has an elliptical orbit, meaning it is egg or oval-shaped as opposed to circular like Earth's orbit. This means that throughout its year, Mars distance from the Sun ranges between around 206 million and 249 million kilometres. ",
 
                     "Mars has a large, dark patch on its surface, known as the Syrtis Major Planum. It reaches around 1,500 kilometres north from the equator and is around 1,000 kilometres in width. The dark colour is due to its primarily basalt rock composition.",
                 ],
@@ -328,7 +333,7 @@ db.solar_system.insertMany([
 
             {
                 name: "Jupiter",
-                planet_intro: "Fifth in line from the Sun, Jupiter is, by far, the largest planet in the solar system – more than twice as massive as all the other planets combined. Jupiter's familiar stripes and swirls are actually cold, windy clouds of ammonia and water, floating in an atmosphere of hydrogen and helium. One spacecraft — NASA's Juno orbiter — is currently exploring this giant world.",
+                planet_intro: "Jupiter is, by far, the largest planet in the solar system – more than twice as massive as all the other planets combined. Jupiter's familiar stripes and swirls are actually cold, windy clouds of ammonia and water, floating in an atmosphere of hydrogen and helium. One spacecraft — NASA's Juno orbiter — is currently exploring this giant world.",
                 position_from_sun: 5,
                 image_url: [
                     "https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
@@ -518,9 +523,9 @@ db.solar_system.insertMany([
                             surface_temperature_min_celcius: -108.15,
                             facts: [
 
-                                "Callisto is about 4.5 billion years old, about the same age as Jupiter. It is the most heavily cratered object in the solar system, according to NASA. There is hardly any geologic activity on its surface. The surface has not changed much since initial impacts molded its surface 4 billion years ago",
+                                "Callisto is about 4.5 billion years old, about the same age as Jupiter. It is the most heavily cratered object in the solar system, according to NASA. There is hardly any geologic activity on its surface. The surface has not changed much since initial impacts molded its surface 4 billion years ago.",
 
-                                "If Callisto is habitable — and how it formed that way — are among the outstanding questions that the JUICE mission will start studying. JUICE is slated to launch toward Jupiter in 2022 and work at the planet for at least three years, between 2030 and 2033",
+                                "If Callisto is habitable — and how it formed that way — are among the outstanding questions that the JUICE mission will start studying. JUICE is slated to launch toward Jupiter in 2022 and work at the planet for at least three years, between 2030 and 2033.",
 
                                 "The likely presence of an ocean within Callisto leaves open the possibility that it could harbor life. However, conditions are thought to be less favorable than on nearby Europa.[23] Various space probes from Pioneers 10 and 11 to Galileo and Cassini have studied Callisto. Because of its low radiation levels, Callisto has long been considered the most suitable place for a human base for future exploration of the Jovian system.",
                             ]
@@ -533,35 +538,35 @@ db.solar_system.insertMany([
                 surface_temperature_min_celcius: -161,
                 facts: [
 
-                    "Jupiter is the fourth brightest object in the solar system. Only the Sun, Moon and Venus are brighter. It is one of five planets visible to the naked eye from Earth.",
+                    "Jupiter is the fourth brightest object in the solar system. Only the Sun, Moon and Venus are brighter. It is one of five planets visible to the naked eye from Earth and is more visible at different points in the year.",
 
-                    "The ancient Babylonians were the first to record their sightings of Jupiter. This was around the 7th or 8th century BC. Jupiter is named after the king of the Roman gods. To the Greeks, it represented Zeus, the god of thunder.The Mesopotamians saw Jupiter as the god Marduk and patron of the city of Babylon. Germanic tribes saw Jupiter as Donar, or Thor.",
+                     "Jupiter is named after the father of the Roman gods. To the Greeks, it represented Zeus. The Mesopotamians saw Jupiter as the god Marduk and patron of the city of Babylon. Germanic tribes saw Jupiter as Donar, or Thor.",
 
-                    "Jupiter has the shortest day of all the planets. It turns on its axis once every 9 hours and 55 minutes.The rapid rotation flattens the planet slightly, giving it an oblate shape.",
+                    "Jupiter has the shortest day of all the planets. It turns on its axis once every 9 hours and 55 minutes. The rapid rotation flattens the planet slightly, giving it an oblate shape and causing its equator to bulge slightly.",
 
-                    "Jupiter orbits the Sun once every 11.8 of Earths years. From our point of view on our home planet, it appears to move slowly in the sky, taking months to move from one constellation to another.",
+                    "Jupiter orbits the Sun once every 11.8 of Earths years. From our point of view on our home planet, it appears to move slowly and deliberately in the sky, taking months to move from one constellation to another.",
 
-                    "Jupiter has unique cloud features. The upper atmosphere of Jupiter is divided into cloud belts and zones. They are made primarily of ammonia crystals, sulfur, and mixtures of the two compounds",
+                    "Jupiter has unique cloud features. The upper atmosphere of Jupiter is divided into cloud belts and zones, partially due to its enormous size. They are made primarily of ammonia crystals, sulfur, and mixtures of the two compounds.",
 
-                    "The Great Red Spot is a huge storm on Jupiter. It has raged for at least 350 years. It is so large that three of Earths could fit inside it.",
+                    "The Great Red Spot is a huge storm on Jupiter. It has raged for at least 350 years. It is so large that three of Earths could fit inside it. The energy generated by the storm is estimated to be more than humanity has used in the last 2000 years.",
 
-                    "Jupiter's interior is made of rock, metal, and hydrogen compounds. Below its massive atmosphere(which is made primarily of hydrogen), there are layers of compressed hydrogen gas, liquid metallic hydrogen, and a core of ice, rock, and metals.",
+                    "Jupiter's interior is made of rock, metal, and hydrogen compounds. Below its massive atmosphere (which is made primarily of hydrogen), there are layers of compressed hydrogen gas, liquid metallic hydrogen, and a core of ice, rock, and metals.",
 
-                    "Jupiter's moon Ganymede is the largest moon in the solar system. Jupiter's moons are sometimes called the Jovian satellites, the largest of these are Ganymeade, Callisto, Io and Europa. Ganymeade measures 5268 km across, making it, despite being a moon, larger than some other planets in our solar system.",
+                    "Jupiter's moons are sometimes called the Jovian satellites, the largest of these are Ganymeade, Callisto, Io and Europa. Ganymeade measures 5268 km across which makes it, despite being a moon, larger than some other planets in our solar system.",
 
-                    "Jupiter has a thin ring system. Its rings are composed mainly of dust particles ejected from some of Jupiter’s smaller worlds during impacts from incoming comets and asteroids.The ring system begins some 92, 000 kilometres above Jupiter’s cloud tops and stretches out to more than 225, 000 km from the planet.They are between 2, 000 to 12, 500 kilometres thick.",
+                    "Jupiter has a thin ring system composed mainly of dust particles ejected during impacts from incoming comets and asteroids. It begins 92000 kilometres above Jupiter and stretches out to more than 225000 km from the planet.",
 
-                    "Eight spacecraft have visited Jupiter. Pioneer 10 and 11, Voyager 1 and 2, Galileo, Cassini, Ulysses, and New Horizons missions.The Juno mission is its way to Jupiter and will arrive in July 2016. Other future missions may focus on the Jovian moons Europa, Ganymede, and Callisto, and their subsurface oceans.",
+                    "9 spacecraft have visited Jupiter. Pioneer 10 and 11, Voyager 1 and 2, Galileo, Cassini, Ulysses, Juno, and New Horizons missions. Other future missions may focus on the Jovian moons Europa, Ganymede, and Callisto, and their subsurface oceans.",
 
                     "Jupiter is sometimes considered a failed star. If Jupiter had become 80 times more massive, nuclear fusion would have occurred in its core. Had that happened, it would have become a star instead of a planet.",
 
-                    "Jupiter does not experience seasons like other planets such as Earth and Mars. This is because the axis is only tilted by 3.13 degrees.",
+                    "Jupiter does not experience seasons like other planets such as Earth and Mars. This is because the axis is only tilted by 3.13 degrees. As such, temperatures are very predictable across the surface of Jupiter.",
 
-                    "Jupiter is the only planet that has a center of mass with the Sun that lies outside the volume of the Sun, though by only 7% of the Sun’s radius.",
+                    "Jupiter (due to its size) is the only planet that has a center of mass with the Sun that lies outside the volume of the Sun, though by only 7% of the Sun’s radius. Technically, Jupiter orbits the surface of the sun, not the Sun's centre.",
 
-                    "A lot like the Sun, Jupiter is mostly composed of hydrogen and helium. Jupiter contains the largest ocean in the solar system, an ocean of liquid hydrogen.",
+                    "A lot like the Sun, Jupiter is mostly composed of hydrogen and helium. Jupiter contains the largest ocean in the solar system, an ocean of liquid hydrogen. Jupiter have liquid metallic hydrogen in its centre due to extreme pressure.",
 
-                    "Jupiter actually experiences the most intense auroras in the solar system, being hundreds of times brighter than on Earth. Just like on Earth, auroras on Jupiter are caused by solar storms. However, Jupiter has an additional source for its auroras: charged particles thrown into space by its orbiting moon Io, which is famous for its many large volcanoes.",
+                    "Jupiter actually experiences the most intense auroras in the solar system. Jupiter has an additional source for its auroras beyond solar winds, charged particles thrown into space by its orbiting moon Io, which is famous for its many large volcanoes.",
 
                 ],
             },
@@ -673,9 +678,9 @@ db.solar_system.insertMany([
                             name: "Mimas",
                             position: 10,
                             image_url: [
+                                "https://cdn.mos.cms.futurecdn.net/WiawvKiNw9xCjC8BWLmay6.jpg",
                                 "https://lh3.googleusercontent.com/proxy/bxSt_VeT-q0qQxjzGCOIiTEu3COIdQbV67P3OyeFA7qRKOL28l3uUBdHxidTb_TDMlfjsvnhYkFl3t7IG3wpgnJDHNpG9E2sx4Zxa25ZQtDh4-xs",
                                 "https://static.wikia.nocookie.net/planet-archives/images/3/3e/Mimas.jpg/revision/latest?cb=20200704181732",
-                                "https://cdn.mos.cms.futurecdn.net/WiawvKiNw9xCjC8BWLmay6.jpg"
                             ],
                             orbit_distance_km: 186000,
                             equatorial_diameter_km: 396.4,
@@ -710,7 +715,7 @@ db.solar_system.insertMany([
 
                                 "Enceladus is the sixth-largest moon of Saturn. It is about 500 kilometers (310 mi) in diameter, about a tenth of that of Saturn's largest moon, Titan. Enceladus is mostly covered by fresh, clean ice, making it one of the most reflective bodies of the Solar System.",
 
-                                "The geyser observations, along with the finding of escaping internal heat and very few (if any) impact craters in the south polar region, show that Enceladus is currently geologically active. On June 27, 2018, scientists reported the detection of complex macromolecular organics on Enceladus's jet plumes, as sampled by the Cassini orbiter. These indicate potential hydrothermal activity on the moon driving complex chemistry",
+                                "The geyser observations, along with the finding of escaping internal heat and very few (if any) impact craters in the south polar region, show that Enceladus is currently geologically active. On June 27, 2018, scientists reported the detection of complex macromolecular organics on Enceladus's jet plumes, as sampled by the Cassini orbiter. These indicate potential hydrothermal activity on the moon driving complex chemistry.",
 
                                 "Enceladus is named after the giant Enceladus of Greek mythology. The name, like the names of each of the first seven satellites of Saturn to be discovered, was suggested by William Herschel's son John Herschel in his 1847 publication Results of Astronomical Observations made at the Cape of Good Hope. He chose these names because Saturn, known in Greek mythology as Cronus, was the leader of the Titans.",
                             ]
@@ -742,9 +747,9 @@ db.solar_system.insertMany([
                             name: "Dione",
                             position: 18,
                             image_url: [
+                                "https://cdn.britannica.com/74/145074-050-4D9110AA/Dione-image-moons-Saturn-spacecraft-Cassini-July-24-2006.jpg",
                                 "https://upload.wikimedia.org/wikipedia/commons/d/d0/Dione_in_natural_light_%28cropped%29.jpg",
                                 "https://cdn.britannica.com/20/3920-050-1D493D3F/moon-Dione-Saturn-distance-Voyager-1-NASA-November-10-1980.jpg",
-                                "https://cdn.britannica.com/74/145074-050-4D9110AA/Dione-image-moons-Saturn-spacecraft-Cassini-July-24-2006.jpg",
                             ],
                             orbit_distance_km: 377400,
                             equatorial_diameter_km: 1122.8,
@@ -841,35 +846,35 @@ db.solar_system.insertMany([
                 surface_temperature_min_celcius: -185,
                 facts: [
 
-                    "Saturn is the most distant planet that can be seen with the naked eye. It is the fifth brightest object in the solar system and is also easily studied through binoculars or a small telescope.",
+                    "Saturn is the most distant planet that can be seen with the naked eye, though this is difficult. It is the fifth brightest object in the solar system and is also easily studied through binoculars or a small telescope.",
 
-                    "Saturn was known to the ancients, including the Babylonians and Far Eastern observers. It is named for the Roman god Saturnus, and was known to the Greeks as Cronus.",
+                    "Saturn was known to the ancients, including the Babylonians and Far Eastern observers. It is named for the Roman god Saturnus, and was known to the Greeks as Cronus. It was often designed as chasing Jupiter in the sky.",
 
-                    "Saturn is the flattest planet. Its polar diameter is 90% of its equatorial diameter, this is due to its low density and fast rotation.Saturn turns on its axis once every 10 hours and 34 minutes giving it the second- shortest day of any of the solar system’s planets.",
+                    "Saturn is the flattest planet. It's polar diameter is 90% of its equatorial diameter, this is due to its low density and fast rotation.Saturn turns on its axis once every 10 hours and 34 minutes giving it the second, shortest day of any of the solar system’s planets.",
 
-                    "Saturn orbits the Sun once every 29.4 Earth years. Its slow movement against the backdrop of stars earned it the nickname of “Lubadsagush” from the ancient Assyrians.The name means “oldest of the old”.",
+                    "Saturn orbits the Sun once every 29.4 Earth years. Its slow movement against the backdrop of stars earned it the nickname of “Lubadsagush” from the ancient Assyrians. The name means “oldest of the old” and added to the myths of it chasing Jupiter.",
 
-                    "Saturn’s upper atmosphere is divided into bands of clouds. The top layers are mostly ammonia ice.Below them, the clouds are largely water ice.Below are layers of cold hydrogen and sulfur ice mixtures.",
+                    "Saturn’s upper atmosphere is divided into bands of clouds. The top layers are mostly ammonia ice. Below them, the clouds are largely water ice. Below are layers of cold hydrogen and sulfur ice mixtures.",
 
-                    "Saturn has oval-shaped storms similar to Jupiter’s. The region around its north pole has a hexagonal- shaped pattern of clouds.Scientists think this may be a wave pattern in the upper clouds.The planet also has a vortex over its south pole that resembles a hurricane- like storm.",
+                    "The region around its north pole has a hexagonal-shaped pattern of clouds. Scientists think this may be a wave pattern in the upper clouds.The planet also has a vortex over its south pole that resembles a hurricane-like storm.",
 
-                    "Saturn is made mostly of hydrogen. It exists in layers that get denser farther into the planet.Eventually, deep inside, the hydrogen becomes metallic.At the core lies a hot interior.",
+                    "Saturn is made mostly of hydrogen. It exists in layers that get denser farther into the planet. Eventually, deep inside, the hydrogen becomes metallic. At the core lies a very hot interior with possibly unique metals present.",
 
                     "Saturn has the most extensive rings in the solar system. The Saturnian rings are made mostly of chunks of ice and small amounts of carbonaceous dust.The rings stretch out more than 120, 700 km from the planet, but are amazingly thin: only about 20 meters thick.",
 
-                    "Saturn has 150 moons and smaller moonlets. All are frozen worlds.The largest moons are Titan and Rhea.Enceladus appears to have an ocean below its frozen surface.",
+                    "Saturn has 150 orbiting objects, between moons and smaller moonlets. All are frozen worlds. The largest moons are Titan and Rhea which both appears to have an ocean below their frozen surfaces.",
 
-                    "Titan is a moon with complex and dense nitrogen-rich atmosphere. It is composed mostly of water ice and rock.Its frozen surface has lakes of liquid methane and landscapes covered with frozen nitrogen.Planetary scientists consider Titan to be a possible harbour for life, but not Earth-like life",
+                    "Titan is a moon with a nitrogen-rich atmosphere, composed mostly of water ice and rock. Its frozen surface has lakes of liquid methane and landscapes covered with frozen nitrogen. Planetary scientists consider Titan to be a possible harbour for life.",
 
-                    "Four spacecraft have visited Saturn. Pioneer 11, Voyager 1 and 2, and the Cassini- Huygens mission have all studied the planet.Cassini orbited Saturn from July 2004 until September 2017, sending back a wealth of data about the planet, its moons, and rings.",
+                    "Four spacecraft have visited Saturn. Pioneer 11, Voyager 1 and 2, and the Cassini-Huygens mission have all studied the planet. Cassini orbited Saturn from July 2004 until September 2017, sending back a wealth of data about the planet, its moons, and rings.",
 
-                    "Saturn has more moons than any other planet. 20 new moons were discovered in 2019 bring the total to 82, 3 more than Jupiter.",
+                    "Saturn has more moons than any other planet. 20 new moons were discovered in 2019 bring the total to 82, 3 more than Jupiter. Many of these moons are still awaitng official naming and go instead by object designation codes (e.g. S/2004 S 30).",
 
-                    "Galileo Galilei was the first to see Saturn's rings in 1610, although from his telescope the rings looked more like handles or arms. Forty five years later, in 1655, Dutch astronomer Christiaan Huygens, who had a more powerful telescope, later proposed that Saturn had a thin, flat ring.",
+                    "Galileo Galilei was the first to see Saturn's rings in 1610, although from his telescope the rings looked more like handles or arms. In 1655, Dutch astronomer Christiaan Huygens, who had a more powerful telescope, proposed that Saturn had a thin, flat ring.",
 
-                    "Though scientists have identified many moons, Saturn has other small moons constantly being created and destroyed.",
+                    "Though scientists have identified many moons, Saturn has other small moons constantly being created and destroyed. It's gravity snatches passing asteroids or alters their path, as well as causes collisions or drags objects down to its surface",
 
-                    "As the most massive planet in the solar system after Jupiter, the pull of Saturn's gravity has helped shape the fate of our solar system. It may have helped violently hurl Neptune and Uranus outward. Along with Jupiter, it might also have slung a barrage of debris toward the inner planets early in the system's history.",
+                    "As the most massive planet in the solar system after Jupiter, the pull of Saturn's gravity has helped shape the fate of our solar system. It may have helped violently hurl Neptune and Uranus outward.",
 
                 ],
             },
@@ -877,7 +882,7 @@ db.solar_system.insertMany([
             {
 
                 name: "Uranus",
-                planet_intro: "Uranus is known as the “sideways planet” because it rotates on its side. Uranus was discovered in 1781 by William Herschel. Uranus was the first planet found using a telescope. Uranus is an Ice Giant planet and nearly four times larger than Earth.",
+                planet_intro: "Uranus is known as the “sideways planet” because it rotates on its side. Uranus was discovered in 1781 by William Herschel and does not appear to have been known to ancient civilizations. Uranus was the first planet found using a telescope. Uranus is an Ice Giant planet and nearly four times larger than Earth.",
                 position_from_sun: 7,
                 image_url: [
                     "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/1200px-Uranus2.jpg",
@@ -943,7 +948,7 @@ db.solar_system.insertMany([
 
                                 "At just 470 km in diameter, Miranda is one of the smallest closely observed objects in the Solar System that might be in hydrostatic equilibrium (spherical under its own gravity). The only close-up images of Miranda are from the Voyager 2 probe, which made observations of Miranda during its Uranus flyby in January 1986. During the flyby, Miranda's southern hemisphere pointed towards the Sun, so only that part was studied.",
 
-                                "While crater counts suggest that the majority of Miranda's surface is old, with a similar geological history to the other Uranian satellites, few of those craters are particularly large, indicating that most must have formed after a major resurfacing event in its distant past. Craters on Miranda also appear to possess softened edges, which could be the result either of ejecta or of cryovolcanism. The temperature at Miranda's south pole is roughly 85K, a temperature at which pure water ice adopts the properties of rock",
+                                "While crater counts suggest that the majority of Miranda's surface is old, with a similar geological history to the other Uranian satellites, few of those craters are particularly large, indicating that most must have formed after a major resurfacing event in its distant past. Craters on Miranda also appear to possess softened edges, which could be the result either of ejecta or of cryovolcanism. The temperature at Miranda's south pole is roughly 85K, a temperature at which pure water ice adopts the properties of rock.",
 
                             ]
                         },
@@ -967,7 +972,7 @@ db.solar_system.insertMany([
 
                                 "Among Uranus's five major moons, Ariel is the second closest to the planet, orbiting at the distance of about 190,000 km.[f] Its orbit has a small eccentricity and is inclined very little relative to the equator of Uranus. Its orbital period is around 2.5 Earth days, coincident with its rotational period. This means that one side of the moon always faces the planet; a condition known as tidal lock.",
 
-                                "Except for water, the only other compound identified on the surface of Ariel by infrared spectroscopy is carbon dioxide (CO2), which is concentrated mainly on its trailing hemisphere. Ariel shows the strongest spectroscopic evidence for CO2 of any Uranian satellite. The origin of the carbon dioxide is not completely clear. It might be produced locally from carbonates or organic materials under the influence of the energetic charged particles coming from Uranus's magnetosphere or solar ultraviolet radiation. ",
+                                "Except for water, the only other compound identified on the surface of Ariel by infrared spectroscopy is carbon dioxide (CO2), which is concentrated mainly on its trailing hemisphere. Ariel shows the strongest spectroscopic evidence for CO2 of any Uranian satellite. The origin of the carbon dioxide is not completely clear. It might be produced locally from carbonates or organic materials under the influence of the energetic charged particles coming from Uranus's magnetosphere or solar ultraviolet radiation.",
 
                             ]
                         },
@@ -1037,7 +1042,7 @@ db.solar_system.insertMany([
 
                                 "Oberon orbits Uranus at a distance of about 584,000 km, being the farthest from the planet among its five major moons. Oberon's orbit has a small orbital eccentricity and inclination relative to the equator of Uranus.[4] Its orbital period is around 13.5 days, coincident with its rotational period. In other words, Oberon is a synchronous satellite, tidally locked, with one face always pointing toward the planet. Oberon spends a significant part of its orbit outside the Uranian magnetosphere. As a result, its surface is directly struck by the solar wind",
 
-                                "Discovered in 1787, little was known about this moon until Voyager 2 passed it during its flyby of Uranus in January 1986. Its orbit lies partially outside Uranus's magnetosphere and this effects viewing via telescope or traditional means",
+                                "Discovered in 1787, little was known about this moon until Voyager 2 passed it during its flyby of Uranus in January 1986. Its orbit lies partially outside Uranus's magnetosphere and this effects viewing via telescope or traditional means.",
                             ]
                         }
                     ]
@@ -1050,40 +1055,40 @@ db.solar_system.insertMany([
 
                     "Uranus was officially discovered by Sir William Herschel in 1781. It is too dim to have been seen by the ancients.At first Herschel thought it was a comet, but several years later it was confirmed as a planet.",
 
-                    "Uranus turns on its axis once every 17 hours, 14 minutes. The planet rotates in a retrograde direction, opposite to the way Earth and most other planets turn.",
+                    "Uranus turns on its axis once every 17 hours, 14 minutes. The planet rotates in a retrograde direction, opposite to the way Earth and most other planets turn. Venus is the only other planet that spins this way.",
 
                     "Uranus makes one trip around the Sun every 84 Earth years. During some parts of its orbit one or the other of its poles point directly at the Sun and get about 42 years of direct sunlight.The rest of the time they are in darkness.",
 
-                    "Uranus is often referred to as an “ice giant” planet. Like the other gas giants, it has a hydrogen upper layer, which has helium mixed in.Below that is an icy “mantle, which surrounds a rock and ice core.The upper atmosphere is made of water, ammonia and the methane ice crystals that give the planet its pale blue colour.",
+                    "Like the other gas giants, it has a hydrogen upper layer, which has helium mixed in. Below that is an icy “mantle, which surrounds a rock and ice core. The upper atmosphere is made of water, ammonia and the methane ice crystals that give the planet its pale blue colour.",
 
-                    "Uranus hits the coldest temperatures of any planet. With minimum atmospheric temperature of - 224°C Uranus is nearly coldest planet in the solar system. While Neptune doesn’t get as cold as Uranus it is on average colder. The upper atmosphere of Uranus is covered by a methane haze which hides the storms that take place in the cloud decks.",
+                    "Uranus hits the coldest temperatures of any planet. With minimum atmospheric temperature of -224°C Uranus is nthe coldest planet in the solar system. While Neptune doesn’t get as cold as Uranus it is on average colder.",
 
-                    "Uranus has two sets of very thin dark coloured rings. The ring particles are small, ranging from a dust- sized particles to small boulders.There are eleven inner rings and two outer rings.They probably formed when one or more of Uranus’s moons were broken up in an impact.The first rings were discovered in 1977 with the two outer rings being discovered in Hubble Space Telescope images between 2003 and 2005.",
+                    "Uranus has two sets of very thin dark coloured rings, probably formed when one or more of Uranus’s moons were broken up in an impact.The first rings were discovered in 1977 with the two outer rings being discovered by the Hubble Space Telescope between 2003 and 2005.",
 
-                    "Uranus’ moons are named after characters created by William Shakespeare and Alexander Pope. These include Oberon, Titania and Miranda.All are frozen worlds with dark surfaces.Some are ice and rock mixtures.The most interesting Uranian moon is Miranda; it has ice canyons, terraces, and other strange- looking surface areas.",
+                    "Uranus’ moons are named after characters created by William Shakespeare and Alexander Pope. These include Oberon, Titania and Miranda. The most interesting Uranian moon is Miranda; it has ice canyons, terraces, and other strange- looking surface areas.",
 
-                    "Only one spacecraft has flown by Uranus. In 1986, the Voyager 2 spacecraft swept past the planet at a distance of 81, 500 km.It returned the first close- up images of the planet, its moons, and rings.",
+                    "Only one spacecraft has flown by Uranus. In 1986, the Voyager 2 spacecraft swept past the planet at a distance of 81500 km. It returned the first close-up images of the planet, its moons, and rings.",
 
                     "The axial tilt of Uranus is a staggering 99 degrees. In other words, the planet is rotating on its side. All the planets look a bit like spinning top as they go around the Sun, but Uranus looks more like a ball rolling in a circular pattern.",
 
-                    "With a mean density of 0.687 g/cm3, Saturn’s body is actually less dense than water (1 g/cm³). This means that the planet would float in a pool, provided it were roughly 60,000 km wide. With a mean density of 1.27 g/cm3, Uranus has the second-lowest density of any planet in the Solar System.",
+                    "With a mean density of 0.687 g/cm3, Saturn’s body is actually less dense than water (1 g/cm³). This means that the planet would float in a pool, provided it were roughly 60,000 km wide.Uranus has the second-lowest density of any planet in the Solar System.",
 
                     "Sir William Herschel tried to have Uranus (as his discovery) named “Georgian Sidus” after King George III.The name Uranus was suggested by astronomer Johann Bode. The name comes from the ancient Greek deity Ouranos.",
 
-                    "You might be surprised to know that you can see Uranus without a telescope. At magnitude 5.3, Uranus is just within the brightness scale that a human eye can perceive. Unfortunately, you’d need to make sure that the night sky was extremely dark (i.e. no light pollution), and would have to know exactly where to look.",
+                    "At magnitude 5.3, Uranus is barely within the brightness scale that a human eye can perceive. Unfortunately, you’d need to make sure that the night sky was extremely dark (i.e. no light pollution) and would have to know exactly where to look.",
 
-                    "The possibility of sending the Cassini spacecraft from Saturn to Uranus was evaluated during a mission extension planning phase in 2009. However, this never came to fruition, as it would have taken about twenty years for Cassini to get to the Uranian system after departing Saturn.",
+                    "The possibility of sending the Cassini spacecraft from Saturn to Uranus was evaluated during a mission extension planning phase in 2009. However, this never came to be as it would have taken about twenty years to get to the Uranian system after departing Saturn.",
 
-                    "There's still much more to learn about Uranus's tempests. In 2014, between Uranus's infrequent equinoxes, astronomers using the 10-meter Keck telescope spotted eight stunning squalls below its blue blanket. Scientists suggest that perhaps these vortices are rooted deeper in the atmosphere, like the storms of Jupiter. But to know for sure, researchers would need a closer look.",
+                    "There's still much more to learn about Uranus's tempests. Scientists suggest that perhaps these vortices are rooted deeper in the atmosphere, like the storms of Jupiter. But to know for sure, researchers would need a closer look.",
 
-                    "Like Saturn, Jupiter, and Neptune, Uranus is a big ball of gas, often called a jovian or gas giant world. Uranus owes its vibrant blue-green hues not from unusual oceans but from an upper atmosphere flush with methane, which absorbs the sun's red light and scatters blue light back to our eyes. The rest of planet's atmosphere is largely made of hydrogen and helium, with scant amounts of ammonia, water, and methane. Trace amounts of hydrogen sulfide also hint that, if you could visit this distant place without a spacesuit, the planet would smell like rotten eggs. ",
+                    "Like Saturn, Jupiter, and Neptune, Uranus is a big ball of gas, often called a jovian or gas giant world. Uranus owes its vibrant blue-green hues not from unusual oceans but from an upper atmosphere flush with methane, which absorbs the sun's red light.",
 
                 ],
             },
 
             {
                 name: "Neptune",
-                planet_intro: "Neptune is dark, cold, and very windy. It's the last of the planets in our solar system. It's more than 30 times as far from the Sun as Earth is. Neptune is very similar to Uranus. It's made of a thick soup of water, ammonia, and methane over an Earth-sized solid center",
+                planet_intro: "Neptune is dark, cold, and very windy. It's the last of the planets in our solar system. It's more than 30 times as far from the Sun as Earth is. Neptune is very similar to Uranus in many ways, from temperature to gases present. It's made of a thick soup of water, ammonia, and methane over an Earth-sized solid center",
                 position_from_sun: 8,
                 image_url: [
                     "https://media.wired.com/photos/5d04045bde1abfe4e801d054/4:3/w_1600,h_1200,c_limit/Science-Neptune-FA-PIA01492_orig.jpg",
@@ -1132,11 +1137,11 @@ db.solar_system.insertMany([
                             surface_temperature_min_celcius: -235.2,
                             facts: [
 
-                                "Triton is the largest natural satellite of the planet Neptune, and the first Neptunian moon to be discovered. The discovery was made on October 10, 1846, by English astronomer William Lassell. It is the only large moon in the Solar System with a retrograde orbit, an orbit in the direction opposite to its planet's rotation",
+                                "Triton is the largest natural satellite of the planet Neptune, and the first Neptunian moon to be discovered. The discovery was made on October 10, 1846, by English astronomer William Lassell. It is the only large moon in the Solar System with a retrograde orbit, an orbit in the direction opposite to its planet's rotation.",
 
                                 "Triton is one of the few moons in the Solar System known to be geologically active (the others being Jupiter's Io and Europa, and Saturn's Enceladus and Titan). As a consequence, its surface is relatively young, with few obvious impact craters.",
 
-                                "Triton is named after the Greek sea god Triton, the son of Poseidon (the Greek god corresponding to the Roman Neptune). The name was first proposed by Camille Flammarion in his 1880 book Astronomie Populaire and was officially adopted many decades later. Until the discovery of the second moon Nereid in 1949, Triton was commonly referred to as 'the satellite of Neptune'. Lassell did not name his own discovery; he later successfully suggested the name Hyperion, previously chosen by John Herschel, for the eighth moon of Saturn when he discovered it",
+                                "Triton is named after the Greek sea god Triton, the son of Poseidon (the Greek god corresponding to the Roman Neptune). The name was first proposed by Camille Flammarion in his 1880 book Astronomie Populaire and was officially adopted many decades later. Until the discovery of the second moon Nereid in 1949, Triton was commonly referred to as 'the satellite of Neptune'. Lassell did not name his own discovery; he later successfully suggested the name Hyperion, previously chosen by John Herschel, for the eighth moon of Saturn when he discovered it.",
                             ]
                         },
                         {
@@ -1170,42 +1175,40 @@ db.solar_system.insertMany([
                 surface_temperature_min_celcius: -218,
                 facts: [
 
-                    "Neptune was not known to the ancients. It is not visible to the naked eye and was first observed in 1846. Its position was determined using mathematical predictions. It was named after the Roman god of the sea.",
+                    "Neptune was not known to the ancients. It is not visible to the naked eye and was first observed in 1846. Its position was determined using mathematical predictions. It was named after the Roman god of the sea for its colour.",
 
                     "Neptune has 6 faint rings. However, one of the rings was only discovered very recently by Voyager 2 and there is debate in the scientic community regarding if the 6th ring is in fact a ring that seperates and rejoins on occaion",
 
-                    "Neptune spins on its axis very rapidly. Its equatorial clouds take 16 hours to make one rotation.This is because Neptune is not solid body.",
+                    "Neptune spins on its axis very rapidly. Its equatorial clouds take 16 hours to make one rotation. This is because Neptune is not a solid body but is instead another gas giant, though considerably smaller than its neighbours.",
 
-                    "Neptune is the smallest of the ice giants. Despite being smaller than Uranus, Neptune has a greater mass.Below its heavy atmosphere, Uranus is made of layers of hydrogen, helium, and methane gases.They enclose a layer of water, ammonia and methane ice.The inner core of the planet is made of rock.",
+                    "Despite being smaller than Uranus, Neptune has a greater mass. Below its heavy atmosphere, Uranus is made of layers of hydrogen, helium, and methane gases. They enclose a layer of water, ammonia and methane ice. The inner core of the planet is made of rock.",
 
-                    "The atmosphere of Neptune is made of hydrogen and helium, with some methane. The methane absorbs red light, which makes the planet appear a lovely blue.High, thin clouds drift in the upper atmosphere.",
+                    "The atmosphere of Neptune is made of hydrogen and helium, with some methane. The methane, much like on Uranus absorbs red light, which makes the planet appear a lovely calm blue. High, thin clouds drift in the upper atmosphere.",
 
-                    "Neptune has a very active climate. Large storms whirl through its upper atmosphere, and high- speed winds track around the planet at up 600 meters per second.One of the largest storms ever seen was recorded in 1989. It was called the Great Dark Spot.It lasted about five years.",
+                    "Neptune has a very active climate. Large storms whirl through its upper atmosphere, and high- speed winds track around the planet at up 600 meters per second.One of the largest storms ever seen was recorded in 1989. It was called the Great Dark Spot.",
 
-                    "Neptune has a very thin collection of rings. They are likely made up of ice particles mixed with dust grains and possibly coated with a carbon- based substance.",
+                    "The Great Dark Spot in the southern atmosphere of Neptune is an incredibly large rotating storm system with winds of up to 1,500 miles per hour, the strongest winds recorded on any planet.",
 
-                    "Neptune has 14 moons. The most interesting moon is Triton, a frozen world that is spewing nitrogen ice and dust particles out from below its surface.It was likely captured by the gravitational pull of Neptune.It is probably the coldest world in the solar system.",
+                    "Neptune has 14 moons. The most interesting moon is Triton, a frozen world that is spewing nitrogen ice and dust particles out from below its surface. It was likely captured by the gravitational pull of Neptune.",
 
-                    "Only one spacecraft has flown by Neptune. In 1989, the Voyager 2 spacecraft swept past the planet.It returned the first close- up images of the Neptune system.The NASA/ ESA Hubble Space Telescope has also studied Mercury, as have a number of ground - based telescopes",
+                    "Only one spacecraft has flown by Neptune. In 1989, the Voyager 2 spacecraft swept past the planet.It returned the first close- up images of the Neptune system.The NASA/ ESA Hubble Space Telescope has also studied Mercury, as have a number of ground - based telescopes.",
 
-                    "The Great Dark Spot in the southern atmosphere of Neptune was first discovered in 1989 by the Voyager 2 spacecraft. It was an incredibly large rotating storm system with winds of up to 1,500 miles per hour, the strongest winds recorded on any planet. How such powerful winds were discovered on a planet so far from the sun is still considered a mystery to this day.",
+                    "Data from the Voyager 2 spacecraft also showed that the Great Dark Spot varied significantly in size during their brief pass of the planet. When Neptune was viewed by the Hubble Space telescope in 1994 the Great Dark Spot had vanished.",
 
-                    "Data from the Voyager 2 spacecraft also showed that the Great Dark Spot varied significantly in size during their brief pass of the planet. When Neptune was viewed by the Hubble Space telescope in 1994 the Great Dark Spot had vanished, although a different dark spot had appeared in Neptune’s northern hemisphere.",
+                    "Neptune has an incredibly thick atmosphere comprised of 74% hydrogen, 25% helium and approximately 1% methane. Its atmosphere also contains icy clouds and the fastest winds recorded in the solar system.",
 
-                    "Neptune has an incredibly thick atmosphere comprised of 74% hydrogen, 25% helium and approximately 1% methane. Its atmosphere also contains icy clouds and the fastest winds recorded in the solar system. Particles of icy methane and minor gases in the extremities of the atmosphere give Neptune its deep blue colour. The striking blue and white features of Neptune also help to distinguish it from Uranus.",
-
-                    "Neptune’s atmosphere is subdivided into the lower troposphere and the stratosphere with the tropopause being the boundary between the two. In the lower troposphere temperatures decrease with altitude however they increase with altitude in the stratosphere. Hydrocarbons form hazes of smog that appear in the entire upper atmosphere of Neptune and hydrocarbon snowflakes that form in Neptune’s atmosphere melt before they reach its surface due to the high pressure.",
+                    "Neptune’s atmosphere is subdivided into the lower troposphere and the stratosphere with the tropopause being the boundary between the two. In the lower troposphere temperatures decrease with altitude however they increase with altitude in the stratosphere.",
+                    
+                    "Hydrocarbons form hazes of smog that appear in the entire upper atmosphere of Neptune and hydrocarbon snowflakes that form in Neptune’s atmosphere melt before they reach its surface due to the high pressure.",
 
                     "Like the other outer planets, Neptune possesses a ring system, though its rings are very faint. They are most likely made up of ice particles and grains of dust with a carbon-based substance coating them.",
-
-                    "The largest Neptunian moon, Triton, was discovered just 17 days after Neptune itself was discovered.",
 
                 ],
             },
 
             {
                 name: "Pluto",
-                planet_intro: "Pluto, originally considered the ninth planet, was classified as a dwarf planet. The icy body and its five moons orbit the sun far out in the Kuiper Belt, a shadowy zone beyond the orbit of Neptune thought to be populated by hundreds of thousands of rocky, icy bodies. We still love it though.",
+                planet_intro: "Pluto, originally considered the ninth planet, was classified as a dwarf planet. The icy body and its five moons orbit the sun far out in the Kuiper Belt, a shadowy zone beyond the orbit of Neptune thought to be populated by hundreds of thousands of rocky, icy bodies. Debate about Pluto being considered as a planet rages on to this day.",
                 position_from_sun: 9,
                 image_url: [
                     "https://cms.qz.com/wp-content/uploads/2016/11/pluto-poster.jpg?quality=75&strip=all&w=1200&h=900&crop=1",
@@ -1245,7 +1248,7 @@ db.solar_system.insertMany([
                             surface_temperature_min_celcius: -240,
                             facts: [
 
-                                "With half the diameter and one eighth the mass of Pluto, Charon is a very large moon in comparison to its parent body. Its gravitational influence is such that the barycenter of the Plutonian system lies outside Pluto. This has led to the argument that Pluto–Charon is sometimes considered a double dwarf planet",
+                                "With half the diameter and one eighth the mass of Pluto, Charon is a very large moon in comparison to its parent body. Its gravitational influence is such that the barycenter of the Plutonian system lies outside Pluto. This has led to the argument that Pluto–Charon is sometimes considered a double dwarf planet.",
 
                                 "Charon and Pluto orbit each other every 6.387 days. The two objects are gravitationally locked to one another, so each keeps the same face towards the other. This is a case of mutual tidal locking, as compared to that of the Earth and the Moon, where the Moon always shows the same face to Earth, but not vice versa.",
 
@@ -1260,35 +1263,43 @@ db.solar_system.insertMany([
                 surface_temperature_min_celcius: -233,
                 facts: [
 
-                    "Discovered in 1930, Pluto is the second closest dwarf planet to the Sun and was at one point classified as the ninth planet. Pluto is the largest dwarf planet but only the second most massive, with Eris being the most massive",
+                    "Discovered in 1930, Pluto is the second closest dwarf planet to the Sun and was at one point classified as the ninth planet. Pluto is the largest dwarf planet but only the second most massive, with Eris being the most massive.",
 
-                    "Pluto is named after the Roman god of the underworld. This was proposed by Venetia Burney an eleven year old schoolgirl from Oxford, England.",
+                    "Pluto is named after the Roman god of the underworld. This was proposed by Venetia Burney an eleven year old schoolgirl from Oxford, England. All of Pluto's moons are given names connected to the underworld or death as well.",
 
-                    "Pluto was reclassified from a planet to a dwarf planet in 2006. This is when the IAU formalised the definition of a planet as “A planet is a celestial body that(a) is in orbit around the Sun, (b) has sufficient mass for its self- gravity to overcome rigid body forces so that it assumes a hydrostatic equilibrium(nearly round) shape, and(c) has cleared the neighbourhood around its orbit.”",
+                    "Pluto was reclassified from a planet to a dwarf planet in 2006. This is when the IAU formalised the definition of a planet as “(a) orbit around the Sun, (b) sufficient mass to assume a nearly round shape, and(c) has cleared the neighbourhood around its orbit.",
 
                     "Pluto was discovered on February 18th, 1930 by the Lowell Observatory. For the 76 years between Pluto being discovered and the time it was reclassified as a dwarf planet it completed under a third of its orbit around the Sun.",
 
-                    "Pluto has five known moons. The moons are Charon(discovered in 1978,), Hydra and Nix(both discovered in 2005), Kerberos originally P4(discovered 2011) and Styx originally P5(discovered 2012) official designations S / 2011(134340) 1 and  S / 2012(134340) 1",
+                    "Pluto has five known moons. The moons are Charon (discovered in 1978), Hydra and Nix (both discovered in 2005), Kerberos originally P4 (discovered 2011) and Styx originally P5(discovered 2012) official designations S/2011(134340)1 and  S/2012(134340)1",
 
-                    "Pluto is one third water. This is in the form of water ice which is more than 3 times as much water as in all the Earth’s oceans, the remaining two thirds are rock.Pluto’s surface is covered with ices, and has several mountain ranges, light and dark regions, and a scattering of craters.",
+                    "Pluto is one third water. This is in the form of water ice which is more than 3 times as much water as in all the Earth’s oceans, the remaining two thirds are rock. Pluto’s surface is covered with ices.",
 
-                    "Pluto is smaller than a number of moons. These are Ganymede, Titan, Callisto, Io, Europa, Triton, and the Earth’s moon. Pluto has 66% of the diameter of the Earth’s moon and 18% of its mass.While it is now confirmed that Pluto is the largest dwarf planet for around 10 years it was thought that this was Eris.",
+                    "Pluto is smaller than a number of moons. These are Ganymede, Titan, Callisto, Io, Europa, Triton, and the Earth’s moon. While it is now confirmed that Pluto is the largest dwarf planet for around 10 years it was thought that this was Eris.",
 
-                    "Pluto has a eccentric and inclined orbit. This takes it between 4.4 and 7.3 billion km from the Sun meaning Pluto is periodically closer to the Sun than Neptune.",
+                    "Pluto has a eccentric and inclined orbit. This takes it between 4.4 and 7.3 billion km from the Sun meaning Pluto is periodically closer to the Sun than Neptune. This is one of the most irregular orbits of any planet in our solar system",
 
-                    "Pluto has been visited by one spacecraft. The New Horizons spacecraft, which was launched in 2006, flew by Pluto on the 14th of July 2015 and took a series of images and other measurements.New Horizons is now on its way to the Kuiper Belt to explore even more distant objects.",
+                    "Pluto has been visited by one spacecraft. The New Horizons spacecraft, which was launched in 2006, flew by Pluto on the 14th of July 2015. New Horizons is now on its way to the Kuiper Belt to explore even more distant objects.",
 
-                    "Pluto’s location was predicted by Percival Lowell in 1915. The prediction came from deviations he initially observed in 1905 in the orbits of Uranus and Neptune.",
+                    "Pluto’s location was predicted by Percival Lowell in 1915. The prediction came from deviations he initially observed in 1905 in the orbits of Uranus and Neptune. Much like those planets, Pluto does not appear to have been known to ancient cultures",
 
-                    "Pluto sometimes has an atmosphere. When Pluto elliptical orbit takes it closer to the Sun, its surface ice thaws and forms a thin atmosphere primarily of nitrogen which slowly escapes the planet.It also has a methane haze that overs about 161 kilometres above the surface.The methane is dissociated by sunlight into hydrocarbons that fall to the surface and coat the ice with a dark covering.When Pluto travels away from the Sun the atmosphere then freezes back to its solid state.",
+                    "Pluto sometimes has an atmosphere. When Pluto elliptical orbit takes it closer to the Sun, its surface ice thaws and forms a thin atmosphere primarily of nitrogen which slowly escapes the planet.",
+                    
+                    "Pluto also has a methane haze that overs about 161 kilometres above the surface. The methane is dissociated by sunlight into hydrocarbons that fall to the surface and coat the ice with a dark covering.",
 
-                    "In 2006, Pluto was reclassified as a dwarf planet, a change widely thought of as a demotion. The question of Pluto's planet status has attracted controversy and stirred debate in the scientific community, and among the general public, since then. In 2017, a science group (including members of the New Horizon mission) proposed a new definition of planethood based on 'round objects in space smaller than stars,' which would make the number of planets in our solar system expand from 8 to roughly 100.",
+                    "In 2006, Pluto was reclassified as a dwarf planet, a change widely thought of as a demotion. The question of Pluto's planet status has attracted controversy and stirred debate in the scientific community, and among the general public, since then.", 
+                    
+                    "In 2017, a science group (including members of the New Horizon mission) proposed a new definition of planethood based on 'round objects in space smaller than stars,' which would make the number of planets in our solar system expand from 8 to roughly 100.",
 
-                    "Observations of Pluto's surface by the New Horizons spacecraft revealed a variety of surface features, including mountains that reach as high as 11,000 feet (3,500 meters), comparable to the Rocky Mountains on Earth. While methane and nitrogen ice cover much of the surface of Pluto, these materials are not strong enough to support such enormous peaks, so scientists suspect that the mountains are formed on a bedrock of water ice.",
+                    "Observations of Pluto's surface by the New Horizons spacecraft revealed a variety of surface features, including mountains that reach as high as 11,000 feet (3,500 meters), comparable to the Rocky Mountains on Earth.", 
+                    
+                    "While methane and nitrogen ice cover much of the surface of Pluto, these materials are not strong enough to support such enormous peaks as appaer on Pluto, so scientists suspect that the mountains are formed on a bedrock of water ice.",
 
-                    "Pluto's surface is also covered in an abundance of methane ice, but New Horizons scientists have observed significant differences in the way the ice reflects light across the dwarf planet's surface. The dwarf planet also possesses ice ridge terrain that appears to look like a snakeskin; astronomers spotted similar features to Earth's penitentes, or erosion-formed features on mountainous terrain. The Pluto features are much larger; they are estimated at 1,650 feet (500 m) tall, while the Earth features are only a few meters in size.",
+                    "Pluto's surface is also covered in an abundance of methane ice but New Horizons scientists have observed significant differences in the way the ice reflects light across the dwarf planet's surface.",
+                    
+                    "The dwarf planet also possesses ice ridge terrain that appears to look like a snakeskin; astronomers spotted similar features to Earth's penitentes, or erosion-formed features on mountainous terrain.",
 
-                    "Another distinct feature on Pluto's surface is a large heart-shaped region known unofficially as Tombaugh Regio (after Clyde Tombaugh; regio is Latin for region). The left side of the region (an area that takes on the shape of an ice cream cone) is covered in carbon monoxide ice. Other variations in the composition of surface materials have been identified within the 'heart' of Pluto.",
+                    "Another distinct feature on Pluto's surface is a large heart-shaped region known unofficially as Tombaugh Regio (after Clyde Tombaugh; regio is Latin for region). Other variations in the composition of surface materials have been identified within it."
 
                 ],
             },
@@ -1345,7 +1356,10 @@ db.solar_system.insertMany([
 
             ]
         },
+        asteroid_belt: [],
+        kuiper_belt: [],
         satellites: [],
         planetoids: [],
+        anomalies: [],
     }
 ])
