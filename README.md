@@ -6,11 +6,11 @@ With facts, stats, pictures and a viewer of the planets in motion around the sun
 
 -----------------------------------------------------------------------------
 
-To install Spacey locally via the terminal please follow these steps:
+## To install Spacey locally via the terminal please follow these steps:
 
 *Note: Please use two terminals, one for server and one for clients*:
 
-## SERVER/BACK-END (TERMINAL ONE)
+### SERVER/BACK-END (TERMINAL ONE)
 
 **To get to the server folder:**
 
@@ -30,7 +30,7 @@ To install Spacey locally via the terminal please follow these steps:
 
 -----------------------------------------------------------------------------
 
-## CLIENT/FRONT-END (TERMINAL TWO)
+### CLIENT/FRONT-END (TERMINAL TWO)
 
 **To get to the client folder:**
 
@@ -48,7 +48,7 @@ The app will now run locally via your browser at http://localhost:8080/
 
 -----------------------------------------------------------------------------
 
-###### As Konstantin Tsiolkovsky said:
+#### As Konstantin Tsiolkovsky said:
 
 > The Earth is the cradle of humanity, but mankind cannot stay in the cradle forever.
 
