@@ -2,7 +2,7 @@
   <section class="moon-info-wrapper">
     <div class="moon-info">
       <p>
-        {{ moon.name }} is the {{ moon.position }}<sup>{{ moon.position % 10 == 1 ? 'st' : moon.position % 10 == 2 ? 'nd' : moon.position % 10 == 3 ? 'rd' : 'th' }}</sup> moon from the planet.
+        {{ moon.name }} is the {{ moon.position }}<sup>{{ moon.position % 10 == 1 ? 'st' : moon.position % 10 == 2 ? 'nd' : moon.position % 10 == 3 ? 'rd' : 'th' }}</sup> moon from the planet
         {{ moon.moon_intro }}
       </p>
 

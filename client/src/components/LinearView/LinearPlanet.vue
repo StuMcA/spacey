@@ -7,8 +7,6 @@
     :style="{
       width: this.calcWidth() + 'px',
       height: this.calcWidth() + 'px',
-      right: this.calcDist() + '%',
-      transform: this.translate(),
     }"
   >
     <div class="hover-box">
@@ -35,10 +33,7 @@ export default {
       this.isActive = !this.isActive;
     },
     calcWidth: function() {
-      return Math.sqrt(this.planet.equatorial_diameter_km) / 3.5;
-    },
-    calcDist: function() {
-      return Math.sqrt(this.planet.orbit_distance_km) / 1200;
+      return this.planet.equatorial_diameter_km / 1000;
     },
     translate: function() {
       return `translate(-100px, -${this.calcWidth() / 2}px)`;

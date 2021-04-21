@@ -7,12 +7,12 @@
       {{ planet.planet_intro }}
     </p>
 
-    <p>{{ planet.name }} has {{ planet.moons.moon_list.length == 0 ? 'no moon' : planet.moons.moon_list.length == 1 ? '1 moon' : planet.moons.moon_list.length + ' moons' }}.</p>
+    <p>{{ planet.name }} has {{ planet.moons.moon_list.length == 0 ? 'no moon' : planet.moons.moon_list.length == 1 ? '1 moon' : planet.moons.moon_list.length + ' moons' }}</p>
 
     <p>Distance from Sun: {{ planet.orbit_distance_km.toLocaleString() }} km ({{ planet.orbit_distance_au }} AU)</p>
     <p>Diameter at equator: {{ planet.equatorial_diameter_km.toLocaleString() }} km</p>
     <p>Mass: {{ planet.mass }}</p>
-    <p>{{ planet.name }} has {{ planet.rings == 0 ? 'no ring' : planet.rings == 1 ? '1 ring' : planet.rings + ' rings' }}.</p>
+    <p>{{ planet.name }} has {{ planet.rings == 0 ? 'no ring' : planet.rings == 1 ? '1 ring' : planet.rings + ' rings' }}</p>
     <p>Orbital period: {{ planet.orbit_period_days.toLocaleString() }} days</p>
     <p>Surface temperature: {{ planet.surface_temperature_min_celcius }}ºC to {{ planet.surface_temperature_max_celcius }}ºC</p>
   </section>
