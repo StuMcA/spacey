@@ -5,8 +5,8 @@
     :class="{ active: isActive }"
     @click="toggleActive"
     :style="{
-      width: this.calcWidth() + 'px',
-      height: this.calcWidth() + 'px',
+      width: this.calcWidth() + 'vw',
+      height: this.calcWidth() + 'vw',
     }"
   >
     <div class="hover-box">
@@ -33,7 +33,7 @@ export default {
       this.isActive = !this.isActive;
     },
     calcWidth: function() {
-      return this.planet.equatorial_diameter_km / 1000;
+      return this.planet.equatorial_diameter_km / 10000;
     },
     translate: function() {
       return `translate(-100px, -${this.calcWidth() / 2}px)`;
@@ -53,7 +53,7 @@ p {
   display: none;
   color: rgb(255, 255, 255);
   position: relative;
-  top: 50%;
+  top: 100%;
   left: -60px;
   cursor: pointer;
   z-index: 999;

@@ -4,7 +4,7 @@
       <nav-bar :planets="planets" :filteredPlanets="filteredPlanets" :selectedPlanet="selectedPlanet"/>
     </header>
     <main>
-      <linear-view v-if="!selectedPlanet && !showPlanetList" :planets="planets" />
+      <linear-view v-if="!selectedPlanet && !showPlanetList" :planets="planets" :sun="sun"/>
       <planet v-if="selectedPlanet && !showPlanetList" :planet="selectedPlanet" />
       <planet-list-page v-if="showPlanetList" :planets="filteredPlanets"/>
     </main>
@@ -32,12 +32,14 @@ export default {
       planets: [],
       selectedPlanet: null,
       filteredPlanets: [],
-      showPlanetList: false
+      showPlanetList: false,
+      sun: null
     };
   },
   methods: {
     fetchPlanets() {
       PlanetService.getPlanets().then((solarSystem) => this.planets.push(...solarSystem[0].planets));
+      PlanetService.getPlanets().then((solarSystem) => this.sun = solarSystem[0].sun);
     },
   },
   mounted() {

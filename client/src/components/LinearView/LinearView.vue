@@ -2,7 +2,13 @@
   <div class="solar-system-wrapper">
     <button class="change-view-button" @click="toggleView">Change view</button>
     <section v-if="!isTopView" id="solar-system" :class="{ topView: isTopView }">
-      <div id="sun" class="planet">
+      <div 
+        id="sun" 
+        class="planet"
+        :style="{
+          width: this.calcWidth() + 'vw',
+          height: this.calcWidth() + 'vw',
+        }">
         <div class="hover-box">
           <h3>Sol</h3>
         </div>
@@ -20,7 +26,10 @@ import OrbitView from '../OrbitView/OrbitView.vue';
 
 export default {
   name: 'linear-view',
-  props: ['planets'],
+  props: [
+    'planets',
+    'sun'
+  ],
   data() {
     return {
       isTopView: true,
@@ -34,6 +43,9 @@ export default {
     toggleView: function() {
       console.log('I HAVE BEEN CLICKED');
       this.isTopView = !this.isTopView;
+    },
+    calcWidth: function() {
+      return this.sun.equatorial_diameter_km / 10000;
     },
   },
 };
@@ -90,7 +102,7 @@ export default {
 
 
 #solar-system {
-    width: 100%;
+    width: 230vw;
     height: 100vh;
     overflow: hidden;
     align-items: center;
@@ -125,8 +137,6 @@ export default {
 #sun {
     right: 0%;
     background-color: rgb(255, 255, 0);
-    width: 700px;
-    height: 700px;
     box-shadow: 0 0 50px 100px rgb(249, 229, 16);
     animation: pulse 15s infinite, sunAnimation 10s infinite;
 }
