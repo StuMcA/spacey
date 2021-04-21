@@ -9,6 +9,7 @@
       height: this.calcWidth() + 'vw',
     }"
   >
+    <div id="rings" v-if="planet.name === 'Saturn'"></div>
     <div class="hover-box">
       <h3>
         {{ planet.name }}<span class="hidden">{{ planet.latin_name }}</span>
@@ -80,5 +81,15 @@ span {
   font-size: 0.7em;
   font-style: italic;
   width: fit-content;
+}
+
+#rings {
+  position: relative;
+  border-radius: 50%;
+  /* border:  20px solid green; */
+  height: 30%;
+  top: 30%;
+  width: 120%;
+  left: -10%;
 }
 </style>
