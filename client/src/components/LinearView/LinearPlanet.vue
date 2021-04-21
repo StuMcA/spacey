@@ -9,13 +9,15 @@
       height: this.calcWidth() + 'vw',
     }"
   >
-    <div id="rings" v-if="planet.name === 'Saturn'"></div>
     <div class="hover-box">
       <h3>
         {{ planet.name }}<span class="hidden">{{ planet.latin_name }}</span>
       </h3>
       <p class="hidden">{{ planet.orbit_distance_km.toLocaleString() }} km from the sun</p>
       <p class="hidden">{{ planet.mass }}</p>
+    </div>
+    <div id="ring-container" v-if="planet.name === 'Saturn'">
+      <div id="rings"></div>
     </div>
   </div>
 </template>
@@ -83,13 +85,25 @@ span {
   width: fit-content;
 }
 
-#rings {
-  position: relative;
-  border-radius: 50%;
-  /* border:  20px solid green; */
-  height: 30%;
-  top: 30%;
-  width: 120%;
-  left: -10%;
+#ring-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: -2px;
 }
+
+#rings {
+  background: url(../../assets/Planets/SaturnRing.png);
+  background-size: 100% 100%;
+  height: 100%;
+  width: 275%;
+  margin-right: 4%;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+
 </style>
