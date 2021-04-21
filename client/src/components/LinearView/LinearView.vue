@@ -105,14 +105,14 @@ export default {
 #solar-system {
     width: 230vw;
     height: 100vh;
+    overflow: hidden;
     align-items: center;
     justify-content: space-around;
-    /* right: 0px; */
     display: flex;
     flex-direction: row-reverse;
     z-index: -999;
     background: url(../../assets/background.jpg) fixed;
-    transform: scale(1.01);
+    transform: scale(1.05);
     transform-origin: left;
 }
 
@@ -129,7 +129,7 @@ export default {
     top: 50%;
     transition: 1s;
     cursor: pointer;
-    transform: scale(0.99)
+    transform: scale(0.95)
 }
 
 
