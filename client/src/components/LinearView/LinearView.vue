@@ -103,7 +103,7 @@ export default {
 
 
 #solar-system {
-    width: 230vw;
+    width: 225vw;
     height: 100vh;
     overflow: hidden;
     align-items: center;
