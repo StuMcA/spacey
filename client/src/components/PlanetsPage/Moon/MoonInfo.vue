@@ -27,7 +27,6 @@ export default {
 
 <style scoped>
 .moon-info-wrapper {
-  /* border: 1px solid darkgray; */
   display: flex;
   justify-content: space-between;
   flex-grow: 2;
@@ -41,7 +40,6 @@ p {
 }
 @media screen and (max-width: 817px) {
   .moon-info-wrapper {
-    /* border: 1px solid darkgray; */
     padding: 1rem;
     flex-wrap: wrap;
   }

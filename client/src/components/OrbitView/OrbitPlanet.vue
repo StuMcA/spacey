@@ -50,16 +50,19 @@ export default {
 </script>
 
 <style>
+/* This sets up the ring for each orbit */
 .orbit-path {
   position: absolute;
   border: 1px solid rgba(255, 255, 255, 0.301);
   border-radius: 100%;
 }
+/* Set the shape of the planet */
 .orbit-path > div {
   border-radius: 100%;
   position: relative;
 }
 
+/* Animates all divs within the animation container - in this case the orbit path */
 .orbit-animation-container > div {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
@@ -68,6 +71,7 @@ export default {
   -webkit-animation-timing-function: linear;
   -webkit-animation-name: orbit;
 }
+/* webkit orbit animation counter-clockwise */
 @-webkit-keyframes orbit {
   from {
     -webkit-transform: rotate(0deg);
@@ -76,6 +80,7 @@ export default {
     -webkit-transform: rotate(-360deg);
   }
 }
+/* orbit animation counter-clockwise */
 @keyframes orbit {
   from {
     transform: rotate(0deg);
@@ -84,14 +89,8 @@ export default {
     transform: rotate(-360deg);
   }
 }
-@keyframes ring {
-  from {
-    transform: rotate(-90deg);
-  }
-  to {
-    transform: rotate(90deg);
-  }
-}
+
+/* All colors for planets */
 .mercury {
   background-color: rgb(211, 195, 195);
 }
@@ -125,6 +124,15 @@ export default {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-duration: 73.6s;
+}
+/* This animation keeps the ring level with the screen */
+@keyframes ring {
+  from {
+    transform: rotate(-90deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
 }
 .neptune {
   background-color: rgb(55, 65, 204);

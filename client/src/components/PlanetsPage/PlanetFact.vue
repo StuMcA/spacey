@@ -37,7 +37,6 @@ h1 {
   display: none;
 }
 .planet-fact-wrapper {
-  /* border: 1px solid darkgray; */
   text-align: center;
 }
 .next-fact-button {

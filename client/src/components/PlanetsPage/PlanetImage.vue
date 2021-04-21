@@ -31,7 +31,6 @@ export default {
 
 <style scoped>
 .planet-image-wrapper {
-  /* border: 1px solid darkgray; */
   align-items: center;
   max-width: 30rem;
   margin: auto;

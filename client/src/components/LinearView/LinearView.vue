@@ -41,10 +41,6 @@ export default {
     'orbit-view': OrbitView,
   },
   methods: {
-    // toggleView: function() {
-    //   console.log('I HAVE BEEN CLICKED');
-    //   this.isTopView = !this.isTopView;
-    // },
     calcWidth: function() {
       return this.sun.equatorial_diameter_km / 10000;
     },

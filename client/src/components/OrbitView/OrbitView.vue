@@ -25,17 +25,20 @@ export default {
 </script>
 
 <style scoped>
+/* Set size for all emlements on the page */
 .wrapper {
   position: relative;
   margin: 4rem auto 2rem auto;
   width: 90%;
   max-width: 1024px;
 }
+/* Possition orbital view on the page relative to the container */
 .orbit-view-container {
   position: relative;
   top: 20rem;
   left: 50%;
 }
+/* Hard-coded Sun with glow animation */
 .sun {
   position: relative;
   width: 20px;
@@ -53,6 +56,7 @@ export default {
   animation-timing-function: ease-in-out;
   animation-duration: 3s;
 }
+/* Pulsing blue background glow */
 .background-glow {
   position: relative;
   width: 20px;
@@ -69,6 +73,7 @@ export default {
   animation-duration: 20s;
 }
 
+/* Keyframes for Sun animation */
 @keyframes sun {
   0% {
     box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.6);
@@ -80,6 +85,7 @@ export default {
     box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.6);
   }
 }
+/* Keyframes for background animation */
 @keyframes background-glow {
   0% {
     box-shadow: 0 0 1800px 350px rgba(24, 51, 141, 0.5);

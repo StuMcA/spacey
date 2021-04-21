@@ -27,7 +27,6 @@ export default {
 
 <style scoped>
 .planet-info-wrapper {
-  /* border: 1px solid darkgray; */
   flex-grow: 2;
   flex-basis: 27rem;
 }
@@ -39,7 +38,6 @@ h1 {
 }
 @media screen and (max-width: 817px) {
   .planet-info-wrapper {
-    /* border: 1px solid darkgray; */
     background-color: rgb(24, 24, 24);
     padding: 1rem;
     border-radius: 1rem;

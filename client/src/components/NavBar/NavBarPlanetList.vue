@@ -25,11 +25,9 @@ ul {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(3px);
-  /* border-radius: 3px; */
   margin-top: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  /* border: 1px solid white; */
 }
 
 li {

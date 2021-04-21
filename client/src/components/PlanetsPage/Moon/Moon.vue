@@ -21,8 +21,6 @@ export default {
 
 <style scoped>
 .moon-wrapper {
-  /* border: 1px solid darkgray; */
-  /* margin: 4rem auto 2rem auto; */
   max-width: 1024px;
 }
 .moon-container {
@@ -36,7 +34,6 @@ export default {
 }
 @media screen and (max-width: 817px) {
   .moon-container {
-    /* border: 1px solid darkgray; */
     background-color: rgb(24, 24, 24);
     padding: 1rem;
     border-radius: 1rem;

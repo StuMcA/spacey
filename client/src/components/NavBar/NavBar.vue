@@ -62,8 +62,6 @@ export default {
 
   flex-direction: row;
   justify-content: space-around;
-  /* flex-wrap: wrap; */
-  /* vertical-align: middle; */
   z-index: 999;
   padding: 0.5rem;
 }
@@ -74,10 +72,6 @@ li {
   height: 2.5rem;
   width: 160px;
   color: white;
-  /* text-shadow: 1px 1px 0 black; */
-  /* backdrop-filter: blur(10px); */
-  /* background-color: rgba(0, 0, 0, 0.32); */
-  /* border-radius: 3px; */
 }
 
 p {
@@ -90,8 +84,6 @@ label:hover {
 }
 
 li:hover {
-  /* background-color: rgba(255, 255, 255, 0.514); */
-  /* color: black; */
   border-bottom: 1px solid white;
 }
 
@@ -109,9 +101,5 @@ li:hover {
 .nav-bar-planet:hover #planet-list {
   display: block;
   z-index: 1;
-}
-
-#search-list {
-  /* text-shadow: 1px 1px 0 black; */
 }
 </style>

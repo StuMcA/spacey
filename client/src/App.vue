@@ -11,8 +11,6 @@
         <planet v-if="selectedPlanet && !showPlanetList" :planet="selectedPlanet" />
         <planet-list-page v-if="showPlanetList" :planets="filteredPlanets"/>
       </transition>
-      
-      
     </main>
   </div>
 </template>

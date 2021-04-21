@@ -9,7 +9,6 @@
         <planet-image :planetName="planet.name" />
         <planet-fact :planetFacts="planet.facts" />
       </div>
-      <image-grid />
     </div>
     <div v-if="planet.moons.moon_list.length > 0">
       <h1 class="title">Significant Moons</h1>
@@ -23,7 +22,6 @@
 import PlanetInfo from './PlanetInfo.vue';
 import PlanetImage from './PlanetImage.vue';
 import PlanetFact from './PlanetFact.vue';
-import ImageGrid from './ImageGrid.vue';
 import Moon from './Moon/Moon';
 
 export default {
@@ -32,7 +30,6 @@ export default {
     'planet-info': PlanetInfo,
     'planet-image': PlanetImage,
     'planet-fact': PlanetFact,
-    'image-grid': ImageGrid,
     moon: Moon,
   },
   props: ['planet'],
