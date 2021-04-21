@@ -103,19 +103,17 @@ export default {
 
 
 #solar-system {
-    width: 215vw;
-    padding-left: 15vw;
+    width: 230vw;
     height: 100vh;
-    overflow: hidden;
     align-items: center;
     justify-content: space-around;
-    right: 0px;
+    /* right: 0px; */
     display: flex;
     flex-direction: row-reverse;
     z-index: -999;
     background: url(../../assets/background.jpg) fixed;
-    transform: translateZ(-50px) scale(1.1);
-    left: 0;
+    transform: scale(1.01);
+    transform-origin: left;
 }
 
 
@@ -131,11 +129,11 @@ export default {
     top: 50%;
     transition: 1s;
     cursor: pointer;
+    transform: scale(0.99)
 }
 
 
 #sun {
-    right: 0%;
     background-color: rgb(255, 255, 0);
     box-shadow: 0 0 50px 100px rgb(249, 229, 16);
     animation: pulse 15s infinite, sunAnimation 10s infinite;

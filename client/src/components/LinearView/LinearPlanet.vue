@@ -54,7 +54,6 @@ p {
   color: rgb(255, 255, 255);
   position: relative;
   top: 100%;
-  left: -60px;
   cursor: pointer;
   z-index: 999;
 }
