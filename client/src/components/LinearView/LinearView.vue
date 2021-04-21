@@ -111,7 +111,7 @@ export default {
     display: flex;
     flex-direction: row-reverse;
     z-index: -1;
-    background-image: url(../../assets/background.jpg);
+    background: url(../../assets/background.jpg) fixed;
   
 }
 
