@@ -30,7 +30,7 @@ To install Spacey locally via the terminal please follow these steps:
 
 -----------------------------------------------------------------------------
 
-# CLIENT/FRONT-END (TERMINAL TWO)
+## CLIENT/FRONT-END (TERMINAL TWO)
 
 **To get to the client folder:**
 
