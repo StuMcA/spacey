@@ -1,7 +1,9 @@
 <template>
   <div class="solar-system-wrapper">
     <div class="linear-view-info">
-      <h1>Hello</h1>
+      <h1>Scale View</h1>
+      <p>All planets and the Sun are to scale</p>
+      <p>Distances are not to scale</p>
     </div>
 
     <section id="solar-system">
@@ -75,9 +77,10 @@ export default {
 
 .linear-view-info {
   position: fixed;
-  bottom: 5rem;
+  top: 5rem;
   left: 5rem;
   z-index: 999;
+  text-shadow: 0 0px 5px black;
 }
 
 .active {

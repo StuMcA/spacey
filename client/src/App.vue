@@ -4,7 +4,7 @@
       <nav-bar :planets="planets" :filteredPlanets="filteredPlanets" :selectedPlanet="selectedPlanet"/>
     </header>
     <main>
-      <button v-if="isTopView && !selectedPlanet && !showPlanetList" class="change-view-button" @click="toggleViewLinear">Linear View</button>
+      <button v-if="isTopView && !selectedPlanet && !showPlanetList" class="change-view-button" @click="toggleViewLinear">Scale View</button>
       <button v-if="!isTopView && !selectedPlanet && !showPlanetList" class="change-view-button" @click="toggleViewOrbit">Orbit View</button>
       <transition name="component-fade" mode="out-in">
         <component v-bind:is="component" v-if="!selectedPlanet && !showPlanetList" :planets='planets' :sun="sun"/>
