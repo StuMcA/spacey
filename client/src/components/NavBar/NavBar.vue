@@ -15,8 +15,8 @@
 </template>
 
 <script>
-import PlanetList from './PlanetList.vue'
-import SearchBar from './SearchBar.vue'
+import PlanetList from './NavBarPlanetList.vue'
+import SearchBar from './NavBarSearch.vue'
 import { eventBus } from '@/main.js'
 
 export default {

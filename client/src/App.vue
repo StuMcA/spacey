@@ -4,29 +4,28 @@
       <nav-bar :planets="planets" :filteredPlanets="filteredPlanets" :selectedPlanet="selectedPlanet"/>
     </header>
     <main>
-      <solar-system-container v-if="!selectedPlanet && !showPlanetList" :planets="planets" />
-      <!-- uncomment to view planet info template -->
+      <linear-view v-if="!selectedPlanet && !showPlanetList" :planets="planets" />
       <planet v-if="selectedPlanet && !showPlanetList" :planet="selectedPlanet" />
-      <planet-list v-if="showPlanetList" :planets="filteredPlanets"/>
+      <planet-list-page v-if="showPlanetList" :planets="filteredPlanets"/>
     </main>
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar/NavBar.vue';
-import SolarSystemContainer from './components/SolarSystemContainer.vue';
-import Planet from './components/Planet/Planet.vue';
+import LinearView from './components/LinearView/LinearView.vue';
+import Planet from './components/PlanetsPage/Planet.vue';
 import PlanetService from './services/PlanetService.js';
-import PlanetList from './components/PlanetList.vue'
+import PlanetListPage from './components/PlanetListPage.vue'
 import { eventBus } from '@/main.js';
 
 export default {
   name: 'App',
   components: {
     'nav-bar': NavBar,
-    'solar-system-container': SolarSystemContainer,
-    planet: Planet,
-    'planet-list': PlanetList
+    'linear-view': LinearView,
+    'planet': Planet,
+    'planet-list-page': PlanetListPage
   },
   data() {
     return {

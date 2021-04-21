@@ -23,7 +23,7 @@ import PlanetInfo from './PlanetInfo.vue';
 import PlanetImage from './PlanetImage.vue';
 import PlanetFact from './PlanetFact.vue';
 import ImageGrid from './ImageGrid.vue';
-import Moon from '../Moon/Moon';
+import Moon from './Moon/Moon';
 
 export default {
   name: 'planet',

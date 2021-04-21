@@ -11,7 +11,7 @@
 
 <script>
 import {eventBus} from '../../main.js'
-// import {library, icon} from '@fortawesome/fontawesome-svg-core'
+
 export default {
     name: 'search-bar',
     props: [

@@ -82,14 +82,14 @@ export default {
 }
 @keyframes background-glow {
   0% {
-    box-shadow: 0 0 1800px 350px rgba(24, 51, 141, 0.3);
+    box-shadow: 0 0 1800px 350px rgba(24, 51, 141, 0.5);
     transform: rotate(0deg);
   }
   50% {
-    box-shadow: 0 0 1800px 400px rgba(19, 18, 124, 0.4);
+    box-shadow: 0 0 1800px 400px rgba(19, 18, 124, 0.7);
   }
   100% {
-    box-shadow: 0 0 1800px 350px rgba(24, 51, 141, 0.3);
+    box-shadow: 0 0 1800px 350px rgba(24, 51, 141, 0.5);
     transform: rotate(-180deg);
   }
 }

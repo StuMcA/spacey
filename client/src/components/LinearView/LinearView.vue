@@ -15,11 +15,11 @@
 </template>
 
 <script>
-import PlanetItem from './PlanetItem.vue'
-import OrbitView from './OrbitView/OrbitView.vue'
+import PlanetItem from './LinearPlanet.vue'
+import OrbitView from '../OrbitView/OrbitView.vue'
 
 export default {
-    name: "solar-system-container",
+    name: "linear-view",
     props: [
         "planets"
     ],
@@ -89,7 +89,7 @@ export default {
     display: flex;
     flex-direction: row-reverse;
     z-index: -1;
-    background-image: url(../assets/background.jpg);
+    background-image: url(../../assets/background.jpg);
     
 }
 

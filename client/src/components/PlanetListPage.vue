@@ -9,7 +9,7 @@
 
 <script>
 import {eventBus} from '../main.js'
-import PlanetImage from './Planet/PlanetImage.vue'
+import PlanetImage from './PlanetsPage/PlanetImage.vue'
 
 export default {
 name: 'planet-list',

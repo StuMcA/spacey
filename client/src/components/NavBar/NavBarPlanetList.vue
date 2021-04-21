@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import PlanetListItem from './PlanetListItem.vue'
+import PlanetListItem from './NavBarPlanetListItem.vue'
 export default {
 
 data() {
