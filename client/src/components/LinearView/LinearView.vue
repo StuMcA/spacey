@@ -1,7 +1,6 @@
 <template>
   <div class="solar-system-wrapper">
-    <button class="change-view-button" @click="toggleView">Change view</button>
-    <section v-if="!isTopView" id="solar-system" :class="{ topView: isTopView }">
+    <section id="solar-system" :class="{ topView: isTopView }">
       <div 
         id="sun" 
         class="planet"
@@ -16,7 +15,7 @@
       <planet-item v-for="planet in planets" :key="planet.id" :planet="planet" />
       <!-- <div id="end-of-solar-system" class="planet"></div> -->
     </section>
-    <orbit-view v-if="isTopView" :planets="planets" />
+   
   </div>
 </template>
 
@@ -40,10 +39,10 @@ export default {
     'orbit-view': OrbitView,
   },
   methods: {
-    toggleView: function() {
-      console.log('I HAVE BEEN CLICKED');
-      this.isTopView = !this.isTopView;
-    },
+    // toggleView: function() {
+    //   console.log('I HAVE BEEN CLICKED');
+    //   this.isTopView = !this.isTopView;
+    // },
     calcWidth: function() {
       return this.sun.equatorial_diameter_km / 10000;
     },
