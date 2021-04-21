@@ -2,13 +2,19 @@
   <div class="solar-system-wrapper">
     <button class="change-view-button" @click="toggleView">Change view</button>
     <section v-if="!isTopView" id="solar-system" :class="{ topView: isTopView }">
-      <div id="sun" class="planet">
+      <div 
+        id="sun" 
+        class="planet"
+        :style="{
+          width: this.calcWidth() + 'vw',
+          height: this.calcWidth() + 'vw',
+        }">
         <div class="hover-box">
           <h3>Sol</h3>
         </div>
       </div>
       <planet-item v-for="planet in planets" :key="planet.id" :planet="planet" />
-      <div id="end-of-solar-system" class="planet"></div>
+      <!-- <div id="end-of-solar-system" class="planet"></div> -->
     </section>
     <orbit-view v-if="isTopView" :planets="planets" />
   </div>
@@ -20,7 +26,10 @@ import OrbitView from '../OrbitView/OrbitView.vue';
 
 export default {
   name: 'linear-view',
-  props: ['planets'],
+  props: [
+    'planets',
+    'sun'
+  ],
   data() {
     return {
       isTopView: true,
@@ -34,6 +43,9 @@ export default {
     toggleView: function() {
       console.log('I HAVE BEEN CLICKED');
       this.isTopView = !this.isTopView;
+    },
+    calcWidth: function() {
+      return this.sun.equatorial_diameter_km / 10000;
     },
   },
 };
@@ -53,6 +65,7 @@ export default {
   position: fixed;
   bottom: 5rem;
   left: 5rem;
+  z-index: 999;
 }
 .change-view-button:hover {
   background-color: rgb(122, 13, 13);
@@ -90,22 +103,19 @@ export default {
 
 
 #solar-system {
-    width: 100%;
+    width: 225vw;
     height: 100vh;
     overflow: hidden;
     align-items: center;
     justify-content: space-around;
-    right: 0px;
     display: flex;
     flex-direction: row-reverse;
-    z-index: -1;
-    background-image: url(../../assets/background.jpg);
-  
+    z-index: -999;
+    background: url(../../assets/background.jpg) fixed;
+    transform: scale(1.05);
+    transform-origin: left;
 }
 
-#end-of-solar-system {
-    right: 140%;
-}
 
 .topView {
     transform: scale(0.25) translate(-55%, 0);
@@ -119,14 +129,12 @@ export default {
     top: 50%;
     transition: 1s;
     cursor: pointer;
+    transform: scale(0.95)
 }
 
 
 #sun {
-    right: 0%;
     background-color: rgb(255, 255, 0);
-    width: 700px;
-    height: 700px;
     box-shadow: 0 0 50px 100px rgb(249, 229, 16);
     animation: pulse 15s infinite, sunAnimation 10s infinite;
     background: url(../../assets/Planets/Sun.gif);

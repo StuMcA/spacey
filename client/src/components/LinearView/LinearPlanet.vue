@@ -5,10 +5,11 @@
     :class="{ active: isActive }"
     @click="toggleActive"
     :style="{
-      width: this.calcWidth() + 'px',
-      height: this.calcWidth() + 'px',
+      width: this.calcWidth() + 'vw',
+      height: this.calcWidth() + 'vw',
     }"
   >
+    <div id="rings" v-if="planet.name === 'Saturn'"></div>
     <div class="hover-box">
       <h3>
         {{ planet.name }}<span class="hidden">{{ planet.latin_name }}</span>
@@ -33,7 +34,7 @@ export default {
       this.isActive = !this.isActive;
     },
     calcWidth: function() {
-      return this.planet.equatorial_diameter_km / 1000;
+      return this.planet.equatorial_diameter_km / 10000;
     },
     translate: function() {
       return `translate(-100px, -${this.calcWidth() / 2}px)`;
@@ -53,8 +54,7 @@ p {
   display: none;
   color: rgb(255, 255, 255);
   position: relative;
-  top: 50%;
-  left: -60px;
+  top: 100%;
   cursor: pointer;
   z-index: 999;
 }
@@ -81,5 +81,15 @@ span {
   font-size: 0.7em;
   font-style: italic;
   width: fit-content;
+}
+
+#rings {
+  position: relative;
+  border-radius: 50%;
+  /* border:  20px solid green; */
+  height: 30%;
+  top: 30%;
+  width: 120%;
+  left: -10%;
 }
 </style>
