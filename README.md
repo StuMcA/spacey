@@ -40,6 +40,9 @@ The app will now run locally via your browser at http://localhost:8080/
 **Created by:**
 
 *Alex*
+
 *Stu*
+
 *Kamil*
+
 *Tim*
