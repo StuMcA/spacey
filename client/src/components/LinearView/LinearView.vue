@@ -65,6 +65,7 @@ export default {
   position: absolute;
   bottom: 5rem;
   left: 5rem;
+  z-index: 999;
 }
 .change-view-button:hover {
   background-color: rgb(122, 13, 13);
@@ -111,7 +112,7 @@ export default {
     right: 0px;
     display: flex;
     flex-direction: row-reverse;
-    z-index: -1;
+    z-index: -999;
     background: url(../../assets/background.jpg) fixed;
     transform: translateZ(-50px) scale(1.1);
     left: 0;
