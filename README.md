@@ -1,6 +1,6 @@
-# Spacey is an educational app to teach children about the cosmos!
+# Spacey is an educational app to teach children & teens about the cosmos!
 
-Our solar system is beautiful and with this browser app children and adults can enjoy learning all about Sol, the planetary system we call home.
+Our solar system is beautiful and with this browser app both young and old can enjoy learning all about Sol, the planetary system we call home.
 
 With facts, stats, pictures and a viewer of the planets in motion around the sun based on real distance and speed calculations, we at *Team Planeteers* hope you enjoy it!
 
@@ -24,7 +24,7 @@ With facts, stats, pictures and a viewer of the planets in motion around the sun
 
     ~npm install
 
-**To run the server which allows for access of data by the front end:**
+**To run the server onn the server side:**
 
     ~node server
 
@@ -40,7 +40,7 @@ With facts, stats, pictures and a viewer of the planets in motion around the sun
 
     ~npm install
 
-**To run server on the client side:**
+**To run the server on the client side:**
 
     ~npm run serve
 
