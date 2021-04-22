@@ -44,7 +44,7 @@ db.solar_system.insertMany([
 
                     "Mercury is the second densest planet. Despite its small size, it is very dense because it is composed mainly of heavy metals and rock, the main characteristic of terrestrial planets.This means it also has the highest velocity of any planet",
 
-                    "Mercury is named after the messenger of the Roman gods, who is also known as Hermes in Greek mythology.This is because of the speed in which Mercury orbits the Sun and the speed with which the Roman deity was able to deliver messages.",
+                    "Mercury is named after the messenger of the Roman gods, who is also known as Hermes in Greek mythology.This is because of the speed in which Mercury orbits the Sun and with which the Roman deity delivers messages.",
 
                     "Modern astronomers didn’t consider that Mercury to be a planet at all until 1543 when Copernicus published his Sun-centered model of the Solar System, which put the Sun as the centre of the solar system.",
 
@@ -54,7 +54,7 @@ db.solar_system.insertMany([
 
                     "It was once believed that a planet called Vulcan existed between the orbit of Mercury and the Sun – however the existence of such a planet was never found. This is where the idea for the planet Vulcan in Star Trek comes from,",
 
-                    "The orbit of Mercury is an ellipse rather than circular. It has the most eccentric orbit in the solar system and the least circular of all of the planets, according to scientists and astronomers.",
+                    "The orbit of Mercury is an ellipse rather than circular. It has the one of the most eccentric orbit in the solar system and the least circular of all of the planets, according to scientists and astronomers.",
 
                     "This is because Mercury has no atmosphere to regulate temperature and results in the most extreme temperature change of all the planets, ranging from -170°C(-280°F) during the night to 430°C(800°F) during the day.",
 
@@ -64,7 +64,7 @@ db.solar_system.insertMany([
 
                     "Mercury is only the second hottest planet. It's nearest neighbor, though farther from the Sun than it, actually experiences higher temperatures because Mercury lacks an atmosphere and loses heat very easily.",
 
-                    "The orbit of Mercury was important in proving Albert Einstein’s theory of General Relativity as cosmic proof of relativity in action, due to its orbit, speed and more complex mathematical truths.",
+                    "The orbit of Mercury was important in proving Albert Einstein’s theory of General Relativity as cosmic proof of relativity in action, due to its orbit, speed and more complex mathematical truths displayed via its orbit.",
                 ]
             },
 
@@ -100,7 +100,7 @@ db.solar_system.insertMany([
 
                     "Venus is the second brightest natural object in the sky. The planet has an apparent magnitude of -3.8 to -4.6, which makes it visible on a bright, clear day. The Moon is the only other natural object that is brighter.",
 
-                    "Venus is sometimes referred to as the 'morning star' and 'evening star'. When the orbit of Jupiter overtakes Earth’s orbit, it changes from being visible at sunrise to being visible at sunset. Some cultures believed Venus to be two planets.",
+                    "Venus is sometimes referred to as the 'morning star' and 'evening star'. When the orbit of Jupiter overtakes Earth’s orbit, it changes from being visible at sunrise to sunset. Some cultures believed Venus to be two planets.",
 
                     "Different cultures noticed Venus changing sides in the sky at certain points in the year and assumed they were two planets. They were known as Phosphorus and Hesperus by the Greeks, and Lucifer and Vesper by the Romans.",
 
@@ -108,13 +108,13 @@ db.solar_system.insertMany([
 
                     "Venus is named after the Roman goddess of love and beauty. This may be, in part, due the brightness of the planet and may date back to the Babylonians in 1581 who referred to Venus as 'bright queen of the sky' due to its luminance.",
 
-                    "In spite of Venus being known as the sister planet to our planet, it is also considered one of the most hostile planets for life. This is due to an incredibly hot surface, poisonous gases in the atmosphere and the incredible atmospheric pressure.",
+                    "In spite of Venus being known as the sister planet to our planet, it is also considered one of the most hostile planets for life, partially due to an incredibly hot surface and poisonous gases in the atmosphere.",
 
                     "Venus has no moons nor rings but often has a shimmer effect due to its incredibly dense, thick atmosphere. The reasons for the lack of moons are unknown but suspected to be the gravity of the Sun pulling small objects out of Venus's orbit",
 
-                    "Billions of years ago, the climate of Venus may been similar to that of ours and scientists believe that Venus once possessed large amounts of water or oceans. However, due to the high temperatures produce from the extreme greenhouse effect, this water boiled off long ago and is no longer present.",
+                    "Billions of years ago, the climate of Venus may been similar to that of ours and scientists believe that Venus once possessed large amounts of water or oceans. However this water boiled off long ago and is no longer present.",
 
-                    "Most other planets rotate counter-clockwise on their axis. However Venus, like Uranus, rotates clockwise. This is known as a retrograde rotation and may have been caused by a collision with an asteroid which changed its rotational path.",
+                    "Most other planets rotate counter-clockwise on their axis. However Venus, like Uranus, rotates clockwise (retrograde rotation) and may have been caused by a collision with an asteroid which changed its rotational path.",
 
                     "Venus is the hottest planet in the solar system and it doesn’t tilt on its axis which means there are no seasons either. The atmosphere is a dense 96.5% carbon dioxide which traps heat and caused the greenhouse effect.",
 
@@ -122,7 +122,7 @@ db.solar_system.insertMany([
 
                     "The estimated age of the Venusian surface is around 300-400 million years old. By comparison, the surface of our home is about 100 million years old. For this reason, Venus is sometimes called a potential, tragic, future for our planet",
 
-                    "The atmospheric pressure of Venus is 92 times stronger than our planet. This means that any small asteroids entering the atmosphere of Venus are crushed by the immense pressure, which is why there are no small surface craters on the planet. This pressure is equivalent to being around 1,000 km under our planets oceans.",
+                    "The atmospheric pressure of Venus is 92 times stronger than our planet. This means that any small asteroids entering the atmosphere of Venus are crushed by the immense pressure, which is why there are no small surface craters on the planet.",
 
                     "Venus has a very weak magnetic field. This surprised scientists, who expected Venus to have a magnetic field similar in strength to our planet. One possible reason for this is that Venus has no solid inner core, or that its core is not cooling.",
 
@@ -186,7 +186,7 @@ db.solar_system.insertMany([
                 surface_temperature_min_celcius: -88,
                 facts: [
 
-                    "For 2000 years ancient astronomers believed that Earth was static and other celestial bodies traveled around it. In 1543, Copernicus published his Sun-centered model of the Solar System which put the Sun at the centre of our solar system instead.",
+                    "For 2000 years ancient astronomers believed that Earth was static and celestial bodies traveled around it. In 1543, Copernicus published his model of the Solar System which put the Sun at the centre of our solar system.",
 
                     "Earth is the only planet not named for a mythological god or goddess. The other seven planets in the solar system were named after Roman gods or goddesses. Earth's name comes from the Old English and means ground or land.",
 
@@ -194,17 +194,17 @@ db.solar_system.insertMany([
 
                     "The gravity between Earth and its Moon causes the tides. This effect on the Moon means it is tidally locked to Earth with its rotation period is the same as its orbit time so it always presents the same face to Earth.",
 
-                    "The rotation of the Earth is gradually slowing down. The deceleration of the Earths rotation is very slow, approximately 17 milliseconds per hundred years. Eventually (around 140 million years) this will lengthen our days from 24 to 25 hours.",
+                    "The rotation of the Earth is gradually slowing down. The deceleration of the Earths rotation approximately 17 milliseconds per hundred year. In around 140 million years this will lengthen our days from 24 to 25 hours.",
 
-                    "Earths atmosphere is composed of 78% nitrogen, 21% oxygen, and trace amounts of other gases including argon and carbon dixoide. This unique combination of atmospheric gases is one of the principle reasons that the Earth can support life.",
+                    "Earths atmosphere is composed of 78% nitrogen, 21% oxygen, and trace amounts of other gases including argon and carbon dixoide. This unique combination of atmospheric gases is only found on Earth.",
 
-                    "The large amount of oxygen on Earth comes from its plant life’s consumption of carbon dioxide during photosynthesis. Most other planets have far higher levels of carbon in their atmospheres (or no atmosphere at all).",
+                    "The large amount of oxygen on Earth comes from its plant life’s consumption of carbon dioxide during photosynthesis. Other planets have higher levels of carbon in their atmospheres (or no atmosphere at all).",
 
                     "Earth has a very powerful magnetic field. This field protects the planet from the effects of solar winds and is believed to be a result of the nickel-iron core of the planet combined with its rapid rotation.",
 
                     "Earth has an Ozone Layer which protects it from harmful solar radiation. This shell is a special type of oxygen that absorbs most of the Sun’s powerful UV rays. This is of huge benefit to life on the planet.",
 
-                    "70% of the Earths surface is covered by water – the remainder consists of continents and islands which together have many lakes and other sources of water. Earth is believed to not be the most water dense object in our solar system however.",
+                    "70% of the Earths surface is covered by water, the remainder consists of continents and islands which together have many lakes and other sources of water. Earth is however not the most water dense object in our solar system.",
 
                     "The first life on Earth developed in the oceans through a process called abiogenesis or biopoiesis. This is a natural, albeit highly complex process in which life grows from non-living matter like simple organic compounds.",
 
@@ -297,11 +297,11 @@ db.solar_system.insertMany([
                 surface_temperature_min_celcius: -87,
                 facts: [
 
-                    "Mars and Earth have approximately the same landmass. Even though Mars has only 15% of Earths volume and just over 10% of the Earths mass, around two thirds of the Earths surface is covered in water as opposed to Mars which has very little water present.",
+                    "Mars and Earth have approximately the same landmass. Even though Mars has only 15% of Earths volume and 10% of the Earths mass, around two thirds of the Earth's surface is covered in water as opposed to Mars which has very little water present.",
 
-                    "Mars is home to the tallest mountain in the solar system. Olympus Mons, a shield volcano, is 21km high and 600km in diameter.Despite having formed over billions of years, evidence from volcanic lava flows is so recent many scientists believe it could still be active.",
+                    "Mars is home to the tallest mountain in the solar system. Olympus Mons, a shield volcano, is 21km high and 600km in diameter. Evidence from volcanic lava flows is so recent scientists believe it could still be active.",
 
-                    "As of September 2014 there have been 40 missions to Mars including the Curiosity missions (2012 onwards), the MAVEN mission (2014), the Indian Space Research Organization’s MOM Mangalyaan orbiter (2014) and the NASA’s InSight robotic lander mission (2016).",
+                    "As of September 2014 there have been 40 missions to Mars including the Curiosity missions (2012 onwards), the MAVEN mission (2014) and the NASA’s InSight robotic lander mission (2016).",
 
                     "Mars has the largest dust storms in the solar system. They can last for months and cover the entire planet.The seasons are extreme because its elliptical(oval- shaped) orbital path around the Sun is more elongated than most other planets in the solar system.",
 
@@ -956,8 +956,8 @@ db.solar_system.insertMany([
                             name: "Ariel",
                             position: 15,
                             image_url: [
-                                "https://solarsystem.nasa.gov/system/content_pages/main_images/220_PIA00041.jpg",
                                 "https://i.pinimg.com/originals/73/5b/94/735b941e8f2fb269a87642b317c845de.jpg",
+                                "https://solarsystem.nasa.gov/system/content_pages/main_images/220_PIA00041.jpg",
                                 "https://upload.wikimedia.org/wikipedia/commons/5/59/Ariel_%28moon%29.jpg"
                             ],
                             orbit_distance_km: 190000,
@@ -1125,8 +1125,8 @@ db.solar_system.insertMany([
                             name: "Triton",
                             position: 8,
                             image_url: [
-                                "https://www.thefactsite.com/wp-content/uploads/2019/10/triton-facts.jpg",
                                 "https://cdn.mos.cms.futurecdn.net/fxdQJeaQN5WCBJzWBeUzqR.jpg",
+                                "https://www.thefactsite.com/wp-content/uploads/2019/10/triton-facts.jpg",
                                 "https://lh3.googleusercontent.com/proxy/XCnbZ8qks7YrGeC78zl1ZL78trXQiFQgBkcN98PMQc8Nsb_2R7J_eHaET4jA5sw1nNjBFbVTBbi0elDzNrtqimzq0lcqBzXvMYwKiykFNQ22jGvsTxk"
                             ],
                             orbit_distance_km: 354800,
