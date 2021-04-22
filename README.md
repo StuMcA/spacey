@@ -6,7 +6,7 @@ With facts, stats, pictures and a viewer of the planets in motion around the sun
 
 -----------------------------------------------------------------------------
 
-[Earth]: https://github.com/StuMcA/spacey/tree/main/client/src/assets/Planets/Earth.jpg "Earth"
+![Earth]: https://github.com/StuMcA/spacey/tree/main/client/src/assets/Planets/Earth.jpg "Earth"
 
 -----------------------------------------------------------------------------
 
