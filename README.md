@@ -6,6 +6,10 @@ With facts, stats, pictures and a viewer of the planets in motion around the sun
 
 -----------------------------------------------------------------------------
 
+[Earth]: https://github.com/StuMcA/spacey/tree/main/client/src/assets/Planets/Earth.jpg "Earth"
+
+-----------------------------------------------------------------------------
+
 ## To install Spacey locally via the terminal please follow these steps:
 
 *Note: Please use two terminals, one for server and one for clients*:
