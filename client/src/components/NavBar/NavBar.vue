@@ -34,7 +34,6 @@ export default {
   props: ['planets', 'filteredPlanets', 'selectedPlanet'],
   methods: {
     homeClicked: function() {
-      console.log('home clicked');
       eventBus.$emit('home-selected');
     },
 

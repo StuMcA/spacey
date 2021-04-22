@@ -45,9 +45,11 @@ export default {
     };
   },
   methods: {
-    fetchPlanets() {
-      PlanetService.getPlanets().then((solarSystem) => this.planets.push(...solarSystem[0].planets));
-      PlanetService.getPlanets().then((solarSystem) => this.sun = solarSystem[0].sun);
+    fetchSolarSystem() {
+      PlanetService.getPlanets().then((solarSystem) => {
+        this.planets = solarSystem[0].planets;
+        this.sun = solarSystem[0].sun;
+        });
     },
     toggleViewLinear: function() {
       this.isTopView = !this.isTopView;
@@ -59,7 +61,7 @@ export default {
     },
   },
   mounted() {
-    this.fetchPlanets();
+    this.fetchSolarSystem();
     eventBus.$on('planet-selected', (planetName) => {
       this.selectedPlanet = this.planets.find((planet) => planet.name === planetName);
     });

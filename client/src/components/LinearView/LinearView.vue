@@ -133,6 +133,8 @@ export default {
   transform: scale(0.95);
 }
 
+/* Planet animations */
+
 #sun {
   background-color: rgb(255, 255, 0);
   box-shadow: 0 0 50px 100px rgb(249, 229, 16);
@@ -151,17 +153,7 @@ export default {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
 }
-@-webkit-keyframes sunAnimation {
-  0% {
-    background-color: rgb(254, 246, 17);
-  }
-  50% {
-    background-color: rgb(255, 197, 5);
-  }
-  100% {
-    background-color: rgb(254, 246, 17);
-  }
-}
+
 
 #mercury {
   background-color: rgb(255, 197, 5);
@@ -176,17 +168,6 @@ export default {
   background: url(../../assets/Planets/CartoonPlanets/Venus.jpg);
   background-size: 100% 100%;
 }
-@-webkit-keyframes venusAnimation {
-  0% {
-    background-color: rgb(185, 156, 100);
-  }
-  50% {
-    background-color: rgb(221, 181, 105);
-  }
-  100% {
-    background-color: rgb(188, 143, 58);
-  }
-}
 
 #earth {
   background-color: rgb(45, 45, 255);
@@ -195,23 +176,7 @@ export default {
   background: url(../../assets/Planets/CartoonPlanets/Earth.jpg);
   background-size: 100% 100%;
 }
-@-webkit-keyframes earthAnimation {
-  0% {
-    background-color: rgb(83, 86, 253);
-  }
-  25% {
-    background-color: rgb(25, 165, 95);
-  }
-  50% {
-    background-color: rgb(3, 86, 253);
-  }
-  75% {
-    background-color: rgb(25, 165, 95);
-  }
-  100% {
-    background-color: rgb(83, 86, 253);
-  }
-}
+
 
 #mars {
   background: rgb(139, 14, 14);
@@ -219,17 +184,7 @@ export default {
   background: url(../../assets/Planets/CartoonPlanets/Mars.jpg);
   background-size: 100% 100%;
 }
-@-webkit-keyframes marsAnimation {
-  0% {
-    background-color: rgb(168, 18, 18);
-  }
-  50% {
-    background-color: rgb(202, 22, 22);
-  }
-  100% {
-    background-color: rgb(168, 18, 18);
-  }
-}
+
 
 #jupiter {
   background-color: rgb(255, 128, 0);
@@ -244,17 +199,7 @@ export default {
   background: url(../../assets/Planets/CartoonPlanets/Saturn.jpg);
   background-size: 100% 100%;
 }
-@-webkit-keyframes saturnAnimation {
-  0% {
-    background-color: rgb(255, 212, 94);
-  }
-  50% {
-    background-color: rgb(255, 230, 162);
-  }
-  100% {
-    background-color: rgb(255, 212, 94);
-  }
-}
+
 
 #uranus {
   background-color: rgb(218, 218, 255);
@@ -269,17 +214,7 @@ export default {
   background: url(../../assets/Planets/CartoonPlanets/Neptune.jpg);
   background-size: 100% 100%;
 }
-@-webkit-keyframes neptuneAnimation {
-  0% {
-    background-color: rgb(80, 80, 203);
-  }
-  50% {
-    background-color: rgb(80, 80, 203);
-  }
-  100% {
-    background-color: rgb(80, 80, 203);
-  }
-}
+
 
 #pluto {
   background-color: grey;
@@ -287,15 +222,5 @@ export default {
   background: url(../../assets/Planets/CartoonPlanets/Pluto.jpg);
   background-size: 100% 100%;
 }
-@-webkit-keyframes plutoAnimation {
-  0% {
-    background-color: rgb(143, 143, 143);
-  }
-  50% {
-    background-color: rgb(201, 201, 201);
-  }
-  100% {
-    background-color: rgb(143, 143, 143);
-  }
-}
+
 </style>
