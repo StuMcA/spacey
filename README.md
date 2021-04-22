@@ -10,6 +10,26 @@ With facts, stats, pictures and a viewer of the planets in motion around the sun
 
 -----------------------------------------------------------------------------
 
+### Made using the following (languages and applications):
+
+  *HTML*
+
+  *CSS*
+
+  *JS*
+
+  *Vue*
+
+  *MongoDB*
+
+  *Adobe*
+  
+  *VS Code*
+
+  *Git & Github*
+
+-----------------------------------------------------------------------------
+
 ## To install Spacey locally via the terminal please follow these steps:
 
 *Note: Please use two terminals, one for server and one for clients*:
