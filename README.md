@@ -6,8 +6,6 @@ With facts, stats, pictures and a viewer of the planets in motion around the sun
 
 -----------------------------------------------------------------------------
 
-![alt text](https://www.youtube.com/watch?v=uOU5Q5rRShk&t=1s.jpg "Spacey Display Video")
-
 ![alt text](https://raw.githubusercontent.com/StuMcA/spacey/main/client/src/assets/Planets/Earth.jpg "Earth")
 
 -----------------------------------------------------------------------------
@@ -90,3 +88,6 @@ The app will now run locally via your browser at http://localhost:8080/
 *Kamil*
 
 *Tim*
+
+<!-- ![alt text](https://www.youtube.com/watch?v=uOU5Q5rRShk&t=1s.jpg "Spacey Display Video")
+ -->
