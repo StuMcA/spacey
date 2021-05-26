@@ -6,7 +6,7 @@ With facts, stats, pictures and a viewer of the planets in motion around the sun
 
 -----------------------------------------------------------------------------
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uOU5Q5rRShk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![alt text](https://raw.githubusercontent.com/StuMcA/spacey/main/client/src/assets/Planets/Earth.jpg "Earth")
 
 -----------------------------------------------------------------------------
 
