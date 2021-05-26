@@ -91,9 +91,13 @@ The app will now run locally via your browser at http://localhost:8080/
 
 -----------------------------------------------------------------------------
 
+<!-- NOTE: Link not working
+
 **Display Video Link:**
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=uOU5Q5rRShk&t=1s
 " target="_blank"><img src="http://img.youtube.com/vi/uOU5Q5rRShk&t=1s/0.jpg" 
-alt="Spacey Display Video" width="240" height="180" border="10" /></a>
+alt="Spacey Display Video" width="240" height="180" border="10" /></a> 
+
+-->
 
