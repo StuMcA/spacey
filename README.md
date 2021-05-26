@@ -89,5 +89,3 @@ The app will now run locally via your browser at http://localhost:8080/
 
 *Tim*
 
-![alt text](https://www.youtube.com/watch?v=uOU5Q5rRShk&t=1s.jpg "https://www.youtube.com/watch?v=uOU5Q5rRShk&t=1s.jpg"
-
